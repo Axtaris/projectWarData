@@ -1,0 +1,399 @@
+{
+ "Name": "Raven Guard",
+ "Units": [
+  {
+   "Name": "KAYVAAN SHRIKE",
+   "Faction": "Oath of Moment",
+   "UnitComposition": {
+    "ModelCompositions": [
+     {
+      "ModelName": "Kayvaan Shrike",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "blackout"
+        ],
+        "Options": []
+       }
+      ]
+     }
+    ],
+    "WargearDefinitions": []
+   },
+   "UnitAbilities": [
+    {
+     "Title": "Echo of the Ravenspire",
+     "Text": "At the end of your opponent’s Fight phase, if this unit is unengaged, you can place this unit in strategic reserves."
+    },
+    {
+     "Title": "Trifold Path of Shadow",
+     "Text": "This unit has:\n▪ Stealth.\n▪ -3\" detection range."
+    }
+   ],
+   "LeaderInfo": {
+    "UnitNames": [
+     "ASSAULT INTERCESSORS WITH JUMP PACKS",
+     "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
+    ],
+    "Abilities": [
+     {
+      "AbilityId": "Shadowmaster"
+     }
+    ]
+   },
+   "Infos": [
+    {
+     "Title": "Inspiring Commander",
+     "Text": "If you include this model in your army, until the end of the battle, non-Character models in Assault Intercessors with Jump Packs units from your army have an Objective Control characteristic of 2 while they are not Battle-shocked."
+    }
+   ],
+   "Keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Jump Pack",
+    "Imperium",
+    "Phobos",
+    "Kayvaan Shrike",
+    "Captain",
+    "Explosives",
+    "Smoke"
+   ],
+   "CoreAbilities": [
+    "Deep Strike",
+    "Leader",
+    "Lone Operative",
+    "Stealth"
+   ],
+   "FactionKeywords": [
+    "Adeptus Astartes",
+    "Raven Guard"
+   ],
+   "StatLines": [
+    {
+     "Movement": "12\"",
+     "Toughness": "4",
+     "Save": "3+",
+     "Wounds": "5",
+     "Leadership": "6+",
+     "OC": "1",
+     "BaseInfo": {
+      "Size": "40"
+     },
+     "InvulSave": {
+      "Save": "4+"
+     }
+    }
+   ],
+   "Weapons": [
+    {
+     "Name": "RANGED WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Blackout",
+       "Keywords": "PRECISION, CLOSE-QUARTERS",
+       "Range": "18\"",
+       "Attacks": "1",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "2"
+      }
+     ]
+    },
+    {
+     "IsMelee": true,
+     "Name": "MELEE WEAPONS",
+     "Weapons": [
+      {
+       "Name": "The Raven’s Talons",
+       "Keywords": "PRECISION, TWIN-LINKED",
+       "Range": "Melee",
+       "Attacks": "7",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-2",
+       "Damage": "2"
+      }
+     ]
+    }
+   ],
+   "Upgrades": [],
+   "Points": [
+    {
+     "ModelCount": 1,
+     "Cost": 95
+    }
+   ]
+  },
+  {
+   "Name": "AETHON SHAAN",
+   "Faction": "Oath of Moment",
+   "UnitComposition": {
+    "ModelCompositions": [
+     {
+      "ModelName": "Aethon Shaan – Epic Hero",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "heavy bolt pistol",
+         "claws of severax"
+        ],
+        "Options": []
+       }
+      ]
+     }
+    ],
+    "WargearDefinitions": []
+   },
+   "UnitAbilities": [
+    {
+     "Title": "Master of Shadows",
+     "Text": "In your Command phase, you can select one friendly Adeptus Astartes Infantry unit. You can re-roll charge rolls for that unit until the start of your next Command phase."
+    },
+    {
+     "Title": "Blackwing Mantle",
+     "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
+    }
+   ],
+   "Infos": [
+    {
+     "Title": "CHAPTER MASTER OF THE RAVEN GUARD",
+     "Text": "At the start of the Declare Battle Formations step, if your army includes Aethon Shaan and Kayvaan Shrike, until the end of the battle, your Kayvaan Shrike unit loses its Lone Operative ability and it replaces its Chapter Master keyword with Captain."
+    }
+   ],
+   "Keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Fly",
+    "Jump Pack",
+    "Imperium",
+    "Tacticus",
+    "Chapter Master",
+    "Aethon Shaan",
+    "Explosives",
+    "Smoke"
+   ],
+   "CoreAbilities": [
+    "Deep Strike",
+    "Lone Operative",
+    "Stealth"
+   ],
+   "FactionKeywords": [
+    "Adeptus Astartes",
+    "Raven Guard"
+   ],
+   "StatLines": [
+    {
+     "Movement": "14\"",
+     "Toughness": "5",
+     "Save": "3+",
+     "Wounds": "5",
+     "Leadership": "6+",
+     "OC": "1",
+     "BaseInfo": {
+      "Size": "50"
+     },
+     "InvulSave": {
+      "Save": "4+"
+     }
+    }
+   ],
+   "Weapons": [
+    {
+     "Name": "RANGED WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Heavy Bolt Pistol",
+       "Keywords": "CLOSE-QUARTERS",
+       "Range": "18\"",
+       "Attacks": "1",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1"
+      }
+     ]
+    },
+    {
+     "IsMelee": true,
+     "Name": "MELEE WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Claws of Severax",
+       "Keywords": "SUSTAINED HITS 2: NON-MONSTER/VEHICLE, TWIN-LINKED",
+       "Range": "Melee",
+       "Attacks": "7",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-2",
+       "Damage": "2"
+      }
+     ]
+    }
+   ],
+   "Upgrades": [],
+   "Points": [
+    {
+     "ModelCount": 1,
+     "Cost": 105
+    }
+   ]
+  }
+ ],
+ "Dettachments": [
+  {
+   "Name": "SHADOWMARK TALON",
+   "Cost": 2,
+   "Rule": {
+    "Restrictions": "Your army can include Raven Guard units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
+    "Title": "SHADOW TACTICS",
+    "Text": "Friendly Adeptus Astartes units have Stealth.\nFriendly Phobos/Scout Squad units have -3\" detection range.\nFriendly Aethon Shaan units have the following ability:\nUnparalleled Tactician: (Once per battle round, per army) When you use the Into Darkness stratagem, that use is -1CP."
+   },
+   "ForceDispositions": [
+    "DISRUPTION"
+   ],
+   "Stratagems": [
+    {
+     "Name": "Lay Low The Tyrants",
+     "Category": "SHADOWMARK TALON",
+     "CPCost": 1,
+     "Phase": "any",
+     "When": "Fight phase, when a friendly Adeptus Astartes Infantry unit is selected to fight.",
+     "Target": "That Adeptus Astartes Infantry.",
+     "Effect": "Your unit’s melee attacks have [Precision]."
+    },
+    {
+     "Name": "Feint And Thrust",
+     "Category": "SHADOWMARK TALON",
+     "CPCost": 1,
+     "Phase": "friendly",
+     "When": "Your Command phase.",
+     "Target": "One friendly Adeptus Astartes Infantry unit.",
+     "Effect": "The tactical doctrine is active for your unit in addition to any other combat doctrine, until the start of your next Command phase."
+    },
+    {
+     "Name": "Suppressed Weapons",
+     "Category": "SHADOWMARK TALON",
+     "CPCost": 1,
+     "Phase": "friendly",
+     "When": "Your Shooting phase, when a friendly Adeptus Astartes Infantry unit has shot.",
+     "Target": "That Adeptus Astartes Infantry unit.",
+     "Effect": "Those attacks do not prevent your unit from being hidden."
+    },
+    {
+     "Name": "Murderous Fusillade",
+     "Category": "SHADOWMARK TALON",
+     "CPCost": 1,
+     "Phase": "friendly",
+     "When": "Your Shooting phase, when a friendly Adeptus Astartes Infantry unit that made an ingress move this turn is selected to shoot.",
+     "Target": "That Adeptus Astartes Infantry unit.",
+     "Effect": "Your unit’s ranged attacks have:\n+1 BS.+1 AP."
+    },
+    {
+     "Name": "Raptorial Vigilance",
+     "Category": "SHADOWMARK TALON",
+     "CPCost": 1,
+     "Phase": "opponent",
+     "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry unit.",
+     "Target": "That Adeptus Astartes Infantry unit.",
+     "Effect": "Your unit can make a normal move of:\nUp to D6\".Or: If your unit is a Phobos/Scout Squad unit, up to 6\"."
+    },
+    {
+     "Name": "Into Darkness",
+     "Category": "SHADOWMARK TALON",
+     "CPCost": 1,
+     "Phase": "opponent",
+     "When": "End of your opponent’s Fight phase.",
+     "Target": "One unengaged Adeptus Astartes Infantry unit.",
+     "Effect": "Place your unit in strategic reserves."
+    }
+   ],
+   "Enhancements": [
+    {
+     "Name": "Blackwing Shroud",
+     "Description": "Adeptus Astartes Infantry model only. This unit has Infiltrators.",
+     "Cost": 25,
+     "Features": "IsLeaderEnhancement",
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "AttachedUnit",
+       "Values": [
+        "Infiltrators"
+       ]
+      }
+     ],
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes",
+      "Infantry"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "Coronal Susurrant",
+     "Description": "Phobos model only. Each enemy unit (excluding Monster/Vehicle units) engaged with this unit cannot be targeted by controlling player stratagems.",
+     "Cost": 30,
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Phobos"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "Hunter’s Instincts",
+     "Description": "Adeptus Astartes model only. In your first Movement phase, this unit can make an ingress move.",
+     "Cost": 25,
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "Umbral Raptor",
+     "Description": "Adeptus Astartes infantry model only. This model has:\nFights First.Lone Operative.",
+     "Cost": 15,
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Stealth",
+        "Lone Operative"
+       ]
+      }
+     ],
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    }
+   ],
+   "Effects": []
+  }
+ ],
+ "ArmyRules": [
+  {
+   "Title": "OATH OF MOMENT",
+   "Text": "If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\t▪ You can re-roll the Hit roll.\n\t▪ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well."
+  },
+  {
+   "Title": "SPACE MARINE CHAPTERS",
+   "Text": "\t▪ If an Adeptus Astartes unit has a second Faction keyword on its datasheet, that Faction keyword is the name of that unit’s Chapter. For example, Marneus Calgar has both the Adeptus Astartes and Ultramarines Faction keywords, and is therefore from the Ultramarines Chapter.\n\n\t▪ You cannot include units from more than one Chapter in your army.\n\n\t▪ If your army includes one or more Black Templars units, it cannot include any Adeptus Astartes Psyker models, and cannot include any of the following models that do not have the Black Templars keyword: Gladiator Lancer; Gladiator Reaper; Gladiator Valiant; Impulsor; Repulsor; Repulsor Executioner.\n\n\t▪ If your army includes one or more Space Wolves units, it cannot include any of the following units: Apothecary; Devastator Squad; Tactical Squad.\n\nDeathwatch\n\t▪ Your army can include Adeptus Astartes Deathwatch units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n\n\t▪ With the exception of Kill Team Cassius (see Legends: Agents of the Imperium), your army cannot include any Agents of the Imperium Deathwatch units.\n\n\t▪ Your army cannot include any of the following units: Assault Squad; Assault Squad with Jump Packs; Attack Bike Squad; Devastator Squad; Land Speeder Storm; Relic Terminator Squad; Scout Bike Squad; Scout Squad; Scout Sniper Squad; Tactical Squad; Terminator Assault Squad; Terminator Squad."
+  }
+ ]
+}

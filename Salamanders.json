@@ -1,0 +1,450 @@
+{
+ "Name": "Salamanders",
+ "Units": [
+  {
+   "Name": "ADRAX AGATONE",
+   "Faction": "Oath of Moment",
+   "UnitComposition": {
+    "ModelCompositions": [
+     {
+      "ModelName": "Adrax Agatone",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "drakkis",
+         "malleus noctum"
+        ],
+        "Options": []
+       }
+      ]
+     }
+    ],
+    "WargearDefinitions": []
+   },
+   "UnitAbilities": [
+    {
+     "Title": "Unto the Anvil",
+     "Text": "This unit’s melee attacks can:\n▪ Re-roll wound rolls of 1.\n▪ Or: If the assault doctrine is active for this unit, re-roll wound rolls."
+    },
+    {
+     "Title": "Lord of the Pyroclasts",
+     "Text": "While an enemy unit is engaged with this unit, that enemy unit has -1 OC."
+    }
+   ],
+   "LeaderInfo": {
+    "UnitNames": [
+     "ASSAULT INTERCESSOR SQUAD",
+     "BLADEGUARD VETERAN SQUAD",
+     "COMPANY HEROES",
+     "INFERNUS SQUAD",
+     "INTERCESSOR SQUAD",
+     "STERNGUARD VETERAN SQUAD",
+     "VANGUARD VETERAN SQUAD"
+    ],
+    "Abilities": [
+     {
+      "AbilityId": "Unto the Anvil"
+     }
+    ]
+   },
+   "Infos": [],
+   "Keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Imperium",
+    "Tacticus",
+    "Captain",
+    "Adrax Agatone",
+    "Explosives"
+   ],
+   "CoreAbilities": [
+    "Leader"
+   ],
+   "FactionKeywords": [
+    "Adeptus Astartes",
+    "Salamanders"
+   ],
+   "StatLines": [
+    {
+     "Movement": "6\"",
+     "Toughness": "5",
+     "Save": "2+",
+     "Wounds": "5",
+     "Leadership": "6+",
+     "OC": "1",
+     "BaseInfo": {
+      "Size": "40"
+     },
+     "InvulSave": {
+      "Save": "4+"
+     }
+    }
+   ],
+   "Weapons": [
+    {
+     "Name": "RANGED WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Drakkis",
+       "Keywords": "CLOSE-QUARTERS, TORRENT",
+       "Range": "12\"",
+       "Attacks": "D6+3",
+       "ToHit": "-",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1"
+      }
+     ]
+    },
+    {
+     "IsMelee": true,
+     "Name": "MELEE WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Malleus Noctum",
+       "Keywords": "DEVASTATING WOUNDS",
+       "Range": "Melee",
+       "Attacks": "5",
+       "ToHit": "2+",
+       "Strength": "10",
+       "AP": "-2",
+       "Damage": "3"
+      }
+     ]
+    }
+   ],
+   "Upgrades": [],
+   "Points": [
+    {
+     "ModelCount": 1,
+     "Cost": 90
+    }
+   ]
+  },
+  {
+   "Name": "VULKAN HE’STAN",
+   "Faction": "Oath of Moment",
+   "UnitComposition": {
+    "ModelCompositions": [
+     {
+      "ModelName": "Vulkan He’stan",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "bolt pistol",
+         "gauntlet of the forge",
+         "spear of vulkan"
+        ],
+        "Options": []
+       }
+      ]
+     }
+    ],
+    "WargearDefinitions": []
+   },
+   "UnitAbilities": [
+    {
+     "Title": "Forgefather",
+     "Text": "In your Shooting phase, select one visible enemy unit within 24\" of this model. Friendly Adeptus Astartes units’ [Melta]/[Torrent] attacks that target that enemy unit have +2 S."
+    },
+    {
+     "Title": "Seeker of the Unfound",
+     "Text": "The first time this model is set up on the battlefield, select one objective on the battlefield. While this model is within range of that objective, this model has:\n▪ 10 OC.\n▪ 5+ Ld.\n▪ Feel No Pain 4+."
+    }
+   ],
+   "LeaderInfo": {
+    "UnitNames": [
+     "ASSAULT INTERCESSOR SQUAD",
+     "COMPANY HEROES",
+     "INFERNUS SQUAD",
+     "VANGUARD VETERAN SQUAD"
+    ]
+   },
+   "Infos": [],
+   "ArmyEffects": [
+    {
+     "Condition": "UnitIncluded",
+     "AffectedUnits": [
+      "INFERNUS SQUAD"
+     ],
+     "AllowedDetachments": [
+      "FORGEFATHER’S SEEKERS"
+     ],
+     "AddedAbilities": [
+      {
+       "Title": "SEEKER’S COMPANIONS",
+       "Text": "During your turn, this unit is eligible to do one of the following:\n▪ Start to perform an Action in a turn in which it Advanced.\n▪ Shoot in a turn in which it started to perform an Action."
+      }
+     ]
+    },
+    {
+     "Condition": "UnitIncluded",
+     "AffectedUnits": [
+      "INFERNUS SQUAD"
+     ],
+     "StatAdjustments": [
+      {
+       "Target": "OC",
+       "Scope": "Unit",
+       "Value": "2\""
+      }
+     ]
+    }
+   ],
+   "Keywords": [
+    "Infantry",
+    "Character",
+    "Epic Hero",
+    "Grenades",
+    "Imperium",
+    "Tacticus",
+    "Captain",
+    "Vulkan He’stan"
+   ],
+   "CoreAbilities": [
+    "Feel No Pain 6+",
+    "Leader"
+   ],
+   "FactionKeywords": [
+    "Adeptus Astartes",
+    "Salamanders"
+   ],
+   "StatLines": [
+    {
+     "Movement": "6\"",
+     "Toughness": "5",
+     "Save": "2+",
+     "Wounds": "5",
+     "Leadership": "6+",
+     "OC": "1",
+     "BaseInfo": {
+      "Size": "40"
+     },
+     "InvulSave": {
+      "Save": "4+"
+     }
+    }
+   ],
+   "Weapons": [
+    {
+     "Name": "RANGED WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Bolt pistol",
+       "Keywords": "CLOSE-QUARTERS",
+       "Range": "12\"",
+       "Attacks": "1",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1"
+      },
+      {
+       "Name": "Gauntlet of the Forge",
+       "Keywords": "CLOSE-QUARTERS, TORRENT",
+       "Range": "12\"",
+       "Attacks": "D6+3",
+       "ToHit": "-",
+       "Strength": "6",
+       "AP": "-1",
+       "Damage": "1"
+      }
+     ]
+    },
+    {
+     "IsMelee": true,
+     "Name": "MELEE WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Spear of Vulkan",
+       "Keywords": "DEVASTATING WOUNDS",
+       "Range": "Melee",
+       "Attacks": "6",
+       "ToHit": "2+",
+       "Strength": "7",
+       "AP": "-2",
+       "Damage": "2"
+      }
+     ]
+    }
+   ],
+   "Upgrades": [],
+   "Points": [
+    {
+     "ModelCount": 1,
+     "Cost": 105
+    }
+   ]
+  }
+ ],
+ "Dettachments": [
+  {
+   "Name": "FORGEFATHER’S SEEKERS",
+   "Cost": 2,
+   "Rule": {
+    "Restrictions": "Your army can include Salamanders units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.",
+    "Title": "VULKAN'S QUEST",
+    "Text": "▪ You can select the devastator doctrine one additional time per battle.\n▪ Friendly Adeptus Astartes units’ ranged attacks that target a unit within 12\", have +1 S.\nIf your army includes a Vulkan He’stan unit, friendly Infernus Squad units have the following:\n▪ When this unit is selected to make an advance/fall-back move, that advance/fall-back move does not prevent this unit from being eligible to start an action.\n▪ When this unit starts an action, that action does not prevent this unit from being eligible to shoot.\nRestrictions: Your army can include Salamanders units, but it cannot include any Adeptus Astartes units drawn from any other Chapter."
+   },
+   "ForceDispositions": [
+    "PRIORITY ASSETS"
+   ],
+   "Stratagems": [
+    {
+     "Name": "Wrath And Ruin",
+     "Category": "FORGEFATHER'S SEEKERS",
+     "CPCost": 1,
+     "Phase": "friendly",
+     "When": "Your Command phase.",
+     "Target": "One friendly Adeptus Astartes Infantry unit.",
+     "Effect": "The assault doctrine or tactical doctrine is active for your unit, until the start of your next Command phase."
+    },
+    {
+     "Name": "Blazing Earth",
+     "Category": "FORGEFATHER'S SEEKERS",
+     "CPCost": 1,
+     "Phase": "opponent",
+     "When": "Start of your opponent’s Charge phase.",
+     "Target": "One friendly unengaged Adeptus Astartes unit equipped with one or more Torrent/Melta weapons.",
+     "Effect": "Select one visible enemy unit within 12\" of your unit. That enemy unit has -1 to charge rolls."
+    },
+    {
+     "Name": "Immolation Protocols",
+     "Category": "FORGEFATHER'S SEEKERS",
+     "CPCost": 1,
+     "Phase": "friendly",
+     "When": "Your Shooting phase, when a friendly Adeptus Astartes infantry unit is selected to attack.",
+     "Target": "That Adeptus Astartes Infantry.",
+     "Effect": "Your unit’s ranged [TORRENT] attacks have +1 AP."
+    },
+    {
+     "Name": "Burning Vengeance",
+     "Category": "FORGEFATHER'S SEEKERS",
+     "CPCost": 1,
+     "Phase": "opponent",
+     "When": "Your opponent’s Shooting phase, when an enemy unit has shot a friendly Adeptus Astartes Transport unit.",
+     "Target": "One friendly Adeptus Astartes unit embarked within that Adeptus Astartes Transport unit.",
+     "Effect": "Your Adeptus Astartes unit can:\nMake a disembark move.Shoot using normal shooting, but when doing so your unit can only target that enemy unit."
+    },
+    {
+     "Name": "Crucible Of Battle",
+     "Category": "FORGEFATHER'S SEEKERS",
+     "CPCost": 1,
+     "Phase": "any",
+     "When": "Your Shooting phase or the Fight phase, when a friendly Adeptus Astartes infantry unit is selected to attack an enemy unit within 6\".",
+     "Target": "That Adeptus Astartes Infantry unit.",
+     "Effect": "Your unit’s attacks can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+    },
+    {
+     "Name": "Forged In Fire",
+     "Category": "FORGEFATHER'S SEEKERS",
+     "CPCost": 1,
+     "Phase": "friendly",
+     "When": "Your Shooting phase, when a friendly engaged Adeptus Astartes unit is selected to shoot.",
+     "Target": "That Adeptus Astartes unit.",
+     "Effect": "Your unit’s Torrent weapons:\nDo not have [Blast].Have [Close-Quarters].Have +1 A."
+    }
+   ],
+   "Enhancements": [
+    {
+     "Name": "Adamantine Mantle",
+     "Description": "Adeptus Astartes model only. Attacks allocated to this model have -1 D.",
+     "Cost": 20,
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "Forged In Battle",
+     "Description": "Adeptus Astartes model only. This unit can ignore modifiers to:\nBS.WS.Hit rolls.",
+     "Cost": 25,
+     "Features": "IsLeaderEnhancement",
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "Immolator",
+     "Description": "Adeptus Astartes model only. This unit’s [TORRENT] weapons have +1 A.",
+     "Cost": 20,
+     "Features": "IsLeaderEnhancement",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Target": "Attacks",
+       "WeaponScope": "All",
+       "IncludedKeywords": [
+        "Torrent"
+       ]
+      }
+     ],
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "War-Tempered Artifice",
+     "Description": "Adeptus Astartes model only. This model’s melee attacks have:\n+1 S.+1 D.",
+     "Cost": 25,
+     "WeaponStatAdjustments": [
+      {
+       "Value": "3",
+       "Type": "Add",
+       "Target": "Strength"
+      }
+     ],
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [
+      "Adeptus Astartes",
+      "Infantry"
+     ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    }
+   ],
+   "Effects": [
+    {
+     "AffectedUnits": [],
+     "AffectedUnitsByKeyword": [
+      "Adeptus Astartes"
+     ],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ASSAULT",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      }
+     ]
+    }
+   ]
+  }
+ ],
+ "ArmyRules": [
+  {
+   "Title": "OATH OF MOMENT",
+   "Text": "If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\t▪ You can re-roll the Hit roll.\n\t▪ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well."
+  },
+  {
+   "Title": "SPACE MARINE CHAPTERS",
+   "Text": "\t▪ If an Adeptus Astartes unit has a second Faction keyword on its datasheet, that Faction keyword is the name of that unit’s Chapter. For example, Marneus Calgar has both the Adeptus Astartes and Ultramarines Faction keywords, and is therefore from the Ultramarines Chapter.\n\n\t▪ You cannot include units from more than one Chapter in your army.\n\n\t▪ If your army includes one or more Black Templars units, it cannot include any Adeptus Astartes Psyker models, and cannot include any of the following models that do not have the Black Templars keyword: Gladiator Lancer; Gladiator Reaper; Gladiator Valiant; Impulsor; Repulsor; Repulsor Executioner.\n\n\t▪ If your army includes one or more Space Wolves units, it cannot include any of the following units: Apothecary; Devastator Squad; Tactical Squad.\n\nDeathwatch\n\t▪ Your army can include Adeptus Astartes Deathwatch units, but it cannot include any Adeptus Astartes units drawn from any other Chapter.\n\n\t▪ With the exception of Kill Team Cassius (see Legends: Agents of the Imperium), your army cannot include any Agents of the Imperium Deathwatch units.\n\n\t▪ Your army cannot include any of the following units: Assault Squad; Assault Squad with Jump Packs; Attack Bike Squad; Devastator Squad; Land Speeder Storm; Relic Terminator Squad; Scout Bike Squad; Scout Squad; Scout Sniper Squad; Tactical Squad; Terminator Assault Squad; Terminator Squad."
+  }
+ ]
+}
