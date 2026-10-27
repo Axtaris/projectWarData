@@ -1036,23 +1036,39 @@
           "Max": 1,
           "PerXModels": 5,
           "Replaces": [
-           "heavy bolt pistol"
+           "chainsword"
           ],
-          "Options": [
-           "plasma pistol"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 5,
           "Options": [
            "Eviscerator"
           ]
          },
          {
           "Max": 1,
+          "PerXModels": 5,
+          "Replaces": [
+           "chainsword"
+          ],
           "Options": [
-           "Power fist",
+           "Power fist"
+          ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 5,
+          "Replaces": [
+           "heavy bolt pistol"
+          ],
+          "Options": [
+           "hand flamer"
+          ]
+         },
+         {
+          "Max": 2,
+          "PerXModels": 5,
+          "Replaces": [
+           "chainsword"
+          ],
+          "Options": [
            "Power weapon"
           ]
          },
@@ -1063,14 +1079,17 @@
            "heavy bolt pistol"
           ],
           "Options": [
-           "hand flamer and power fist",
-           "hand flamer and power weapon",
-           "heavy bolt pistol and power fist",
-           "heavy bolt pistol and power weapon",
-           "inferno pistol and power fist",
-           "inferno pistol and power weapon",
-           "plasma pistol and power fist",
-           "plasma pistol and power weapon"
+           "inferno pistol"
+          ]
+         },
+         {
+          "Max": 2,
+          "PerXModels": 5,
+          "Replaces": [
+           "heavy bolt pistol"
+          ],
+          "Options": [
+           "plasma pistol"
           ]
          }
         ]

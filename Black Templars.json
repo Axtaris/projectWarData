@@ -2876,8 +2876,36 @@
         ],
         "Options": [
          {
+          "Max": 2,
+          "PerXModels": 4,
+          "Replaces": [
+           "heavy bolt pistol"
+          ],
+          "Options": [
+           "Hand flamer"
+          ]
+         },
+         {
+          "Replaces": [
+           "chainsword"
+          ],
+          "Options": [
+           "Master-crafted power weapon"
+          ]
+         },
+         {
           "Max": 1,
-          "PerXModels": 5,
+          "PerXModels": 4,
+          "Replaces": [
+           "chainsword"
+          ],
+          "Options": [
+           "Thunder Hammer"
+          ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 4,
           "Replaces": [
            "heavy bolt pistol"
           ],
@@ -2886,21 +2914,14 @@
           ]
          },
          {
-          "Options": [
-           "Master-crafted power weapon"
-          ]
-         },
-         {
           "Max": 1,
-          "PerXModels": 5,
+          "PerXModels": 4,
+          "Replaces": [
+           "heavy bolt pistol",
+           "chainsword"
+          ],
           "Options": [
-           "Thunder Hammer"
-          ]
-         },
-         {
-          "Options": [
-           "Heavy Bolt Pistol",
-           "Hand flamer"
+           "Twin lightning claws"
           ]
          }
         ]
