@@ -1109,7 +1109,8 @@
     "Gaunt’s Ghosts",
     "Epic Hero",
     "Officer",
-    "Infantry"
+    "Infantry",
+    "Character"
    ],
    "CoreAbilities": [
     "Fights First",
@@ -1260,7 +1261,7 @@
   },
   {
    "Name": "OGRYN BODYGUARD",
-   "Flags": 5,
+   "Flags": 4,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -1461,7 +1462,6 @@
   },
   {
    "Name": "NORK DEDDOG",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -2361,7 +2361,6 @@
   },
   {
    "Name": "SLY MARBO",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {

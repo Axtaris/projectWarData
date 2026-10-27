@@ -5019,7 +5019,8 @@
      "ModelCount": 1,
      "Cost": 105
     }
-   ]
+   ],
+   "Flags": 1
   },
   {
    "Name": "SHADOWSEER",

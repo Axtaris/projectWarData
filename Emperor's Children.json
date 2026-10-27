@@ -2991,7 +2991,6 @@
   {
    "Name": "KEEPER OF SECRETS",
    "Faction": "Pact of Excess",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -3173,7 +3172,6 @@
   {
    "Name": "SHALAXI HELBANE",
    "Faction": "Pact of Excess",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {

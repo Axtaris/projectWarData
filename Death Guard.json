@@ -4195,7 +4195,6 @@
   {
    "Name": "ROTIGUS",
    "Faction": "Pact of Decay",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -4318,7 +4317,6 @@
   {
    "Name": "GREAT UNCLEAN ONE",
    "Faction": "Plague Legions",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {

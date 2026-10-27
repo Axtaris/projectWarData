@@ -3262,7 +3262,6 @@
   {
    "Name": "LIEUTENANT WITH COMBI-WEAPON",
    "Faction": "Oath of Moment",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -13141,7 +13140,8 @@
     "Tacticus",
     "Company Heroes",
     "Explosives",
-    "Infantry"
+    "Infantry",
+    "Character"
    ],
    "CoreAbilities": [],
    "FactionKeywords": [

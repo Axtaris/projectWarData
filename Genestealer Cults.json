@@ -3824,7 +3824,8 @@
      "ModelCount": 1,
      "Cost": 80
     }
-   ]
+   ],
+   "Flags": 1
   },
   {
    "Name": "MAWLOC",

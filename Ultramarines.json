@@ -692,7 +692,8 @@
     "Infantry",
     "Imperium",
     "Tacticus",
-    "Victrix Honour Guard"
+    "Victrix Honour Guard",
+    "Epic Hero"
    ],
    "CoreAbilities": [],
    "FactionKeywords": [
@@ -4253,7 +4254,6 @@
   {
    "Name": "LIEUTENANT WITH COMBI-WEAPON",
    "Faction": "Oath of Moment",
-   "Flags": 1,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -14132,7 +14132,8 @@
     "Tacticus",
     "Company Heroes",
     "Explosives",
-    "Infantry"
+    "Infantry",
+    "Character"
    ],
    "CoreAbilities": [],
    "FactionKeywords": [
