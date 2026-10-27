@@ -7376,6 +7376,16 @@
      "RequiredAbilities": []
     },
     {
+     "Name": "Geller Breach",
+     "Description": "Al the start of the first battle round, the bearer’s unit can make a Normal move of up to 6\".",
+     "Cost": 0,
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
      "Name": "Soulstealer",
      "Description": "Slaanesh Legiones Daemonica model only. Each time the bearer destroys an enemy model with a melee attack, roll one D6, adding 1 to the result if the bearer is within your army’s Shadow of Chaos. On a 4+, the bearer regains 1 lost wound.",
      "Cost": 15,
@@ -7384,6 +7394,16 @@
       "Legiones Daemonica",
       "Slaanesh"
      ],
+     "RequiredOneOfKeywords": [],
+     "ExcludedKeywords": [],
+     "RequiredAbilities": []
+    },
+    {
+     "Name": "Spite Made Manifest",
+     "Description": "Each time an enemy unit is selected to fight, melee weapons equipped by models in that unit have the [HAZARDOUS] ability while targeting the bearer’s unit.",
+     "Cost": 0,
+     "RequiredUnitNames": [],
+     "RequiredKeywords": [],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
      "RequiredAbilities": []
