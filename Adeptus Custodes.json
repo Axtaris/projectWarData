@@ -4685,12 +4685,28 @@
     {
      "Name": "Auric Exemplar",
      "Cost": 15,
-     "Description": "Adeptus Custodes model only. This model’s melee attacks have [Cleave 1]."
+     "Description": "Adeptus Custodes model only. This model’s melee attacks have [Cleave 1].",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "CLEAVE 1",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     },
     {
      "Name": "Flawless Bladework",
      "Cost": 15,
-     "Description": "Adeptus Custodes model only. This model’s melee attacks have [Sustained Hits 1]."
+     "Description": "Adeptus Custodes model only. This model’s melee attacks have [Sustained Hits 1].",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "SUSTAINED HITS 1",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     }
    ]
   },
@@ -4790,7 +4806,15 @@
     {
      "Name": "From the Hall of Armouries",
      "Cost": 15,
-     "Description": "Adeptus Custodes model only. This model’s melee attacks have [Devastating Wounds]."
+     "Description": "Adeptus Custodes model only. This model’s melee attacks have [Devastating Wounds].",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "DEVASTATING WOUNDS",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     },
     {
      "Name": "Radiant Mantle",
@@ -4935,7 +4959,14 @@
     {
      "Name": "Eagle’s Eye",
      "Cost": 30,
-     "Description": "Adeptus Custodes model only.\nThis model has +1 W. (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv."
+     "Description": "Adeptus Custodes model only.\nThis model has +1 W. (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv.",
+     "StatAdjustments": [
+      {
+       "Target": "Wounds",
+       "Type": "Add",
+       "Value": "1"
+      }
+     ]
     },
     {
      "Name": "Emperor’s Light",
@@ -5099,7 +5130,16 @@
     {
      "Name": "Augury Uplink (one per army) (Upgrade)",
      "Cost": 30,
-     "Description": "Adeptus Custodes Dreadnought model only. This model has Feel No Pain 5+."
+     "Description": "Adeptus Custodes Dreadnought model only. This model has Feel No Pain 5+.",
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 5+"
+       ]
+      }
+     ]
     },
     {
      "Name": "Memento Moritoi (one per army) (Upgrade)",
@@ -5258,7 +5298,16 @@
     {
      "Name": "Genalchemic Warding",
      "Cost": 30,
-     "Description": "Adeptus Custodes model only. This model has Feel No Pain 5+."
+     "Description": "Adeptus Custodes model only. This model has Feel No Pain 5+.",
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 5+"
+       ]
+      }
+     ]
     },
     {
      "Name": "Unstoppable Destroyer",

@@ -4269,7 +4269,17 @@
       "Memnyr Strategist"
      ],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Deep Strike"
+       ]
+      }
+     ]
     },
     {
      "Name": "Graviton Vault",

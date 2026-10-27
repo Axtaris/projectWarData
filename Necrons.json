@@ -6676,7 +6676,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 4+"
+       ]
+      }
+     ]
     },
     {
      "Name": "Nether-realm Casket",
@@ -6808,7 +6817,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Infiltrators"
+       ]
+      }
+     ]
     },
     {
      "Name": "Hyperphasic Fulcrum",
@@ -7406,7 +7425,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Deep Strike"
+       ]
+      }
+     ]
     }
    ],
    "Effects": []
@@ -7513,7 +7542,21 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "PRECISION",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      },
+      {
+       "Value": "ANTI-INFANTRY 5+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     },
     {
      "Name": "Warrior Noble",

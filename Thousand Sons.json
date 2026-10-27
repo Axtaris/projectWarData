@@ -5890,7 +5890,21 @@
     {
      "Name": "Stave Abominus",
      "Cost": 20,
-     "Description": "The bearer's melee weapons have the [Sustained Hits D3] and [Devastating Wounds] abilities."
+     "Description": "The bearer's melee weapons have the [Sustained Hits D3] and [Devastating Wounds] abilities.",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "SUSTAINED HITS D3",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      },
+      {
+       "Value": "DEVASTATING WOUNDS",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     }
    ],
    "Effects": []

@@ -15138,7 +15138,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 6+"
+       ]
+      }
+     ]
     },
     {
      "Name": "Regimental Banner",
@@ -15407,7 +15416,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Scouts 6\""
+       ]
+      }
+     ]
     },
     {
      "Name": "Tripwires",
@@ -15534,7 +15552,18 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "2",
+       "Type": "Add",
+       "Target": "Attacks",
+       "WeaponScope": "Ranged",
+       "IncludedKeywords": [
+        "PISTOL"
+       ]
+      }
+     ]
     },
     {
      "Name": "Stalwart's Honours",

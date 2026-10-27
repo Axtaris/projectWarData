@@ -6385,7 +6385,15 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "PRECISION",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      }
+     ]
     },
     {
      "Name": "Mark of Devotion",

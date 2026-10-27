@@ -6657,7 +6657,21 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ANTI-BEAST 2+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      },
+      {
+       "Value": "ANTI-MONSTER 4+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      }
+     ]
     },
     {
      "Name": "Master Regenesist",
@@ -7314,7 +7328,17 @@
       "Harlequins"
      ],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Deep Strike"
+       ]
+      }
+     ]
     }
    ],
    "Effects": []

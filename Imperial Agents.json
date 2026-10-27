@@ -5805,7 +5805,27 @@
       "Inquisitor"
      ],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "DEVASTATING WOUNDS",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      },
+      {
+       "Value": "MELTA 1",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      },
+      {
+       "Value": "PRECISION",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      }
+     ]
     },
     {
      "Name": "Liber Heresius",
@@ -6147,7 +6167,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Deep Strike"
+       ]
+      }
+     ]
     },
     {
      "Name": "Blackweave Shroud",
@@ -6159,7 +6189,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 4+"
+       ]
+      }
+     ]
     },
     {
      "Name": "Universal Anathema",
@@ -6171,7 +6210,21 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ANTI-INFANTRY 2+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      },
+      {
+       "Value": "ANTI-MONSTER 4+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     }
    ],
    "Effects": []

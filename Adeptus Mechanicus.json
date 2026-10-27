@@ -5628,7 +5628,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Fights First"
+       ]
+      }
+     ]
     }
    ],
    "Effects": []
@@ -6350,7 +6360,21 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ANTI-INFANTRY 2+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      },
+      {
+       "Value": "ANTI-MONSTER 4+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      }
+     ]
     },
     {
      "Name": "Malphonic Susurrus",

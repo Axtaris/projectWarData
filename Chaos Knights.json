@@ -3459,7 +3459,15 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ASSAULT",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      }
+     ]
     },
     {
      "Name": "Panoply of the Cursed Knights",
@@ -3736,7 +3744,15 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ASSAULT",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      }
+     ]
     },
     {
      "Name": "Blasphemous Engine",
@@ -3876,7 +3892,15 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ASSAULT",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      }
+     ]
     },
     {
      "Name": "Blessing Of The Dark Master",
@@ -3888,7 +3912,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ]
     },
     {
      "Name": "Mirror Of Fates",
@@ -3942,7 +3975,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Deep Strike"
+       ]
+      }
+     ]
     }
    ],
    "Effects": [

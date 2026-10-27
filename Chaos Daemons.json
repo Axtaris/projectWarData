@@ -7520,7 +7520,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 5+"
+       ]
+      }
+     ]
     },
     {
      "Name": "The Everstave",
@@ -8152,7 +8161,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Scouts 9\""
+       ]
+      }
+     ]
     },
     {
      "Name": "Malice Made Manifest",

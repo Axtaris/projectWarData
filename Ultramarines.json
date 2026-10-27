@@ -15172,7 +15172,16 @@
     {
      "Name": "Honour of Vigilance",
      "Cost": 20,
-     "Description": "Adeptus Astartes model only.\nThis unit’s ranged attacks have [Lethal Hits]. If the devastator doctrine is active for this unit, this unit can re-roll advance rolls."
+     "Description": "Adeptus Astartes model only.\nThis unit’s ranged attacks have [Lethal Hits]. If the devastator doctrine is active for this unit, this unit can re-roll advance rolls.",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "LETHAL HITS",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Master-forged Firearms",
@@ -15393,7 +15402,17 @@
     {
      "Name": "Relentless Advance",
      "Cost": 20,
-     "Description": "Gravis model only. This unit has Scouts 5\"."
+     "Description": "Gravis model only. This unit has Scouts 5\".",
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Scouts 5\""
+       ]
+      }
+     ]
     }
    ]
   },
@@ -15441,7 +15460,15 @@
      "Name": "Immovable Conquerors (Upgrade)",
      "Cost": 15,
      "Description": "Gravis unit only. This unit has +1 OC.",
-     "Features": "Upgrade"
+     "Features": "Upgrade",
+     "StatAdjustments": [
+      {
+       "Target": "OC",
+       "Type": "Add",
+       "Value": "1",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Narthecis Gauntlet",
@@ -15548,7 +15575,16 @@
      "Name": "Gunnery Honours (Upgrade)",
      "Cost": 15,
      "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit’s ranged attacks have [Heavy].",
-     "Features": "Upgrade"
+     "Features": "Upgrade",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "HEAVY",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Redoubtable Machine Spirit (Upgrade)",
@@ -15908,7 +15944,17 @@
     {
      "Name": "Spearpoint War Leader",
      "Cost": 15,
-     "Description": "Tacticus model only. This unit has Scouts 6\"."
+     "Description": "Tacticus model only. This unit has Scouts 6\".",
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Scouts 6\""
+       ]
+      }
+     ]
     }
    ]
   },
@@ -16007,7 +16053,16 @@
     {
      "Name": "Champion of the First Company",
      "Cost": 20,
-     "Description": "Adeptus Astartes Terminator model only. This unit’s melee attacks have [Lethal Hits]."
+     "Description": "Adeptus Astartes Terminator model only. This unit’s melee attacks have [Lethal Hits].",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "LETHAL HITS",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Corporeum Reliquary",

@@ -8907,7 +8907,14 @@
     {
      "Name": "It Came from da Drops",
      "Cost": 20,
-     "Description": "Beastboss on Squigosaur model only. This model has +1 T."
+     "Description": "Beastboss on Squigosaur model only. This model has +1 T.",
+     "StatAdjustments": [
+      {
+       "Target": "Toughness",
+       "Type": "Add",
+       "Value": "1"
+      }
+     ]
     }
    ],
    "Effects": []
@@ -8956,7 +8963,14 @@
     {
      "Name": "Cybork Boosta",
      "Cost": 10,
-     "Description": "Big Mek/Mek model only. This model has +2\" M."
+     "Description": "Big Mek/Mek model only. This model has +2\" M.",
+     "StatAdjustments": [
+      {
+       "Target": "Move",
+       "Type": "Add",
+       "Value": "2\""
+      }
+     ]
     },
     {
      "Name": "Dreadherder",

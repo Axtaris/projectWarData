@@ -13703,7 +13703,15 @@
      "ExcludedKeywords": [
       "Damned"
      ],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "PRECISION",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Melee"
+      }
+     ]
     }
    ],
    "Effects": []
@@ -14188,7 +14196,17 @@
      "ExcludedKeywords": [
       "Terminator"
      ],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ]
     },
     {
      "Name": "Warp-Fuelled Thrusters",
@@ -14311,7 +14329,21 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ANTI-VEHICLE 4+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      },
+      {
+       "Value": "ANTI-FORTIFICATION 4+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      }
+     ]
     },
     {
      "Name": "Ironbound Enmity",
@@ -14433,7 +14465,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Infiltrators"
+       ]
+      }
+     ]
     },
     {
      "Name": "Raid Leader",
@@ -14650,7 +14691,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ]
     },
     {
      "Name": "Sorrowscent Vulture",
@@ -14795,7 +14846,16 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 5+"
+       ]
+      }
+     ]
     },
     {
      "Name": "Orbs of Unlife",
@@ -14941,7 +15001,17 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Scouts 6\""
+       ]
+      }
+     ]
     },
     {
      "Name": "Tyrant's Lash",
