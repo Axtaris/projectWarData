@@ -3294,12 +3294,7 @@
      "Text": "In your Command phase, you can use this ability. If you do, select one visible terrain feature. That terrain feature is identified until the end of the turn.\n▪ While an enemy unit is within an identified terrain feature, that enemy unit has +3\" detection range."
     }
    ],
-   "Infos": [
-    {
-     "Title": "LAST SURVIVOR",
-     "Text": "This model cannot be selected as your Warlord."
-    }
-   ],
+   "Infos": [],
    "Keywords": [
     "Infantry",
     "Character",

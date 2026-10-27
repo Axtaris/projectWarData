@@ -1261,7 +1261,7 @@
   },
   {
    "Name": "OGRYN BODYGUARD",
-   "Flags": 4,
+   "Flags": 5,
    "UnitComposition": {
     "ModelCompositions": [
      {
@@ -1493,7 +1493,16 @@
      "Text": "At the start of the Declare Battle Formations step, this model must join one Command Squad unit from your army (a Command Squad cannot have more than one Loyal Protector model joined to it). This model then counts as part of that Command Squad for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a Command Squad, it does not take part in the battle and counts as having been destroyed.\nWhile this model is joined to a unit, it can embark within any Transport that unit can embark within, and takes up the space of 3 models.\nThis model cannot be selected as your Warlord."
     }
    ],
-   "LeaderInfo": null,
+   "LeaderInfo": {
+    "UnitNames": [
+     "CADIAN COMMAND SQUAD",
+     "CATACHAN COMMAND SQUAD",
+     "KRIEG COMMAND SQUAD",
+     "MILITARUM TEMPESTUS COMMAND SQUAD"
+    ],
+    "LeaderType": "Loyal Protector",
+    "Description": "At the start of the Declare Battle Formations step, this model must join one Command Squad unit from your army (a Command Squad cannot have more than one Loyal Protector model joined to it). This model then counts as part of that Command Squad for the rest of the battle, and its Starting Strength is increased accordingly. If it is not possible to join this model to a Command Squad, it does not take part in the battle and counts as having been destroyed.\n\nWhile this model is joined to a unit, it can embark within any Transport that unit can embark within, and takes up the space of 3 models.\n\nThis model cannot be selected as your Warlord and cannot be given Enhancements."
+   },
    "Infos": [],
    "Keywords": [
     "Infantry",
@@ -1563,7 +1572,8 @@
      "ModelCount": 1,
      "Cost": 60
     }
-   ]
+   ],
+   "Flags": 1
   },
   {
    "Name": "CADIAN SHOCK TROOPS",
@@ -2487,7 +2497,8 @@
      "ModelCount": 1,
      "Cost": 55
     }
-   ]
+   ],
+   "Flags": 1
   },
   {
    "Name": "KASRKIN",
