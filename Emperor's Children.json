@@ -358,7 +358,7 @@
            "power sword"
           ],
           "Options": [
-           "screamer pistol and close combat weapon"
+           "Screamer pistol and Close combat weapon"
           ]
          }
         ]
@@ -754,11 +754,17 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "bolt pistol"
+          ],
           "Options": [
            "plasma pistol"
           ]
          },
          {
+          "Replaces": [
+           "power sword"
+          ],
           "Options": [
            "Rapture lash"
           ]
@@ -781,15 +787,21 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
           "Options": [
            "Meltagun"
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
           "Options": [
            "plasma gun"
           ]
@@ -1171,7 +1183,7 @@
            "Hades autocannon"
           ],
           "Options": [
-           "baleflamer"
+           "Baleflamer"
           ]
          }
         ]
@@ -1460,11 +1472,17 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "bolt pistol"
+          ],
           "Options": [
            "plasma pistol"
           ]
          },
          {
+          "Replaces": [
+           "power sword"
+          ],
           "Options": [
            "Rapture lash"
           ]
@@ -1813,7 +1831,7 @@
          },
          {
           "Options": [
-           "Havoc launcher"
+           "havoc launcher or can replace 1 combi-bolter with 1 havoc launcher"
           ]
          }
         ]
@@ -2024,44 +2042,7 @@
          "combi-bolter",
          "accursed weapon"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "combi-bolter"
-          ],
-          "Options": [
-           "Combi-weapon"
-          ]
-         },
-         {
-          "Max": 1,
-          "Replaces": [
-           "combi-bolter",
-           "accursed weapon"
-          ],
-          "Options": [
-           "Paired accursed weapons"
-          ]
-         },
-         {
-          "Max": 3,
-          "Replaces": [
-           "accursed weapon"
-          ],
-          "Options": [
-           "Power fist"
-          ]
-         },
-         {
-          "Max": 1,
-          "Replaces": [
-           "accursed weapon"
-          ],
-          "Options": [
-           "Chainfist"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -2631,7 +2612,20 @@
         "InitalWargear": [
          "slashing claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2868,7 +2862,20 @@
          "lashing tongue",
          "slashing claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -3335,7 +3342,7 @@
            "Hades battle cannon"
           ],
           "Options": [
-           "ectoplasma destructor"
+           "Ectoplasma destructor"
           ]
          },
          {
@@ -3354,7 +3361,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge"
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          },
          {
@@ -3364,7 +3371,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge"
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          }
         ]

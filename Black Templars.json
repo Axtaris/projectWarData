@@ -28,7 +28,7 @@
            "master-crafted power weapon"
           ],
           "Options": [
-           "Astartes chainsword"
+           "Chainsword"
           ]
          }
         ]
@@ -160,6 +160,16 @@
        "Strength": "6",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Chainsword",
+       "Keywords": "SUSTAINED HITS 1",
+       "Range": "Melee",
+       "Attacks": "6",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1"
       }
      ]
     }
@@ -502,7 +512,16 @@
          "master-crafted power weapon",
          "neophyte chainsword"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "heavy bolt pistol"
+          ],
+          "Options": [
+           "Hand flamer"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -522,13 +541,21 @@
         ],
         "Options": [
          {
-          "Max": 2,
-          "PerXModels": 10,
           "Replaces": [
            "bolt rifle"
           ],
           "Options": [
-           "heavy bolt pistol and power fist",
+           "Heavy Bolt Pistol and Initiate Chainsword"
+          ]
+         },
+         {
+          "PerXModels": 10,
+          "Max": 2,
+          "Replaces": [
+           "bolt rifle"
+          ],
+          "Options": [
+           "Heavy Bolt Pistol and Power fist",
            "Pyreblaster"
           ]
          }
@@ -548,7 +575,16 @@
         "InitalWargear": [
          "bolt pistol"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "bolt pistol"
+          ],
+          "Options": [
+           "Shotgun and Combat knife"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -926,17 +962,16 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "Replaces": [
            "absolvor bolt pistol"
           ],
           "Options": [
-           "absolvor bolt pistol and master-crafted power weapon"
+           "Hand flamer"
           ]
          },
          {
           "Options": [
-           "Hand flamer"
+           "Master-crafted Power Weapon"
           ]
          }
         ]
@@ -1217,7 +1252,6 @@
         ],
         "Options": [
          {
-          "Replaces": [],
           "Options": [
            "Multi-melta"
           ]
@@ -1359,7 +1393,6 @@
         ],
         "Options": [
          {
-          "Replaces": [],
           "Options": [
            "Multi-melta"
           ]
@@ -1648,26 +1681,24 @@
         ],
         "Options": [
          {
-          "Replaces": [],
+          "Replaces": [
+           "storm bolters"
+          ],
           "Options": [
-           "bellicatus missile array",
-           "orbital comms array",
-           "shield dome"
+           "Fragstorm Grenade Launchers"
           ]
          },
          {
-          "Replaces": [],
           "Options": [
            "Ironhail Heavy Stubber",
            "Multi-melta"
           ]
          },
          {
-          "Replaces": [
-           "storm bolters"
-          ],
           "Options": [
-           "Fragstorm Grenade Launchers"
+           "Bellicatus missile array",
+           "orbital comms array",
+           "shield dome"
           ]
          }
         ]
@@ -1880,19 +1911,16 @@
         ],
         "Options": [
          {
-          "Replaces": [],
-          "Options": [
-           "Multi-melta"
-          ]
-         },
-         {
-          "Replaces": [],
           "Options": [
            "Hunter-killer missile"
           ]
          },
          {
-          "Replaces": [],
+          "Options": [
+           "Multi-melta"
+          ]
+         },
+         {
           "Options": [
            "Storm bolter"
           ]
@@ -2068,7 +2096,7 @@
            "plasma pistol"
           ],
           "Options": [
-           "combi-weapon"
+           "Combi-weapon"
           ]
          }
         ]
@@ -2235,17 +2263,16 @@
         ],
         "Options": [
          {
-          "Replaces": [],
-          "Options": [
-           "Multi-melta"
-          ]
-         },
-         {
           "Replaces": [
            "twin heavy bolter"
           ],
           "Options": [
            "Twin lascannon"
+          ]
+         },
+         {
+          "Options": [
+           "Multi-melta"
           ]
          },
          {
@@ -2438,16 +2465,16 @@
         ],
         "Options": [
          {
-          "Options": [
-           "Multi-melta"
-          ]
-         },
-         {
           "Replaces": [
            "heavy laser destroyer"
           ],
           "Options": [
-           "Macro Plasma Incinerator"
+           "Macro plasma incinerator"
+          ]
+         },
+         {
+          "Options": [
+           "Multi-melta"
           ]
          }
         ]
@@ -2876,8 +2903,8 @@
         ],
         "Options": [
          {
-          "Max": 2,
           "PerXModels": 4,
+          "Max": 2,
           "Replaces": [
            "heavy bolt pistol"
           ],
@@ -2894,8 +2921,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 4,
+          "Max": 1,
           "Replaces": [
            "chainsword"
           ],
@@ -2904,18 +2931,18 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 4,
+          "Max": 1,
           "Replaces": [
            "heavy bolt pistol"
           ],
           "Options": [
-           "plasma pistol"
+           "Plasma Pistol"
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 4,
+          "Max": 1,
           "Replaces": [
            "heavy bolt pistol",
            "chainsword"
@@ -3128,17 +3155,7 @@
          "storm bolter",
          "power fist"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "power fist"
-          ],
-          "Options": [
-           "Power weapon",
-           "chainfist"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -3156,15 +3173,12 @@
         ],
         "Options": [
          {
-          "Max": 1,
-          "PerXModels": 5,
           "Replaces": [
-           "storm bolter"
+           "power fist"
           ],
           "Options": [
-           "Assault Cannon",
-           "Heavy Flamer",
-           "storm bolter and cyclone missile launcher"
+           "Chainfist",
+           "Power weapon"
           ]
          },
          {
@@ -3172,7 +3186,19 @@
            "power fist"
           ],
           "Options": [
-           "chainfist"
+           "Chainfist"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "Assault Cannon",
+           "Heavy Flamer",
+           "Cyclone Missile Launcher and Storm Bolter (that model's Storm Bolter cannot be replaced)"
           ]
          }
         ]
@@ -3652,18 +3678,18 @@
         "Options": [
          {
           "Replaces": [
-           "storm bolter"
-          ],
-          "Options": [
-           "combi-weapon"
-          ]
-         },
-         {
-          "Replaces": [
            "relic weapon"
           ],
           "Options": [
            "Relic fist"
+          ]
+         },
+         {
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "Combi-weapon"
           ]
          }
         ]
@@ -3815,15 +3841,26 @@
         "Options": [
          {
           "Replaces": [
-           "master-crafted bolter"
+           "master-crafted bolter",
+           "heavy bolt pistol"
           ],
           "Options": [
-           "neo-volkite pistol and power fist",
-           "plasma pistol and power fist",
-           "heavy bolt pistol, master-crafted power weapon and relic shield"
+           "Neo-volkite pistol",
+           "Plasma Pistol"
           ]
          },
          {
+          "Replaces": [
+           "master-crafted bolter"
+          ],
+          "Options": [
+           "relic shield"
+          ]
+         },
+         {
+          "Replaces": [
+           "master-crafted power weapon"
+          ],
           "Options": [
            "Power fist"
           ]
@@ -4021,11 +4058,14 @@
            "heavy bolt pistol"
           ],
           "Options": [
-           "plasma pistol",
-           "Hand flamer"
+           "Hand flamer",
+           "Plasma Pistol"
           ]
          },
          {
+          "Replaces": [
+           "chainsword"
+          ],
           "Options": [
            "Power fist",
            "Relic Weapon"
@@ -4033,10 +4073,12 @@
          },
          {
           "Replaces": [
-           "heavy bolt pistol"
+           "heavy bolt pistol",
+           "chainsword"
           ],
           "Options": [
-           "thunder hammer and relic shield"
+           "thunder hammer and relic shield",
+           "Chainsword and relic shield"
           ]
          }
         ]
@@ -4223,6 +4265,16 @@
        "Strength": "8",
        "AP": "-2",
        "Damage": "3"
+      },
+      {
+       "Name": "Chainsword",
+       "Keywords": "SUSTAINED HITS 1",
+       "Range": "Melee",
+       "Attacks": "6",
+       "ToHit": "2+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1"
       }
      ]
     }
@@ -4397,12 +4449,16 @@
         "Options": [
          {
           "Replaces": [
+           "bolt pistol",
            "master-crafted bolter"
           ],
           "Options": [
-           "plasma pistol",
-           "Master-crafted power weapon",
-           "Power fist"
+           "Neo-volkite pistol and Master-crafted power weapon"
+          ]
+         },
+         {
+          "Options": [
+           "storm shield"
           ]
          },
          {
@@ -4414,14 +4470,22 @@
           ]
          },
          {
+          "Replaces": [
+           "master-crafted bolter"
+          ],
           "Options": [
            "Master-crafted power weapon",
+           "Plasma Pistol",
            "Power fist"
           ]
          },
          {
+          "Replaces": [
+           "ceramite fists"
+          ],
           "Options": [
-           "Neo-volkite pistol"
+           "Master-crafted power weapon",
+           "Power fist"
           ]
          }
         ]
@@ -5273,25 +5337,24 @@
         "Options": [
          {
           "Replaces": [
-           "bolt rifle"
+           "knives and fists"
           ],
           "Options": [
-           "Hand flamer",
-           "plasma pistol",
-           "Power weapon"
-          ]
-         },
-         {
-          "Options": [
+           "Chainsword",
            "Power fist",
            "Power weapon",
            "Thunder Hammer"
           ]
          },
          {
+          "Replaces": [
+           "bolt rifle"
+          ],
           "Options": [
            "Chainsword",
-           "Bolt Rifle"
+           "Hand flamer",
+           "Plasma Pistol",
+           "Power weapon"
           ]
          }
         ]
@@ -5310,7 +5373,15 @@
          "bolt pistol",
          "bolt rifle"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Options": [
+           "Grenade Launcher"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -5684,10 +5755,13 @@
           ],
           "Options": [
            "Hand flamer",
-           "plasma pistol"
+           "Plasma Pistol"
           ]
          },
          {
+          "Replaces": [
+           "chainsword"
+          ],
           "Options": [
            "Power fist",
            "Power weapon",
@@ -6020,7 +6094,18 @@
          "bolt pistol",
          "heavy bolt rifle"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "heavy bolt rifle"
+          ],
+          "Options": [
+           "Heavy Bolter"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -6468,13 +6553,15 @@
            "boltgun"
           ],
           "Options": [
-           "Combat knife"
+           "Shotgun"
           ]
          },
          {
+          "Replaces": [
+           "combat knife"
+          ],
           "Options": [
-           "Boltgun",
-           "Shotgun"
+           "Chainsword"
           ]
          }
         ]
@@ -6499,18 +6586,28 @@
            "boltgun"
           ],
           "Options": [
-           "Combat knife"
+           "Shotgun"
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
+          "Options": [
+           "Sniper Rifle"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "boltgun"
           ],
           "Options": [
            "Heavy Bolter",
-           "missile launcher"
+           "Missile Launcher"
           ]
          }
         ]
@@ -7063,7 +7160,7 @@
           ],
           "Options": [
            "Neo-volkite Pistol",
-           "plasma pistol"
+           "Plasma Pistol"
           ]
          }
         ]
@@ -7576,13 +7673,7 @@
          "bolt carbine",
          "monomolecular combat knife"
         ],
-        "Options": [
-         {
-          "Options": [
-           "grapnel launcher"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -7598,6 +7689,11 @@
          "special-issue bolt pistol"
         ],
         "Options": [
+         {
+          "Options": [
+           "grav-chute"
+          ]
+         },
          {
           "Options": [
            "grapnel launcher"
@@ -7762,16 +7858,7 @@
          "flamestorm gauntlets",
          "twin power fists"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "flamestorm gauntlets"
-          ],
-          "Options": [
-           "auto boltstorm gauntlets and fragstorm grenade launcher"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -7793,7 +7880,7 @@
            "flamestorm gauntlets"
           ],
           "Options": [
-           "auto boltstorm gauntlets and fragstorm grenade launcher"
+           "Auto Boltstorm Gauntlets and Fragstorm grenade launcher"
           ]
          }
         ]
@@ -7922,24 +8009,7 @@
          "siege drills",
          "Centurion bolters"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "twin flamer"
-          ],
-          "Options": [
-           "twin meltagun"
-          ]
-         },
-         {
-          "Replaces": [
-           "Centurion bolters"
-          ],
-          "Options": [
-           "Centurion assault launcher"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -7959,18 +8029,18 @@
         "Options": [
          {
           "Replaces": [
-           "twin flamer"
-          ],
-          "Options": [
-           "twin meltagun"
-          ]
-         },
-         {
-          "Replaces": [
            "Centurion bolters"
           ],
           "Options": [
            "Centurion assault launcher"
+          ]
+         },
+         {
+          "Replaces": [
+           "twin flamer"
+          ],
+          "Options": [
+           "Twin meltagun"
           ]
          }
         ]
@@ -8100,25 +8170,7 @@
          "Centurion bolters",
          "Centurion fists"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "Centurion bolters"
-          ],
-          "Options": [
-           "Centurion missile launcher"
-          ]
-         },
-         {
-          "Replaces": [
-           "grav-cannon"
-          ],
-          "Options": [
-           "twin heavy bolter",
-           "twin lascannon"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -8149,7 +8201,7 @@
            "grav-cannon"
           ],
           "Options": [
-           "twin heavy bolter",
+           "Twin heavy bolter",
            "twin lascannon"
           ]
          }
@@ -8662,6 +8714,14 @@
          },
          {
           "Replaces": [
+           "fragstorm grenade launchers"
+          ],
+          "Options": [
+           "Storm Bolters"
+          ]
+         },
+         {
+          "Replaces": [
            "heavy flamer"
           ],
           "Options": [
@@ -8674,12 +8734,6 @@
           ],
           "Options": [
            "macro plasma incinerator"
-          ]
-         },
-         {
-          "Options": [
-           "Storm Bolters",
-           "Fragstorm Grenade Launchers"
           ]
          }
         ]
@@ -8866,19 +8920,19 @@
         "Options": [
          {
           "Replaces": [
-           "twin heavy bolter"
+           "brutalis fists",
+           "bolt rifles"
           ],
           "Options": [
-           "Twin multi-melta"
+           "Brutalis Talons"
           ]
          },
          {
           "Replaces": [
-           "brutalis fists",
-           "Brutalis bolt rifles"
+           "twin heavy bolter"
           ],
           "Options": [
-           "Brutalis Talons"
+           "Twin multi-melta"
           ]
          }
         ]
@@ -9164,8 +9218,10 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "chainsword"
+          ],
           "Options": [
-           "Chainsword",
            "Power weapon",
            "Thunder Hammer"
           ]
@@ -9187,7 +9243,18 @@
          "heavy bolt pistol",
          "twin bolt rifle"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 3,
+          "Max": 1,
+          "Replaces": [
+           "heavy bolt pistol"
+          ],
+          "Options": [
+           "Plasma Pistol"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -9513,16 +9580,7 @@
          "assault bolters",
          "ceramite fists"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "assault bolters"
-          ],
-          "Options": [
-           "plasma exterminators"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -9543,7 +9601,7 @@
            "assault bolters"
           ],
           "Options": [
-           "plasma exterminators"
+           "Plasma Exterminators"
           ]
          }
         ]
@@ -9684,9 +9742,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "onslaught gatling cannon"
+          ],
           "Options": [
-           "Pyrecannon",
-           "Onslaught gatling cannon"
+           "Pyrecannon"
           ]
          }
         ]
@@ -10203,7 +10263,7 @@
            "bolt pistol"
           ],
           "Options": [
-           "plasma pistol"
+           "Plasma Pistol"
           ]
          }
         ]
@@ -11019,12 +11079,12 @@
         "Options": [
          {
           "Options": [
-           "hunter-killer missile"
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "storm bolter"
+           "Hunter-killer missile"
           ]
          },
          {
@@ -11531,12 +11591,22 @@
         "Options": [
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          },
          {
           "Options": [
-           "storm bolter"
+           "Storm bolter"
+          ]
+         },
+         {
+          "Options": [
+           "Hunter-killer missile"
+          ]
+         },
+         {
+          "Options": [
+           "Storm bolter"
           ]
          },
          {
@@ -12191,17 +12261,17 @@
            "twin heavy bolter"
           ],
           "Options": [
-           "twin lascannon"
+           "Twin lascannon"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          },
          {
           "Options": [
-           "storm bolter"
+           "Storm bolter"
           ]
          },
          {
@@ -12435,19 +12505,19 @@
         "Options": [
          {
           "Replaces": [
-           "skyhammer missile launcher"
-          ],
-          "Options": [
-           "twin heavy bolter",
-           "typhoon missile launcher"
-          ]
-         },
-         {
-          "Replaces": [
            "las-talon"
           ],
           "Options": [
            "Icarus stormcannon"
+          ]
+         },
+         {
+          "Replaces": [
+           "skyhammer missile launcher"
+          ],
+          "Options": [
+           "Twin heavy bolter",
+           "Typhoon Missile Launcher"
           ]
          }
         ]
@@ -12611,9 +12681,9 @@
            "skyhammer missile launcher"
           ],
           "Options": [
-           "twin heavy bolter",
-           "twin lascannon",
-           "typhoon missile launcher"
+           "Twin heavy bolter",
+           "Twin lascannon",
+           "Typhoon Missile Launcher"
           ]
          }
         ]
@@ -12764,12 +12834,9 @@
         ],
         "Options": [
          {
-          "Replaces": [
-           "twin assault cannon"
-          ],
           "Options": [
-           "twin heavy plasma cannon",
-           "twin lascannon"
+           "Hurricane bolter",
+           "2 Hurricane bolters"
           ]
          },
          {
@@ -12777,13 +12844,17 @@
            "typhoon missile launcher"
           ],
           "Options": [
-           "twin heavy bolter",
-           "twin multi-melta"
+           "Twin heavy bolter",
+           "Twin multi-melta"
           ]
          },
          {
+          "Replaces": [
+           "twin assault cannon"
+          ],
           "Options": [
-           "2 hurricane bolters"
+           "Twin Heavy Plasma Cannon",
+           "Twin lascannon"
           ]
          }
         ]

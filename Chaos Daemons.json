@@ -135,7 +135,17 @@
          "hellfire breath",
          "great axe of Khorne"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "great axe of Khorne"
+          ],
+          "Options": [
+           "Bloodflail",
+           "Lash of Khorne"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -731,7 +741,20 @@
         "InitalWargear": [
          "hellblade"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -864,7 +887,20 @@
          "hellblade",
          "juggernaut’s bladed horn"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2363,7 +2399,20 @@
          "coruscating pink flames",
          "pink claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -3945,7 +3994,20 @@
         "InitalWargear": [
          "plaguesword"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -4265,7 +4327,20 @@
          "foul mouthparts",
          "plaguesword"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -5408,7 +5483,20 @@
         "InitalWargear": [
          "slashing claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -5657,7 +5745,20 @@
          "lashing tongue",
          "slashing claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }

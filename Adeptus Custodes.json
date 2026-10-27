@@ -17,7 +17,14 @@
         "InitalWargear": [
          "guardian spear"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "vexilla"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -336,6 +343,12 @@
         ],
         "Options": [
          {
+          "Max": 1,
+          "Options": [
+           "vexilla"
+          ]
+         },
+         {
           "Replaces": [
            "guardian spear"
           ],
@@ -514,9 +527,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "salvo launcher"
+          ],
           "Options": [
-           "Hurricane bolter",
-           "Salvo launcher"
+           "Hurricane bolter"
           ]
          }
         ]
@@ -974,17 +989,20 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "pyrithite spear"
+          ],
           "Options": [
-           "Castellan Axe"
+           "Eternity-pattern Paragon Blade"
           ]
          },
          {
           "Replaces": [
-           "pyrithite spear",
-           "praesidium shield"
+           "praesidium shield",
+           "pyrithite spear"
           ],
           "Options": [
-           "Paragon Blade and Praesidium Shield",
+           "Castellan Axe",
            "Guardian Spear"
           ]
          }
@@ -1543,7 +1561,17 @@
         "InitalWargear": [
          "executioner greatblade"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "executioner greatblade"
+          ],
+          "Options": [
+           "Master-crafted boltgun and Gun Stock",
+           "Master-crafted Flamer and Gun Stock"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -1832,9 +1860,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "salvo launcher"
+          ],
           "Options": [
-           "Hurricane bolter",
-           "Salvo launcher"
+           "Hurricane bolter"
           ]
          }
         ]
@@ -2354,12 +2384,12 @@
         "Options": [
          {
           "Options": [
-           "hunter-killer missile"
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "storm bolter"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -2506,8 +2536,8 @@
            "lastrum storm bolter"
           ],
           "Options": [
-           "Twin Infernus incinerator",
-           "Adrathic combi-destructor"
+           "2 Adrathic Combi-destructor",
+           "2 Twin Infernus Incinerator"
           ]
          }
         ]
@@ -2772,7 +2802,19 @@
          "dual caestus fists",
          "twin neutronium cascade projectors"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "dual caestus fists",
+           "twin neutronium cascade projectors"
+          ],
+          "Options": [
+           "Adrathic Desolator, 1 Caestus Fist and Twin Neutronium Cascade Projectors",
+           "Arachnus Storm Cannon, 1 Caestus Fist and Twin Neutronium Cascade Projectors",
+           "Caestus Fist, 1 Iliastus Accelerator Culverin and Twin Neutronium Cascade Projectors"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2953,8 +2995,10 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "twin lastrum bolt cannon"
+          ],
           "Options": [
-           "Twin Lastrum Bolt Cannon",
            "Twin Neutronium Cascade Projectors"
           ]
          }
@@ -3095,8 +3139,10 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "twin lastrum bolt cannon"
+          ],
           "Options": [
-           "Twin Lastrum Bolt Cannon",
            "Twin Neutronium Cascade Projectors"
           ]
          }
@@ -3614,8 +3660,8 @@
           ],
           "Options": [
            "Adrathic Devastator",
-           "Twin Corvae Las-pulser",
-           "Arachnus Volley Cannon"
+           "Arachnus Volley Cannon",
+           "Twin Corvae Las-pulser"
           ]
          }
         ]
@@ -3872,7 +3918,14 @@
         "InitalWargear": [
          "sentinel blade"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "vexilla"
+          ]
+         }
+        ]
        }
       ]
      }

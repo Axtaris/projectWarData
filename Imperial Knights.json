@@ -21,7 +21,7 @@
            "Questoris heavy stubber"
           ],
           "Options": [
-           "meltagun"
+           "Meltagun"
           ]
          }
         ]
@@ -152,7 +152,7 @@
            "Questoris heavy stubber"
           ],
           "Options": [
-           "meltagun"
+           "Meltagun"
           ]
          }
         ]
@@ -307,9 +307,9 @@
          },
          {
           "Options": [
-           "Twin Icarus autocannon",
            "Ironstorm missile pod",
-           "Stormspear rocket pod"
+           "Stormspear rocket pod",
+           "Twin Icarus autocannon"
           ]
          }
         ]
@@ -524,9 +524,9 @@
          },
          {
           "Options": [
-           "twin icarus autocannons",
            "Ironstorm missile pod",
-           "Stormspear rocket pod"
+           "Stormspear rocket pod",
+           "Twin Icarus autocannon"
           ]
          }
         ]
@@ -638,6 +638,16 @@
        "Strength": "12",
        "AP": "-4",
        "Damage": "D6"
+      },
+      {
+       "Name": "Twin Icarus autocannon",
+       "Keywords": "ANTI-FLY 2+, TWIN-LINKED",
+       "Range": "48\"",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "7",
+       "AP": "-1",
+       "Damage": "2"
       }
      ]
     },
@@ -723,9 +733,9 @@
          },
          {
           "Options": [
-           "twin icarus autocannon",
-           "ironstorm missile pod",
-           "stormspear rocket pod"
+           "Ironstorm missile pod",
+           "Stormspear rocket pod",
+           "Twin Icarus autocannon"
           ]
          }
         ]
@@ -935,9 +945,9 @@
          },
          {
           "Options": [
-           "twin icarus autocannon",
            "Ironstorm missile pod",
-           "Stormspear rocket pod"
+           "Stormspear rocket pod",
+           "Twin Icarus autocannon"
           ]
          }
         ]
@@ -1058,6 +1068,16 @@
        "Strength": "8",
        "AP": "-2",
        "Damage": "D6"
+      },
+      {
+       "Name": "Twin Icarus autocannon",
+       "Keywords": "ANTI-FLY 2+, TWIN-LINKED",
+       "Range": "48\"",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "7",
+       "AP": "-1",
+       "Damage": "2"
       }
      ]
     },
@@ -1144,10 +1164,18 @@
           ]
          },
          {
+          "Replaces": [
+           "thermal cannon"
+          ],
           "Options": [
-           "Twin Icarus autocannon",
+           "rapid-fire battle cannon and Questoris heavy stubber"
+          ]
+         },
+         {
+          "Options": [
            "Ironstorm missile pod",
-           "Stormspear rocket pod"
+           "Stormspear rocket pod",
+           "Twin Icarus autocannon"
           ]
          }
         ]
@@ -1370,9 +1398,9 @@
          },
          {
           "Options": [
-           "twin icarus autocannons",
            "Ironstorm missile pod",
-           "Stormspear rocket pod"
+           "Stormspear rocket pod",
+           "Twin Icarus autocannon"
           ]
          }
         ]
@@ -1503,6 +1531,16 @@
        "Strength": "8",
        "AP": "-2",
        "Damage": "D6"
+      },
+      {
+       "Name": "Twin Icarus autocannon",
+       "Keywords": "ANTI-FLY 2+, TWIN-LINKED",
+       "Range": "48\"",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "7",
+       "AP": "-1",
+       "Damage": "2"
       }
      ]
     },
@@ -1587,7 +1625,7 @@
            "twin siegebreaker cannon"
           ],
           "Options": [
-           "shieldbreaker missile launcher and 2 twin siegebreaker cannons"
+           "Shieldbreaker missile launcher and 2 twin siegebreaker cannons"
           ]
          }
         ]
@@ -1767,7 +1805,7 @@
            "twin siegebreaker cannon"
           ],
           "Options": [
-           "shieldbreaker missile launcher and 2 twin siegebreaker cannons"
+           "Shieldbreaker missile launcher and 2 twin siegebreaker cannons"
           ]
          }
         ]
@@ -2319,7 +2357,7 @@
           ],
           "Options": [
            "2 lascannons",
-           "Acastus autocannon and lascannon"
+           "Acastus autocannon and Lascannon"
           ]
          },
          {
@@ -2327,7 +2365,7 @@
            "Acastus ironstorm missile pod"
           ],
           "Options": [
-           "helios defence missiles"
+           "Helios defence missiles"
           ]
          }
         ]
@@ -3027,7 +3065,7 @@
            "reaper chainsword"
           ],
           "Options": [
-           "hekaton siege claw and twin rad cleanser"
+           "hekaton siege claw and Twin rad cleanser"
           ]
          }
         ]
@@ -3199,7 +3237,7 @@
            "reaper chainsword"
           ],
           "Options": [
-           "hekaton siege claw and twin rad cleanser"
+           "hekaton siege claw and Twin rad cleanser"
           ]
          }
         ]
@@ -3371,7 +3409,7 @@
            "volkite veuglaire"
           ],
           "Options": [
-           "siege claw and rad cleanser",
+           "Siege claw and Rad cleanser",
            "Graviton pulsar",
            "Lightning lock",
            "Conversion beam cannon"
@@ -3382,7 +3420,7 @@
            "graviton pulsar"
           ],
           "Options": [
-           "siege claw and rad cleanser",
+           "Siege claw and Rad cleanser",
            "Lightning lock",
            "Conversion beam cannon",
            "Volkite veuglaire"

@@ -815,7 +815,8 @@
            "twin kastelan fist"
           ],
           "Options": [
-           "Kastelan phosphor blaster and Kastelan fist"
+           "Kastelan phosphor blaster and Kastelan fist",
+           "Twin Kastelan phosphor blaster and Close combat weapon"
           ]
          },
          {
@@ -1412,7 +1413,7 @@
            "phosphor blaster"
           ],
           "Options": [
-           "cognis flamer"
+           "Cognis flamer"
           ]
          }
         ]
@@ -2219,10 +2220,13 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
+          "Replaces": [
+           "phosphor pistol"
+          ],
           "Options": [
-           "Phosphor blast carbine"
+           "Phosphor blast carbine and Phosphor pistol"
           ]
          }
         ]
@@ -2363,17 +2367,7 @@
          "stubcarbine",
          "power weapon"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "stubcarbine",
-           "power weapon"
-          ],
-          "Options": [
-           "flechette blaster and taser goad"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -2396,7 +2390,7 @@
            "power weapon"
           ],
           "Options": [
-           "flechette blaster and taser goad"
+           "Flechette blaster and Taser goad"
           ]
          }
         ]
@@ -3301,7 +3295,7 @@
            "belleros energy cannon"
           ],
           "Options": [
-           "Ferrumite cannon"
+           "ferrumite cannon"
           ]
          }
         ]
@@ -3804,7 +3798,7 @@
            "macrostubber"
           ],
           "Options": [
-           "phosphor serpenta"
+           "Phosphor serpenta"
           ]
          },
          {
@@ -4109,7 +4103,7 @@
            "magnarail lance"
           ],
           "Options": [
-           "transonic cannon"
+           "Transonic cannon"
           ]
          }
         ]
@@ -4561,6 +4555,15 @@
          "servo-claw"
         ],
         "Options": [
+         {
+          "Max": 1,
+          "Replaces": [
+           "phosphor blaster"
+          ],
+          "Options": [
+           "Meltagun"
+          ]
+         },
          {
           "Max": 3,
           "Replaces": [

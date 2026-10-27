@@ -999,14 +999,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "bolt pistol"
+          ],
           "Options": [
-           "plasma pistol "
-          ]
-         },
-         {
-          "Max": 1,
-          "Options": [
-           "icon of Khorne"
+           "plasma pistol"
           ]
          }
         ]
@@ -1027,15 +1024,21 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "bolt pistol"
+          ],
           "Options": [
            "plasma pistol"
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "chainblade"
+          ],
           "Options": [
            "Khornate eviscerator"
           ]
@@ -1378,47 +1381,7 @@
          "combi-bolter",
          "accursed weapon"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "combi-bolter"
-          ],
-          "Options": [
-           "Combi-weapon"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 5,
-          "Replaces": [
-           "combi-bolter",
-           "accursed weapon"
-          ],
-          "Options": [
-           "Paired accursed weapons"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 5,
-          "Replaces": [
-           "accursed weapon"
-          ],
-          "Options": [
-           "Chainfist"
-          ]
-         },
-         {
-          "Max": 3,
-          "PerXModels": 5,
-          "Replaces": [
-           "accursed weapon"
-          ],
-          "Options": [
-           "Power fist"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -1436,8 +1399,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "combi-bolter"
           ],
@@ -1455,8 +1418,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "combi-bolter",
            "accursed weapon"
@@ -1466,23 +1429,23 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
-          "Replaces": [
-           "accursed weapon"
-          ],
-          "Options": [
-           "Chainfist"
-          ]
-         },
-         {
           "Max": 3,
-          "PerXModels": 5,
           "Replaces": [
            "accursed weapon"
           ],
           "Options": [
            "Power fist"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "accursed weapon"
+          ],
+          "Options": [
+           "Chainfist"
           ]
          }
         ]
@@ -2053,13 +2016,13 @@
          },
          {
           "Options": [
-           "Combi-bolter",
-           "Combi-weapon"
+           "Havoc launcher"
           ]
          },
          {
           "Options": [
-           "Havoc launcher"
+           "Combi-bolter",
+           "Combi-weapon"
           ]
          }
         ]
@@ -2220,13 +2183,13 @@
          },
          {
           "Options": [
-           "Combi-bolter",
-           "Combi-weapon"
+           "Havoc launcher"
           ]
          },
          {
           "Options": [
-           "Havoc launcher"
+           "Combi-bolter",
+           "Combi-weapon"
           ]
          }
         ]
@@ -2665,9 +2628,7 @@
            "Twin autocannon",
            "Twin heavy bolter",
            "Twin lascannon",
-           "Helbrute fist",
-           "Helbrute fist and combi-bolter",
-           "Helbrute fist and heavy flamer"
+           "Helbrute fist"
           ]
          },
          {
@@ -2676,10 +2637,14 @@
           ],
           "Options": [
            "Helbrute fist",
-           "Helbrute fist and combi-bolter ",
-           "Helbrute fist and heavy flamer ",
            "Helbrute hammer",
            "Power scourge"
+          ]
+         },
+         {
+          "Options": [
+           "Combi-bolter",
+           "Heavy flamer"
           ]
          }
         ]
@@ -3238,8 +3203,8 @@
            "gorestorm cannon"
           ],
           "Options": [
-           "daemongore cannon",
-           "ichor cannon"
+           "Daemongore cannon",
+           "Ichor cannon"
           ]
          },
          {
@@ -3247,7 +3212,7 @@
            "Hades gatling cannon"
           ],
           "Options": [
-           "skullhurler"
+           "Skullhurler"
           ]
          }
         ]
@@ -3434,6 +3399,18 @@
         "Options": [
          {
           "Max": 1,
+          "Replaces": [
+           "chainblade"
+          ],
+          "Options": [
+           "Autopistol"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "chainblade"
+          ],
           "Options": [
            "Blood harpoon"
           ]
@@ -3676,7 +3653,17 @@
          "hellfire breath",
          "great axe of Khorne"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "great axe of Khorne"
+          ],
+          "Options": [
+           "Bloodflail",
+           "Lash of Khorne"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -3852,7 +3839,20 @@
         "InitalWargear": [
          "hellblade"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -3984,7 +3984,20 @@
         "InitalWargear": [
          "hellblade"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -4267,7 +4280,7 @@
            "Hades battle cannon"
           ],
           "Options": [
-           "ectoplasma destructor"
+           "Ectoplasma destructor"
           ]
          },
          {
@@ -4286,7 +4299,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge"
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          },
          {
@@ -4296,7 +4309,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge"
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          }
         ]

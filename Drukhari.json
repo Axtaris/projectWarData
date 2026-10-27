@@ -129,6 +129,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "klaive"
+          ],
           "Options": [
            "demiklaives"
           ]
@@ -151,8 +154,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "Incubi Shrine token"
           ]
@@ -656,22 +659,6 @@
           "Options": [
            "Disintegrator cannon"
           ]
-         },
-         {
-          "Replaces": [
-           "dark lance"
-          ],
-          "Options": [
-           "Disintegrator cannon"
-          ]
-         },
-         {
-          "Replaces": [
-           "dark lance"
-          ],
-          "Options": [
-           "Disintegrator cannon"
-          ]
          }
         ]
        }
@@ -1020,11 +1007,18 @@
           ]
          },
          {
+          "Max": 1,
           "Replaces": [
            "splinter rifle"
           ],
           "Options": [
-           "splinter pistol and razorflail"
+           "Splinter pistol and Razorflail"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "stimm-needler. This model's splinter rifle cannot be replaced"
           ]
          }
         ]
@@ -1477,8 +1471,8 @@
            "shardcarbine"
           ],
           "Options": [
-           "blast pistol and power weapon",
-           "splinter pistol and power weapon"
+           "Blast pistol and Power weapon",
+           "Splinter pistol and Power weapon"
           ]
          }
         ]
@@ -1504,8 +1498,8 @@
            "shardcarbine"
           ],
           "Options": [
-           "blaster",
-           "shredder"
+           "Blaster",
+           "Shredder"
           ]
          }
         ]
@@ -1920,7 +1914,7 @@
            "splinter pistol"
           ],
           "Options": [
-           "blast pistol"
+           "Blast pistol"
           ]
          },
          {
@@ -1928,7 +1922,7 @@
            "hekatarii blade"
           ],
           "Options": [
-           "power weapon"
+           "Power weapon"
           ]
          }
         ]
@@ -1955,7 +1949,7 @@
            "hekatarii blade"
           ],
           "Options": [
-           "gladiatorial weapons"
+           "Gladiatorial weapons"
           ]
          }
         ]
@@ -2088,27 +2082,7 @@
          "splinter rifle",
          "bladevanes"
         ],
-        "Options": [
-         {
-          "Max": 1,
-          "PerXModels": 3,
-          "Replaces": [
-           "splinter rifle"
-          ],
-          "Options": [
-           "Blaster",
-           "Heat lance"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 3,
-          "Options": [
-           "cluster caltrops",
-           "grav-talon"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -2127,8 +2101,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Replaces": [
            "splinter rifle"
           ],
@@ -2138,8 +2112,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Options": [
            "cluster caltrops",
            "grav-talon"
@@ -2712,8 +2686,13 @@
            "hellglaive"
           ],
           "Options": [
-           "splinter pistol and power weapon",
-           "splinter pistol and stunclaw"
+           "Splinter pistol and Power weapon",
+           "Splinter pistol and Stunclaw"
+          ]
+         },
+         {
+          "Options": [
+           "Hellglaive"
           ]
          }
         ]
@@ -3329,7 +3308,7 @@
            "close combat weapon"
           ],
           "Options": [
-           "power weapon"
+           "Power weapon"
           ]
          },
          {
@@ -3343,8 +3322,8 @@
            "splinter rifle"
           ],
           "Options": [
-           "blast pistol",
-           "splinter pistol"
+           "Blast pistol",
+           "Splinter pistol"
           ]
          }
         ]
@@ -3370,7 +3349,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "blaster"
+           "Blaster"
           ]
          },
          {
@@ -3379,7 +3358,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "dark lance"
+           "Dark lance"
           ]
          },
          {
@@ -3388,7 +3367,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "shredder"
+           "Shredder"
           ]
          },
          {
@@ -3397,7 +3376,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "splinter cannon"
+           "Splinter cannon"
           ]
          }
         ]
@@ -3804,7 +3783,7 @@
            "dark lance"
           ],
           "Options": [
-           "Disintegrator cannon"
+           "2 disintegrator cannons"
           ]
          },
          {
@@ -3978,7 +3957,7 @@
         "Options": [
          {
           "Options": [
-           "voidraven missiles"
+           "Voidraven missiles"
           ]
          },
          {
@@ -5451,17 +5430,11 @@
         ],
         "Options": [
          {
-          "Options": [
-           "Close Combat Weapon",
-           "Shuriken Cannon"
-          ]
-         },
-         {
           "Replaces": [
            "voidweaver haywire cannon"
           ],
           "Options": [
-           "Prismatic Cannon"
+           "prismatic cannon"
           ]
          }
         ]

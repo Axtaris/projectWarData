@@ -1832,11 +1832,14 @@
           ],
           "Options": [
            "Bolt pistol",
-           "plasma gun ",
+           "plasma gun",
            "plasma pistol"
           ]
          },
          {
+          "Replaces": [
+           "plague knives"
+          ],
           "Options": [
            "Bubotic weapons",
            "Power fist"
@@ -1860,8 +1863,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "boltgun"
           ],
@@ -1870,8 +1873,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "boltgun"
           ],
@@ -1880,8 +1883,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "boltgun"
           ],
@@ -1892,8 +1895,8 @@
           ]
          },
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "boltgun"
           ],
@@ -1902,13 +1905,19 @@
           ]
          },
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "boltgun"
           ],
           "Options": [
            "Heavy plague weapon"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "icon of despair. This model's boltgun cannot be replaced"
           ]
          }
         ]
@@ -3077,7 +3086,7 @@
            "fleshmower"
           ],
           "Options": [
-           "2 plaguespitter"
+           "2 plaguespitters"
           ]
          }
         ]
@@ -3306,7 +3315,7 @@
            "2 entropy cannon"
           ],
           "Options": [
-           "2 plaguespitter"
+           "2 plaguespitters"
           ]
          },
          {
@@ -3314,7 +3323,7 @@
            "heavy slugger"
           ],
           "Options": [
-           "rothail volley gun"
+           "Rothail volley gun"
           ]
          }
         ]
@@ -3468,14 +3477,14 @@
         "Options": [
          {
           "Options": [
-           "2 heavy bolters",
-           "2 lascannons"
+           "2 lascannons",
+           "2 heavy bolters"
           ]
          },
          {
           "Options": [
-           "Combi-bolter",
-           "Combi-weapon"
+           "Combi-weapon",
+           "Combi-bolter"
           ]
          },
          {
@@ -4334,7 +4343,7 @@
            "plague flail"
           ],
           "Options": [
-           "bileblade"
+           "Bileblade"
           ]
          },
          {
@@ -4342,7 +4351,7 @@
            "bilesword"
           ],
           "Options": [
-           "doomsday bell"
+           "Doomsday bell"
           ]
          }
         ]
@@ -4518,7 +4527,20 @@
         "InitalWargear": [
          "plaguesword"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of Chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -4653,7 +4675,20 @@
          "foul mouthparts",
          "plaguesword"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "instrument of chaos"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "daemonic icon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -4994,7 +5029,7 @@
            "Hades battle cannon"
           ],
           "Options": [
-           "ectoplasma destructor"
+           "Ectoplasma destructor"
           ]
          },
          {
@@ -5013,7 +5048,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge"
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          },
          {
@@ -5023,7 +5058,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge"
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          }
         ]

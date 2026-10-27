@@ -282,9 +282,9 @@
            "chainsword"
           ],
           "Options": [
-           "boltgun and close combat weapon",
-           "power fist",
-           "power weapon"
+           "Boltgun and Close combat weapon",
+           "Power fist",
+           "Power weapon"
           ]
          },
          {
@@ -292,7 +292,7 @@
            "laspistol"
           ],
           "Options": [
-           "bolt pistol",
+           "Bolt pistol",
            "plasma pistol"
           ]
          }
@@ -2214,10 +2214,20 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "lasgun"
+          ],
           "Options": [
            "Flamer"
+          ]
+         },
+         {
+          "PerXModels": 10,
+          "Max": 1,
+          "Options": [
+           "vox-caster"
           ]
          }
         ]
@@ -2824,7 +2834,7 @@
            "chainsword"
           ],
           "Options": [
-           "power weapon"
+           "Power weapon"
           ]
          }
         ]
@@ -3085,24 +3095,7 @@
          "close combat weapon",
          "slabshield"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "grenadier gauntlet"
-          ],
-          "Options": [
-           "Bullgryn maul"
-          ]
-         },
-         {
-          "Replaces": [
-           "slabshield"
-          ],
-          "Options": [
-           "brute shield"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -3291,13 +3284,6 @@
         ],
         "Options": [
          {
-          "Max": 1,
-          "PerXModels": 5,
-          "Options": [
-           "Goad lance"
-          ]
-         },
-         {
           "Options": [
            "Power sabre"
           ]
@@ -3322,8 +3308,11 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "hunting lance"
+          ],
           "Options": [
            "Goad lance"
           ]
@@ -3495,9 +3484,9 @@
            "multi-laser"
           ],
           "Options": [
-           "autocannon",
-           "heavy flamer",
-           "lascannon",
+           "Autocannon",
+           "Heavy flamer",
+           "Lascannon",
            "missile launcher",
            "plasma cannon"
           ]
@@ -3509,7 +3498,7 @@
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -3707,6 +3696,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "multi-laser"
+          ],
           "Options": [
            "Autocannon",
            "Heavy flamer",
@@ -4337,7 +4329,7 @@
           ],
           "Options": [
            "bombast field gun",
-           "heavy lascannon"
+           "Heavy lascannon"
           ]
          }
         ]
@@ -4483,8 +4475,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -4497,13 +4489,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -4723,8 +4715,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -4737,13 +4729,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -4963,8 +4955,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -4977,13 +4969,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -5203,8 +5195,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -5217,13 +5209,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -5442,8 +5434,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -5456,13 +5448,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -5692,8 +5684,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -5706,13 +5698,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -6326,12 +6318,12 @@
            "heavy bolter"
           ],
           "Options": [
-           "heavy flamer"
+           "Heavy flamer"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -7143,7 +7135,7 @@
         "Options": [
          {
           "Options": [
-           "storm bolter"
+           "Storm bolter"
           ]
          }
         ]
@@ -7519,7 +7511,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -7711,7 +7704,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -7880,7 +7874,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -8043,7 +8038,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -8215,7 +8211,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -8407,7 +8404,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -8571,7 +8569,8 @@
          },
          {
           "Options": [
-           "2 lascannons and 2 twin heavy bolters"
+           "2 lascannons and 2 twin heavy bolters",
+           "2 lascannons and 2 twin heavy flamers"
           ]
          }
         ]
@@ -9649,12 +9648,12 @@
            "twin Taurox hot-shot volley gun"
           ],
           "Options": [
-           "twin autocannon"
+           "Twin autocannon"
           ]
          },
          {
           "Options": [
-           "storm bolter"
+           "Storm bolter"
           ]
          }
         ]
@@ -10162,7 +10161,7 @@
            "sentry flamer"
           ],
           "Options": [
-           "sentry hot‑shot volley gun",
+           "Sentry hot‑shot volley gun",
            "sentry grenade launcher"
           ]
          },
@@ -10171,15 +10170,15 @@
            "hot‑shot lascarbine"
           ],
           "Options": [
-           "chainsword",
-           "power weapon",
-           "hot‑shot laspistol"
+           "Chainsword",
+           "Power weapon",
+           "Hot‑shot laspistol"
           ]
          },
          {
           "Options": [
-           "bolt pistol",
-           "hot‐shot laspistol"
+           "Bolt pistol",
+           "Hot‑shot laspistol"
           ]
          }
         ]
@@ -10205,7 +10204,7 @@
            "hot‑shot lascarbine"
           ],
           "Options": [
-           "melta carbine",
+           "Melta carbine",
            "plasma carbine"
           ]
          },
@@ -10215,7 +10214,7 @@
            "hot‑shot lascarbine"
           ],
           "Options": [
-           "2 hot‑shot laspistol"
+           "2 hot-shot laspistols"
           ]
          },
          {
@@ -10224,7 +10223,7 @@
            "hot‑shot lascarbine"
           ],
           "Options": [
-           "hot‑shot long‑las"
+           "Hot‑shot long‑las"
           ]
          },
          {
@@ -10233,7 +10232,7 @@
            "hot‑shot lascarbine"
           ],
           "Options": [
-           "hot‑shot laspistol"
+           "Hot‑shot laspistol"
           ]
          }
         ]
@@ -10458,22 +10457,19 @@
         ],
         "Options": [
          {
-          "Max": 1,
-          "PerXModels": 10,
+          "Replaces": [
+           "sniper rifle"
+          ],
           "Options": [
            "Tankstopper rifle"
           ]
          },
          {
-          "Max": 1,
-          "PerXModels": 10,
           "Options": [
            "demolition gear"
           ]
          },
          {
-          "Max": 1,
-          "PerXModels": 10,
           "Options": [
            "Ratling Battlemutt"
           ]
@@ -10617,9 +10613,9 @@
            "heavy mortar"
           ],
           "Options": [
-           "siege cannon",
-           "heavy quad launcher",
-           "multiple rocket launcher"
+           "Siege cannon",
+           "Heavy quad launcher",
+           "Multiple rocket launcher"
           ]
          }
         ]
@@ -10773,15 +10769,6 @@
            "Chainsword",
            "Power weapon"
           ]
-         },
-         {
-          "Replaces": [
-           "autopistol",
-           "trench club"
-          ],
-          "Options": [
-           "combat shotgun and close combat weapon"
-          ]
          }
         ]
        }
@@ -10801,13 +10788,29 @@
         "Options": [
          {
           "Max": 1,
+          "Replaces": [
+           "autopistol and trench club"
+          ],
           "Options": [
-           "flamer and close combat weapon"
+           "Flamer and Close combat weapon"
           ]
          },
          {
+          "Max": 1,
+          "Replaces": [
+           "autopistol and trench club"
+          ],
           "Options": [
-           "combat shotgun and close combat weapon"
+           "Autopistol",
+           "remote mine and close combat weapon"
+          ]
+         },
+         {
+          "Replaces": [
+           "autopistol and trench club"
+          ],
+          "Options": [
+           "Combat shotgun and Close combat weapon"
           ]
          }
         ]
@@ -12740,11 +12743,11 @@
           ],
           "Options": [
            "demolisher battle cannon",
-           "eradicator nova cannon",
+           "Eradicator nova cannon",
            "executioner plasma cannon",
-           "exterminator autocannon",
-           "punisher gatling cannon",
-           "vanquisher battle cannon"
+           "Exterminator autocannon",
+           "Punisher gatling cannon",
+           "Vanquisher battle cannon"
           ]
          },
          {
@@ -12752,8 +12755,8 @@
            "lascannon"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
@@ -12766,13 +12769,13 @@
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -13077,7 +13080,7 @@
            "zealot's vindictor"
           ],
           "Options": [
-           "holy pistol and power weapon"
+           "Holy pistol and Power weapon"
           ]
          }
         ]
@@ -13836,8 +13839,8 @@
           ],
           "Options": [
            "Chiron gatling cannon",
-           "Melta cannon",
-           "Lascannon"
+           "Lascannon",
+           "Melta cannon"
           ]
          }
         ]

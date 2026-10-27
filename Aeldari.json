@@ -353,7 +353,7 @@
            "shuriken pistol"
           ],
           "Options": [
-           "death spinner",
+           "Death spinner",
            "Dragon fusion gun",
            "Dragon fusion pistol",
            "Reaper launcher"
@@ -1602,8 +1602,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "aspect shrine token"
           ]
@@ -2790,8 +2790,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "aspect shrine token"
           ]
@@ -3280,6 +3280,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "shuriken cannon"
+          ],
           "Options": [
            "missile launcher",
            "Bright lance",
@@ -3555,12 +3558,19 @@
         "Options": [
          {
           "Replaces": [
+           "banshee blade"
+          ],
+          "Options": [
+           "Executioner",
+           "Triskele"
+          ]
+         },
+         {
+          "Replaces": [
            "shuriken pistol",
            "banshee blade"
           ],
           "Options": [
-           "shuriken pistol and executioner",
-           "shuriken pistol and triskele",
            "Mirrorswords"
           ]
          }
@@ -3583,8 +3593,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "aspect shrine token"
           ]
@@ -5223,7 +5233,7 @@
            "shuriken pistol"
           ],
           "Options": [
-           "flamer"
+           "Flamer"
           ]
          },
          {
@@ -5232,7 +5242,7 @@
            "shuriken pistol"
           ],
           "Options": [
-           "fusion gun"
+           "Fusion gun"
           ]
          },
          {
@@ -5241,7 +5251,7 @@
            "close combat weapon"
           ],
           "Options": [
-           "power sword"
+           "Power sword"
           ]
          }
         ]
@@ -5418,11 +5428,12 @@
         "Options": [
          {
           "Replaces": [
+           "shuriken pistol",
            "scorpion chainsword",
            "scorpion’s claw"
           ],
           "Options": [
-           "biting blade and shuriken pistol",
+           "Biting blade and Shuriken pistol",
            "Chainsabres"
           ]
          }
@@ -5445,8 +5456,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "aspect shrine token"
           ]
@@ -5627,7 +5638,7 @@
           ],
           "Options": [
            "Exarch’s lasblaster",
-           "sunpistol and power sword",
+           "Sunpistol and Power sword",
            "Scatter laser"
           ]
          }
@@ -5650,8 +5661,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "aspect shrine token"
           ]
@@ -6705,7 +6716,7 @@
            "witchblade"
           ],
           "Options": [
-           "singing spear"
+           "Singing spear"
           ]
          }
         ]
@@ -6858,8 +6869,8 @@
            "exarch’s death spinner"
           ],
           "Options": [
-           "spinneret rifle and death weavers",
-           "powerblades and death weavers",
+           "Spinneret rifle and Death weavers",
+           "Powerblades and Death weavers",
            "Powerblade array"
           ]
          }
@@ -6882,8 +6893,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Options": [
            "aspect shrine token"
           ]
@@ -7667,16 +7678,9 @@
          },
          {
           "Options": [
-           "scatter laser",
-           "shuriken cannon",
-           "starcannon"
-          ]
-         },
-         {
-          "Options": [
-           "scatter laser",
-           "shuriken cannon",
-           "starcannon"
+           "Scatter laser",
+           "Shuriken cannon",
+           "Starcannon"
           ]
          }
         ]
@@ -7866,13 +7870,6 @@
            "Shuriken cannon",
            "Starcannon"
           ]
-         },
-         {
-          "Options": [
-           "Scatter laser",
-           "Shuriken cannon",
-           "Starcannon"
-          ]
          }
         ]
        }
@@ -8039,18 +8036,11 @@
         "Options": [
          {
           "Replaces": [
+           "shuriken catapult",
            "shuriken catapult"
           ],
           "Options": [
-           "flamer"
-          ]
-         },
-         {
-          "Replaces": [
-           "shuriken catapult"
-          ],
-          "Options": [
-           "flamer"
+           "Flamer"
           ]
          },
          {
@@ -8061,19 +8051,10 @@
          {
           "Options": [
            "missile launcher",
-           "bright lance",
-           "scatter laser",
-           "shuriken cannon",
-           "starcannon"
-          ]
-         },
-         {
-          "Options": [
-           "missile launcher",
-           "bright lance",
-           "scatter laser",
-           "shuriken cannon",
-           "starcannon"
+           "Bright lance",
+           "Scatter laser",
+           "Shuriken cannon",
+           "Starcannon"
           ]
          }
         ]
@@ -8555,7 +8536,7 @@
            "Revenant pulsar"
           ],
           "Options": [
-           "sonic lance"
+           "Sonic lance"
           ]
          },
          {
@@ -8709,6 +8690,7 @@
           ],
           "Options": [
            "2 Phantom starcannons and wraith glaive",
+           "Phantom starcannon, 1 pulse laser and wraith glaive",
            "2 pulse lasers and wraith glaive",
            "Phantom pulsar"
           ]
@@ -8720,6 +8702,7 @@
           "Options": [
            "D-bombard",
            "2 Phantom starcannons and wraith glaive",
+           "Phantom starcannon, 1 pulse laser and wraith glaive",
            "2 pulse lasers and wraith glaive"
           ]
          },
@@ -9547,6 +9530,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "splinter pistol"
+          ],
           "Options": [
            "Blast pistol"
           ]
@@ -9807,8 +9793,8 @@
         "Options": [
          {
           "Options": [
-           "blast pistol",
-           "splinter pistol"
+           "Blast pistol",
+           "Splinter pistol"
           ]
          }
         ]
@@ -9945,25 +9931,6 @@
           "Options": [
            "Agoniser"
           ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 3,
-          "Replaces": [
-           "splinter rifle"
-          ],
-          "Options": [
-           "Blaster",
-           "Heat lance"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 3,
-          "Options": [
-           "grav-talon",
-           "cluster caltrops"
-          ]
          }
         ]
        }
@@ -9984,8 +9951,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Replaces": [
            "splinter rifle"
           ],
@@ -9995,8 +9962,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Options": [
            "grav-talon",
            "cluster caltrops"
@@ -10316,8 +10283,8 @@
            "splinter rifle"
           ],
           "Options": [
-           "blast pistol",
-           "splinter pistol"
+           "Blast pistol",
+           "Splinter pistol"
           ]
          }
         ]
@@ -10343,7 +10310,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "blaster"
+           "Blaster"
           ]
          },
          {
@@ -10352,7 +10319,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "dark lance"
+           "Dark lance"
           ]
          },
          {
@@ -10361,7 +10328,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "shredder"
+           "Shredder"
           ]
          },
          {
@@ -10370,7 +10337,7 @@
            "splinter rifle"
           ],
           "Options": [
-           "splinter cannon"
+           "Splinter cannon"
           ]
          }
         ]
@@ -11098,8 +11065,8 @@
            "bright lance"
           ],
           "Options": [
-           "scatter laser",
-           "starcannon"
+           "Scatter laser",
+           "Starcannon"
           ]
          },
          {
@@ -11571,15 +11538,7 @@
          "laser lance",
          "solar carbine"
         ],
-        "Options": [
-         {
-          "Max": 2,
-          "PerXModels": 3,
-          "Options": [
-           "Drakolithe"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -11596,7 +11555,15 @@
          "laser lance",
          "solar carbine"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 3,
+          "Max": 1,
+          "Options": [
+           "Drakolithe"
+          ]
+         }
+        ]
        }
       ]
      }

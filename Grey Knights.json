@@ -1356,7 +1356,21 @@
          "storm bolter",
          "nemesis force weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "storm bolter",
+           "nemesis force weapon"
+          ],
+          "Options": [
+           "Incinerator and Close combat weapon",
+           "Psilencer and Close combat weapon",
+           "Psycannon and Close combat weapon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -1794,7 +1808,21 @@
          "storm bolter",
          "nemesis force weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 2,
+          "Replaces": [
+           "storm bolter",
+           "nemesis force weapon"
+          ],
+          "Options": [
+           "Incinerator and Close combat weapon",
+           "Psilencer and Close combat weapon",
+           "Psycannon and Close combat weapon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2395,7 +2423,21 @@
          "storm bolter",
          "nemesis force weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "storm bolter",
+           "nemesis force weapon"
+          ],
+          "Options": [
+           "Incinerator and Close combat weapon",
+           "Psilencer and Close combat weapon",
+           "Psycannon and Close combat weapon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2561,7 +2603,20 @@
          "storm bolter",
          "nemesis force weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 4,
+          "Replaces": [
+           "storm bolter",
+           "nemesis force weapon"
+          ],
+          "Options": [
+           "Incinerator and Close combat weapon",
+           "Psilencer and Close combat weapon",
+           "psycannon and close combat weapon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2728,14 +2783,7 @@
           "Options": [
            "Gatling psilencer",
            "Heavy incinerator",
-           "Heavy psycannon"
-          ]
-         },
-         {
-          "Options": [
-           "Gatling psilencer",
-           "Heavy incinerator",
-           "Heavy psycannon"
+           "heavy psycannon"
           ]
          }
         ]
@@ -3750,18 +3798,18 @@
         "Options": [
          {
           "Replaces": [
-           "thunderhawk heavy cannon"
-          ],
-          "Options": [
-           "Turbo-laser destructor"
-          ]
-         },
-         {
-          "Replaces": [
            "Thunderhawk cluster bombs"
           ],
           "Options": [
            "Hellstrike missile battery"
+          ]
+         },
+         {
+          "Replaces": [
+           "thunderhawk heavy cannon"
+          ],
+          "Options": [
+           "Turbo-laser destructor"
           ]
          }
         ]

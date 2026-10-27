@@ -2195,7 +2195,7 @@
           ],
           "Options": [
            "Accursed weapon",
-           "Astartes chainblade"
+           "Astartes chainsword"
           ]
          },
          {
@@ -2388,6 +2388,15 @@
        "Strength": "8",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Astartes chainsword",
+       "Range": "Melee",
+       "Attacks": "4",
+       "ToHit": "3+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1"
       }
      ]
     }
@@ -5387,14 +5396,7 @@
         "InitalWargear": [
          "hideous mutations"
         ],
-        "Options": [
-         {
-          "Max": 1,
-          "Options": [
-           "Chaos icon"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -5588,45 +5590,7 @@
          "bolt pistol",
          "accursed weapon"
         ],
-        "Options": [
-         {
-          "Max": 2,
-          "PerXModels": 5,
-          "Replaces": [
-           "bolt pistol"
-          ],
-          "Options": [
-           "plasma pistol"
-          ]
-         },
-         {
-          "Max": 2,
-          "PerXModels": 5,
-          "Replaces": [
-           "boltgun"
-          ],
-          "Options": [
-           "Combi-weapon"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 5,
-          "Replaces": [
-           "boltgun",
-           "accursed weapon"
-          ],
-          "Options": [
-           "Paired accursed weapons"
-          ]
-         },
-         {
-          "Max": 1,
-          "Options": [
-           "Chaos icon"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -5645,8 +5609,8 @@
         ],
         "Options": [
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "bolt pistol"
           ],
@@ -5655,8 +5619,8 @@
           ]
          },
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "boltgun"
           ],
@@ -5665,14 +5629,24 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
           "Replaces": [
            "boltgun",
            "accursed weapon"
           ],
           "Options": [
            "Paired accursed weapons"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "accursed weapon"
+          ],
+          "Options": [
+           "power fist. That model's boltgun cannot be replaced"
           ]
          },
          {
@@ -6109,12 +6083,6 @@
            "Astartes chainsword",
            "Power fist"
           ]
-         },
-         {
-          "Max": 1,
-          "Options": [
-           "Chaos icon"
-          ]
          }
         ]
        }
@@ -6148,9 +6116,9 @@
            "combi-bolter"
           ],
           "Options": [
-           "combi-bolter and flamer",
-           "combi-bolter and meltagun",
-           "combi-bolter and plasma gun"
+           "Flamer",
+           "Meltagun",
+           "plasma gun"
           ]
          },
          {
@@ -6986,6 +6954,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "astartes chainsword"
+          ],
           "Options": [
            "Accursed weapon",
            "Power fist"
@@ -7022,7 +6993,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "havoc autocannon"
+          ],
           "Options": [
+           "Havoc autocannon",
            "Havoc heavy bolter",
            "Havoc lascannon",
            "Havoc missile launcher",
@@ -8646,9 +8621,7 @@
            "Twin autocannon",
            "Twin heavy bolter",
            "Twin lascannon",
-           "Helbrute fist",
-           "Helbrute fist and combi-bolter",
-           "Helbrute fist and heavy flamer"
+           "Helbrute fist"
           ]
          },
          {
@@ -8657,10 +8630,14 @@
           ],
           "Options": [
            "Helbrute fist",
-           "Helbrute fist and combi-bolter ",
-           "Helbrute fist and heavy flamer ",
            "Helbrute hammer",
            "Power scourge"
+          ]
+         },
+         {
+          "Options": [
+           "Combi-bolter",
+           "Heavy flamer"
           ]
          }
         ]
@@ -9115,7 +9092,7 @@
            "lasher tendrils"
           ],
           "Options": [
-           "Magma cutters"
+           "2 magma cutters"
           ]
          }
         ]
@@ -9300,7 +9277,7 @@
          },
          {
           "Options": [
-           "Havoc launcher"
+           "havoc launcher or can replace 1 combi-bolter with 1 havoc launcher"
           ]
          }
         ]
@@ -9638,8 +9615,8 @@
            "gorestorm cannon"
           ],
           "Options": [
-           "daemongore cannon",
-           "ichor cannon"
+           "Daemongore cannon",
+           "Ichor cannon"
           ]
          },
          {
@@ -9647,7 +9624,7 @@
            "Hades gatling cannon"
           ],
           "Options": [
-           "skullhurler"
+           "Skullhurler"
           ]
          }
         ]
@@ -10077,6 +10054,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "close combat weapon"
+          ],
           "Options": [
            "Chainsword",
            "Power weapon"
@@ -12019,7 +11999,7 @@
            "excruciator cannon"
           ],
           "Options": [
-           "Magma cutters"
+           "2 magma cutters"
           ]
          },
          {
@@ -12028,8 +12008,8 @@
           ],
           "Options": [
            "Hades lascannon",
-           "Heavy reaper autocannon",
-           "Electroscourge"
+           "heavy reaper autocannon",
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          },
          {
@@ -12038,8 +12018,8 @@
           ],
           "Options": [
            "Hades lascannon",
-           "Heavy reaper autocannon",
-           "Electroscourge"
+           "heavy reaper autocannon",
+           "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
          }
         ]

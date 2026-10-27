@@ -3321,6 +3321,11 @@
         ],
         "Options": [
          {
+          "Options": [
+           "Hurricane bolter"
+          ]
+         },
+         {
           "Replaces": [
            "twin assault cannon"
           ],
@@ -3333,17 +3338,7 @@
            "blackstar rocket launcher"
           ],
           "Options": [
-           "Stormstrike missile launcher"
-          ]
-         },
-         {
-          "Options": [
-           "Hurricane bolter"
-          ]
-         },
-         {
-          "Options": [
-           "auspex array"
+           "2 Stormstrike Missile Launchers"
           ]
          }
         ]
@@ -3515,7 +3510,7 @@
            "zealot’s vindictor"
           ],
           "Options": [
-           "holy pistol and power weapon"
+           "Holy pistol and Power weapon"
           ]
          }
         ]
@@ -4047,9 +4042,18 @@
            "boltgun"
           ],
           "Options": [
+           "Artificer-crafted storm bolter",
            "Heavy bolter",
+           "Meltagun",
+           "Ministorum flamer",
            "Ministorum heavy flamer",
            "Multi-melta"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "simulacrum imperialis"
           ]
          }
         ]
@@ -4317,7 +4321,7 @@
           ],
           "Options": [
            "Twin heavy bolter",
-           "Twin multi-melta"
+           "twin multi-melta"
           ]
          },
          {

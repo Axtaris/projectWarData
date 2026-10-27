@@ -1463,7 +1463,7 @@
            "kroot long gun"
           ],
           "Options": [
-           "blast javelin and hunting javelin"
+           "Blast javelin and Hunting javelin"
           ]
          }
         ]
@@ -2227,6 +2227,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "kroot rifle"
+          ],
           "Options": [
            "Kroot carbine"
           ]
@@ -2249,8 +2252,11 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 10,
+          "Max": 1,
+          "Replaces": [
+           "kroot rifle"
+          ],
           "Options": [
            "Tanglebomb launcher"
           ]
@@ -2413,7 +2419,7 @@
            "repeater cannon"
           ],
           "Options": [
-           "tanglecannon"
+           "Tanglecannon"
           ]
          }
         ]
@@ -3147,7 +3153,7 @@
          },
          {
           "Options": [
-           "Battlesuit Support System"
+           "battlesuit support system"
           ]
          }
         ]
@@ -3758,12 +3764,8 @@
          },
          {
           "Options": [
-           "Seeker missile"
-          ]
-         },
-         {
-          "Options": [
-           "Seeker missile"
+           "Seeker missile",
+           "2 Seeker missiles"
           ]
          }
         ]
@@ -4683,14 +4685,14 @@
            "twin pulse carbine"
           ],
           "Options": [
-           "Accelerator burst cannon",
-           "Smart missile system"
+           "2 accelerator burst cannons",
+           "2 smart missile systems"
           ]
          },
          {
           "Options": [
            "Seeker missile",
-           "2 seeker missiles"
+           "2 Seeker missiles"
           ]
          }
         ]
@@ -4871,8 +4873,8 @@
            "twin pulse carbine"
           ],
           "Options": [
-           "Accelerator burst cannon",
-           "Smart missile system"
+           "2 accelerator burst cannons",
+           "2 smart missile systems"
           ]
          }
         ]
@@ -5014,13 +5016,13 @@
            "twin pulse carbine"
           ],
           "Options": [
-           "Smart missile system"
+           "2 smart missile systems"
           ]
          },
          {
           "Options": [
            "Seeker missile",
-           "2 seeker missiles"
+           "2 Seeker missiles"
           ]
          }
         ]
@@ -5170,7 +5172,7 @@
            "accelerator burst cannon"
           ],
           "Options": [
-           "missile pod"
+           "Missile pod"
           ]
          }
         ]
@@ -5772,8 +5774,8 @@
            "twin T’au flamer"
           ],
           "Options": [
-           "twin airbursting fragmentation projector",
-           "twin burst cannon"
+           "Twin airbursting fragmentation projector",
+           "Twin burst cannon"
           ]
          }
         ]
@@ -6010,6 +6012,12 @@
            "Dvorgite skinner",
            "Londaxi tribalest"
           ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "pech’ra"
+          ]
          }
         ]
        }
@@ -6240,8 +6248,8 @@
            "pulse ordnance driver"
           ],
           "Options": [
-           "Nexus missile launcher",
-           "heavy rail cannon array and fragmentation cluster shell launcher"
+           "2 nexus missile launchers",
+           "Heavy rail cannon array and Fragmentation cluster shell launcher"
           ]
          }
         ]
@@ -6447,18 +6455,18 @@
            "2 ion cannons"
           ],
           "Options": [
-           "Swiftstrike burst cannon",
-           "Swiftstrike railgun"
+           "2 swiftstrike burst cannons",
+           "2 swiftstrike railguns"
           ]
          },
          {
           "Options": [
            "Seeker missile",
-           "2 seeker missiles",
-           "3 seeker missiles",
-           "4 seeker missiles",
-           "5 seeker missiles",
-           "6 seeker missiles"
+           "2 Seeker missiles",
+           "3 Seeker missiles",
+           "4 Seeker missiles",
+           "5 Seeker missiles",
+           "6 Seeker missiles"
           ]
          },
          {
@@ -6466,7 +6474,7 @@
            "transport bay"
           ],
           "Options": [
-           "Skyspear missile rack"
+           "2 skyspear missile racks"
           ]
          }
         ]
@@ -6682,11 +6690,11 @@
          {
           "Options": [
            "Seeker missile",
-           "2 seeker missiles",
-           "3 seeker missiles",
-           "4 seeker missiles",
-           "5 seeker missiles",
-           "6 seeker missiles"
+           "2 Seeker missiles",
+           "3 Seeker missiles",
+           "4 Seeker missiles",
+           "5 Seeker missiles",
+           "6 Seeker missiles"
           ]
          },
          {

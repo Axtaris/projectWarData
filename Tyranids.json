@@ -859,37 +859,7 @@
          "devourer",
          "tyranid warrior claws and talons"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "devourer"
-          ],
-          "Options": [
-           "Deathspitter",
-           "Spinefists"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 3,
-          "Replaces": [
-           "devourer"
-          ],
-          "Options": [
-           "Barbed strangler"
-          ]
-         },
-         {
-          "Max": 1,
-          "PerXModels": 3,
-          "Replaces": [
-           "devourer"
-          ],
-          "Options": [
-           "Venom cannon"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -915,8 +885,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Replaces": [
            "devourer"
           ],
@@ -925,8 +895,8 @@
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Replaces": [
            "devourer"
           ],
@@ -2922,7 +2892,7 @@
         "Options": [
          {
           "Options": [
-           "spinemaws"
+           "Spinemaws"
           ]
          }
         ]
@@ -3688,10 +3658,10 @@
            "Carnifex extra scything talons"
           ],
           "Options": [
-           "deathspitters with slimer maggots",
-           "devourers with brainleech worms",
-           "heavy venom cannon",
-           "stranglethorn cannon",
+           "Deathspitters with slimer maggots",
+           "Devourers with brainleech worms",
+           "Heavy venom cannon",
+           "Stranglethorn cannon",
            "Carnifex crushing claws"
           ]
          },
@@ -3700,19 +3670,19 @@
            "Carnifex scything talons"
           ],
           "Options": [
-           "deathspitters with slimer maggots",
-           "devourers with brainleech worms",
+           "Deathspitters with slimer maggots",
+           "Devourers with brainleech worms",
            "Carnifex crushing claws"
           ]
          },
          {
           "Options": [
-           "bio-plasma"
+           "Bio-plasma"
           ]
          },
          {
           "Options": [
-           "spine banks"
+           "Spine banks"
           ]
          }
         ]
@@ -4119,8 +4089,8 @@
            "fleshborer hive"
           ],
           "Options": [
-           "Acid spray",
-           "Rupture cannon"
+           "acid spray",
+           "rupture cannon"
           ]
          }
         ]
@@ -4509,7 +4479,7 @@
            "twin stranglethorn cannon"
           ],
           "Options": [
-           "twin heavy venom cannon"
+           "Twin heavy venom cannon"
           ]
          }
         ]

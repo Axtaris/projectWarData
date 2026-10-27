@@ -25,7 +25,7 @@
            "twin desecrator cannon"
           ],
           "Options": [
-           "gheiststrike missile launcher and 2 twin Desecrator cannons"
+           "Gheiststrike missile launcher and 2 twin Desecrator cannons"
           ]
          },
          {
@@ -34,7 +34,7 @@
            "ectoplasma decimator"
           ],
           "Options": [
-           "darkflame cannon and warpshock harpoon"
+           "Darkflame cannon and Warpshock harpoon"
           ]
          }
         ]
@@ -233,7 +233,9 @@
            "reaper chainsword"
           ],
           "Options": [
-           "Daemonbreath thermal cannon"
+           "Daemonbreath thermal cannon",
+           "despoiler gatling cannon and heavy darkflamer",
+           "despoiler battle cannon and diabolus heavy stubber"
           ]
          },
          {
@@ -241,7 +243,9 @@
            "warpstrike claw"
           ],
           "Options": [
-           "Daemonbreath thermal cannon"
+           "Daemonbreath thermal cannon",
+           "despoiler gatling cannon and heavy darkflamer",
+           "despoiler battle cannon and diabolus heavy stubber"
           ]
          },
          {
@@ -1969,7 +1973,8 @@
            "acastus autocannon"
           ],
           "Options": [
-           "2 lascannons"
+           "2 lascannons",
+           "Acastus autocannon and Lascannon"
           ]
          },
          {
@@ -2652,7 +2657,7 @@
            "reaper chainsword"
           ],
           "Options": [
-           "hekaton siege claw and twin rad cleanser"
+           "hekaton siege claw and Twin rad cleanser"
           ]
          }
         ]
@@ -2819,7 +2824,7 @@
            "reaper chainsword"
           ],
           "Options": [
-           "hekaton siege claw and twin rad cleanser"
+           "hekaton siege claw and Twin rad cleanser"
           ]
          }
         ]
@@ -2983,24 +2988,24 @@
         "Options": [
          {
           "Replaces": [
-           "volkite veuglaire"
+           "graviton pulsar"
           ],
           "Options": [
-           "siege claw and rad cleanser",
-           "Graviton pulsar",
+           "Siege claw and Rad cleanser",
            "Lightning lock",
-           "Conversion beam cannon"
+           "Conversion beam cannon",
+           "Volkite veuglaire"
           ]
          },
          {
           "Replaces": [
-           "graviton pulsar"
+           "volkite veuglaire"
           ],
           "Options": [
-           "siege claw and rad cleanser",
+           "Siege claw and Rad cleanser",
+           "Graviton pulsar",
            "Lightning lock",
-           "Conversion beam cannon",
-           "Volkite veuglaire"
+           "Conversion beam cannon"
           ]
          }
         ]

@@ -1736,7 +1736,7 @@
            "gauss flayer"
           ],
           "Options": [
-           "gauss reaper"
+           "Gauss reaper"
           ]
          }
         ]
@@ -2606,8 +2606,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Options": [
            "Plasmacyte"
           ]
@@ -2719,14 +2719,7 @@
            "heat ray"
           ],
           "Options": [
-           "Particle shredder"
-          ]
-         },
-         {
-          "Replaces": [
-           "heat ray"
-          ],
-          "Options": [
+           "Particle shredder",
            "Heavy gauss cannon array"
           ]
          }
@@ -3581,8 +3574,8 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
           "Options": [
            "Plasmacyte"
           ]
@@ -3892,7 +3885,7 @@
            "rod of covenant"
           ],
           "Options": [
-           "particle caster and voidblade"
+           "Particle caster and Voidblade"
           ]
          }
         ]
@@ -4015,8 +4008,8 @@
         "Options": [
          {
           "Options": [
-           "particle caster",
-           "transdimensional beamer"
+           "Particle caster",
+           "Transdimensional beamer"
           ]
          },
          {
@@ -4024,7 +4017,7 @@
            "vicious claws"
           ],
           "Options": [
-           "whip coils"
+           "Whip coils"
           ]
          }
         ]
@@ -5958,7 +5951,7 @@
            "gauss scalpel"
           ],
           "Options": [
-           "tesla caster"
+           "Tesla caster"
           ]
          },
          {

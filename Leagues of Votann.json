@@ -654,22 +654,16 @@
         "Options": [
          {
           "Replaces": [
-           "etacarn plasma gun"
-          ],
-          "Options": [
-           "Volkanite disintegrator"
-          ]
-         },
-         {
-          "Replaces": [
            "concussion gauntlet"
           ],
           "Options": [
-           "Plasma blade gauntlet",
            "Graviton hammer"
           ]
          },
          {
+          "Replaces": [
+           "weavefield crest"
+          ],
           "Options": [
            "teleport crest"
           ]
@@ -1107,7 +1101,11 @@
            "autoch-pattern bolter"
           ],
           "Options": [
-           "Plasma knife"
+           "HYLas auto rifle",
+           "HYLas rotary cannon",
+           "L7 missile launcher",
+           "EtaCarn plasma beamer",
+           "Magna-rail rifle"
           ]
          },
          {
@@ -1116,10 +1114,7 @@
            "autoch-pattern bolter"
           ],
           "Options": [
-           "HYLas auto rifle",
-           "HYLas rotary cannon",
-           "L7 missile launcher",
-           "Magna-rail rifle"
+           "Plasma knife"
           ]
          }
         ]
@@ -1736,16 +1731,7 @@
          "bolt shotgun",
          "close combat weapon"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "bolt shotgun"
-          ],
-          "Options": [
-           "bolt revolver and plasma knife"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -1767,7 +1753,25 @@
            "bolt shotgun"
           ],
           "Options": [
-           "bolt revolver and plasma knife"
+           "Bolt revolver and Plasma knife"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "bolt shotgun"
+          ],
+          "Options": [
+           "Magna-coil rifle"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "bolt shotgun"
+          ],
+          "Options": [
+           "APM launcher"
           ]
          }
         ]
@@ -1905,10 +1909,11 @@
         "Options": [
          {
           "Replaces": [
+           "heavy volkanite disintegrator",
            "plasma knife"
           ],
           "Options": [
-           "autoch-pattern bolter and plasma sword"
+           "Autoch-pattern bolter and Plasma sword"
           ]
          }
         ]

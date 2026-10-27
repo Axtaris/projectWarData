@@ -1660,16 +1660,7 @@
          "autopistol",
          "leader’s cult weapons"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "autopistol"
-          ],
-          "Options": [
-           "Hand flamer"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -3127,7 +3118,7 @@
            "sanctus bio-dagger"
           ],
           "Options": [
-           "cult sniper rifle and close combat weapon"
+           "Cult sniper rifle and Close combat weapon"
           ]
          }
         ]

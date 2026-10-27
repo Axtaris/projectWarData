@@ -190,12 +190,12 @@
          {
           "Options": [
            "Brazier of holy fire",
-           "Null rod"
+           "null rod"
           ]
          },
          {
           "Options": [
-           "Rod of office"
+           "rod of office"
           ]
          }
         ]
@@ -1162,6 +1162,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "boltgun"
+          ],
           "Options": [
            "Bolt pistol",
            "Combi-weapon",
@@ -1197,6 +1200,9 @@
         "Options": [
          {
           "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
           "Options": [
            "Artificer-crafted storm bolter",
            "Meltagun",
@@ -1205,13 +1211,22 @@
          },
          {
           "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
           "Options": [
+           "Artificer-crafted storm bolter",
            "Heavy bolter",
-           "Ministorum heavy flamer",
-           "Multi-melta",
            "Meltagun",
            "Ministorum flamer",
-           "Artificer-crafted storm bolter"
+           "Ministorum heavy flamer",
+           "Multi-melta"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "simulacrum imperialis"
           ]
          }
         ]
@@ -1486,8 +1501,8 @@
            "boltgun"
           ],
           "Options": [
-           "plasma pistol and power weapon",
-           "bolt pistol and power weapon"
+           "Bolt pistol and Power weapon",
+           "plasma pistol and Power weapon"
           ]
          }
         ]
@@ -2181,7 +2196,7 @@
            "zealot’s vindictor"
           ],
           "Options": [
-           "holy pistol and power weapon"
+           "Holy pistol and Power weapon"
           ]
          }
         ]
@@ -2340,18 +2355,20 @@
         "Options": [
          {
           "Replaces": [
-           "hallowed mace"
+           "bolt pistol"
           ],
-          "Options": [
-           "Spear of the faithful",
-           "Anointed halberd"
-          ]
-         },
-         {
           "Options": [
            "Inferno pistol",
            "Ministorum hand flamer",
            "plasma pistol"
+          ]
+         },
+         {
+          "Replaces": [
+           "hallowed mace"
+          ],
+          "Options": [
+           "Spear of the faithful"
           ]
          }
         ]
@@ -2798,33 +2815,7 @@
          "paragon storm bolters",
          "paragon war blade"
         ],
-        "Options": [
-         {
-          "Replaces": [
-           "paragon storm bolters"
-          ],
-          "Options": [
-           "Paragon grenade launchers"
-          ]
-         },
-         {
-          "Replaces": [
-           "heavy bolter"
-          ],
-          "Options": [
-           "Ministorum heavy flamer",
-           "Multi-melta"
-          ]
-         },
-         {
-          "Replaces": [
-           "paragon war blade"
-          ],
-          "Options": [
-           "Paragon war mace"
-          ]
-         }
-        ]
+        "Options": []
        }
       ]
      },
@@ -2853,19 +2844,19 @@
          },
          {
           "Replaces": [
-           "heavy bolter"
-          ],
-          "Options": [
-           "Ministorum heavy flamer",
-           "Multi-melta"
-          ]
-         },
-         {
-          "Replaces": [
            "paragon war blade"
           ],
           "Options": [
            "Paragon war mace"
+          ]
+         },
+         {
+          "Replaces": [
+           "heavy bolter"
+          ],
+          "Options": [
+           "Ministorum heavy flamer",
+           "multi-melta"
           ]
          }
         ]
@@ -3222,8 +3213,14 @@
           ],
           "Options": [
            "Artificer-crafted storm bolter",
-           "Meltagun",
+           "meltagun",
            "Ministorum flamer"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "simulacrum imperialis"
           ]
          }
         ]
@@ -3480,11 +3477,11 @@
            "2 bolt pistols"
           ],
           "Options": [
-           "bolt pistol and chainsword",
-           "bolt pistol and plasma pistol",
-           "bolt pistol and power weapon",
-           "plasma pistol and chainsword",
-           "plasma pistol and power weapon"
+           "Bolt pistol and Chainsword",
+           "Bolt pistol and plasma pistol",
+           "Bolt pistol and Power weapon",
+           "plasma pistol and Chainsword",
+           "plasma pistol and Power weapon"
           ]
          }
         ]
@@ -3505,8 +3502,8 @@
         ],
         "Options": [
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "2 bolt pistols"
           ],
@@ -3693,6 +3690,9 @@
           ]
          },
          {
+          "Replaces": [
+           "bolt pistol"
+          ],
           "Options": [
            "plasma pistol"
           ]
@@ -3860,6 +3860,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "boltgun"
+          ],
           "Options": [
            "Bolt pistol",
            "Combi-weapon",
@@ -3894,9 +3897,12 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "heavy bolter"
+          ],
           "Options": [
            "Ministorum heavy flamer",
-           "Multi-melta"
+           "multi-melta"
           ]
          }
         ]
@@ -4141,7 +4147,7 @@
            "2 heavy bolters"
           ],
           "Options": [
-           "heavy bolter and Mortifier flamer",
+           "Heavy bolter and Mortifier flamer",
            "2 Mortifier flamers"
           ]
          },
@@ -4150,8 +4156,8 @@
            "twin penitent buzz-blades"
           ],
           "Options": [
-           "twin penitent flails",
-           "penitent buzz-blade and penitent flail"
+           "Twin penitent flails",
+           "Penitent buzz-blade and Penitent flail"
           ]
          }
         ]
@@ -4326,8 +4332,8 @@
            "twin penitent buzz-blades"
           ],
           "Options": [
-           "penitent buzz-blade and penitent flail",
-           "twin penitent flails"
+           "Penitent buzz-blade and Penitent flail",
+           "Twin penitent flails"
           ]
          }
         ]
@@ -4465,16 +4471,16 @@
         ],
         "Options": [
          {
+          "Options": [
+           "Hunter-killer missile"
+          ]
+         },
+         {
           "Replaces": [
            "exorcist missile launcher"
           ],
           "Options": [
            "Exorcist conflagration rockets"
-          ]
-         },
-         {
-          "Options": [
-           "Hunter-killer missile"
           ]
          }
         ]
@@ -4792,7 +4798,7 @@
         "Options": [
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]
@@ -4922,17 +4928,17 @@
         ],
         "Options": [
          {
+          "Options": [
+           "Hunter-killer missile"
+          ]
+         },
+         {
           "Replaces": [
            "immolation flamers"
           ],
           "Options": [
-           "twin heavy bolter",
+           "Twin heavy bolter",
            "twin multi-melta"
-          ]
-         },
-         {
-          "Options": [
-           "hunter-killer missile"
           ]
          }
         ]
@@ -5186,8 +5192,8 @@
            "blessed halberd"
           ],
           "Options": [
-           "holy eviscerator",
-           "Ministorum hand flamer and power weapon"
+           "Holy eviscerator",
+           "Ministorum hand flamer and Power weapon"
           ]
          }
         ]
@@ -5684,6 +5690,12 @@
           ],
           "Options": [
            "denuncia oratory"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "simulacrum imperialis"
           ]
          }
         ]

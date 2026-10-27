@@ -16,17 +16,20 @@
         "Options": [
          {
           "Options": [
-           "4 big shootas"
+           "Wreckin’ Ball"
+          ]
+         },
+         {
+          "Options": [
+           "Big Shoota",
+           "2 Big Shootas",
+           "3 Big Shootas",
+           "4 Big Shootas"
           ]
          },
          {
           "Options": [
            "Grabbin’ Klaw"
-          ]
-         },
-         {
-          "Options": [
-           "Wreckin’ Ball"
           ]
          }
         ]
@@ -607,19 +610,17 @@
         "Options": [
          {
           "Options": [
-           "Killsaw",
-           "kombi-weapon",
-           "kustom shoota"
-          ]
-         },
-         {
-          "Options": [
            "Tellyport Blasta",
            "kustom force field"
           ]
          },
          {
+          "Replaces": [
+           "kustom shoota"
+          ],
           "Options": [
+           "Killsaw",
+           "Kombi-weapon",
            "Kustom Mega-blasta"
           ]
          }
@@ -833,18 +834,18 @@
         "Options": [
          {
           "Replaces": [
-           "kustom mega-blasta"
-          ],
-          "Options": [
-           "Traktor Blasta"
-          ]
-         },
-         {
-          "Replaces": [
            "power klaw"
           ],
           "Options": [
            "Drilla"
+          ]
+         },
+         {
+          "Replaces": [
+           "kustom mega-blasta"
+          ],
+          "Options": [
+           "Traktor Blasta"
           ]
          }
         ]
@@ -1109,8 +1110,8 @@
          {
           "Options": [
            "Big Shoota",
-           "2 big shootas",
-           "3 big shootas"
+           "2 Big Shootas",
+           "3 Big Shootas"
           ]
          }
         ]
@@ -1743,8 +1744,8 @@
            "big shoota"
           ],
           "Options": [
-           "kustom mega-blasta",
-           "rokkit launcha"
+           "Kustom mega-blasta",
+           "Rokkit launcha"
           ]
          }
         ]
@@ -2026,7 +2027,6 @@
         "Options": [
          {
           "Options": [
-           "Armoured Impact",
            "Dual Supa-shoota"
           ]
          }
@@ -2139,40 +2139,20 @@
            "big shoota"
           ],
           "Options": [
+           "Extra Klaw",
            "Kustom Mega-blasta",
-           "Rokkit launcha",
-           "Skorcha"
+           "Rokkit Launcha"
           ]
          },
          {
           "Replaces": [
-           "big shoota"
+           "skorcha"
           ],
           "Options": [
-           "Kustom Mega-blasta",
-           "Rokkit launcha",
-           "Skorcha"
-          ]
-         },
-         {
-          "Options": [
+           "Extra Klaw",
            "Big Shoota",
            "Kustom Mega-blasta",
-           "Rokkit launcha",
-           "Skorcha"
-          ]
-         },
-         {
-          "Options": [
-           "Big Shoota",
-           "Kustom Mega-blasta",
-           "Rokkit launcha",
-           "Skorcha"
-          ]
-         },
-         {
-          "Options": [
-           "Extra Klaw"
+           "Rokkit Launcha"
           ]
          }
         ]
@@ -2477,8 +2457,11 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 3,
+          "Max": 1,
+          "Replaces": [
+           "rokkit launcha"
+          ],
           "Options": [
            "Kustom Mega-blasta"
           ]
@@ -3680,7 +3663,35 @@
          "slugga",
          "choppa"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "Burna"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "Rokkit Launcha"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "choppa"
+          ],
+          "Options": [
+           "Breacha Ram"
+          ]
+         },
+         {
+          "Max": 2,
+          "Options": [
+           "Kustom Shoota"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -3887,8 +3898,8 @@
            "big shoota"
           ],
           "Options": [
-           "kustom mega-blasta",
-           "rokkit launcha"
+           "Kustom mega-blasta",
+           "Rokkit launcha"
           ]
          }
         ]
@@ -4048,12 +4059,27 @@
         "Options": [
          {
           "Replaces": [
+           "power klaw"
+          ],
+          "Options": [
+           "Killsaw"
+          ]
+         },
+         {
+          "Replaces": [
+           "kustom shoota"
+          ],
+          "Options": [
+           "Kombi-weapon"
+          ]
+         },
+         {
+          "Replaces": [
            "kustom shoota",
            "power klaw"
           ],
           "Options": [
-           "kombi-weapon and killsaw",
-           "Twin killsaw"
+           "twin killsaw"
           ]
          }
         ]
@@ -5725,6 +5751,10 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "choppa",
+           "kustom choppa"
+          ],
           "Options": [
            "Power Klaw"
           ]
@@ -5876,17 +5906,17 @@
         ],
         "Options": [
          {
-          "Options": [
-           "Grabbin’ Klaw",
-           "Buzzsaw"
-          ]
-         },
-         {
           "Replaces": [
            "dual big shoota"
           ],
           "Options": [
            "Rokkit Launcha"
+          ]
+         },
+         {
+          "Options": [
+           "Buzzsaw",
+           "Grabbin’ Klaw"
           ]
          }
         ]
@@ -6201,14 +6231,20 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "kustom choppa"
+          ],
           "Options": [
            "Power Klaw"
           ]
          },
          {
+          "Replaces": [
+           "kustom shoota"
+          ],
           "Options": [
-           "Kombi-skorcha",
-           "Kombi-rokkit"
+           "Kombi-rokkit",
+           "Kombi-skorcha"
           ]
          }
         ]
@@ -6495,6 +6531,14 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "dual wazbom mega-kannon"
+          ],
+          "Options": [
+           "Dual Tellyport Mega-blasta"
+          ]
+         },
+         {
           "Options": [
            "blastajet force field"
           ]
@@ -6502,14 +6546,6 @@
          {
           "Options": [
            "Dual Supa-shoota"
-          ]
-         },
-         {
-          "Replaces": [
-           "dual wazbom mega-kannon"
-          ],
-          "Options": [
-           "Dual Tellyport Mega-blasta"
           ]
          }
         ]
@@ -7226,7 +7262,7 @@
            "rokkit pistol"
           ],
           "Options": [
-           "smash hammer"
+           "Smash Hammer"
           ]
          }
         ]
@@ -7246,6 +7282,7 @@
          {
           "Max": 1,
           "Options": [
+           "Busta Rokkit Launcha",
            "pulsa rokkit"
           ]
          }
@@ -8476,9 +8513,11 @@
          },
          {
           "Options": [
-           "Big Shoota"
-          ],
-          "Max": 4
+           "Big Shoota",
+           "2 Big Shootas",
+           "3 Big Shootas",
+           "4 Big Shootas"
+          ]
          },
          {
           "Replaces": [
@@ -8486,7 +8525,7 @@
           ],
           "Options": [
            "Killkannon",
-           "Zzap Gun"
+           "zzap gun"
           ]
          }
         ]
