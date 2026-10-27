@@ -12481,12 +12481,12 @@
    "Points": [
     {
      "UnitCount": 2,
-     "ModelCount": 5,
+     "ModelCount": 6,
      "Cost": 160
     },
     {
      "UnitCount": 3,
-     "ModelCount": 5,
+     "ModelCount": 6,
      "Cost": 175
     }
    ]
@@ -12516,7 +12516,7 @@
      },
      {
       "Limit": {
-       "Min": 5,
+       "Min": 9,
        "Max": 19
       },
       "ModelName": "Khorne Berzerker",
@@ -12531,7 +12531,7 @@
      },
      {
       "Limit": {
-       "Min": 4,
+       "Min": 0,
        "Max": 4
       },
       "ModelName": "Berzerker w/ chainblade and plasma pistol",
@@ -12546,7 +12546,7 @@
      },
      {
       "Limit": {
-       "Min": 4,
+       "Min": 0,
        "Max": 4
       },
       "ModelName": "Berzerker w/ eviscerator and plasma pistol",
@@ -12561,7 +12561,7 @@
      },
      {
       "Limit": {
-       "Min": 4,
+       "Min": 0,
        "Max": 4
       },
       "ModelName": "Berzerker w/ eviscerator and bolt pistol",
@@ -12706,7 +12706,7 @@
      "Cost": 170
     },
     {
-     "ModelCount": 19,
+     "ModelCount": 20,
      "Cost": 330
     }
    ]
@@ -12740,7 +12740,7 @@
      },
      {
       "Limit": {
-       "Min": 9,
+       "Min": 3,
        "Max": 9
       },
       "ModelName": "Rubric Marine w/ inferno boltgun",
@@ -12756,8 +12756,8 @@
      },
      {
       "Limit": {
-       "Min": 9,
-       "Max": 9
+       "Min": 0,
+       "Max": 8
       },
       "ModelName": "Rubric Marine w/ warpflamer",
       "Wargear": [
@@ -12952,7 +12952,7 @@
     },
     {
      "UnitCount": 3,
-     "ModelCount": 9,
+     "ModelCount": 10,
      "Cost": 210
     },
     {
@@ -12962,7 +12962,7 @@
     },
     {
      "UnitCount": 4,
-     "ModelCount": 9,
+     "ModelCount": 10,
      "Cost": 220
     }
    ]
@@ -13001,7 +13001,7 @@
      },
      {
       "Limit": {
-       "Min": 4,
+       "Min": 0,
        "Max": 4
       },
       "ModelName": "Plague Marine w/ bubotic weapons",
@@ -13016,7 +13016,7 @@
      },
      {
       "Limit": {
-       "Min": 4,
+       "Min": 0,
        "Max": 4
       },
       "ModelName": "Plague Marine w/ heavy plague weapon",
@@ -13031,7 +13031,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Plague Marine w/ blight launcher",
@@ -13047,7 +13047,7 @@
      },
      {
       "Limit": {
-       "Min": 9,
+       "Min": 3,
        "Max": 9
       },
       "ModelName": "Plague Marine w/ boltgun",
@@ -13062,7 +13062,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Plague Marine w/ plague spewer",
@@ -13089,7 +13089,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Plague Marine w/ meltagun",
@@ -13104,7 +13104,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Plague Marine w/ plague belcher",
@@ -13120,7 +13120,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Plague Marine w/ plasma gun",
@@ -13344,7 +13344,7 @@
      "Cost": 125
     },
     {
-     "ModelCount": 9,
+     "ModelCount": 10,
      "Cost": 175
     }
    ]

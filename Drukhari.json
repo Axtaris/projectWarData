@@ -4136,7 +4136,7 @@
      },
      {
       "Limit": {
-       "Min": 9,
+       "Min": 3,
        "Max": 9
       },
       "ModelName": "Voidreaver with Shuriken rifle",
@@ -4152,8 +4152,8 @@
      },
      {
       "Limit": {
-       "Min": 9,
-       "Max": 9
+       "Min": 0,
+       "Max": 8
       },
       "ModelName": "Voidreaver with sword and pistol",
       "Wargear": [
@@ -4169,7 +4169,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Voidreaver with Blaster",
@@ -4186,7 +4186,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 0,
        "Max": 2
       },
       "ModelName": "Voidreaver with Shredder",
@@ -4392,7 +4392,7 @@
      "Cost": 65
     },
     {
-     "ModelCount": 9,
+     "ModelCount": 10,
      "Cost": 110
     }
    ]
@@ -4402,153 +4402,6 @@
    "Faction": null,
    "UnitComposition": {
     "ModelCompositions": [
-     {
-      "ModelName": "Shade Runner",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "paired hekatarii blades",
-         "close combat weapon",
-         "shuriken pistol"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "ModelName": "Soul Weaver",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "power sword",
-         "close combat weapon",
-         "shuriken pistol"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "ModelName": "Way Seeker",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "executioner",
-         "witch staff",
-         "close combat weapon",
-         "shuriken pistol"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "Limit": {
-       "Min": 9,
-       "Max": 9
-      },
-      "ModelName": "Voidscarred w/ pistol and sword",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "power sword",
-         "close combat weapon",
-         "shuriken pistol"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "Limit": {
-       "Min": 9,
-       "Max": 9
-      },
-      "ModelName": "Voidscarred w/ rifle",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "shuriken rifle",
-         "close combat weapon"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "ModelName": "Voidscarred with Faolchú",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "power sword",
-         "close combat weapon",
-         "shuriken pistol"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "ModelName": "Voidscarred with fusion pistol",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "fusion pistol",
-         "close combat weapon",
-         "shuriken pistol"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "ModelName": "Voidscarred with heavy weapon",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "close combat weapon"
-        ],
-        "Options": [
-         {
-          "Options": [
-           "Shuriken cannon",
-           "Wraithcannon"
-          ]
-         }
-        ]
-       }
-      ]
-     },
-     {
-      "ModelName": "Voidscarred with ranger long rifle",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "long rifle",
-         "close combat weapon"
-        ],
-        "Options": []
-       }
-      ]
-     },
-     {
-      "ModelName": "Voidscarred with special weapon",
-      "Wargear": [
-       {
-        "InitalWargear": [
-         "close combat weapon"
-        ],
-        "Options": [
-         {
-          "Options": [
-           "Corsair shredder",
-           "Corsair blaster"
-          ]
-         }
-        ]
-       }
-      ]
-     },
      {
       "ModelName": "Voidscarred Felarch",
       "Wargear": [
@@ -4567,13 +4420,173 @@
            "Neuro disruptor",
            "Shuriken rifle"
           ]
+         },
+         {
+          "Options": [
+           "mistshield"
+          ]
          }
         ]
+       }
+      ]
+     },
+     {
+      "Limit": {
+       "Min": 4,
+       "Max": 9
+      },
+      "ModelName": "Corsair Voidscarred",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "shuriken pistol",
+         "power sword",
+         "close combat weapon"
+        ],
+        "Options": [
+         {
+          "Replaces": [
+           "shuriken pistol",
+           "power sword"
+          ],
+          "Options": [
+           "Shuriken rifle"
+          ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 10,
+          "Replaces": [
+           "shuriken pistol",
+           "power sword"
+          ],
+          "Options": [
+           "Shuriken cannon",
+           "Wraithcannon"
+          ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 5,
+          "Replaces": [
+           "shuriken pistol",
+           "power sword"
+          ],
+          "Options": [
+           "Blaster",
+           "Shredder"
+          ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 10,
+          "Replaces": [
+           "shuriken pistol",
+           "power sword"
+          ],
+          "Options": [
+           "Long rifle"
+          ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 10,
+          "Replaces": [
+           "power sword"
+          ],
+          "Options": [
+           "Fusion pistol"
+          ]
+         }
+        ]
+       }
+      ]
+     },
+     {
+      "Limit": {
+       "Max": 1
+      },
+      "ModelName": "Shade Runner",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "shuriken pistol",
+         "close combat weapon",
+         "paired hekatarii blades"
+        ],
+        "Options": []
+       }
+      ]
+     },
+     {
+      "Limit": {
+       "Max": 1
+      },
+      "ModelName": "Soul Weaver",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "shuriken pistol",
+         "power sword",
+         "close combat weapon",
+         "channeller stones"
+        ],
+        "Options": []
+       }
+      ]
+     },
+     {
+      "Limit": {
+       "Max": 1
+      },
+      "ModelName": "Way Seeker",
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "shuriken pistol",
+         "executioner",
+         "close combat weapon",
+         "witch staff"
+        ],
+        "Options": []
        }
       ]
      }
     ],
     "WargearDefinitions": [
+     {
+      "Key": "channeller stones",
+      "GrantsAbilities": [
+       "Channeller Stones"
+      ]
+     },
+     {
+      "Key": "Faolchú",
+      "GrantsAbilities": [
+       "Faolchú"
+      ],
+      "WeaponAdjustments": [
+       {
+        "Value": "IGNORES COVER",
+        "Type": "Add",
+        "Target": "Keywords",
+        "WeaponScope": "Ranged"
+       }
+      ]
+     },
+     {
+      "Key": "mistshield",
+      "GrantsAbilities": [
+       "Mistshield"
+      ],
+      "StatAdjustments": [
+       {
+        "Target": "InvulSave",
+        "Value": "4+",
+        "Info": "Mistshield only"
+       }
+      ]
+     },
      {
       "Key": "channeler stones",
       "GrantsAbilities": [
@@ -4584,12 +4597,6 @@
       "Key": "faolchú",
       "GrantsAbilities": [
        "Faolchú"
-      ]
-     },
-     {
-      "Key": "mistshield",
-      "GrantsAbilities": [
-       "Mistshield"
       ]
      }
     ]
@@ -4809,7 +4816,7 @@
      "Cost": 70
     },
     {
-     "ModelCount": 9,
+     "ModelCount": 10,
      "Cost": 140
     }
    ]
@@ -5580,7 +5587,7 @@
     "ModelCompositions": [
      {
       "Limit": {
-       "Min": 11,
+       "Min": 8,
        "Max": 11
       },
       "ModelName": "Player with Harlequin’s Blade",
@@ -5595,8 +5602,8 @@
      },
      {
       "Limit": {
-       "Min": 11,
-       "Max": 11
+       "Min": 0,
+       "Max": 8
       },
       "ModelName": "Player with Harlequin’s Special Weapon",
       "Wargear": [
@@ -6002,7 +6009,7 @@
      },
      {
       "Limit": {
-       "Min": 9,
+       "Min": 0,
        "Max": 9
       },
       "ModelName": "Skyreaver w/ pistol and blade",
@@ -6222,7 +6229,7 @@
      "Cost": 75
     },
     {
-     "ModelCount": 9,
+     "ModelCount": 10,
      "Cost": 140
     }
    ]

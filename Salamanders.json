@@ -13389,7 +13389,7 @@
      },
      {
       "Limit": {
-       "Min": 2,
+       "Min": 1,
        "Max": 5
       },
       "ModelName": "Eradicator",

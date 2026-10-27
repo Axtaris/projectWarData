@@ -2209,7 +2209,7 @@
     "ModelCompositions": [
      {
       "Limit": {
-       "Min": 10,
+       "Min": 9,
        "Max": 10
       },
       "ModelName": "Blue Horrors",
@@ -2352,7 +2352,7 @@
     "ModelCompositions": [
      {
       "Limit": {
-       "Min": 10,
+       "Min": 8,
        "Max": 10
       },
       "ModelName": "Pink Horrors",
