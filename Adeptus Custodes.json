@@ -4789,12 +4789,14 @@
     {
      "Name": "Anti-gravitic Mobility (Upgrade)",
      "Cost": 15,
-     "Description": "grav-assault unit only. When this unit makes a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot."
+     "Description": "grav-assault unit only. When this unit makes a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot.",
+     "Features": "Upgrade"
     },
     {
      "Name": "Combat Deployment (Upgrade)",
      "Cost": 20,
-     "Description": "grav-assault Transport model only. When a friendly Adeptus Custodes unit is selected to make a disembark move from this unit, until the end of the turn:\nThat unit can re-roll charge rolls. Enemy units cannot target that unit with snap shooting attacks."
+     "Description": "grav-assault Transport model only. When a friendly Adeptus Custodes unit is selected to make a disembark move from this unit, until the end of the turn:\nThat unit can re-roll charge rolls. Enemy units cannot target that unit with snap shooting attacks.",
+     "Features": "Upgrade"
     }
    ]
   },
@@ -4937,7 +4939,8 @@
     {
      "Name": "Celeritous Sentries (Upgrade)",
      "Cost": 15,
-     "Description": "Trusted Sentinel unit only. (Once per phase, per unit) You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\nThat use is -1 CP. That use does not prevent any uses of that stratagem on other units this phase."
+     "Description": "Trusted Sentinel unit only. (Once per phase, per unit) You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\nThat use is -1 CP. That use does not prevent any uses of that stratagem on other units this phase.",
+     "Features": "Upgrade"
     }
    ]
   },
@@ -5254,7 +5257,8 @@
     {
      "Name": "Auric Eagle (Upgrade)",
      "Cost": 15,
-     "Description": "Adeptus Custodes Infantry/Mounted unit only (excluding Terminator units). This unit has +1 to advance rolls and charge rolls."
+     "Description": "Adeptus Custodes Infantry/Mounted unit only (excluding Terminator units). This unit has +1 to advance rolls and charge rolls.",
+     "Features": "Upgrade"
     },
     {
      "Name": "Sally Forth",

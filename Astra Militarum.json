@@ -14386,7 +14386,8 @@
     {
      "Name": "Sharp Eyes (Upgrade)",
      "Cost": 10,
-     "Description": "RATLINGS unit only. When this unit is selected to shoot, enemy units have +6\" detection range until this unit has shot."
+     "Description": "RATLINGS unit only. When this unit is selected to shoot, enemy units have +6\" detection range until this unit has shot.",
+     "Features": "Upgrade"
     }
    ],
    "Effects": [

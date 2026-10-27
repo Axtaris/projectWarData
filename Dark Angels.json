@@ -16066,7 +16066,8 @@
     {
      "Name": "Furious Assault (Upgrade)",
      "Cost": 10,
-     "Description": "Adeptus Astartes Infantry unit only. This unit’s melee attacks have [Sustained Hits 1: non-Monster/Vehicle]."
+     "Description": "Adeptus Astartes Infantry unit only. This unit’s melee attacks have [Sustained Hits 1: non-Monster/Vehicle].",
+     "Features": "Upgrade"
     },
     {
      "Name": "Imperium’s Sword",
@@ -16530,7 +16531,8 @@
     {
      "Name": "Immovable Conquerors (Upgrade)",
      "Cost": 15,
-     "Description": "Gravis unit only. This unit has +1 OC."
+     "Description": "Gravis unit only. This unit has +1 OC.",
+     "Features": "Upgrade"
     },
     {
      "Name": "Narthecis Gauntlet",
@@ -16657,7 +16659,8 @@
     {
      "Name": "Artificer Sarcophagus (Upgrade)",
      "Cost": 40,
-     "Description": "Dreadnought unit only. Attacks that target this unit have -1 D."
+     "Description": "Dreadnought unit only. Attacks that target this unit have -1 D.",
+     "Features": "Upgrade"
     },
     {
      "Name": "Venerable Champion (Aura) (Upgrade)",
@@ -16710,12 +16713,14 @@
     {
      "Name": "Gunnery Honours (Upgrade)",
      "Cost": 15,
-     "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit’s ranged attacks have [Heavy]."
+     "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit’s ranged attacks have [Heavy].",
+     "Features": "Upgrade"
     },
     {
      "Name": "Redoubtable Machine Spirit (Upgrade)",
      "Cost": 25,
-     "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\nHas 5+ InSv. At the end of your Command phase, heals 1 wound."
+     "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\nHas 5+ InSv. At the end of your Command phase, heals 1 wound.",
+     "Features": "Upgrade"
     }
    ],
    "Effects": []
@@ -16868,12 +16873,14 @@
     {
      "Name": "Auspex Triangulation Shrines (Upgrade)",
      "Cost": 10,
-     "Description": "Adeptus Astartes speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\nWhile a unit is spotted, that unit has +3\" detection range."
+     "Description": "Adeptus Astartes speeder unit only. At the start of your Shooting phase, select one visible enemy unit within 12\" of this unit. That enemy unit is spotted:\nWhile a unit is spotted, that unit has +3\" detection range.",
+     "Features": "Upgrade"
     },
     {
      "Name": "Supercharged Engines (Upgrade)",
      "Cost": 10,
-     "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls."
+     "Description": "Adeptus Astartes Mounted unit only. This unit can re-roll advance rolls.",
+     "Features": "Upgrade"
     }
    ],
    "Effects": []
