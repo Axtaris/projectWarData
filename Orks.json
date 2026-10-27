@@ -8207,7 +8207,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "- MEGANOBZ"
+     "MEGANOBZ"
     ],
     "Abilities": []
    },
@@ -8342,7 +8342,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "- GRETCHIN"
+     "GRETCHIN"
     ],
     "Abilities": [],
     "LeaderType": "Support"
@@ -8673,7 +8673,7 @@
     {
      "Name": "Targetin’ Gizmos (Upgrade)",
      "Cost": 25,
-     "Description": "Wagon unit only. While a Big Mek model is embarked within this unit:\nThis unit’s ranged attacks have [Ignores Cover].If this unit is riled up, this unit’s ranged attacks have [Sustained Hits 1]."
+     "Description": "Wagon unit only. While a Big Mek model is embarked within this unit:\nThis unit’s ranged attacks have [Ignores Cover]. If this unit is riled up, this unit’s ranged attacks have [Sustained Hits 1]."
     }
    ],
    "Effects": []
@@ -8693,7 +8693,7 @@
     {
      "Name": "Blitzboss",
      "Cost": 20,
-     "Description": "Warboss model only. A transport unit (excluding Walker units) this unit is embarked within has:\n+2\" M.5+ InSv."
+     "Description": "Warboss model only. A transport unit (excluding Walker units) this unit is embarked within has:\n+2\" M. 5+ InSv."
     },
     {
      "Name": "Brutal But Kunnin’",
@@ -8708,7 +8708,7 @@
     {
      "Name": "Morgog’s Finkin’ Cap",
      "Cost": 50,
-     "Description": "Warboss model only. (Once per battle, per army) At the end of your opponent’s Movement phase, if this unit is unengaged, this unit can make a normal move of:\nUp to D6\".If this unit is riled up, you can re-roll that D6."
+     "Description": "Warboss model only. (Once per battle, per army) At the end of your opponent’s Movement phase, if this unit is unengaged, this unit can make a normal move of:\nUp to D6\". If this unit is riled up, you can re-roll that D6."
     },
     {
      "Name": "Proper Killy",
@@ -8759,7 +8759,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly Meganobz/Nobz unit is selected to attack.",
      "Target": "That Meganobz/Nobz unit.",
-     "Effect": "Your unit’s attacks can:\nRe-roll hit rolls of 1.If your unit is riled up, re-roll hit rolls."
+     "Effect": "Your unit’s attacks can:\nRe-roll hit rolls of 1. If your unit is riled up, re-roll hit rolls."
     }
    ],
    "Enhancements": [
@@ -8771,7 +8771,7 @@
     {
      "Name": "Wimp-kickaz (Upgrade)",
      "Cost": 15,
-     "Description": "Nobz unit only. When an enemy unit engaged with this unit is selected to make a fall-back move:\nThat enemy unit must select the desperate escape mode.If this unit is riled up, that enemy unit has -1 to the hazard rolls made for that desperate escape."
+     "Description": "Nobz unit only. When an enemy unit engaged with this unit is selected to make a fall-back move:\nThat enemy unit must select the desperate escape mode. If this unit is riled up, that enemy unit has -1 to the hazard rolls made for that desperate escape."
     }
    ],
    "Effects": []
@@ -8920,7 +8920,7 @@
      "Phase": "any",
      "When": "Any phase, when a friendly Orks Aircraft unit is destroyed, before rolling for any Deadly Demise.",
      "Target": "That Orks unit.",
-     "Effect": "Your unit does not have the Deadly Demise ability. Select one enemy unit within 12\" of your unit and roll eight D6:\nFor each 4+, that enemy unit suffers 1 mortal wound.Then remove your unit from the battlefield."
+     "Effect": "Your unit does not have the Deadly Demise ability. Select one enemy unit within 12\" of your unit and roll eight D6:\nFor each 4+, that enemy unit suffers 1 mortal wound. Then remove your unit from the battlefield."
     },
     {
      "Name": "Long, Uncontrolled Bursts",
@@ -8938,7 +8938,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Movement phase, when an enemy unit ends a move.",
      "Target": "One friendly unengaged Deffkoptas unit within 8\" of that enemy unit.",
-     "Effect": "Your unit can make a normal move of:\nUp to D6\".Or: If your unit is riled up, up to 6\"."
+     "Effect": "Your unit can make a normal move of:\nUp to D6\". Or: If your unit is riled up, up to 6\"."
     }
    ],
    "Rule": {
@@ -8949,7 +8949,7 @@
     {
      "Name": "Flyboss (Upgrade)",
      "Cost": 20,
-     "Description": "Orks Aircraft unit only.\nThis unit has Character.When this unit ends an ingress move, each friendly Orks Aircraft/Deffkoptas unit within 6\" of this unit is riled up until the start of your next turn."
+     "Description": "Orks Aircraft unit only.\nThis unit has Character. When this unit ends an ingress move, each friendly Orks Aircraft/Deffkoptas unit within 6\" of this unit is riled up until the start of your next turn."
     },
     {
      "Name": "Impulsive Recon (Upgrade)",
@@ -9006,7 +9006,7 @@
     },
     {
      "Name": "Ferocious Show Off",
-     "Description": "Orks Infantry model only. This model’s melee attacks have:\n+1 A.Or: If this unit has 11+ models, +2 A.",
+     "Description": "Orks Infantry model only. This model’s melee attacks have:\n+1 A. Or: If this unit has 11+ models, +2 A.",
      "Cost": 15,
      "WeaponStatAdjustments": [
       {
@@ -9095,7 +9095,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Mek Gunz unit is selected to shoot.",
      "Target": "That Mek Gunz unit.",
-     "Effect": "Your unit’s ranged attacks have:\n[Lethal Hits].Or: [Sustained Hits 1].Or: [Hazardous], [Lethal Hits], [Sustained Hits 1]."
+     "Effect": "Your unit’s ranged attacks have:\n[Lethal Hits]. Or: [Sustained Hits 1]. Or: [Hazardous], [Lethal Hits], [Sustained Hits 1]."
     }
    ],
    "Rule": {
@@ -9116,7 +9116,7 @@
     {
      "Name": "Temperamental Shokka (Upgrade)",
      "Cost": 20,
-     "Description": "Big Mek with Shokk Attack Gun model only. In your Shooting phase, when this unit is selected to shoot, you can roll one D6:\nOn a 1, this model’s Shokk Attack Gun weapon has [Torrent], and when this unit has shot, this model is destroyed.On a 2-5, this model’s Shokk Attack Gun weapon has +1 A.On a 6, this model’s Shokk Attack Gun weapon has [Sustained Hits 2]."
+     "Description": "Big Mek with Shokk Attack Gun model only. In your Shooting phase, when this unit is selected to shoot, you can roll one D6:\nOn a 1, this model’s Shokk Attack Gun weapon has [Torrent], and when this unit has shot, this model is destroyed. On a 2-5, this model’s Shokk Attack Gun weapon has +1 A. On a 6, this model’s Shokk Attack Gun weapon has [Sustained Hits 2]."
     }
    ]
   },
@@ -9143,7 +9143,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Gretchin unit.",
      "Target": "That Gretchin unit.",
-     "Effect": "Your unit can make a normal move of:\nUp to D6\".Or: Up to 6\" instead if your unit is an attached unit."
+     "Effect": "Your unit can make a normal move of:\nUp to D6\". Or: Up to 6\" instead if your unit is an attached unit."
     },
     {
      "Name": "Infested War Zone",
@@ -9215,7 +9215,7 @@
     {
      "Name": "Supa-glowy Fing",
      "Cost": 25,
-     "Description": "Orks Infantry model only (excluding Weirdboy models). This model’s ranged attacks have:\n[Anti-Infantry 4+].[Devastating Wounds].[supa-hazardous].\n[supa-hazardous]: Each time a unit is selected to shoot, after that unit has resolved all of its attacks, make two hazard rolls for that unit for each [supa-hazardous] weapon you selected in the Select Weapons step."
+     "Description": "Orks Infantry model only (excluding Weirdboy models). This model’s ranged attacks have:\n[Anti-Infantry 4+]. [Devastating Wounds]. [supa-hazardous].\n[supa-hazardous]: Each time a unit is selected to shoot, after that unit has resolved all of its attacks, make two hazard rolls for that unit for each [supa-hazardous] weapon you selected in the Select Weapons step."
     },
     {
      "Name": "Targetin' Squigs",
@@ -9267,7 +9267,7 @@
     {
      "Name": "Kill Kommanda",
      "Cost": 20,
-     "Description": "Big Mek/Warboss Infantry model only. While this model is part of an attached unit, this model has:\nInfiltrators.Stealth."
+     "Description": "Big Mek/Warboss Infantry model only. While this model is part of an attached unit, this model has:\nInfiltrators. Stealth."
     },
     {
      "Name": "Throat-slittas (Upgrade)",
@@ -9341,7 +9341,7 @@
      "Phase": "any",
      "When": "Any phase, when a friendly attached Orks Infantry unit becomes battle-shocked.",
      "Target": "That Orks Infantry unit. You can target that unit with this stratagem even though it is battle-shocked.",
-     "Effect": "Roll one D3:\nYour unit suffers a number of mortal wounds equal to the result.Your unit is no longer battle-shocked."
+     "Effect": "Roll one D3:\nYour unit suffers a number of mortal wounds equal to the result. Your unit is no longer battle-shocked."
     },
     {
      "Name": "Close-Range Dakka",
@@ -9350,7 +9350,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Orks unit is selected to shoot.",
      "Target": "That Orks unit.",
-     "Effect": "Your unit’s ranged attacks have:\n[Rapid Fire 1].Or: If that attack already has [rapid Fire], +1 to the value of that [rapid Fire] (e.g. [rapid Fire 1] becomes [rapid Fire 2])."
+     "Effect": "Your unit’s ranged attacks have:\n[Rapid Fire 1]. Or: If that attack already has [rapid Fire], +1 to the value of that [rapid Fire] (e.g. [rapid Fire 1] becomes [rapid Fire 2])."
     },
     {
      "Name": "Mow 'Em Down",
@@ -9359,7 +9359,7 @@
      "Phase": "any",
      "When": "Fight phase, when a friendly Orks Vehicle unit (excluding Walker units) that made a charge move this turn is selected to fight.",
      "Target": "That Orks Vehicle unit.",
-     "Effect": "Your unit’s melee attacks have:\n[Cleave 1].Or: If that attack already has [cleave], +1 to the value of that [cleave] (e.g. [cleave 1] becomes [cleave 2])."
+     "Effect": "Your unit’s melee attacks have:\n[Cleave 1]. Or: If that attack already has [cleave], +1 to the value of that [cleave] (e.g. [cleave 1] becomes [cleave 2])."
     },
     {
      "Name": "Orks Is Never Beaten",
@@ -9472,7 +9472,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly unengaged Breaka Boyz/Flash Gitz/Tankbustas unit has shot.",
      "Target": "That Breaka Boyz/Flash Gitz/Tankbustas unit.",
-     "Effect": "Your unit can make a normal move of up to 6\", and must end that move within range of an objective.Your unit is not eligible to declare a charge until the end of the turn."
+     "Effect": "Your unit can make a normal move of up to 6\", and must end that move within range of an objective. Your unit is not eligible to declare a charge until the end of the turn."
     },
     {
      "Name": "Drive-By Bustin'",
@@ -9526,7 +9526,7 @@
     {
      "Name": "Warphead",
      "Cost": 25,
-     "Description": "Orks Psyker model only. This model:\nHas psyker level 2.Has Deadly Demise D6.Can re-roll psychic rolls."
+     "Description": "Orks Psyker model only. This model:\nHas psyker level 2. Has Deadly Demise D6. Can re-roll psychic rolls."
     }
    ]
   }

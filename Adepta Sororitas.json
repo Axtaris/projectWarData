@@ -249,7 +249,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD",
      "SISTERS NOVITIATE SQUAD"
@@ -438,7 +437,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD",
      "SISTERS NOVITIATE SQUAD"
@@ -583,7 +581,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD",
      "SISTERS NOVITIATE SQUAD"
@@ -864,8 +861,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "BATTLE SISTERS SQUAD",
-     "CRUSADERS"
+     "BATTLE SISTERS SQUAD"
     ]
    },
    "Infos": [
@@ -1762,7 +1758,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD",
      "SISTERS NOVITIATE SQUAD"
@@ -1917,7 +1912,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD"
     ],
@@ -2056,7 +2050,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD",
      "SISTERS NOVITIATE SQUAD"
@@ -2191,7 +2184,6 @@
      "ARCO-FLAGELLANTS",
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "SANCTIFIERS",
      "SISTERS NOVITIATE SQUAD"
@@ -2546,7 +2538,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD",
      "SISTERS NOVITIATE SQUAD"
@@ -2671,7 +2662,6 @@
      "BATTLE SISTERS SQUAD",
      "CELESTIAN INSIDIANTS",
      "CELESTIAN SACRESANTS",
-     "CRUSADERS",
      "DOMINION SQUAD",
      "RETRIBUTOR SQUAD"
     ],
@@ -6785,7 +6775,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Celestian Sacresants unit is selected to make an advance/fall-back move.",
      "Target": "That Celestian Sacresants unit.",
-     "Effect": "Your unit’s ranged attacks have [ASSAULT] until the end of the turn.That move does not prevent your unit from being eligible to shoot/declare a charge."
+     "Effect": "Your unit’s ranged attacks have [ASSAULT] until the end of the turn. That move does not prevent your unit from being eligible to shoot/declare a charge."
     },
     {
      "Name": "Sanctified Blows",

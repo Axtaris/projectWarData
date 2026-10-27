@@ -4878,7 +4878,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Purgation Squad unit is selected to shoot.",
      "Target": "That Purgation Squad unit.",
-     "Effect": "Select one enemy unit. Your unit’s ranged attacks that target that unit have:\n[DEVASTATING WOUNDS].[SUSTAINED HITS 1]."
+     "Effect": "Select one enemy unit. Your unit’s ranged attacks that target that unit have:\n[DEVASTATING WOUNDS]. [SUSTAINED HITS 1]."
     },
     {
      "Name": "Spiritsear",

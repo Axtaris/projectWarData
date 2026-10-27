@@ -2801,12 +2801,7 @@
    "LeaderInfo": {
     "UnitNames": [
      "AQUILA KILL TEAM",
-     "DEATHWATCH KILL TEAM",
-     "DEATHWATCH TERMINATOR SQUAD",
-     "FORTIS KILL TEAM",
-     "INDOMITOR KILL TEAM",
-     "PROTEUS KILL TEAM",
-     "SPECTRUS KILL TEAM"
+     "DEATHWATCH KILL TEAM"
     ],
     "Abilities": [
      {
@@ -2918,12 +2913,7 @@
    "LeaderInfo": {
     "UnitNames": [
      "AQUILA KILL TEAM",
-     "DEATHWATCH KILL TEAM",
-     "DEATHWATCH TERMINATOR SQUAD",
-     "FORTIS KILL TEAM",
-     "INDOMITOR KILL TEAM",
-     "PROTEUS KILL TEAM",
-     "SPECTRUS KILL TEAM"
+     "DEATHWATCH KILL TEAM"
     ],
     "Abilities": [
      {
@@ -5603,9 +5593,9 @@
      "Category": "IMPERIALIS FLEET - EPIC DEED STRATAGEM",
      "CPCost": 1,
      "Phase": "friendly",
-     "When": "",
-     "Target": "",
-     "Effect": ""
+     "When": "Your Movement phase.",
+     "Target": "One Voidfarers Character unit from your army.",
+     "Effect": "Until the end of the phase, each Agents OF The IMpERIUM unit from your army that is arriving from Strategic Reserves this turn can be set up within your opponent’s deployment zone (all other restrictions still apply)."
     },
     {
      "Name": "Selfless Bodyguard",

@@ -2685,8 +2685,6 @@
     "UnitNames": [
      "HASTARII EXTERMINATORS",
      "HASTARII FUSILIERS",
-     "SECUTARII HOPLITES",
-     "SECUTARII PELTASTS",
      "SKITARII RANGERS",
      "SKITARII VANGUARD"
     ],
@@ -3830,8 +3828,6 @@
      "HASTARII FUSILIERS",
      "KATAPHRON BREACHERS",
      "KATAPHRON DESTROYERS",
-     "SECUTARII HOPLITES",
-     "SECUTARII PELTASTS",
      "SERVITOR BATTLECLADE",
      "SKITARII RANGERS",
      "SKITARII VANGUARD"
@@ -3992,8 +3988,6 @@
      "FULGURITE ELECTRO-PRIESTS",
      "KATAPHRON BREACHERS",
      "KATAPHRON DESTROYERS",
-     "SECUTARII HOPLITES",
-     "SECUTARII PELTASTS",
      "SKITARII RANGERS",
      "SKITARII VANGUARD"
     ],
@@ -4131,8 +4125,6 @@
      "HASTARII FUSILIERS",
      "KATAPHRON BREACHERS",
      "KATAPHRON DESTROYERS",
-     "SECUTARII HOPLITES",
-     "SECUTARII PELTASTS",
      "SERVITOR BATTLECLADE",
      "SKITARII RANGERS",
      "SKITARII VANGUARD"
@@ -4271,8 +4263,6 @@
      "HASTARII FUSILIERS",
      "KATAPHRON BREACHERS",
      "KATAPHRON DESTROYERS",
-     "SECUTARII HOPLITES",
-     "SECUTARII PELTASTS",
      "SERVITOR BATTLECLADE",
      "SKITARII RANGERS",
      "SKITARII VANGUARD"
@@ -5939,7 +5929,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Adeptus Mechanicus unit is selected to make a fall-back move.",
      "Target": "That Adeptus Mechanicus unit.",
-     "Effect": "If your unit is a Halo Override unit, your unit can re-roll hazard rolls.That fall-back move does not prevent your unit from:\nBeing eligible to shoot.Being eligible to declare a charge."
+     "Effect": "If your unit is a Halo Override unit, your unit can re-roll hazard rolls. That fall-back move does not prevent your unit from:\nBeing eligible to shoot. Being eligible to declare a charge."
     },
     {
      "Name": "Analytical Divination",
@@ -6180,7 +6170,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly Electro-Priests unit is selected to attack.",
      "Target": "That Electro-priests unit.",
-     "Effect": "Your unit’s attacks that target a unit within range of an objective can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+     "Effect": "Your unit’s attacks that target a unit within range of an objective can:\nRe-roll hit rolls of 1. Re-roll wound rolls of 1."
     },
     {
      "Name": "Chant Of Electrotraction",

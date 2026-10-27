@@ -38,8 +38,7 @@
      "COMPANY HEROES",
      "INFERNUS SQUAD",
      "INTERCESSOR SQUAD",
-     "STERNGUARD VETERAN SQUAD",
-     "VANGUARD VETERAN SQUAD"
+     "STERNGUARD VETERAN SQUAD"
     ],
     "Abilities": [
      {
@@ -158,7 +157,6 @@
      "ASSAULT INTERCESSOR SQUAD",
      "COMPANY HEROES",
      "INFERNUS SQUAD",
-     "VANGUARD VETERAN SQUAD",
      "BLADEGUARD VETERAN SQUAD",
      "ERADICATOR SQUAD WITH MELTA RIFLES"
     ]
@@ -313,7 +311,6 @@
     "UnitNames": [
      "AGGRESSOR SQUAD",
      "HEAVY INTERCESSOR SQUAD",
-     "INDOMITOR KILL TEAM",
      "ERADICATOR SQUAD WITH HEAVY BOLTERS",
      "ERADICATOR SQUAD WITH MELTA RIFLES"
     ],
@@ -478,8 +475,7 @@
      "INCURSOR SQUAD",
      "INFILTRATOR SQUAD",
      "REIVER SQUAD",
-     "SCOUT SQUAD",
-     "SPECTRUS KILL TEAM"
+     "SCOUT SQUAD"
     ]
    },
    "Infos": [],
@@ -615,9 +611,6 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "DEATHWATCH TERMINATOR SQUAD",
-     "DEATHWING KNIGHTS",
-     "DEATHWING TERMINATOR SQUAD",
      "TERMINATOR ASSAULT SQUAD",
      "TERMINATOR SQUAD"
     ]
@@ -806,18 +799,10 @@
      "ASSAULT INTERCESSOR SQUAD",
      "BLADEGUARD VETERAN SQUAD",
      "COMPANY HEROES",
-     "CRUSADER SQUAD",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
-     "FORTIS KILL TEAM",
      "HELLBLASTER SQUAD",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
      "STERNGUARD VETERAN SQUAD",
-     "SWORD BRETHREN SQUAD",
-     "VANGUARD VETERAN SQUAD",
-     "VICTRIX HONOUR GUARD",
      "DESOLATION SQUAD"
     ]
    },
@@ -1034,8 +1019,6 @@
    "LeaderInfo": {
     "UnitNames": [
      "ASSAULT INTERCESSORS WITH JUMP PACKS",
-     "SANGUINARY GUARD",
-     "TALONSTRIKE KILL TEAM",
      "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
     ],
     "Abilities": [
@@ -1220,7 +1203,6 @@
      "INCURSOR SQUAD",
      "INFILTRATOR SQUAD",
      "REIVER SQUAD",
-     "SPECTRUS KILL TEAM",
      "ELIMINATOR SQUAD"
     ],
     "LeaderType": "Support",
@@ -1412,17 +1394,10 @@
      "ASSAULT INTERCESSOR SQUAD",
      "BLADEGUARD VETERAN SQUAD",
      "COMPANY HEROES",
-     "CRUSADER SQUAD",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
-     "FORTIS KILL TEAM",
      "HELLBLASTER SQUAD",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
      "STERNGUARD VETERAN SQUAD",
-     "SWORD BRETHREN SQUAD",
-     "VANGUARD VETERAN SQUAD",
      "DESOLATION SQUAD"
     ],
     "LeaderType": "Support",
@@ -1617,7 +1592,6 @@
      "INCURSOR SQUAD",
      "INFILTRATOR SQUAD",
      "REIVER SQUAD",
-     "SPECTRUS KILL TEAM",
      "SCOUT SQUAD"
     ],
     "Abilities": [
@@ -1759,9 +1733,6 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "DEATHWATCH TERMINATOR SQUAD",
-     "DEATHWING KNIGHTS",
-     "DEATHWING TERMINATOR SQUAD",
      "TERMINATOR ASSAULT SQUAD",
      "TERMINATOR SQUAD"
     ],
@@ -1910,16 +1881,11 @@
    "LeaderInfo": {
     "UnitNames": [
      "ASSAULT INTERCESSOR SQUAD",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
      "DESOLATION SQUAD",
-     "FORTIS KILL TEAM",
      "HELLBLASTER SQUAD",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
-     "STERNGUARD VETERAN SQUAD",
-     "VANGUARD VETERAN SQUAD"
+     "STERNGUARD VETERAN SQUAD"
     ],
     "Abilities": [
      {
@@ -2085,9 +2051,6 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "DEATHWATCH TERMINATOR SQUAD",
-     "DEATHWING KNIGHTS",
-     "DEATHWING TERMINATOR SQUAD",
      "TERMINATOR ASSAULT SQUAD",
      "TERMINATOR SQUAD"
     ],
@@ -2205,8 +2168,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "OUTRIDER SQUAD",
-     "RAVENWING BLACK KNIGHTS"
+     "OUTRIDER SQUAD"
     ],
     "Abilities": [
      {
@@ -2330,18 +2292,10 @@
     "UnitNames": [
      "ASSAULT INTERCESSOR SQUAD",
      "BLADEGUARD VETERAN SQUAD",
-     "CRUSADER SQUAD",
-     "DEATH COMPANY MARINES",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
-     "FORTIS KILL TEAM",
      "HELLBLASTER SQUAD",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
-     "STERNGUARD VETERAN SQUAD",
-     "SWORD BRETHREN SQUAD",
-     "VANGUARD VETERAN SQUAD"
+     "STERNGUARD VETERAN SQUAD"
     ],
     "Abilities": [
      {
@@ -2460,8 +2414,6 @@
    "LeaderInfo": {
     "UnitNames": [
      "ASSAULT INTERCESSORS WITH JUMP PACKS",
-     "DEATH COMPANY MARINES WITH JUMP PACKS",
-     "TALONSTRIKE KILL TEAM",
      "VANGUARD VETERAN SQUAD WITH JUMP PACKS"
     ],
     "Abilities": [
@@ -2578,12 +2530,8 @@
    "LeaderInfo": {
     "UnitNames": [
      "ASSAULT INTERCESSOR SQUAD",
-     "CRUSADER SQUAD",
-     "DECIMUS KILL TEAM",
      "DESOLATION SQUAD",
-     "FORTIS KILL TEAM",
-     "INTERCESSOR SQUAD",
-     "SWORD BRETHREN SQUAD"
+     "INTERCESSOR SQUAD"
     ]
    },
    "Infos": [],
@@ -4105,7 +4053,6 @@
     "UnitNames": [
      "AGGRESSOR SQUAD",
      "HEAVY INTERCESSOR SQUAD",
-     "INDOMITOR KILL TEAM",
      "ERADICATOR SQUAD WITH HEAVY BOLTERS",
      "ERADICATOR SQUAD WITH MELTA RIFLES"
     ],
@@ -4362,9 +4309,6 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "DEATHWATCH TERMINATOR SQUAD",
-     "DEATHWING KNIGHTS",
-     "DEATHWING TERMINATOR SQUAD",
      "TERMINATOR ASSAULT SQUAD",
      "TERMINATOR SQUAD"
     ],
@@ -5125,16 +5069,9 @@
     "UnitNames": [
      "ASSAULT INTERCESSOR SQUAD",
      "BLADEGUARD VETERAN SQUAD",
-     "CRUSADER SQUAD",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
-     "FORTIS KILL TEAM",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
-     "STERNGUARD VETERAN SQUAD",
-     "SWORD BRETHREN SQUAD",
-     "VANGUARD VETERAN SQUAD"
+     "STERNGUARD VETERAN SQUAD"
     ],
     "Abilities": [
      {
@@ -12621,17 +12558,11 @@
    "LeaderInfo": {
     "UnitNames": [
      "ASSAULT INTERCESSOR SQUAD",
-     "CRUSADER SQUAD",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
      "DESOLATION SQUAD",
-     "FORTIS KILL TEAM",
      "HELLBLASTER SQUAD",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
      "STERNGUARD VETERAN SQUAD",
-     "SWORD BRETHREN SQUAD",
      "BLADEGUARD VETERAN SQUAD",
      "COMPANY HEROES"
     ],
@@ -12762,18 +12693,11 @@
    "LeaderInfo": {
     "UnitNames": [
      "ASSAULT INTERCESSOR SQUAD",
-     "CRUSADER SQUAD",
-     "DEATHWATCH VETERANS",
-     "DECIMUS KILL TEAM",
      "DESOLATION SQUAD",
-     "FORTIS KILL TEAM",
      "HELLBLASTER SQUAD",
      "INFERNUS SQUAD",
-     "INNER CIRCLE COMPANIONS",
      "INTERCESSOR SQUAD",
-     "STERNGUARD VETERAN SQUAD",
-     "SWORD BRETHREN SQUAD",
-     "VANGUARD VETERAN SQUAD"
+     "STERNGUARD VETERAN SQUAD"
     ],
     "LeaderType": "Support",
     "Abilities": [
@@ -13787,7 +13711,7 @@
      "Phase": "any",
      "When": "Fight phase, when a friendly Adeptus Astartes unit is selected to fight.",
      "Target": "That Adeptus Astartes unit.",
-     "Effect": "Your unit’s melee attacks have:\n[Lance].Or: If the assault doctrine is active for your unit, [Lance] and +1 AP."
+     "Effect": "Your unit’s melee attacks have:\n[Lance]. Or: If the assault doctrine is active for your unit, [Lance] and +1 AP."
     }
    ],
    "Rule": {
@@ -13830,7 +13754,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase when a Kill Team unit is selected to shoot.",
      "Target": "That Kill Team unit.",
-     "Effect": "Your unit’s ranged attacks have:\nHave +6\" R.Have +1 S."
+     "Effect": "Your unit’s ranged attacks have:\nHave +6\" R. Have +1 S."
     },
     {
      "Name": "Dragonfire Rounds",
@@ -13839,7 +13763,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase when a Kill Team unit is selected to shoot.",
      "Target": "That Kill Team unit.",
-     "Effect": "Your unit’s ranged attacks:\nCan re-roll wound rolls of 1.Have [IGNORES COVER]."
+     "Effect": "Your unit’s ranged attacks:\nCan re-roll wound rolls of 1. Have [IGNORES COVER]."
     },
     {
      "Name": "Blackstar Extraction",
@@ -13859,7 +13783,7 @@
     {
      "Name": "Beacon Angelis",
      "Cost": 25,
-     "Description": "Adeptus Astartes model only. If this unit is a Kill Team unit, this unit has:\nDeep Strike.When you target this unit with the Rapid Ingress Stratagem, that use is -1CP."
+     "Description": "Adeptus Astartes model only. If this unit is a Kill Team unit, this unit has:\nDeep Strike. When you target this unit with the Rapid Ingress Stratagem, that use is -1CP."
     }
    ]
   },
@@ -13895,7 +13819,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Adeptus Astartes unit is selected to shoot.",
      "Target": "That Adeptus Astartes unit.",
-     "Effect": "Your unit’s ranged attacks have:\n[Ignores Cover].Or: If the devastator doctrine is active for your unit, [Ignores Cover] and +1 AP."
+     "Effect": "Your unit’s ranged attacks have:\n[Ignores Cover]. Or: If the devastator doctrine is active for your unit, [Ignores Cover] and +1 AP."
     }
    ],
    "Rule": {
@@ -13906,7 +13830,7 @@
     {
      "Name": "Honour of Vigilance",
      "Cost": 20,
-     "Description": "Adeptus Astartes model only.\nThis unit’s ranged attacks have [Lethal Hits].If the devastator doctrine is active for this unit, this unit can re-roll advance rolls."
+     "Description": "Adeptus Astartes model only.\nThis unit’s ranged attacks have [Lethal Hits]. If the devastator doctrine is active for this unit, this unit can re-roll advance rolls."
     },
     {
      "Name": "Master-forged Firearms",
@@ -13961,7 +13885,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Shooting phase, when an enemy unit has shot a friendly Adeptus Astartes Transport unit.",
      "Target": "One friendly Adeptus Astartes unit embarked within that Adeptus Astartes Transport unit.",
-     "Effect": "Your Adeptus Astartes unit can:\nMake a disembark move.Shoot using normal shooting, but when doing so your unit can only target that enemy unit."
+     "Effect": "Your Adeptus Astartes unit can:\nMake a disembark move. Shoot using normal shooting, but when doing so your unit can only target that enemy unit."
     },
     {
      "Name": "Crucible Of Battle",
@@ -13970,7 +13894,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly Adeptus Astartes infantry unit is selected to attack an enemy unit within 6\".",
      "Target": "That Adeptus Astartes Infantry unit.",
-     "Effect": "Your unit’s attacks can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+     "Effect": "Your unit’s attacks can:\nRe-roll hit rolls of 1. Re-roll wound rolls of 1."
     },
     {
      "Name": "Forged In Fire",
@@ -13979,7 +13903,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly engaged Adeptus Astartes unit is selected to shoot.",
      "Target": "That Adeptus Astartes unit.",
-     "Effect": "Your unit’s Torrent weapons:\nDo not have [Blast].Have [Close-Quarters].Have +1 A."
+     "Effect": "Your unit’s Torrent weapons:\nDo not have [Blast]. Have [Close-Quarters]. Have +1 A."
     }
    ],
    "Enhancements": [
@@ -13997,7 +13921,7 @@
     },
     {
      "Name": "Forged In Battle",
-     "Description": "Adeptus Astartes model only. This unit can ignore modifiers to:\nBS.WS.Hit rolls.",
+     "Description": "Adeptus Astartes model only. This unit can ignore modifiers to:\nBS. WS. Hit rolls.",
      "Cost": 25,
      "Features": "IsLeaderEnhancement",
      "RequiredUnitNames": [],
@@ -14035,7 +13959,7 @@
     },
     {
      "Name": "War-Tempered Artifice",
-     "Description": "Adeptus Astartes model only. This model’s melee attacks have:\n+1 S.+1 D.",
+     "Description": "Adeptus Astartes model only. This model’s melee attacks have:\n+1 S. +1 D.",
      "Cost": 25,
      "WeaponStatAdjustments": [
       {
@@ -14120,7 +14044,7 @@
     {
      "Name": "Linebreaker Onslaught",
      "Cost": 20,
-     "Description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\nThis unit can re-roll charge rolls.Enemy units cannot target this unit with snap shooting attacks."
+     "Description": "Adeptus Astartes Infantry model only. If this unit disembarked this turn:\nThis unit can re-roll charge rolls. Enemy units cannot target this unit with snap shooting attacks."
     }
    ]
   },
@@ -14207,7 +14131,7 @@
     },
     {
      "Name": "Artificer Armour",
-     "Description": "Adeptus Astartes model only. This model has:\n2+ Sv.Feel No Pain 5+.",
+     "Description": "Adeptus Astartes model only. This model has:\n2+ Sv. Feel No Pain 5+.",
      "Cost": 15,
      "StatAdjustments": [
       {
@@ -14231,7 +14155,7 @@
     {
      "Name": "Standard of the Emperor Ascendant",
      "Cost": 25,
-     "Description": "Ancient model only. This model has:\n+1 OC and Ld.Feel No Pain 5+.The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A until the end of the phase."
+     "Description": "Ancient model only. This model has:\n+1 OC and Ld. Feel No Pain 5+. The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A until the end of the phase."
     }
    ],
    "Effects": []
@@ -14268,7 +14192,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Gravis unit has shot.",
      "Target": "That Gravis unit.",
-     "Effect": "If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective.Your unit is not eligible to declare a charge or embark within a Transport until the end of the turn."
+     "Effect": "If your unit is unengaged, your unit can make a normal move of up to 5\", and must end that move within range of an objective. Your unit is not eligible to declare a charge or embark within a Transport until the end of the turn."
     }
    ],
    "Rule": {
@@ -14372,7 +14296,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly Dreadnought unit is selected to attack.",
      "Target": "That Dreadnought unit.",
-     "Effect": "Your unit’s attacks have:\n[lethal hits].Or: [Sustained Hits 1]."
+     "Effect": "Your unit’s attacks have:\n[lethal hits]. Or: [Sustained Hits 1]."
     }
    ],
    "Rule": {
@@ -14411,7 +14335,7 @@
      "Phase": "friendly",
      "When": "Your Command phase.",
      "Target": "One friendly Adeptus Astartes Vehicle unit (excluding Dedicated Transport/Fly/Walker units).",
-     "Effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\nM.BS.Hit rolls and wound rolls."
+     "Effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\nM. BS. Hit rolls and wound rolls."
     },
     {
      "Name": "Layered Ceramite",
@@ -14441,7 +14365,7 @@
     {
      "Name": "Redoubtable Machine Spirit (Upgrade)",
      "Cost": 25,
-     "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\nHas 5+ InSv.At the end of your Command phase, heals 1 wound."
+     "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\nHas 5+ InSv. At the end of your Command phase, heals 1 wound."
     }
    ],
    "Effects": []
@@ -14478,7 +14402,7 @@
      "Phase": "friendly",
      "When": "Your Command phase.",
      "Target": "One friendly Adeptus Astartes Dreadnought unit.",
-     "Effect": "Until the start of your next Command phase, your unit has:\n+1\" M.+1 T.+1 Ld.+1 OC.+1 to hit rolls."
+     "Effect": "Until the start of your next Command phase, your unit has:\n+1\" M. +1 T. +1 Ld. +1 OC. +1 to hit rolls."
     },
     {
      "Name": "Unbowed Conviction",
@@ -14487,7 +14411,7 @@
      "Phase": "friendly",
      "When": "Your Command phase.",
      "Target": "One friendly Adeptus Astartes unit that is below starting strength.",
-     "Effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\nBS and WS.Hit rolls and Wound rolls."
+     "Effect": "Until the start of your next Command phase, your unit can ignore modifiers to your unit’s:\nBS and WS. Hit rolls and Wound rolls."
     },
     {
      "Name": "Power Of The Machine Spirit",
@@ -14496,7 +14420,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged Adeptus Astartes Vehicle unit has shot.",
      "Target": "That Adeptus Astartes Vehicle unit.",
-     "Effect": "Your unit shoots using:\nSnap shooting.Or: If your unit is at half-strength/below half-strength, normal shooting.While doing so your unit can only target that enemy unit."
+     "Effect": "Your unit shoots using:\nSnap shooting. Or: If your unit is at half-strength/below half-strength, normal shooting. While doing so your unit can only target that enemy unit."
     },
     {
      "Name": "Methodical Brutality",
@@ -14505,7 +14429,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase when a friendly Adeptus Astartes unit is selected to attack.",
      "Target": "That Adeptus Astartes unit.",
-     "Effect": "Your unit’s attacks have [SUSTAINED HITS 1].\nSecondary Effect:\nIf your unit is a Vehicle unit, have +1 to wound rolls."
+     "Effect": "If your unit is a Vehicle unit, have +1 to wound rolls."
     }
    ],
    "Rule": {
@@ -14531,7 +14455,7 @@
     {
      "Name": "The Flesh is Weak",
      "Cost": 15,
-     "Description": "Adeptus Astartes model only. This model:\nHas +1 T.Has Feel No Pain 5+."
+     "Description": "Adeptus Astartes model only. This model:\nHas +1 T. Has Feel No Pain 5+."
     }
    ]
   },
@@ -14567,7 +14491,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
      "Target": "That Phobos unit.",
-     "Effect": "Your unit’s attacks have:\n+1 S.[Lethal Hits]."
+     "Effect": "Your unit’s attacks have:\n+1 S. [Lethal Hits]."
     }
    ],
    "Rule": {
@@ -14583,7 +14507,7 @@
     {
      "Name": "Venator Omni-auspex",
      "Cost": 15,
-     "Description": "Phobos model only. This unit’s attacks that target a hidden unit can:\nRe-roll wound rolls of 1.Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2."
+     "Description": "Phobos model only. This unit’s attacks that target a hidden unit can:\nRe-roll wound rolls of 1. Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1 and 2."
     }
    ]
   },
@@ -14601,7 +14525,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly hidden Phobos unit is selected to attack.",
      "Target": "That Phobos unit.",
-     "Effect": "Your unit’s attacks have:\n+1 S.[Lethal Hits]."
+     "Effect": "Your unit’s attacks have:\n+1 S. [Lethal Hits]."
     },
     {
      "Name": "Transhuman Reactions",
@@ -14610,7 +14534,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Phobos unit.",
      "Target": "That Phobos unit.",
-     "Effect": "Your unit can make a normal move of:\nUp to D6\".Or: If the tactical doctrine is active for your unit, up to 6\"."
+     "Effect": "Your unit can make a normal move of:\nUp to D6\". Or: If the tactical doctrine is active for your unit, up to 6\"."
     },
     {
      "Name": "Umbral Evasion",
@@ -14635,7 +14559,7 @@
     {
      "Name": "Venator Omni-auspex",
      "Cost": 15,
-     "Description": "Phobos model only. This unit’s attacks that target a hidden unit can:\nRe-roll wound rolls of 1.Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2."
+     "Description": "Phobos model only. This unit’s attacks that target a hidden unit can:\nRe-roll wound rolls of 1. Or: If the assault doctrine is active for this unit, re-roll wound rolls of 1-2."
     }
    ]
   },
@@ -14658,7 +14582,7 @@
      "Phase": "any",
      "When": "End of the Fight phase.",
      "Target": "One friendly Adeptus Astartes Mounted unit that was eligible to fight this phase.",
-     "Effect": "If your unit is unengaged, your unit can make a normal move.Or: If your unit is engaged, your unit can make a fall-back move."
+     "Effect": "If your unit is unengaged, your unit can make a normal move. Or: If your unit is engaged, your unit can make a fall-back move."
     },
     {
      "Name": "Sudden Onslaught",
@@ -14725,7 +14649,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Movement phase, when an enemy unit ends a move within 8\" of a friendly unengaged Adeptus Astartes Infantry/Mounted unit.",
      "Target": "That Adeptus Astartes Infantry/Mounted unit.",
-     "Effect": "Your unit can make a normal move of:\nUp to D6\".Or: If the tactical doctrine is active for your unit, up to 6\"."
+     "Effect": "Your unit can make a normal move of:\nUp to D6\". Or: If the tactical doctrine is active for your unit, up to 6\"."
     }
    ],
    "Rule": {
@@ -14768,7 +14692,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
      "Target": "That Tacticus unit.",
-     "Effect": "Your unit’s attacks have:\n[Sustained Hits 1: non-Monster/Vehicle].Or: [Lethal Hits: Monster/Vehicle]."
+     "Effect": "Your unit’s attacks have:\n[Sustained Hits 1: non-Monster/Vehicle]. Or: [Lethal Hits: Monster/Vehicle]."
     },
     {
      "Name": "Transhuman Swiftness",
@@ -14788,7 +14712,7 @@
     {
      "Name": "Martial Paragon",
      "Cost": 10,
-     "Description": "Tacticus model only. This unit’s attacks can:\nRe-roll one hit roll.Re-roll one wound roll."
+     "Description": "Tacticus model only. This unit’s attacks can:\nRe-roll one hit roll. Re-roll one wound roll."
     },
     {
      "Name": "Spearpoint War Leader",
@@ -14811,7 +14735,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly engaged Tacticus unit is selected to shoot.",
      "Target": "That Tacticus unit.",
-     "Effect": "Your unit’s ranged attacks (excluding [Blast] attacks) have:\n[Close-Quarters].[Ignores Cover]."
+     "Effect": "Your unit’s ranged attacks (excluding [Blast] attacks) have:\n[Close-Quarters]. [Ignores Cover]."
     },
     {
      "Name": "For The Emperor!",
@@ -14829,7 +14753,7 @@
      "Phase": "any",
      "When": "Your Shooting phase or the Fight phase, when a friendly Tacticus unit is selected to attack.",
      "Target": "That Tacticus unit.",
-     "Effect": "Your unit’s attacks have:\n[Sustained Hits 1: non-Monster/Vehicle].Or: [Lethal Hits: Monster/Vehicle]."
+     "Effect": "Your unit’s attacks have:\n[Sustained Hits 1: non-Monster/Vehicle]. Or: [Lethal Hits: Monster/Vehicle]."
     }
    ],
    "Rule": {
@@ -14872,7 +14796,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly adeptus astartes Terminator unit is selected to shoot.",
      "Target": "That Adeptus Astartes Terminator unit.",
-     "Effect": "Your unit’s ranged attacks have:\n[Lethal Hits].[Sustained Hits 1]."
+     "Effect": "Your unit’s ranged attacks have:\n[Lethal Hits]. [Sustained Hits 1]."
     },
     {
      "Name": "Gunship Extraction",

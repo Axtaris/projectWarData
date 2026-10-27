@@ -3566,9 +3566,7 @@
     }
    ],
    "LeaderInfo": {
-    "UnitNames": [
-     "- Gargoyles - Tyranid Warriors With Melee Bio-Weapons - Tyranid Warriors With Ranged Bio-Weapons"
-    ],
+    "UnitNames": [],
     "Abilities": [
      {
       "AbilityId": "Alpha Warrior"
@@ -4597,7 +4595,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "Raveners"
+     "RAVENERS"
     ],
     "Abilities": []
    },
@@ -5095,7 +5093,7 @@
      "Phase": "friendly",
      "When": "Your Charge phase, when a friendly Genestealer Cults unit within 12\" of a friendly engaged Tyranids unit declares a charge.",
      "Target": "That Genestealer Cults unit.",
-     "Effect": "Your unit has +1 to charge rolls.You can use this part of this stratagem. If you do:Your unit can re-roll charge rolls.Your unit must end that charge move engaged with an enemy unit engaged with that friendly Tyranids unit."
+     "Effect": "Your unit has +1 to charge rolls. You can use this part of this stratagem. If you do: Your unit can re-roll charge rolls. Your unit must end that charge move engaged with an enemy unit engaged with that friendly Tyranids unit."
     },
     {
      "Name": "Avenge The Star Children",
@@ -5257,7 +5255,7 @@
      "Phase": "any",
      "When": "Fight phase, when an enemy unit targets a friendly Killer unit.",
      "Target": "That Killer unit.",
-     "Effect": "When a Killer model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound.On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
+     "Effect": "When a Killer model in your unit is destroyed, if your unit has not been selected to fight this phase, roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound. On a 2+, do not remove that model from the battlefield. When your unit has fought, or at the end of the phase (whichever comes first), that model is removed from the battlefield."
     }
    ],
    "Enhancements": [
@@ -5753,7 +5751,7 @@
      "Phase": "friendly",
      "When": "Your Charge phase.",
      "Target": "One Acolyte Hybrids, Hybrid Metamorphs or Neophyte Hybrids unit from your army that has not declared a charge this phase.",
-     "Effect": "If your unit made an advance/fall-back move this turn, that advance/fall-back move does not prevent your unit from being eligible to declare a charge.When your unit declares a charge, you can use this part of this stratagem. If you do:\nYour unit can re-roll charge rolls.Your unit must end that charge move engaged with an enemy unit engaged with a friendly Character unit."
+     "Effect": "If your unit made an advance/fall-back move this turn, that advance/fall-back move does not prevent your unit from being eligible to declare a charge. When your unit declares a charge, you can use this part of this stratagem. If you do:\nYour unit can re-roll charge rolls. Your unit must end that charge move engaged with an enemy unit engaged with a friendly Character unit."
     },
     {
      "Name": "The Downtrodden Rise",

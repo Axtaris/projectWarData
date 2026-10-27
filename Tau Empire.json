@@ -7713,7 +7713,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Battlesuit Character unit is selected to shoot.",
      "Target": "That Battlesuit Character unit.",
-     "Effect": "Your unit’s ranged attacks have:\n+1 S.OR: +1 S, AP and [HAZARDOUS]."
+     "Effect": "Your unit’s ranged attacks have:\n+1 S. OR: +1 S, AP and [HAZARDOUS]."
     }
    ],
    "Enhancements": [

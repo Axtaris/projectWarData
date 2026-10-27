@@ -1048,10 +1048,8 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "CUSTODIAN GUARD",
-     "CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS",
-     "CUSTODIAN WARDENS",
-     "SAGITTARUM CUSTODIANS"
+     "CUSTODIAN GUARD SODALITY",
+     "CUSTODIAN WARDENS"
     ]
    },
    "Infos": [],
@@ -1211,10 +1209,8 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "CUSTODIAN GUARD",
-     "CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS",
-     "CUSTODIAN WARDENS",
-     "SAGITTARUM CUSTODIANS"
+     "CUSTODIAN GUARD SODALITY",
+     "CUSTODIAN WARDENS"
     ],
     "Abilities": [
      {
@@ -1338,9 +1334,9 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "PROSECUTORS",
-     "VIGILATORS",
-     "WITCHSEEKERS"
+     "PROSECUTOR SQUAD",
+     "VIGILATOR SQUAD",
+     "WITCHSEEKER SQUAD"
     ],
     "Abilities": [
      {
@@ -1703,8 +1699,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "ALLARUS CUSTODIANS",
-     "AQUILON CUSTODIANS"
+     "ALLARUS CUSTODIANS"
     ]
    },
    "Infos": [],
@@ -1849,7 +1844,6 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "AGAMATUS CUSTODIANS",
      "VERTUS PRAETORS"
     ]
    },
@@ -1978,9 +1972,6 @@
      "AQUILON TERMINATORS WITH SOLARITE POWER GAUNTLETS",
      "AQUILON TERMINATORS WITH SOLARITE POWER TALONS",
      "CUSTODIAN GUARD SODALITY",
-     "CUSTODIAN GUARD SODALITY WITH ADRASITE SPEARS",
-     "CUSTODIAN GUARD SODALITY WITH PYRITHITE SPEARS",
-     "SAGITTARUM CUSTODIANS SODALITY",
      "SENTINEL GUARD SODALITY"
     ],
     "Abilities": [
@@ -2098,10 +2089,8 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "CUSTODIAN GUARD",
-     "CUSTODIAN GUARD WITH ADRASITE AND PYRITHITE SPEARS",
-     "CUSTODIAN WARDENS",
-     "SAGITTARUM CUSTODIANS"
+     "CUSTODIAN GUARD SODALITY",
+     "CUSTODIAN WARDENS"
     ],
     "Abilities": [
      {
@@ -4574,7 +4563,7 @@
     {
      "Name": "Shroud of the Hidden Blade",
      "Cost": 20,
-     "Description": "Adeptus Custodes model only. This model has:\nStealthLone Operative."
+     "Description": "Adeptus Custodes model only. This model has:\nStealth Lone Operative."
     },
     {
      "Name": "Superior Creation",
@@ -4598,7 +4587,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to make an ingress move.",
      "Target": "That Adeptus Custodes Unit.",
-     "Effect": "Until the start of your next turn:\nAttacks that target your unit have -1 to hit rolls.Enemy units cannot target your unit with snap shooting attacks."
+     "Effect": "Until the start of your next turn:\nAttacks that target your unit have -1 to hit rolls. Enemy units cannot target your unit with snap shooting attacks."
     },
     {
      "Name": "Preternatural Rapidity",
@@ -4668,7 +4657,7 @@
      "Phase": "opponent",
      "When": "End of your opponent’s Charge phase.",
      "Target": "One friendly unengaged Adeptus Custodes unit within 6\" of an enemy unit. You can only select a Vehicle unit if it is a Character/Walker unit.",
-     "Effect": "Declare a charge with your unit:\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6.When selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
+     "Effect": "Declare a charge with your unit:\nWhen making the charge roll, if the result is greater than 6 (after modifiers), change it to 6. When selecting charge targets, you can select any enemy units that are within 6\" of your unit and within the maximum distance."
     }
    ],
    "Rule": {
@@ -4684,7 +4673,7 @@
     {
      "Name": "Edge of the Blade",
      "Cost": 15,
-     "Description": "Adeptus Custodes model only. If this unit made a charge move this turn, this model’s attacks can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+     "Description": "Adeptus Custodes model only. If this unit made a charge move this turn, this model’s attacks can:\nRe-roll hit rolls of 1. Re-roll wound rolls of 1."
     }
    ]
   },
@@ -4764,7 +4753,7 @@
      "Phase": "any",
      "When": "Any phase, when a friendly grav-assault unit within range of an objective is destroyed.",
      "Target": "That Grav-assault unit. You can target that unit with this stratagem even though it is destroyed.",
-     "Effect": "Select one objective that:\nYour unit was controlling when it was destroyed.Has no enemy units (excluding Aircraft units) within range of it.That objective is secured."
+     "Effect": "Select one objective that:\nYour unit was controlling when it was destroyed. Has no enemy units (excluding Aircraft units) within range of it. That objective is secured."
     },
     {
      "Name": "Inevitable Annihilation",
@@ -4773,7 +4762,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly grav-assault unit is selected to shoot.",
      "Target": "That Grav-assault unit.",
-     "Effect": "Your unit can ignore modifiers to your unit’s:\nBS.Hit rolls."
+     "Effect": "Your unit can ignore modifiers to your unit’s:\nBS. Hit rolls."
     }
    ],
    "Rule": {
@@ -4789,7 +4778,7 @@
     {
      "Name": "Combat Deployment (Upgrade)",
      "Cost": 20,
-     "Description": "grav-assault Transport model only. When a friendly Adeptus Custodes unit is selected to make a disembark move from this unit, until the end of the turn:\nThat unit can re-roll charge rolls.Enemy units cannot target that unit with snap shooting attacks."
+     "Description": "grav-assault Transport model only. When a friendly Adeptus Custodes unit is selected to make a disembark move from this unit, until the end of the turn:\nThat unit can re-roll charge rolls. Enemy units cannot target that unit with snap shooting attacks."
     }
    ]
   },
@@ -4818,7 +4807,7 @@
      "Phase": "any",
      "When": "Start of the Fight phase.",
      "Target": "One friendly Adeptus Custodes Infantry/Mounted unit.",
-     "Effect": "When an enemy model engaged with your unit selects targets, if that enemy model does not select your unit as the target of all of its attacks, that enemy model’s attacks have:\n-1 to hit rolls.-1 to wound rolls."
+     "Effect": "When an enemy model engaged with your unit selects targets, if that enemy model does not select your unit as the target of all of its attacks, that enemy model’s attacks have:\n-1 to hit rolls. -1 to wound rolls."
     },
     {
      "Name": "Unlimited Endurance",
@@ -4827,7 +4816,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Adeptus Custodes unit ends an advance move.",
      "Target": "That Adeptus Custodes unit.",
-     "Effect": "Until the end of the turn:\nYour unit’s ranged attacks have [Assault].That advance move does not prevent your unit from being eligible to declare a charge."
+     "Effect": "Until the end of the turn:\nYour unit’s ranged attacks have [Assault]. That advance move does not prevent your unit from being eligible to declare a charge."
     },
     {
      "Name": "Swift As The Eagle",
@@ -4854,7 +4843,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Adeptus Custodes unit is selected to shoot.",
      "Target": "That Adeptus Custodes unit.",
-     "Effect": "Your unit’s ranged attacks can:\nRe-roll one hit roll.Re-roll one wound roll.Re-roll one damage roll."
+     "Effect": "Your unit’s ranged attacks can:\nRe-roll one hit roll. Re-roll one wound roll. Re-roll one damage roll."
     }
    ],
    "Rule": {
@@ -4875,7 +4864,7 @@
     {
      "Name": "Eagle’s Eye",
      "Cost": 30,
-     "Description": "Adeptus Custodes model only.\nThis model has +1 W.(Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv."
+     "Description": "Adeptus Custodes model only.\nThis model has +1 W. (Once per battle, per army) When attacks are allocated to this model, you can use this ability. If you do, this model has 3+ InSv."
     },
     {
      "Name": "Emperor’s Light",
@@ -4932,7 +4921,7 @@
     {
      "Name": "Celeritous Sentries (Upgrade)",
      "Cost": 15,
-     "Description": "Trusted Sentinel unit only. (Once per phase, per unit) You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\nThat use is -1 CP.That use does not prevent any uses of that stratagem on other units this phase."
+     "Description": "Trusted Sentinel unit only. (Once per phase, per unit) You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\nThat use is -1 CP. That use does not prevent any uses of that stratagem on other units this phase."
     }
    ]
   },
@@ -4982,7 +4971,7 @@
     {
      "Name": "Leonine Ferocity",
      "Cost": 20,
-     "Description": "Shield-Captain in Allarus Terminator Armour model only. (Once per phase, per army) You can target this unit with the Rapid Ingress stratagem, regardless of any other uses of that stratagem this phase. If you do:\nThat use is -1 CP.That use does not prevent any uses of that stratagem on other units this phase."
+     "Description": "Shield-Captain in Allarus Terminator Armour model only. (Once per phase, per army) You can target this unit with the Rapid Ingress stratagem, regardless of any other uses of that stratagem this phase. If you do:\nThat use is -1 CP. That use does not prevent any uses of that stratagem on other units this phase."
     },
     {
      "Name": "Lightning Descent",
@@ -5031,7 +5020,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Adeptus Custodes Dreadnought unit ends an advance move.",
      "Target": "That Adeptus Custodes Dreadnought unit.",
-     "Effect": "Your unit’s ranged attacks have [Assault] until the end of the turn.That move does not prevent your unit from being eligible to declare a charge."
+     "Effect": "Your unit’s ranged attacks have [Assault] until the end of the turn. That move does not prevent your unit from being eligible to declare a charge."
     }
    ],
    "Enhancements": [
@@ -5098,7 +5087,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Witchseeker squad unit is selected to shoot.",
      "Target": "That Witchseeker Squad unit.",
-     "Effect": "Your unit’s [Torrent] attacks have:\n+1 A.Or: If those attacks target a Psyker/battle-shocked unit, +2 A."
+     "Effect": "Your unit’s [Torrent] attacks have:\n+1 A. Or: If those attacks target a Psyker/battle-shocked unit, +2 A."
     },
     {
      "Name": "Anathema Blademastery",
@@ -5107,7 +5096,7 @@
      "Phase": "any",
      "When": "Fight phase, when a friendly Vigilator squad unit is selected to fight.",
      "Target": "That Vigilator Squad unit.",
-     "Effect": "Your unit’s attacks have:\n[Sustained Hits 1]Or: [Lethal Hits]."
+     "Effect": "Your unit’s attacks have:\n[Sustained Hits 1] Or: [Lethal Hits]."
     }
    ],
    "Enhancements": [
@@ -5125,7 +5114,7 @@
     },
     {
      "Name": "Oblivion Knight",
-     "Description": "Anathema Psykana model only. This unit’s attacks have:\n+1 to hit rolls.Or: If this unit targets a Psyker/battle-shocked unit, +1 to hit rolls and wound rolls.",
+     "Description": "Anathema Psykana model only. This unit’s attacks have:\n+1 to hit rolls. Or: If this unit targets a Psyker/battle-shocked unit, +1 to hit rolls and wound rolls.",
      "Cost": 15,
      "Features": "IsLeaderEnhancement",
      "RequiredUnitNames": [],
@@ -5202,7 +5191,7 @@
     {
      "Name": "Unstoppable Destroyer",
      "Cost": 25,
-     "Description": "Adeptus Custodes Infantry model only. When this unit is selected to make a pile-in/consolidation move:\nThis unit can move up to 4\".You can select any consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions."
+     "Description": "Adeptus Custodes Infantry model only. When this unit is selected to make a pile-in/consolidation move:\nThis unit can move up to 4\". You can select any consolidation mode for that consolidation move, regardless of that consolidation move’s Before Moving restrictions."
     }
    ]
   },
@@ -5238,7 +5227,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Adeptus Custodes unit is selected to move.",
      "Target": "That Adeptus Custodes unit.",
-     "Effect": "Until the end of the turn, your unit can ignore modifiers to your unit’s:\nM.Advance rolls and charge rolls."
+     "Effect": "Until the end of the turn, your unit can ignore modifiers to your unit’s:\nM. Advance rolls and charge rolls."
     }
    ],
    "Rule": {

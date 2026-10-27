@@ -3832,9 +3832,7 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "BEASTS OF NURGLE",
-     "PLAGUE TOADS",
-     "POX RIDERS"
+     "BEASTS OF NURGLE"
     ],
     "Abilities": [
      {
@@ -7247,7 +7245,7 @@
      "Phase": "opponent",
      "When": "End of your opponent’s turn.",
      "Target": "Up to two Legiones Daemonica units from your army that are within your army’s Shadow of Chaos, or one other Legiones Daemonica unit from your army.",
-     "Effect": "Place your unit in strategic reserves.Your unit must make an ingress move in your next Movement phase (including in your first turn).",
+     "Effect": "Place your unit in strategic reserves. Your unit must make an ingress move in your next Movement phase (including in your first turn).",
      "Restrictions": "You cannot target units that are within Engagement Range of one or more enemy units with this Stratagem."
     },
     {

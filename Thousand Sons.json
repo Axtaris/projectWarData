@@ -5550,7 +5550,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Shooting phase, just after an enemy unit has selected its targets.",
      "Target": "One Thousand Sons Psyker unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
-     "Effect": "Your unit has Stealth.If your unit is wholly within your army’s Flow of Magic, your unit has ‐3 detection range."
+     "Effect": "Your unit has Stealth. If your unit is wholly within your army’s Flow of Magic, your unit has ‐3 detection range."
     },
     {
      "Name": "Warding Hex",
@@ -5989,7 +5989,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Infantry/Mounted Mutant unit is selected to make an advance/fall back move.",
      "Target": "That Infantry/mounted Mutant unit.",
-     "Effect": "Your unit’s ranged attacks have [ASSAULT] until the end of the turn.That move does not prevent your unit from being eligible to shoot/declare a charge."
+     "Effect": "Your unit’s ranged attacks have [ASSAULT] until the end of the turn. That move does not prevent your unit from being eligible to shoot/declare a charge."
     }
    ],
    "Enhancements": [

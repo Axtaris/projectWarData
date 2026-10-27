@@ -1674,9 +1674,7 @@
      "ACCURSED CULTISTS",
      "CHOSEN",
      "CULTIST MOB",
-     "CULTIST MOB WITH FIREARMS",
      "LEGIONARIES",
-     "NEGAVOLT CULTISTS",
      "RED CORSAIRS RAIDERS"
     ],
     "Abilities": [
@@ -3559,9 +3557,7 @@
      "ACCURSED CULTISTS",
      "CHOSEN",
      "CULTIST MOB",
-     "CULTIST MOB WITH FIREARMS",
      "LEGIONARIES",
-     "NEGAVOLT CULTISTS",
      "NEMESIS CLAW",
      "RED CORSAIRS RAIDERS"
     ],
@@ -3820,9 +3816,7 @@
    "LeaderInfo": {
     "UnitNames": [
      "ACCURSED CULTISTS",
-     "CULTIST MOB",
-     "CULTIST MOB WITH FIREARMS",
-     "NEGAVOLT CULTISTS"
+     "CULTIST MOB"
     ],
     "Abilities": [
      {
@@ -10872,9 +10866,7 @@
    "LeaderInfo": {
     "UnitNames": [
      "ACCURSED CULTISTS",
-     "CULTIST MOB",
-     "CULTIST MOB WITH FIREARMS",
-     "NEGAVOLT CULTISTS"
+     "CULTIST MOB"
     ],
     "Abilities": [
      {
@@ -13325,7 +13317,7 @@
      "Phase": "friendly",
      "When": "Start of your Shooting phase.",
      "Target": "One friendly Heretic Astartes Psyker unit.",
-     "Effect": "Select one visible enemy unit within 12\" of your unit. Roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound.On a 2-4, that enemy unit suffers D3 mortal wounds.On a 5-6, that enemy unit suffers 2D3 mortal wounds.These mortal wounds are inflicted by a psychic attack."
+     "Effect": "Select one visible enemy unit within 12\" of your unit. Roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound. On a 2-4, that enemy unit suffers D3 mortal wounds. On a 5-6, that enemy unit suffers 2D3 mortal wounds. These mortal wounds are inflicted by a psychic attack."
     },
     {
      "Name": "Wreathed In Warpflame",
@@ -14015,7 +14007,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Havocs/Obliterators unit is selected to shoot.",
      "Target": "That Havocs/obliterators unit.",
-     "Effect": "When your unit uses the Dark Pacts ability, your unit’s ranged attacks have:\n[LETHAL HITS].[SUSTAINED HITS 1]."
+     "Effect": "When your unit uses the Dark Pacts ability, your unit’s ranged attacks have:\n[LETHAL HITS]. [SUSTAINED HITS 1]."
     }
    ],
    "Enhancements": [
@@ -14336,7 +14328,7 @@
      "Phase": "friendly",
      "When": "Your Command phase.",
      "Target": "One Damned unit from your army.",
-     "Effect": "Select one of the following effects:\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1.Improve the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1.Improve the Save characteristic of models in this unit by 1.Until the start of your next turn, your unit has the benefit of that effect."
+     "Effect": "Select one of the following effects:\nImprove the Ballistic Skill characteristic of ranged weapons equipped by models in this unit by 1. Improve the Attacks characteristic of Rapid Fire weapons equipped by models in this unit by 1. Improve the Save characteristic of models in this unit by 1. Until the start of your next turn, your unit has the benefit of that effect."
     },
     {
      "Name": "Seize The Prize",

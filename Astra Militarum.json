@@ -42,7 +42,6 @@
      "ATTILAN ROUGH RIDERS",
      "CADIAN SHOCK TROOPS",
      "CATACHAN JUNGLE FIGHTERS",
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "DEATH RIDERS",
      "KASRKIN",
@@ -898,7 +897,6 @@
     "UnitNames": [
      "CADIAN SHOCK TROOPS",
      "CATACHAN JUNGLE FIGHTERS",
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "KASRKIN",
      "KRIEG COMBAT ENGINEERS",
@@ -2827,7 +2825,6 @@
     "UnitNames": [
      "CADIAN SHOCK TROOPS",
      "CATACHAN JUNGLE FIGHTERS",
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "KASRKIN",
      "KRIEG COMBAT ENGINEERS",
@@ -12357,7 +12354,6 @@
    ],
    "LeaderInfo": {
     "UnitNames": [
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "KRIEG COMBAT ENGINEERS"
     ],
@@ -12982,7 +12978,6 @@
     "UnitNames": [
      "CADIAN SHOCK TROOPS",
      "CATACHAN JUNGLE FIGHTERS",
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "KASRKIN",
      "KRIEG COMBAT ENGINEERS",
@@ -13257,7 +13252,6 @@
     "UnitNames": [
      "CADIAN SHOCK TROOPS",
      "CATACHAN JUNGLE FIGHTERS",
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "KASRKIN",
      "KRIEG COMBAT ENGINEERS",
@@ -13577,7 +13571,6 @@
     "UnitNames": [
      "CADIAN SHOCK TROOPS",
      "CATACHAN JUNGLE FIGHTERS",
-     "DEATH KORPS GRENADIER SQUAD",
      "DEATH KORPS OF KRIEG",
      "KASRKIN",
      "KRIEG COMBAT ENGINEERS",
@@ -14461,7 +14454,7 @@
      "Phase": "opponent",
      "When": "End of your opponent’s Charge phase.",
      "Target": "One friendly engaged Regiment unit.",
-     "Effect": "Roll one D6 for each enemy unit engaged with your unit:\nOn a 2+ that enemy unit suffers D6 mortal wounds.Then, your unit suffers 3D3 mortal wounds."
+     "Effect": "Roll one D6 for each enemy unit engaged with your unit:\nOn a 2+ that enemy unit suffers D6 mortal wounds. Then, your unit suffers 3D3 mortal wounds."
     }
    ],
    "Enhancements": [

@@ -3572,7 +3572,7 @@
      "Phase": "friendly",
      "When": "Start of your Shooting phase.",
      "Target": "Up to two friendly Sagitaur units.",
-     "Effect": "Select one enemy unit. Your units’ ranged attacks that target that enemy unit can:\nRe-roll hit rolls of 1.Re-roll wound rolls of 1."
+     "Effect": "Select one enemy unit. Your units’ ranged attacks that target that enemy unit can:\nRe-roll hit rolls of 1. Re-roll wound rolls of 1."
     },
     {
      "Name": "Outflanking Armour",
@@ -4335,7 +4335,7 @@
      "Phase": "friendly",
      "When": "Your Movement phase, when a friendly Einhyr Hearthguard unit with Deep Strike is selected to make an ingress move.",
      "Target": "That Einhyr Hearthguard unit.",
-     "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally from all enemy units, even if that is within your opponent’s deployment zone.Your unit is not eligible to declare a charge until the end of the turn."
+     "Effect": "Your unit can be set up anywhere on the battlefield that is more than 6\" horizontally from all enemy units, even if that is within your opponent’s deployment zone. Your unit is not eligible to declare a charge until the end of the turn."
     },
     {
      "Name": "Brëkkeknots",
@@ -4353,7 +4353,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Einhyr Hearthguard unit is selected to shoot.",
      "Target": "That Einhyr Hearthguard unit.",
-     "Effect": "Your unit’s ranged attacks have:\n+1 S.If you spend 1 YP, [SUSTAINED HITS 1]."
+     "Effect": "Your unit’s ranged attacks have:\n+1 S. If you spend 1 YP, [SUSTAINED HITS 1]."
     }
    ],
    "Enhancements": [

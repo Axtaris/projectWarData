@@ -5356,7 +5356,7 @@
      "Phase": "opponent",
      "When": "Your opponent’s Movement phase, when an enemy unit is selected to make a fall-back move, if that enemy unit is engaged with a friendly Contagion Engine unit.",
      "Target": "That Contagion Engine unit.",
-     "Effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound.On a 2-5, that enemy unit suffers D3 mortal wounds.On a 6, that enemy unit suffers 3 mortal wounds."
+     "Effect": "When an enemy unit engaged with your unit is selected to make a fall-back move, roll one D6:\nOn a 1, that enemy unit suffers 1 mortal wound. On a 2-5, that enemy unit suffers D3 mortal wounds. On a 6, that enemy unit suffers 3 mortal wounds."
     },
     {
      "Name": "Bloodrust Deluge",
@@ -5592,7 +5592,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly Plague Marines unit is selected to shoot.",
      "Target": "That Plague Marines unit.",
-     "Effect": "Your unit’s ranged attacks:\nCan re-roll hit rolls of 1.That target a unit within half range, can re-roll wound rolls of 1."
+     "Effect": "Your unit’s ranged attacks:\nCan re-roll hit rolls of 1. That target a unit within half range, can re-roll wound rolls of 1."
     },
     {
      "Name": "Nauseating Paroxysms",

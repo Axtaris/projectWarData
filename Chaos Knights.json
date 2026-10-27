@@ -3602,7 +3602,7 @@
      "Phase": "friendly",
      "When": "Your Command phase.",
      "Target": "One friendly Damned unit (excluding Accursed Cultists units) within 9\" of a friendly Chaos Knights model.",
-     "Effect": "Select one Chaos Knights model within 9\" of your unit and roll D3+3:\nYour Damned unit suffers that number of mortal wounds.That Chaos Knights model heals that number of wounds."
+     "Effect": "Select one Chaos Knights model within 9\" of your unit and roll D3+3:\nYour Damned unit suffers that number of mortal wounds. That Chaos Knights model heals that number of wounds."
     },
     {
      "Name": "Coursing Thralls",
@@ -4003,9 +4003,9 @@
      "Category": "TRAITORIS LANCE - STRATEGIC PLOY STRATAGEM",
      "CPCost": 1,
      "Phase": "opponent",
-     "When": "",
-     "Target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.\nEffect:\nYour unit has Stealth.Melee attacks that target your unit have -1 to hit rolls.",
-     "Effect": ""
+     "When": "Your opponent’s Shooting phase or the Fight phase, just after an enemy unit has selected its targets.",
+     "Target": "One Chaos Knights unit from your army that was selected as the target of one or more of the attacking unit’s attacks.",
+     "Effect": "Your unit has Stealth. Melee attacks that target your unit have -1 to hit rolls."
     },
     {
      "Name": "Pterrorshades",

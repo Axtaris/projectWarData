@@ -3920,7 +3920,7 @@
      "Phase": "friendly",
      "When": "Your Shooting phase, when a friendly engaged Imperial Knights Dominus unit is selected to shoot.",
      "Target": "That Imperial Knights Dominus unit.",
-     "Effect": "Your unit’s [BLAST] ranged attacks:\nDo not have [blast].Have +1 A."
+     "Effect": "Your unit’s [BLAST] ranged attacks:\nDo not have [blast]. Have +1 A."
     },
     {
      "Name": "Fire Shocked",
