@@ -14618,7 +14618,24 @@
      "RequiredAbilities": []
     }
    ],
-   "Effects": []
+   "Effects": [
+    {
+     "AffectedUnits": [],
+     "AffectedUnitsByKeyword": [
+      "Adeptus Astartes"
+     ],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ]
+    }
+   ]
   },
   {
    "Name": "STORMLANCE TASK FORCE",

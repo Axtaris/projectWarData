@@ -15563,7 +15563,27 @@
      "RequiredAbilities": []
     }
    ],
-   "Effects": []
+   "Effects": [
+    {
+     "AffectedUnits": [],
+     "AffectedUnitsByKeyword": [
+      "Astra Militarum"
+     ],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ],
+     "AffectedUnitsExcludeKeyword": [
+      "TITANIC"
+     ]
+    }
+   ]
   },
   {
    "Name": "SIEGE REGIMENT",

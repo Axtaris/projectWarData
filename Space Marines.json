@@ -14659,6 +14659,24 @@
      "Cost": 15,
      "Description": "Adeptus Astartes infantry model only. This model has:\nFights First. Lone Operative."
     }
+   ],
+   "Effects": [
+    {
+     "AffectedUnits": [],
+     "AffectedUnitsByKeyword": [
+      "Adeptus Astartes"
+     ],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ]
+    }
    ]
   },
   {

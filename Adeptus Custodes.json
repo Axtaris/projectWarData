@@ -4768,6 +4768,24 @@
      "Cost": 15,
      "Description": "Adeptus Custodes model only. If this unit made a charge move this turn, this model’s attacks can:\nRe-roll hit rolls of 1. Re-roll wound rolls of 1."
     }
+   ],
+   "Effects": [
+    {
+     "AffectedUnits": [],
+     "AffectedUnitsByKeyword": [
+      "Adeptus Custodes"
+     ],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Fights First"
+       ]
+      }
+     ]
+    }
    ]
   },
   {
