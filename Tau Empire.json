@@ -190,6 +190,10 @@
     {
      "Title": "Puretide's Teachings",
      "Text": "Once per battle round, you can target this model’s unit with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+    },
+    {
+     "Title": "INDEPENDENT POWER",
+     "Text": "If your army includes Commander Farsight, it cannot include any Ethereal units. If your army includes any Ethereal units, it cannot include Commander Farsight."
     }
    ],
    "LeaderInfo": {
@@ -3773,6 +3777,10 @@
     {
      "Title": "Drone Harassment Tactics",
      "Text": "At the end of your Movement phase, select one enemy unit within 12\" of this unit; that enemy unit must take a Battle-shock test."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -4305,6 +4313,10 @@
     {
      "Title": "Advanced Armour",
      "Text": "Models in this unit have the Feel No Pain 4+ ability against mortal wounds."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -4696,6 +4708,10 @@
     {
      "Title": "Targeting Array",
      "Text": "Each time this model is selected to shoot, you can re-roll one Hit roll or you can re-roll one Wound roll when resolving those attacks."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4869,7 +4885,7 @@
    "UnitAbilities": [
     {
      "Title": "Velocity Tracker",
-     "Text": "Each time this model makes an attack with a ranged weapon that targets a unit that can Fly, you can re-roll the Hit roll."
+     "Text": "Each time this model makes a ranged attack that targets a unit that can Fly, you can re-roll the Hit roll."
     },
     {
      "Title": "Targeting Array",
@@ -5017,7 +5033,11 @@
    "UnitAbilities": [
     {
      "Title": "Rapid Deployment",
-     "Text": "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+     "Text": "Units can disembark from this Transport after it has Advanced. Units that do so make a shock disembark move (Core Rules, 18.07) for that disembarkation."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5164,6 +5184,10 @@
     {
      "Title": "Ground Strike Fighter",
      "Text": "Each time this model makes a ranged attack that targets an enemy unit that cannot Fly, add 1 to the Hit roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5312,6 +5336,10 @@
     {
      "Title": "Pulse Bombs",
      "Text": "At the end of your opponent’s Fight phase, select one visible enemy unit (excluding Lone Operative units) within 24\" of this unit, and roll six D6 for that unit: for each 4+, that unit suffers 1 mortal wound."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6463,6 +6491,10 @@
     {
      "Title": "Strafing Run",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks that cannot Fly. That enemy unit must take a Battle-shock test."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6676,6 +6708,10 @@
     {
      "Title": "Titan Hunter",
      "Text": "This model’s twin heavy rail cannon and seeker missiles have the [ANTI-TITANIC 3+] ability while targeting a unit within half range."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6837,6 +6873,10 @@
     {
      "Title": "Air Caste Colossus",
      "Text": "Each time you target this model with a Stratagem, you must spend three times that Stratagem’s stated CP cost to do so."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [

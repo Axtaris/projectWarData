@@ -814,7 +814,7 @@
    "UnitAbilities": [
     {
      "Title": "Rapid Deployment (Pain)",
-     "Text": "In your Movement phase, when you select this model to Advance, you can spend 1 Pain token to Empower this model. While Empowered, units can disembark from this model after it has Advanced. Units that do so count as having made a Normal move that phase and cannot declare a charge in the same turn, but can otherwise act normally in the remainder of the turn."
+     "Text": "In your Movement phase, when you select this model to Advance, you can spend 1 Pain token to Empower this model. While Empowered, units can disembark from this model after it has Advanced. Units that do so make a shock disembark move (Core Rules, 18.07) for that disembarkation."
     },
     {
      "Title": "Aerialists",
@@ -1325,6 +1325,22 @@
     {
      "Title": "Vanguard of the Dark City",
      "Text": "At the start of your Command phase, select one of the abilities in the Vanguard of the Dark City section (see above) for this model. Until the start of your next Command phase, this model has that ability."
+    },
+    {
+     "Title": "Masters of the Shadowed Sky",
+     "Text": "At the end of your Command phase, if this model is within range of an objective marker you control, and if one or more Kabalite Warriors units are embarked within it, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
+    },
+    {
+     "Title": "Speed of the Kill",
+     "Text": "Each time a Wyches unit disembarks from this model (excluding Emergency Disembarkations), models in that Wyches unit must be set up wholly within 6\" of this model."
+    },
+    {
+     "Title": "Visions of Butchery",
+     "Text": "While one or more Wracks units are embarked within this model, for each Wracks model embarked within this model, add 1 to the Attacks characteristic of this model’s bladevanes and chainsnares."
+    },
+    {
+     "Title": "Aethersails",
+     "Text": "While one or more Drukhari units are embarked within this model, you can re-roll Advance and Charge rolls made for this model."
     }
    ],
    "Infos": [
@@ -3987,7 +4003,7 @@
     },
     {
      "Title": "Void Mine",
-     "Text": "At the end of your opponent’s Fight phase, select one visible enemy model (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model:\n▪ For each 4+, that enemy unit suffers D6 mortal wounds."
+     "Text": "At the end of your opponent’s Fight phase, select one visible enemy model (excluding Lone Operative units) within 24\" of this unit, and roll one D6 for each enemy unit within D6\" of that model: For each 4+, that unit suffers D6 mortal wounds."
     }
    ],
    "Infos": [
@@ -4221,7 +4237,7 @@
    "UnitAbilities": [
     {
      "Title": "Reavers of the Void",
-     "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+     "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack is within range of an objective marker, you can re-roll the Hit roll instead."
     },
     {
      "Title": "Mistshield",
@@ -4581,11 +4597,7 @@
    "UnitAbilities": [
     {
      "Title": "Piratical Raiders",
-     "Text": "At the start of the battle, select one unit from your opponent’s army. Each time a model in this unit makes an attack that targets that unit, that attack has the [LETHAL HITS] and [PRECISION] abilities."
-    },
-    {
-     "Title": "Channeler stones",
-     "Text": "Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0."
+     "Text": "At the start of the battle, select one unit from your opponent’s army. Weapons equipped by models in this unit have the [LETHAL HITS] and [PRECISION] abilities while targeting that unit."
     },
     {
      "Title": "Faolchú",
@@ -4594,6 +4606,10 @@
     {
      "Title": "Mistshield",
      "Text": "The bearer has a 4+ invulnerable save."
+    },
+    {
+     "Title": "Channeller Stones",
+     "Text": "Once per turn, the first time a saving throw is failed for the bearer’s unit, change the Damage characteristic of that attack to 0."
     }
    ],
    "LeaderInfo": null,
@@ -4619,7 +4635,7 @@
      "Toughness": "3",
      "Save": "4+",
      "Wounds": "1",
-     "Leadership": "6+",
+     "Leadership": "7+",
      "OC": "1",
      "BaseInfo": {
       "Size": "28.5"
@@ -4938,6 +4954,10 @@
     {
      "Title": "Flip Belt",
      "Text": "Each time the bearer's unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move."
+    },
+    {
+     "Title": "PATH OF DAMNATION",
+     "Text": "This model cannot be your Warlord."
     }
    ],
    "LeaderInfo": null,
@@ -5445,7 +5465,7 @@
    },
    "UnitAbilities": [
     {
-     "Title": "Polychromatic Camoflage",
+     "Title": "Polychromatic Camouflage",
      "Text": "This unit can only be selected as the target of a ranged attack if the attacking model is within 18\"."
     }
    ],
@@ -5824,7 +5844,7 @@
    "UnitAbilities": [
     {
      "Title": "Choreographer of War",
-     "Text": "While this model is leading a unit, each time a model in that unit makes a Pile In or Consolidate move, it can move up to 6\" instead of 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends as close as possible to the closest enemy unit."
+     "Text": "While this model is leading a unit, each time a model in that unit makes a Pile-in or Consolidation move, it can move up to 6\" instead of up to 3\". In addition, it does not need to end that move closer to the closest enemy model, provided it ends it as close as possible to the closest enemy unit."
     },
     {
      "Title": "Cegorach’s Favour",
@@ -6234,7 +6254,7 @@
     },
     {
      "Title": "Prince of Corsairs",
-     "Text": "After both players have deployed their armies, if this model is on the battlefield (or any Transport it is embarked within is on the battlefield), select up to three Aeldari units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
+     "Text": "After both players have deployed their armies, if this unit is on the battlefield (or any Transport it is embarked within is on the battlefield), select up to three Aeldari units from your army and redeploy them. When doing so, you can set those units up in Strategic Reserves, regardless of how many units are already in Strategic Reserves."
     }
    ],
    "LeaderInfo": {

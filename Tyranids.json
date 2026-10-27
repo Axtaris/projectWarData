@@ -32,7 +32,7 @@
    "UnitAbilities": [
     {
      "Title": "Will of the Hive Mind",
-     "Text": "Once per battle round, one model from your army with this ability can use it when a friendly Tyranids unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     "Text": "Once per battle round, one model from your army with this ability can use it when a friendly Tyranids unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
     },
     {
      "Title": "Paroxysm (Psychic)",
@@ -182,7 +182,7 @@
    "UnitAbilities": [
     {
      "Title": "Will of the Hive Mind",
-     "Text": "Once per battle round, one model from your army with this ability can use it when a friendly Tyranids unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     "Text": "Once per battle round, one model from your army with this ability can use it when a friendly Tyranids unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
     },
     {
      "Title": "Onslaught (Aura, Psychic)",
@@ -314,7 +314,7 @@
     },
     {
      "Title": "Malign Presence",
-     "Text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP."
+     "Text": "If this model is your Warlord, each time your opponent targets a unit from their army with a Stratagem, if that unit is within 12\" of this model, increase the cost of that use of that Stratagem by 1CP.\nDesigner’s Note: This ability takes precedence over the Lord of Deceit ability presented in the Balance Dataslate June 2024."
     },
     {
      "Title": "Domination of the Hive Mind",
@@ -1774,7 +1774,7 @@
     },
     {
      "Title": "Psychic Terror (Psychic)",
-     "Text": "If one or more Neurotyrants from your army are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
+     "Text": "If one or more models from your army with this ability are on the battlefield when you unleash the Shadow in the Warp, subtract 1 from the Battle-shock test each enemy unit on the battlefield must take as a result."
     },
     {
      "Title": "Neuroloids",
@@ -3132,7 +3132,7 @@
    "UnitAbilities": [
     {
      "Title": "Terror From The Deep",
-     "Text": "Each time this unit is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
+     "Text": "Each time this model is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
     }
    ],
    "Infos": [
@@ -4641,7 +4641,7 @@
    "UnitAbilities": [
     {
      "Title": "Seed Mucolids",
-     "Text": "Once per turn, in your shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with it's ranged weapons. If it does, you can add one new Mucolid Spores containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units."
+     "Text": "Once per turn, in your Shooting phase, when selected to shoot, one unit with this ability can use it instead of making any attacks with its ranged weapons. If it does, you can add one new Mucolid Spores unit containing 1 model to your army and set it up anywhere on the battlefield that is wholly within 18\" of this model and more than 8\" horizontally away from all enemy units."
     },
     {
      "Title": "Hive Defences",
@@ -5183,6 +5183,10 @@
     {
      "Title": "Singular Purpose:",
      "Text": "At the start of the first battle round, select one of the following:\n\t▪ Select one enemy unit. Until the end of the battle, each time this model makes an attack that targets that unit, you can re-roll the Hit roll and you can re-roll the Wound roll.\n\t▪ Select one objective marker. Until the end of the battle, while this model is within range of that objective marker it has the Feel No Pain 5+ ability and an Objective Control characteristic of 15."
+    },
+    {
+     "Title": "Unnatural Resilience",
+     "Text": "This model has the Feel No Pain 4+ ability against mortal wounds."
     }
    ],
    "Infos": [
@@ -5324,6 +5328,10 @@
     {
      "Title": "Harpoon Barbs:",
      "Text": "Once per turn when an enemy unit within Engagement Range of this model is selected to Fall Back, roll one D6: on a 2+, that unit suffers D6 mortal wounds."
+    },
+    {
+     "Title": "Harpooned",
+     "Text": "When this unit declares a charge, if an enemy Monster/Vehicle unit is within 12\" of this unit and was hit by an attack made by this weapon this turn, you can use this ability. If you do:\n▪ This unit has +2 to charge rolls until the end of the phase.\n▪ This unit must end that charge move engaged with that Monster/Vehicle unit."
     }
    ],
    "Infos": [
@@ -5656,6 +5664,10 @@
     {
      "Title": "Hypersensory Array",
      "Text": "Once per battle round, you can target this unit with the Rapid Ingress/Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
+    },
+    {
+     "Title": "Shadow In The Warp (Ravener Prime only)",
+     "Text": ""
     }
    ],
    "LeaderInfo": {

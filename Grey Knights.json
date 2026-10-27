@@ -2924,6 +2924,10 @@
     {
      "Title": "Truesilver Aegis (Aura)",
      "Text": "While a friendly Grey Knights unit is wholly within 6\" of this unit, models in that unit have the Feel No Pain 6+ ability against mortal wounds."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -3060,6 +3064,10 @@
     {
      "Title": "Fire Focus",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -3777,7 +3785,7 @@
     },
     {
      "Title": "Aerial Assault",
-     "Text": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
     }
    ],
    "Infos": [
@@ -3942,7 +3950,11 @@
    "UnitAbilities": [
     {
      "Title": "Assault Ramp",
-     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4106,7 +4118,11 @@
    "UnitAbilities": [
     {
      "Title": "Assault Ramp",
-     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4273,7 +4289,11 @@
    "UnitAbilities": [
     {
      "Title": "Assault Ramp",
-     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [

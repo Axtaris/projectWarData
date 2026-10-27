@@ -3003,6 +3003,10 @@
     {
      "Title": "Crystal Matrix",
      "Text": "Each time this model is selected to shoot, you can re‐roll one Hit roll and you can re‐roll one Wound roll when resolving those attacks."
+    },
+    {
+     "Title": "Linked Fire",
+     "Text": "When selecting targets for this weapon, you can measure range and determine visibility from another friendly Fire Prism model that is visible to the bearer. When doing so, this weapon has an Attacks characteristic of 1."
     }
    ],
    "Infos": [
@@ -4908,6 +4912,10 @@
     {
      "Title": "Flip Belt",
      "Text": "Each time the bearer’s unit makes a Normal, Advance, Fall Back or Charge move, ignore any vertical distance when determining the total distance the bearer can be moved during that move."
+    },
+    {
+     "Title": "PATH OF DAMNATION",
+     "Text": "This model cannot be your Warlord."
     }
    ],
    "Infos": [
@@ -5847,7 +5855,7 @@
    "UnitAbilities": [
     {
      "Title": "Way of the Blade",
-     "Text": "While this model is leading a unit, models in that unit have the Fights First ability."
+     "Text": "While this model is leadings unit, models in that unit have the Fights First ability."
     },
     {
      "Title": "Yvraine’s Champion",
@@ -7450,7 +7458,7 @@
     },
     {
      "Title": "Malevolent Souls",
-     "Text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking model’s unit has finished making its attacks, and is then removed from play."
+     "Text": "Each time a model in this unit is destroyed by a melee attack, if that model has not fought this phase, roll one D6. On a 3+, do not remove it from play; that destroyed model can fight after the attacking unit has finished making its attacks, and is then removed from play."
     }
    ],
    "Infos": [],
@@ -8406,7 +8414,7 @@
     },
     {
      "Title": "Psychic Communion (Psychic)",
-     "Text": "Each time this unit is selected to shoot, for each Warlock model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for each other friendly Aeldari Psyker model within 6\" of this model (to a maximum of +2)."
+     "Text": "Each time this unit is selected to shoot, for each Warlock model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model’s Destructor weapon for each other friendly Aeldari Psyker model within 6\" of that model (to a maximum of +2)."
     }
    ],
    "LeaderInfo": {
@@ -9026,7 +9034,7 @@
    "UnitAbilities": [
     {
      "Title": "Support Weapon",
-     "Text": "Each time an attack targets this model's unit, it that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
+     "Text": "Each time an attack targets this model’s unit, if that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
     },
     {
      "Title": "Structural Collapse",
@@ -9148,11 +9156,11 @@
    "UnitAbilities": [
     {
      "Title": "Monofilament Snare",
-     "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its Shadow weaver. Until the start of your next turn, that enemy unit it snared. While a unit is snared, each time that unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound."
+     "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its shadow weaver. Until the start of your next turn, that enemy unit is snared. While a unit is snared, each time that unit makes a Normal, Advance or Fall Back move, roll one D6 for each model in that unit: for each 1, that unit suffers 1 mortal wound."
     },
     {
      "Title": "Support Weapon",
-     "Text": "Each time an attack targets this model's unit, it that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
+     "Text": "Each time an attack targets this model’s unit, if that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
     },
     {
      "Title": "Support Artillery",
@@ -9268,7 +9276,7 @@
     },
     {
      "Title": "Support Weapon",
-     "Text": "Each time an attack targets this model's unit, it that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
+     "Text": "Each time an attack targets this model’s unit, if that unit contains one or more other models, until that attack is resolved, this model has a Toughness characteristic of 3."
     },
     {
      "Title": "Support Artillery",
@@ -9398,7 +9406,7 @@
     },
     {
      "Title": "Psychic Communion (Psychic)",
-     "Text": "Each time this unit is selected to shoot, for each Warlock model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model's Destructor weapon for each other friendly Aeldari Psyker model within 6\" of this model (to a maximum of +2)."
+     "Text": "Each time this unit is selected to shoot, for each Warlock model in this unit, until the end of the phase, add 1 to the Attacks and Strength characteristics of that model’s Destructor weapon for each other friendly Aeldari Psyker model within 6\" of that model (to a maximum of +2)."
     }
    ],
    "LeaderInfo": {
@@ -10032,7 +10040,7 @@
     },
     {
      "Title": "Eviscerating Fly-by",
-     "Text": "Each time this unit ends a Normal move, you can select one enemy unit (excluding Monster and Vehicle units) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
+     "Text": "Each time this unit ends a Normal move, you can select one enemy unit (excluding Monsters and Vehicles) that it moved over during that move. If you do, roll one D6 for each model in this unit: for each 4+, that enemy unit suffers 1 mortal wound."
     }
    ],
    "Infos": [],
@@ -10583,7 +10591,7 @@
    "UnitAbilities": [
     {
      "Title": "Tormentors",
-     "Text": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units with this ability must take a Battle-shock test."
+     "Text": "At the start of the Fight phase, each enemy unit within Engagement Range of one or more units from your army with this ability must take a Battle-shock test."
     }
    ],
    "Infos": [],
@@ -12110,7 +12118,12 @@
     ],
     "WargearDefinitions": []
    },
-   "UnitAbilities": [],
+   "UnitAbilities": [
+    {
+     "Title": "Crystalline Targeting",
+     "Text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, each time a friendly Aeldari unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. Each unit can only be selected for this ability once per turn."
+    }
+   ],
    "LeaderInfo": null,
    "Infos": [],
    "Keywords": [

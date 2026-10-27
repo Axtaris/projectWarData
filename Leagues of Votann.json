@@ -406,7 +406,7 @@
     },
     {
      "Title": "Geomantic Hunters",
-     "Text": "Up to twice per battle, in your Shooting phase, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, each time a model in this unit makes an attack with its breacher ordnance, you can re-roll the Wound roll."
+     "Text": "Up to twice per battle, in your Shooting phase, when this unit is selected to shoot, it can use this ability. If it does, until the end of the phase, each time a model in this unit makes an attack with its breacher ordnance, you can re-roll the Wound roll.\nDesigner’s Note: Place two breacher ordnance tokens next to the unit, removing one each time this unit uses this ability."
     }
    ],
    "Infos": [],
@@ -1386,6 +1386,14 @@
     {
      "Title": "Panspectral Scanner:",
      "Text": "Each time a model in the bearer’s unit makes a ranged attack, re-roll a Hit roll of 1."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified successful Hit roll of 4+ scores a Critical Hit."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -2264,7 +2272,7 @@
     },
     {
      "Title": "Rampart Crest:",
-     "Text": "While the bearer is leading a unit, models in that unit have a 5+ invulnerable save."
+     "Text": "While this model is leading a unit, models in that unit have a 5+ invulnerable save."
     },
     {
      "Title": "Teleport Crest:",
@@ -2802,6 +2810,10 @@
     {
      "Title": "Resource Transmutation",
      "Text": "Once per turn, in your Shooting phase, one model with this ability can use it when it is selected to shoot. If it does, you must spend 1YP and, until the end of the phase, ranged weapons equipped by that model have the [SUSTAINED HITS 1] ability and, after that model has shot this phase, if one or more enemy units were destroyed by those attacks, you can gain up to 2YP."
+    },
+    {
+     "Title": "Overcharge",
+     "Text": "Each time the bearer takes a Hazardous test for this weapon profile, subtract 2 from the result."
     }
    ],
    "Infos": [],
@@ -3096,6 +3108,10 @@
     {
      "Title": "Breaching Fire",
      "Text": "In your Shooting phase, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next Shooting phase, that enemy unit cannot have the Benefit of Cover."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit."
     }
    ],
    "Infos": [],
@@ -3459,7 +3475,7 @@
     },
     {
      "Title": "Relentless Avalanche",
-     "Text": "You can target this model’s unit with the Heroic Intervention Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+     "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
     }
    ],
    "LeaderInfo": {

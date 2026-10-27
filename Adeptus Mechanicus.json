@@ -447,6 +447,18 @@
     {
      "Title": "Supreme Commander",
      "Text": "If this model is in your army, it must be your Warlord."
+    },
+    {
+     "Title": "Invocation of Machine Vengeance",
+     "Text": "At the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Machine Vengeance target. Each time a model in a friendly Adeptus Mechanicus unit makes an attack that targets your Machine Vengeance target, you can re-roll the Hit roll."
+    },
+    {
+     "Title": "Mantra of Discipline",
+     "Text": "This model has the Battleline keyword and has the following ability:\n▪ Binharic Courage (Aura): While a friendly Adeptus Mechanicus unit is within 6\" of this model, add 1 to the Objective Control characteristic of models in that unit and each time you take a Battle-shock or Leadership test for that unit, add 1 to that test."
+    },
+    {
+     "Title": "Shroudpsalm (Aura)",
+     "Text": "While a friendly Adeptus Mechanicus unit is within 6\" of this model, that unit has the Stealth ability."
     }
    ],
    "Infos": [
@@ -1118,7 +1130,7 @@
     },
     {
      "Title": "Broad Spectrum Data-tether",
-     "Text": "Each time you select this unit as the target of a Stratagem, roll one D6: on a 5+, you gain 1CP."
+     "Text": "Each time you target this unit with a Stratagem, roll one D6: on a 5+, you gain 1CP."
     }
    ],
    "Infos": [],
@@ -2887,7 +2899,7 @@
     },
     {
      "Title": "Objective Scouted",
-     "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
     }
    ],
    "Infos": [],
@@ -4776,6 +4788,18 @@
     {
      "Title": "Supreme Commander",
      "Text": "If this model is in your army, it must be your Warlord."
+    },
+    {
+     "Title": "Fanatical Devotion",
+     "Text": "You can select one friendly Skitarii or Thulia Ghuld unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Advanced."
+    },
+    {
+     "Title": "Adaptive Tactics",
+     "Text": "You can select one friendly Skitarii or Thulia Ghuld unit within 6\" of this model; until the start of your next Command phase, that unit is eligible to shoot and declare a charge in a turn in which it Fell Back."
+    },
+    {
+     "Title": "The Fires of Mars",
+     "Text": "You can select one friendly Skitarii or Thulia Ghuld unit within 6\" of this model; until the start of your next Command phase, the Conqueror Imperative and Protector Imperative are both active for that unit."
     }
    ],
    "Infos": [

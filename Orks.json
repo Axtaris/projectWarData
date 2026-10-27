@@ -1773,7 +1773,7 @@
    "UnitAbilities": [
     {
      "Title": "Pyromaniaks",
-     "Text": "Each time a model in this unit makes a ranged attack with a burna that targets an enemy unit within 6\", re-roll a Wound roll of 1. If the target of that attack is also within range of an objective marker, you can re-roll the Wound roll instead."
+     "Text": "This unit’s attacks that target a unit within 6\" of this unit can re-roll wound rolls of 1."
     }
    ],
    "Infos": [],
@@ -2182,7 +2182,12 @@
     ],
     "WargearDefinitions": []
    },
-   "UnitAbilities": [],
+   "UnitAbilities": [
+    {
+     "Title": "Dread ’Ard",
+     "Text": "Attacks that target this unit have -1 D."
+    }
+   ],
    "Infos": [],
    "Keywords": [
     "Vehicle",
@@ -3361,6 +3366,14 @@
     {
      "Title": "Wurrboy (psyker level 1)",
      "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
+    },
+    {
+     "Title": "Beastscent (Psychic)",
+     "Text": "In your Movement phase, when a unit embarked within this unit is selected to make a disembark move, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ That disembarking unit’s attacks that target a Monster/Vehicle unit have +1 to wound rolls until the end of the turn."
+    },
+    {
+     "Title": "Warpath (Psychic)",
+     "Text": "In the Fight phase, when this unit is selected to fight, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ This unit’s melee attacks have [Lethal Hits] and [Psychic]."
     }
    ],
    "Infos": [
@@ -3904,7 +3917,7 @@
    "UnitAbilities": [
     {
      "Title": "Dat’s Our Loot!",
-     "Text": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If that attack targets a unit that is within range of an objective marker, you can re-roll the Hit roll instead."
+     "Text": "▪ This unit’s ranged attacks can re-roll hit rolls of 1.\n▪ This unit’s ranged attacks that target a unit within range of an objective can re-roll hit rolls."
     }
    ],
    "Infos": [],
@@ -6667,6 +6680,14 @@
     {
      "Title": "Waaagh! Energy",
      "Text": "This model has the psychic abilities listed in the Psychic Abilities section (see above)."
+    },
+    {
+     "Title": "Da Jump (psychic level 1, once per army, per battle round)",
+     "Text": "In your Movement phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ Place this unit in strategic reserves.\n▪ This unit has Deep Strike."
+    },
+    {
+     "Title": "Warpath (Psychic)",
+     "Text": "In the Fight phase, when this unit is selected to fight, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ This unit’s melee attacks can re-roll wound rolls of 1.\n▪ This unit’s melee attacks have [Psychic]."
     }
    ],
    "LeaderInfo": {
@@ -7408,6 +7429,18 @@
     {
      "Title": "Full Throttle",
      "Text": "In your Command phase, select one Throttlerokkit Shokka Engine ability (see above). This unit has that ability until the start of your next Command phase."
+    },
+    {
+     "Title": "Turbo Engine",
+     "Text": "When this unit is selected to make an advance/fall-back move, that move does not prevent this unit from being eligible to declare a charge."
+    },
+    {
+     "Title": "Shokk Attack Engine",
+     "Text": "In your Command phase, if this unit is unengaged, you can place this unit in strategic reserves."
+    },
+    {
+     "Title": "Pulse Jet",
+     "Text": "In your Movement phase, when this unit is selected to move, if this unit is unengaged, this unit can make a pulse jet move."
     }
    ],
    "Infos": [
@@ -7928,7 +7961,7 @@
     },
     {
      "Title": "Bust 'Em",
-     "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That enemy unit is busted until the end of the turn: - Friendly SPEED FREEKS units' attacks that target a busted unit have [LETHAL HITS]."
+     "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. That unit is busted until the end of the turn:\n▪ Friendly Speed Freeks units’ attacks that target a busted unit have [Lethal Hits]."
     }
    ],
    "LeaderInfo": null,
@@ -8198,7 +8231,7 @@
     },
     {
      "Title": "Supreme Kunnin' (Once per phase, per army)",
-     "Text": "In your opponent's Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can: - Make a normal move of up to D6\". - <ins>Or:</ins> If this unit is riled up, make a normal move of up to 5\"."
+     "Text": "In your opponent’s Movement phase, when an enemy unit ends a move within 8\" of this unit, if this unit is unengaged, this unit can:\n▪ Make a normal move of up to D6\".\n▪ Or: If this unit is riled up, make a normal move of up to 5\"."
     },
     {
      "Title": "Intimidating Motivation (Once per battle round, per army)",
@@ -8337,7 +8370,7 @@
    "UnitAbilities": [
     {
      "Title": "That'll Learn Ya (Once per battle round, per unit)",
-     "Text": "When this unit becomes battle-shocked, if this unit contains 4+ Gretchin models, you can roll one D3: - That number of Gretchin models in this unit are destroyed. - That unit is no longer battle-shocked."
+     "Text": "When this unit becomes battle-shocked, if this unit contains 4+ Gretchin models, you can roll one D3:\n▪ That number of Gretchin models in this unit are destroyed.\n▪ This unit is no longer battle-shocked."
     }
    ],
    "LeaderInfo": {

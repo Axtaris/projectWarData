@@ -30,6 +30,22 @@
     {
      "Title": "Dark Destiny",
      "Text": "Each time this model’s unit makes a Dark Pact and does not fail the resulting leadership roll, if the result of that roll was 7+, you gain 1CP."
+    },
+    {
+     "Title": "SUPREME COMMANDER",
+     "Text": "If this model is in your army, it must be your Warlord."
+    },
+    {
+     "Title": "Paragon of Hatred (Aura)",
+     "Text": "While a friendly Heretic Astartes unit is within 6\" (excluding Damned units) of this model, each time a model in that unit makes an attack, you can re-roll the Hit roll."
+    },
+    {
+     "Title": "Mark of Chaos Ascendant (Aura)",
+     "Text": "While a friendly Heretic Astartes Infantry or Heretic Astartes Mounted unit (excluding Damned units) is within 6\" of this model, models in that unit have a 4+ invulnerable save."
+    },
+    {
+     "Title": "Lord of the Traitor Legions (Aura)",
+     "Text": "While a friendly Heretic Astartes unit (excluding Damned units) is within 6\" of this model, you can re-roll Leadership and Battle-shock tests taken for that unit."
     }
    ],
    "LeaderInfo": {
@@ -167,7 +183,7 @@
    "UnitAbilities": [
     {
      "Title": "Head Taker",
-     "Text": "While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this model’s unit which is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
+     "Text": "While this model is leading a unit, each time this model’s unit ends a Charge move, select one enemy unit within Engagement Range of this model’s unit and roll one D6 for each model in this models unit that is within Engagement Range of that enemy unit: for each 4+, that enemy unit suffers 1 mortal wound."
     },
     {
      "Title": "Herald of the Apocalypse (Aura)",
@@ -1280,7 +1296,27 @@
     },
     {
      "Title": "Lord of Chaos",
-     "Text": "While this model is within 3\" of a friendly Heretic Astartes Infantry unit, this model has Lone Operative."
+     "Text": "While this model is within 3\" of one or more friendly Heretic Astartes Infantry units, this model has the Lone Operative ability."
+    },
+    {
+     "Title": "Daemonic Allegiance",
+     "Text": "When you select this model to include in your army, you must select one of the keywords below. Until the end of the battle, this model has that keyword and the characteristic modifier stated for that keyword below."
+    },
+    {
+     "Title": "Khorne",
+     "Text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
+    },
+    {
+     "Title": "Tzeentch",
+     "Text": "Add 3 to the Attacks characteristic of its infernal cannon."
+    },
+    {
+     "Title": "Nurgle",
+     "Text": "Add 1 to its Toughness characteristic."
+    },
+    {
+     "Title": "Slaanesh",
+     "Text": "Add 2\" to its Move characteristic."
     }
    ],
    "Infos": [],
@@ -1505,6 +1541,26 @@
     {
      "Title": "Flying Horror",
      "Text": "Each time this model ends a Normal or Advance move, select one enemy unit it moved over during that move. That unit must take a Battle-shock test."
+    },
+    {
+     "Title": "Daemonic Allegiance",
+     "Text": "When you select this model to include in your army, you must select one of the keywords below. Until the end of the battle, this model has that keyword and the characteristic modifier stated for that keyword below."
+    },
+    {
+     "Title": "Khorne",
+     "Text": "Add 2 to the Strength characteristic of this model's hellforged weapons."
+    },
+    {
+     "Title": "Tzeentch",
+     "Text": "Add 3 to the Attacks characteristic of its infernal cannon."
+    },
+    {
+     "Title": "Nurgle",
+     "Text": "Add 1 to its Toughness characteristic."
+    },
+    {
+     "Title": "Slaanesh",
+     "Text": "Add 2\" to its Move characteristic."
     }
    ],
    "Infos": [],
@@ -1822,7 +1878,7 @@
    "UnitAbilities": [
     {
      "Title": "Agent of Discord (Aura)",
-     "Text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do, increase the CP cost of that use of that stratagem by 1CP."
+     "Text": "Once per turn, when your opponent targets a unit from their army within 12\" of this model with a stratagem, you can use this ability. If you do increase the CP cost of tht use of that stratagem by 1CP."
     },
     {
      "Title": "Guns Blazing",
@@ -7553,7 +7609,7 @@
    "UnitAbilities": [
     {
      "Title": "Assault Ramp",
-     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
     }
    ],
    "Infos": [
@@ -12530,7 +12586,7 @@
    "UnitAbilities": [
     {
      "Title": "Blood Surge",
-     "Text": "In your opponent's Shooting phase, each time an enemy unit has shot, if any models from this unit were destroyed as a result of those attacks, this unit can make a Blood Surge move. To do so, roll one D6 and add 2 to the roll: models in this unit move a number of inches up to this result, but this unit must finish that move as close as possible to the closest enemy unit (excluding Aircraft). When doing so, those models can be moved within Engagement Range of that enemy unit. This unit cannot make a Blood Surge move while it is Battle-shocked or within Engagement Range of one or more enemy units, and can only make one Blood Surge move per phase."
+     "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit was destroyed as a result of those attacks, this unit can make a surge move of up to D6+2\"."
     },
     {
      "Title": "Murderous Charge",
@@ -12538,7 +12594,7 @@
     },
     {
      "Title": "Icon of Khorne",
-     "Text": "Each time the bearer's unit destroys an enemy unit, you gain one Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost."
+     "Text": "If the bearer’s unit contains one or more Icons of Khorne, each time the bearer’s unit destroys an enemy unit, you gain 1 Bloodshed point. Each time you make a Blessings of Khorne roll, roll one additional D6 for each Bloodshed point you have, after which, all your Bloodshed points are lost."
     }
    ],
    "LeaderInfo": null,
@@ -12738,11 +12794,15 @@
    "UnitAbilities": [
     {
      "Title": "Bringers of Change",
-     "Text": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If the target of that attack is within range of an objective marker you do not control, you can re-roll the Wound roll instead."
+     "Text": "Each time a model in this unit makes a ranged attack, re-roll a Wound roll of 1. If that attack targets a unit within range of an objective marker you do not control, you can re-roll the Wound roll instead."
     },
     {
      "Title": "Icon of Flame",
-     "Text": "Ranged weapons equipped by models in this unit (excluding Characters) have the [Ignores Cover] ability."
+     "Text": "Ranged weapons equipped by models in the bearer’s unit (excluding Characters) have the [IGNORES COVER] ability."
+    },
+    {
+     "Title": "Cabal of Sorcerers (Aspiring Sorcerer only)",
+     "Text": ""
     }
    ],
    "LeaderInfo": null,
@@ -13085,7 +13145,7 @@
    "UnitAbilities": [
     {
      "Title": "Infused with the Blessings of Nurgle",
-     "Text": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is Afflicted."
+     "Text": "In your Shooting phase, each time this unit is selected to shoot, after this unit has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is Afflicted."
     },
     {
      "Title": "Icon of Despair",

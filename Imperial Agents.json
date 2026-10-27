@@ -163,6 +163,10 @@
     {
      "Title": "Shadow Assignment",
      "Text": "This model cannot be selected to be your Warlord.\nIf your army faction is Agents Of The Imperium, then during the Declare Battle Formations step, you can replace this model with a different Officio Assassinorum model, provided the total points value of the new model does not exceed the points value of the model it replaced. Your army cannot include duplicates of the same model (i.e. after replacing a model with this rule, your army cannot have more than 1 Vindicare Assassin, it cannot have more than 1 CUlExUS Assassin, it cannot have more than 1 EvERSOR Assassin and it cannot have more than 1 CAllIDUS Assassin)."
+    },
+    {
+     "Title": "Psychic Assassin",
+     "Text": "Each time you select a Psyker unit as the target for this weapon, until those attacks are resolved, change the Attacks characteristic of this weapon to 6."
     }
    ],
    "Infos": [
@@ -770,6 +774,10 @@
     {
      "Title": "Masters of Close Confines",
      "Text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, that attack has the [LETHAL HITS] ability."
+    },
+    {
+     "Title": "NAVY BODYGUARD",
+     "Text": "If your Army Faction is not Agents Of The Imperium, then for each Voidfarers Character unit you include in your army, you can include one Voidsmen-at-arms unit in your army that does not count towards the number of Retinue units your army can include (see Assigned Agents)"
     }
    ],
    "Infos": [
@@ -1023,7 +1031,7 @@
     },
     {
      "Title": "Breaching Team",
-     "Text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll instead."
+     "Text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target is within range of an objective marker, you can re-roll the Wound roll instead."
     },
     {
      "Title": "Gheistskull",
@@ -1032,6 +1040,10 @@
     {
      "Title": "CAT Unit",
      "Text": "Once per battle, when this unit is selected to shoot, until the end of the phase, ranged weapons equipped by models In this unit gain the [IGNORES COVER] ability.\n\nDesigner's Note: Place one Gheistskull and one CAT Unit token next to this unit, removing each token once the relevant ability has been used."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -1475,7 +1487,7 @@
     },
     {
      "Title": "Nuncio Aquila",
-     "Text": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding Monsters and Vehicles) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn."
+     "Text": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding Monsters and Vehicles) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.\nDesigner’s Note: Place one Nuncio-aquila token next to the bearer, removing it once it uses this ability."
     },
     {
      "Title": "Soulguilt Scanner",
@@ -1708,7 +1720,7 @@
     },
     {
      "Title": "Nuncio Aquila",
-     "Text": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding Monsters and Vehicles) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.                "
+     "Text": "Once per battle, at the start of any Command phase, you can select one objective marker within 6\" of the bearer. All enemy units (excluding Monsters and Vehicles) within range of that objective marker must take a Battle-shock test. Each objective marker can only be targeted by this ability once per turn.\nDesigner’s Note: Place one Nuncio-aquila token next to the bearer, removing it once it uses this ability."
     }
    ],
    "Infos": [],
@@ -2033,7 +2045,7 @@
     },
     {
      "Title": "Glovodan Psyber-eagle",
-     "Text": "In your Command phase, you can select one enemy unit within 18\" of the bearer. Until the  start of your next Command phase, that unit cannot have the Benefit of Cover."
+     "Text": "In your Command phase, you can select one enemy unit within 18\" of the bearer. Until the start of your next Command phase, that unit cannot have the Benefit of Cover.\nDesigner’s Note: Place a Glovodan Psyber-eagle token next to the selected unit to remind you."
     }
    ],
    "LeaderInfo": {
@@ -2604,7 +2616,7 @@
    "UnitAbilities": [
     {
      "Title": "Loyal Henchmen",
-     "Text": "While an Inquisitor model is leading this unit, each time an attack targets this unit, subtract 1 from the Wound roll."
+     "Text": "While an Inquisitor model is leading this unit, each time an attack is made against this unit, subtract 1 from the Wound roll."
     },
     {
      "Title": "Inquisitorial Henchmen",
@@ -3100,7 +3112,7 @@
     },
     {
      "Title": "Death to the Alien",
-     "Text": "Each time a model in this unit makes an attack, re-roll a Hit roll of 1. If the target of that attack does not have the Imperium or Chaos keywords, you can re-roll the Hit roll instead."
+     "Text": "This unit’s attacks can:\n▪ Re-roll hit rolls of 1.\n▪ Or: If the target of those attacks does not have Imperium/chaos, re-roll hit rolls."
     }
    ],
    "Infos": [],
@@ -3361,7 +3373,7 @@
     },
     {
      "Title": "Auspex Array",
-     "Text": "Ranged weapons equipped by the bearer have the [IGNORES COVER] ability."
+     "Text": "This unit’s ranged attacks have [IGNORES COVER]."
     }
    ],
    "Infos": [
@@ -3692,7 +3704,11 @@
    "UnitAbilities": [
     {
      "Title": "Rapid Deployment",
-     "Text": "Units can disembark from this transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+     "Text": "Units can disembark from this Transport after it has Advanced. Units that do so make a shock disembark move (Core Rules, 18.07) for that disembarkation."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -3865,6 +3881,10 @@
     {
      "Title": "Self Repair",
      "Text": "At the start of your Command phase, this model regains 1 lost wound."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4054,6 +4074,10 @@
     {
      "Title": "Incensor Cherub",
      "Text": "Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.\nDesigner’s Note: Place an Incensor Cherub token next to the unit, removing it once this ability has been used."
+    },
+    {
+     "Title": "Simulacrum Imperials",
+     "Text": "Improve the Leadership characteristic of models in the bearer’s unit by 1."
     }
    ],
    "Infos": [],
@@ -4317,6 +4341,10 @@
     {
      "Title": "Purge and Cleanse",
      "Text": "Each time this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover. "
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4880,7 +4908,7 @@
     },
     {
      "Title": "Cherub",
-     "Text": "Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+     "Text": "Once per battle, you can target this unit with the Command Re-roll Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase.\nDesigner’s Note: Place a Cherub token next to the unit, removing it once this ability has been used."
     },
     {
      "Title": "Salvationist Medikit",
@@ -4893,6 +4921,10 @@
     {
      "Title": "Attached Unit",
      "Text": "If a Ministorum Priest or Inquisitor model from your army with the Leader ability can be attached to a Sisters of Battle Squad, it can be attached to this unit instead. If a Ministorum Priest or Inquisitor model from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6\" ability."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "AttachedUnitInfo": {
@@ -5197,6 +5229,10 @@
     {
      "Title": "Kill Team",
      "Text": "Each time an attack targets this unit, if it contains models with different T characteristics, until the attacking models has finished making it’s attacks, use the T characteristic of the majority of the models in the unit when determining what roll is required for that attack to successfully wound. If two or more T characteristics are tied for majority, use the highest value.\nFor the purpose of determining which models in this unit can embark within a Transport, Gravis Veteran models take up the space of 2 models, but can otherwise embark within any Transport their unit can embark within, even though similar models in other units have the Gravis keyword."
+    },
+    {
+     "Title": "ATTACHED UNIT",
+     "Text": "If a Character unit from your army can be attached to a Deathwatch Kill Team unit, it can be attached to this unit instead."
     }
    ],
    "AttachedUnitInfo": {

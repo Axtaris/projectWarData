@@ -2186,6 +2186,10 @@
     {
      "Title": "Sunderer of Fortresses",
      "Text": "Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1. If that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
     }
    ],
    "Infos": [
@@ -2488,7 +2492,7 @@
     },
     {
      "Title": "Shock Charge",
-     "Text": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+     "Text": "You can target this model with the Crushing Impact Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
     }
    ],
    "Infos": [
@@ -3395,6 +3399,10 @@
     {
      "Title": "Protection Protocols",
      "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit."
     }
    ],
    "Infos": [
@@ -3559,6 +3567,10 @@
     {
      "Title": "Selfless Protector",
      "Text": "Each time a ranged attack is allocated to an Imperial Knights model from your army, if that model is not fully visible to every model in the attacking unit because of this Knight Defender model, that model has the Benefit of Cover and a 4+ invulnerable save against that attack."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack is made with this weapon, if the target is more than 18\" away from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
     }
    ],
    "Infos": [

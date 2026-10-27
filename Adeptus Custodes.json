@@ -377,8 +377,8 @@
      "Text": "▪ This unit has +1 OC.\n▪ This unit can ignore modifiers to this unit’s Ld."
     },
     {
-     "Title": "Slayers of Tyrants",
-     "Text": "Each time a model in this unit makes an attack that targets a Character, Monster or Vehicle unit, you can re-roll the Wound roll."
+     "Title": "Slayer of Tyrants",
+     "Text": "This unit’s melee attacks that target a unit with a T greater than this unit’s T have +1 to wound rolls."
     }
    ],
    "Infos": [],
@@ -1044,6 +1044,10 @@
     {
      "Title": "Vengeful Surge",
      "Text": "In your opponent’s Shooting phase, when an enemy unit has shot, if a model in this unit lost a wound as a result of those attacks, this unit can make a surge move of up to D6+2\"."
+    },
+    {
+     "Title": "Master of Ka’tahs (Once per battle round, per unit)",
+     "Text": "If this unit is not readied, you can use this ability. If you do, this unit is readied."
     }
    ],
    "LeaderInfo": {
@@ -1321,11 +1325,11 @@
    "UnitAbilities": [
     {
      "Title": "Tactical Perception",
-     "Text": "While this model is leading a unit, models in that unit have the Fights First ability."
+     "Text": "This unit has Fights First."
     },
     {
      "Title": "Tenacious Spirit",
-     "Text": "While this model is leading a unit, each time a model in that unit makes an attack, add 1 to the Hit roll if that unit is below its Starting Strength, and add 1 to the Wound roll as well if that unit is Below Half-strength."
+     "Text": "▪ While this unit is below starting strength, this unit’s attacks have +1 to hit rolls.\n▪ While this unit is below half-strength, this unit’s attacks have +1 to wound rolls."
     },
     {
      "Title": "Daughter of the Abyss",
@@ -1366,7 +1370,7 @@
    ],
    "StatLines": [
     {
-     "Movement": "6\"",
+     "Movement": "7\"",
      "Toughness": "3",
      "Save": "3+",
      "Wounds": "4",
@@ -1695,6 +1699,10 @@
     {
      "Title": "Archeotech Teleport-shunter",
      "Text": "In your Movement phase, if this unit is unengaged and has not been selected to move this phase, you can use this ability. If you do, place this unit in strategic reserves and this unit must make an ingress move this phase."
+    },
+    {
+     "Title": "Master of Ka’tahs (Once per battle round, per unit)",
+     "Text": "If this unit is not readied, you can use this ability. If you do, this unit is readied."
     }
    ],
    "LeaderInfo": {
@@ -1840,6 +1848,10 @@
     {
      "Title": "Sweeping Advance",
      "Text": "At the end of the Fight phase, if this unit was eligible to fight this phase:\n▪ If this unit is unengaged, this unit can make a normal move.\n▪ Or: If this unit is engaged, this unit can make a fall-back move."
+    },
+    {
+     "Title": "Master of Ka’tahs (Once per battle round, per unit)",
+     "Text": "If this unit is not readied, you can use this ability. If you do, this unit is readied."
     }
    ],
    "LeaderInfo": {
@@ -1963,6 +1975,10 @@
     {
      "Title": "Moment Shackle",
      "Text": "At the start of any phase, you can select one of the following to take effect until the end of the phase:\n▪ This model’s Watcher’s Axe weapon has +3 A.\n▪ This model has 3+ InSv."
+    },
+    {
+     "Title": "SUPREME COMMANDER",
+     "Text": "If this model is in your army, it must be your Warlord."
     }
    ],
    "LeaderInfo": {
@@ -2080,11 +2096,11 @@
    "UnitAbilities": [
     {
      "Title": "Golden Laurels",
-     "Text": "While this model is leading a unit, each time a melee attack targets that unit, worsen the Armour Penetration characteristic of that attack by 1."
+     "Text": "Attacks that target this unit have -1 AP."
     },
     {
      "Title": "Hero of Lion’s Gate",
-     "Text": "Once per battle, after making a Hit roll, Wound roll or saving throw for this model, you can change the result of that roll to an unmodified 6."
+     "Text": "After making a hit roll, wound roll or save roll for this model, you can change the result to an unmodified 6."
     }
    ],
    "LeaderInfo": {
@@ -2117,11 +2133,11 @@
    ],
    "StatLines": [
     {
-     "Movement": "6\"",
-     "Toughness": "6",
+     "Movement": "8\"",
+     "Toughness": "7",
      "Save": "2+",
-     "Wounds": "6",
-     "Leadership": "6+",
+     "Wounds": "8",
+     "Leadership": "5+",
      "OC": "2",
      "BaseInfo": {
       "Size": "40"
@@ -2223,7 +2239,7 @@
    "UnitAbilities": [
     {
      "Title": "Unyielding Ancient",
-     "Text": "The first time this model is destroyed, remove it from play without resolving its Deadly Demise ability. Then, at the end of the phase, roll one D6: on a 2+, set this model back up on the battlefield as close as possible to where it was destroyed and not within Engagement Range of any enemy units, with D6 wounds remaining."
+     "Text": "At the end of a phase in which this model is destroyed, roll one D6:\n▪ On a 2+, set this model back up on the battlefield as close as possible to where it was destroyed, unengaged and with 3 wounds remaining."
     }
    ],
    "Infos": [],
@@ -2241,11 +2257,11 @@
    ],
    "StatLines": [
     {
-     "Movement": "6\"",
-     "Toughness": "9",
+     "Movement": "9\"",
+     "Toughness": "10",
      "Save": "2+",
-     "Wounds": "10",
-     "Leadership": "6+",
+     "Wounds": "12",
+     "Leadership": "5+",
      "OC": "3",
      "BaseInfo": {
       "Size": "60"
@@ -2356,7 +2372,7 @@
    "UnitAbilities": [
     {
      "Title": "Assault Ramp",
-     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move."
     }
    ],
    "Infos": [
@@ -2389,8 +2405,8 @@
      "Toughness": "12",
      "Save": "2+",
      "Wounds": "16",
-     "Leadership": "6+",
-     "OC": "5",
+     "Leadership": "7+",
+     "OC": "1",
      "BaseInfo": {
       "Type": 2
      }
@@ -3753,7 +3769,7 @@
     },
     {
      "Title": "Neutronium Cascade Mine",
-     "Text": "(Once per battle, per unit) At the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+: - That enemy unit suffers D3 mortal wounds. - Or: if that enemy unit is a VEHICLE/MONSTER unit that enemy unit suffers 2D3 mortal wounds."
+     "Text": "At the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+:\n▪ That enemy unit suffers D3 mortal wounds.\n▪ Or: If that enemy unit is a Vehicle/Monster unit, that enemy unit suffers 2D3 mortal wounds."
     },
     {
      "Title": "Take Wing",
@@ -3783,7 +3799,7 @@
      "Toughness": "7",
      "Save": "2+",
      "Wounds": "5",
-     "Leadership": "6+",
+     "Leadership": "5+",
      "OC": "2",
      "InvulSave": {
       "Save": "4+"
@@ -4227,11 +4243,11 @@
    "UnitAbilities": [
     {
      "Title": "Swift Ruin",
-     "Text": "(Once per phase, per army) You can target this unit with the Rapid Ingress stratagem regardless of any other uses of that stratagem this phase. If you do: - That use is -1CP. - That use does not prevent any uses of that stratagem on other units this phase."
+     "Text": "You can target this unit with the Rapid Ingress stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
     },
     {
      "Title": "Neutronium Cascade Mine",
-     "Text": "(Once per battle, per unit) At the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+: - That enemy unit suffers D3 mortal wounds. - Or: if that enemy unit is a VEHICLE/MONSTER unit that enemy unit suffers 2D3 mortal wounds."
+     "Text": "At the start of any phase, you can select one enemy unit within 3\" of this unit and roll one D6. On a 2+:\n▪ That enemy unit suffers D3 mortal wounds.\n▪ Or: If that enemy unit is a Vehicle/Monster unit, that enemy unit suffers 2D3 mortal wounds."
     },
     {
      "Title": "Take Wing",
@@ -4261,7 +4277,7 @@
      "Toughness": "7",
      "Save": "2+",
      "Wounds": "5",
-     "Leadership": "6+",
+     "Leadership": "5+",
      "OC": "2",
      "InvulSave": {
       "Save": "4+"

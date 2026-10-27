@@ -1013,12 +1013,20 @@
      "Text": "At the start of your opponent's Command phase, select one of the abilities in the Daemon Primarch of Slaanesh section. Until the start of your opponent's next Command phase, this model has that ability."
     },
     {
-     "Title": "Serpentine",
-     "Text": "Each time this model makes a Normal, Advance or Fall Back move, it can move over sections of terrain features that are 4\" or less in height."
-    },
-    {
      "Title": "Supreme Commander",
      "Text": "If this model is in your army, it must be your Warlord."
+    },
+    {
+     "Title": "Beguiling Form",
+     "Text": "Each time a model makes an attack that targets this model, subtract 1 from the Hit roll."
+    },
+    {
+     "Title": "Daemonic Speed",
+     "Text": "This model has the Fights First ability."
+    },
+    {
+     "Title": "Enthralling Hypnosis (Aura)",
+     "Text": "While an enemy unit is within 6\" of this model, each time that unit is selected to Fall Back, it must take a Leadership test. If that test is failed, that unit must Remain Stationary this phase instead."
     }
    ],
    "Infos": [
@@ -1657,7 +1665,7 @@
    "UnitAbilities": [
     {
      "Title": "Assault Ramp",
-     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "Each time a unit disembarks from this model after it has made a Normal move, that unit makes an assault disembark move (Core Rules, 18.06) for that disembarkation."
     }
    ],
    "Infos": [
@@ -3030,7 +3038,7 @@
     },
     {
      "Title": "Daemon Lord of Slaanesh (Aura)",
-     "Text": "While a friendly Legions of Excess unit is within 6\" of this model, improve the Armour Penetration of melee weapons in that unit by 1."
+     "Text": "While a friendly Legions of Excess unit is within 6\" of this model, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
     },
     {
      "Title": "Mesmerising Form",

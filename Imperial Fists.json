@@ -1325,7 +1325,7 @@
    "UnitAbilities": [
     {
      "Title": "Storm Shield",
-     "Text": "The bearer has a 4+ invulnerable save."
+     "Text": "This model has a 4+ InSv."
     },
     {
      "Title": "Tactical Precision",
@@ -1531,6 +1531,14 @@
     {
      "Title": "Librarian (Psyker Level 1)",
      "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
+    },
+    {
+     "Title": "Shrouding (Psychic)",
+     "Text": "When an enemy unit targets this unit, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ Attacks that target this unit have -1 to hit rolls until the end of the phase."
+    },
+    {
+     "Title": "Soul Sight (Psychic)",
+     "Text": "In your Shooting phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ Select one visible enemy unit. Ranged attacks that target that enemy unit have [IGNORES COVER]."
     }
    ],
    "LeaderInfo": {
@@ -1676,6 +1684,14 @@
     {
      "Title": "Librarian (Psyker Level 1)",
      "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
+    },
+    {
+     "Title": "Might of Heroes (Psychic)",
+     "Text": "In the Fight phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ This unit’s melee attacks have +2 S."
+    },
+    {
+     "Title": "Thunderous Force (Psychic)",
+     "Text": "In your Shooting phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ This unit’s ranged attacks have +6\" R."
     }
    ],
    "LeaderInfo": {
@@ -1823,6 +1839,14 @@
     {
      "Title": "Librarian (Psyker Level 1)",
      "Text": "This model has the psychic abilities listed in the Psychic Abilities section."
+    },
+    {
+     "Title": "Veil of Time (Psychic)",
+     "Text": "When this unit is selected to make an advance move, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ This unit can change that advance roll to a 6."
+    },
+    {
+     "Title": "Force Dome (Psychic)",
+     "Text": "In your Movement phase, if this unit is not battle-shocked, you can make a psychic roll for this unit by rolling one D6. If you do:\n▪ On a 1, this unit is battle-shocked.\n▪ This unit has 4+ InSv until the start of your next turn."
     }
    ],
    "LeaderInfo": {
@@ -2470,8 +2494,8 @@
      "Text": "While this model is within 3\" of a friendly Adeptus Astartes Vehicle unit, this model has Lone Operative."
     },
     {
-     "Title": "Blessing of the Omnissiah",
-     "Text": "In your Command phase, you can select one friendly Adeptus Astartes Vehicle model within 3” of this model. That model regains up to D3 lost wounds and, until the start of your next Command phase, each time that Vehicle model makes an attack, add 1 to the Hit roll. Each model can only be selected for this ability once per turn."
+     "Title": "Blessings of the Omnissiah",
+     "Text": "In your Movement phase, at the start or end of this unit’s move, you can select one friendly Adeptus Astartes Vehicle model within 3\" of this model:\n▪ That Vehicle model heals D3 wounds.\n▪ That Vehicle model’s attacks can ignore modifiers to hit rolls and wound rolls until the start of your next Movement phase."
     }
    ],
    "LeaderInfo": {
@@ -4044,7 +4068,7 @@
      "Save": "3+",
      "Wounds": "5",
      "Leadership": "6+",
-     "OC": "3",
+     "OC": "1",
      "BaseInfo": {
       "Size": "40"
      }
@@ -4395,7 +4419,7 @@
    "UnitAbilities": [
     {
      "Title": "Bladeguard",
-     "Text": "(Once per turn, per unit): In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 to hit rolls.\n▪ Or: Attacks that target this unit have -1 to hit rolls."
+     "Text": "In the Fight phase, when this unit is selected to fight or when an enemy unit targets this unit, you can select one of the following:\n▪ This unit’s melee attacks have +1 to hit rolls.\n▪ Or: Attacks that target this unit have -1 to hit rolls."
     }
    ],
    "Infos": [],
@@ -4811,8 +4835,8 @@
    },
    "UnitAbilities": [
     {
-     "Title": "Sternguard Focus",
-     "Text": "Each time a model in this unit makes an attack that targets your Oath of Moment target, you can re-roll the Wound roll."
+     "Title": "Veteran Marksmen",
+     "Text": "This unit’s ranged attacks can re-roll hit rolls of 1."
     }
    ],
    "Infos": [],
@@ -5182,6 +5206,10 @@
     {
      "Title": "Grapnel Launchers",
      "Text": "When this unit makes a move, this unit can:\n▪ Move through all types of model.\n▪ Ignore all vertical distance for the purposes of how far this unit has moved."
+    },
+    {
+     "Title": "Grav-chutes",
+     "Text": "This unit has Deep Strike."
     }
    ],
    "Infos": [],
@@ -5336,8 +5364,8 @@
    },
    "UnitAbilities": [
     {
-     "Title": "Close-quarters Firepower",
-     "Text": "Each time a model in this unit makes a ranged attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
+     "Title": "Close-quarters Firestorm",
+     "Text": "This unit’s attacks that target an enemy unit within 9\" of this unit have +1 S."
     }
    ],
    "Infos": [],
@@ -5756,11 +5784,11 @@
    "UnitAbilities": [
     {
      "Title": "Centurion Assault Launcher",
-     "Text": "The bearer has the Grenades keyword."
+     "Text": "The bearer has the Explosives keyword."
     },
     {
      "Title": "Annihilator Protocols",
-     "Text": "Melee weapons equipped by models in this unit have the [SUSTAINED HITS 2] ability when targeting Monster, Vehicle or Fortification units."
+     "Text": "This unit’s melee attacks that target a Monster/Vehicle/Fortification unit have [SUSTAINED HITS 2]."
     }
    ],
    "Infos": [],
@@ -5934,7 +5962,7 @@
    "UnitAbilities": [
     {
      "Title": "Decimator Protocols",
-     "Text": "Each time a model in this unit makes a ranged attack, re-roll a Hit roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Hit roll instead."
+     "Text": "▪ This unit’s ranged attacks can re-roll hit rolls of 1.\n▪ Or:This unit’s ranged attacks that target an enemy unit within range of an objective can re-roll hit rolls."
     }
    ],
    "Infos": [],
@@ -6247,7 +6275,7 @@
    "UnitAbilities": [
     {
      "Title": "Wisdom of the Ancients (Aura)",
-     "Text": "While a friendly Adeptus Astartes Infantry unit is within 6\" of this model, each time a model in that unit makes an attack, re-roll a Hit roll of 1."
+     "Text": "While a friendly Adeptus Astartes Infantry unit is within 6\" of this model, that unit’s attacks can re-roll hit rolls of 1."
     }
    ],
    "Infos": [],
@@ -7153,7 +7181,12 @@
     ],
     "WargearDefinitions": []
    },
-   "UnitAbilities": [],
+   "UnitAbilities": [
+    {
+     "Title": "Aggressive Reconnaissance",
+     "Text": "In your Shooting phase, this unit’s ranged attacks that target an enemy unit that is not within 6\" of any other enemy units have +1 to wound rolls."
+    }
+   ],
    "Infos": [],
    "Keywords": [
     "Mounted",
@@ -8355,8 +8388,8 @@
    },
    "UnitAbilities": [
     {
-     "Title": "Overlapping Detonations",
-     "Text": "In your Shooting phase, when this unit is selected to shoot, you can select one non-Monster/Vehicle enemy unit visible to it. While making attacks, this unit’s heavy bolters that target that selected unit have [BLAST 1]."
+     "Title": "Overlapping Destruction",
+     "Text": "In your Shooting phase, you can select one enemy unit. This unit’s Heavy Bolter weapons that target that enemy unit have [Blast 1]."
     }
    ],
    "Infos": [],
@@ -8824,8 +8857,8 @@
    },
    "UnitAbilities": [
     {
-     "Title": "Pinning Bombardment",
-     "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its Whirlwind vengeance launcher scored a hit against an enemy Infantry unit, that unit must take a Battle-shock test."
+     "Title": "Punishing Bombardment",
+     "Text": "In your Shooting phase, when this unit has shot, select one enemy Infantry unit hit by Whirlwind Vengeance Launcher attacks. That enemy unit makes a battle-shock roll."
     }
    ],
    "Infos": [
@@ -8985,7 +9018,7 @@
    "UnitAbilities": [
     {
      "Title": "Destructor",
-     "Text": "Each time this model makes a ranged attack that targets an Infantry unit, improve the Armour Penetration characteristic of that attack by 1."
+     "Text": "This unit’s ranged attacks that target an Infantry unit have +1 AP."
     }
    ],
    "Infos": [
@@ -9164,7 +9197,7 @@
    "UnitAbilities": [
     {
      "Title": "Annihilator",
-     "Text": "Each time a ranged attack made by this model is allocated to a Monster or Vehicle model, you can re-roll the Damage roll."
+     "Text": "This unit’s ranged attacks that target a Monster/Vehicle unit can re-roll damage rolls."
     }
    ],
    "Infos": [
@@ -9741,7 +9774,7 @@
    "UnitAbilities": [
     {
      "Title": "Siege Shield",
-     "Text": "When making ranged attacks with its demolisher cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+     "Text": "In your Shooting phase, when this unit is selected to shoot using close-quarters shooting:\n▪ This unit’s attacks that target a unit engaged with this unit can ignore modifiers to:\n▪ BS.\n▪ Hit rolls.\n▪ For each of this unit’s [Blast] weapons, you can choose for that weapon to not have [blast]:\n▪ If you do, that weapon can only target an enemy unit that is not engaged with another friendly unit."
     }
    ],
    "Infos": [
@@ -10976,7 +11009,7 @@
    "UnitAbilities": [
     {
      "Title": "Fire Support",
-     "Text": "In your Shooting phase, after this model has shot, select one enemy unit it scored one or more hits against this phase. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Wound roll."
+     "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by those attacks. Attacks that target that unit made by friendly Adeptus Astartes units that Disembarked from this Transport this turn can re-roll wound rolls."
     }
    ],
    "Infos": [
@@ -11431,7 +11464,7 @@
    "UnitAbilities": [
     {
      "Title": "Interceptor",
-     "Text": "Each time this model makes a ranged attack that targets a unit that can Fly, add 1 to the Hit roll. Before selecting targets for this weapon, select one of its profiles to make attacks with."
+     "Text": "This unit’s ranged attacks that target a Fly unit have +1 to hit rolls."
     }
    ],
    "Infos": [],
@@ -11597,7 +11630,7 @@
    "UnitAbilities": [
     {
      "Title": "Strafing Run",
-     "Text": "Each time this model makes a ranged attack that targets a unit that cannot Fly, add 1 to the Hit roll."
+     "Text": "This unit’s ranged attacks that target a non-Fly unit have +1 to hit rolls."
     }
    ],
    "Infos": [],
@@ -11767,7 +11800,7 @@
    "UnitAbilities": [
     {
      "Title": "Armoured Resilience",
-     "Text": "Each time an attack is allocated to this model, subtract 1 from the Damage characteristic of that attack."
+     "Text": "Attacks that target this unit have -1 D."
     }
    ],
    "Infos": [
@@ -11974,15 +12007,15 @@
    "UnitAbilities": [
     {
      "Title": "Fortification",
-     "Text": "While an enemy unit is only within Engagement Range of one or more Fortifications from your army\n\t▪ That unit can still be selected as the target of ranged attacks, but each time such an attack is made, unless it is made with a Pistol, subtract 1 from the Hit roll.\n\t▪ Models in that unit do not need to take Desperate Escape tests due to Falling Back while Battle-shocked, except for those that will move over enemy models when doing so."
+     "Text": "While an enemy unit is engaged with only Fortification units:\n▪ That enemy unit can be selected as a target of ranged attacks.\n▪ When shooting that enemy unit, those ranged attacks have -1 to hit rolls (excluding [CLOSE-QUARTERS] attacks).\n▪ When that enemy unit is selected to make a fall-back move, if that enemy unit is not battle-shocked, hazard rolls made for that enemy unit are automatically passed."
     },
     {
      "Title": "Ceramite Cover",
-     "Text": "Each time a ranged attack is allocated to a model, if that model is not fully visible to every model in the attacking unit because of this Fortification, that model has the Benefit of Cover against that attack."
+     "Text": "When an attack targets a unit that is not fully visible to the attacking model because of this unit, the target has the benefit of cover against that attack."
     },
     {
      "Title": "Defensive Array",
-     "Text": "You can target this Fortification with the Fire Overwatch Stratagem for 0CP, and can do so even if you have already targeted another unit with that Stratagem this turn. This Fortification can only be targeted with that Stratagem once per turn."
+     "Text": "You can target this unit with the Fire Overwatch stratagem regardless of any other uses of that stratagem this phase. If you do, that use is -1 CP."
     }
    ],
    "Infos": [
@@ -12131,7 +12164,7 @@
    "UnitAbilities": [
     {
      "Title": "Suppression Fire",
-     "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more attacks made with its twin macro-accelerator cannon this phase. Until the start of your next turn, while this model is on the battlefield, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+     "Text": "In your Shooting phase, when this unit has shot, select one enemy unit hit by this model’s Twin Macro-accelerator Cannon weapon. That enemy unit is suppressed until the start of your next turn:\n▪ While a unit is suppressed, that unit’s attacks have -1 to hit rolls."
     }
    ],
    "Infos": [
@@ -12341,11 +12374,11 @@
    "UnitAbilities": [
     {
      "Title": "Thunderhawk Cluster Bombs",
-     "Text": "Each time the bearer ends a Normal move, you can select one enemy unit it moved over during that move and roll six D6: for each 3+, that unit suffers 1 mortal wound."
+     "Text": "In your Movement phase, when this unit ends a normal/advance move, you can select one enemy unit this unit moved over during that move and roll six D6:\n▪ For each 3+, that enemy unit suffers 1 mortal wound."
     },
     {
      "Title": "Aerial Assault",
-     "Text": "Each time a unit with the Deep Strike ability disembarks from this model after it has made a Normal move, that unit is still eligible to declare a charge this turn."
+     "Text": "In your Movement phase, when this unit ends a normal move, units embarked within this unit can make an assault disembark move, provided every model in the embarked unit has Deep Strike."
     }
    ],
    "Infos": [
@@ -12375,7 +12408,7 @@
    ],
    "StatLines": [
     {
-     "Movement": "20+\"",
+     "Movement": "14\"",
      "Toughness": "12",
      "Save": "2+",
      "Wounds": "30",
@@ -13216,7 +13249,7 @@
     },
     {
      "Title": "Storm Shield",
-     "Text": "The bearer has a Wounds characteristic of 4."
+     "Text": "This model has +1 W."
     }
    ],
    "Infos": [],

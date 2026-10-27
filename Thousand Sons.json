@@ -31,6 +31,22 @@
     {
      "Title": "Lord of the Planet of the Sorcerers (Aura)",
      "Text": "This model can attempt up to two Rituals per turn instead of one, and each time this model attempts a Ritual, add 2 to the Psychic test result."
+    },
+    {
+     "Title": "Impossible Form (Psychic)",
+     "Text": "Each time an attack is made against this Psyker (excluding Psychic Attacks), subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+     "Title": "Treason of Tzeentch (Psychic)",
+     "Text": "At the start of your opponent’s Shooting phase, select one enemy unit within 24\" of this Psyker. Until the end of the phase, ranged weapons equipped by models in that unit have the [HAZARDOUS] ability."
+    },
+    {
+     "Title": "Time Flux (Aura, Psychic)",
+     "Text": "While a friendly Thousand Sons unit is within 6\" of this Psyker, add 2\" to the Move characteristic of models in that unit."
+    },
+    {
+     "Title": "SUPREME COMMANDER",
+     "Text": "If this model is in your army, it must be your Warlord."
     }
    ],
    "Infos": [
@@ -1522,6 +1538,10 @@
     {
      "Title": "Rites of Coalescence",
      "Text": "While this unit contains one or more Psyker models, each time an attack targets this unit, subtract 1 from the Wound roll."
+    },
+    {
+     "Title": "Cabal of Sorcerers (Scarab Occult Sorcerer only)",
+     "Text": ""
     }
    ],
    "Infos": [],
@@ -1776,6 +1796,10 @@
     {
      "Title": "Icon of Flame",
      "Text": "Ranged weapons equipped by models in the bearer’s unit (excluding Characters) have the [IGNORES COVER] ability."
+    },
+    {
+     "Title": "Cabal of Sorcerers (Aspiring Sorcerer only)",
+     "Text": ""
     }
    ],
    "Infos": [],
@@ -3007,8 +3031,8 @@
    },
    "UnitAbilities": [
     {
-     "Title": "Blazing Salvos",
-     "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that unit is suppressed. While a unit is suppressed, subtract 1 from the Hit roll of all ranged attacks it makes."
+     "Title": "Blazing Salvoes",
+     "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the start of your next turn, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
     }
    ],
    "Infos": [
@@ -4705,6 +4729,10 @@
     {
      "Title": "Split",
      "Text": "Each time a Pink Horror or Blue Horror model in this unit is destroyed, after the attacking unit has finished making its attacks, if this unit is not destroyed, roll one D6 for that model. On a 4+, if it was a Pink Horror, add two Blue Horror models to this unit, and if it was a Blue Horror, add one Brimstone Horror model to this unit."
+    },
+    {
+     "Title": "HORRORS ARE PINK. HORRORS ARE BLUE. WHEREONCE THERE WAS ONE, NOW THERE ARE TWO.",
+     "Text": "If, at any point, this unit contains no Pink Horror models, use the Blue Horrors datasheet for this unit.\nDesigner’s Note: While this unit contains one or more Pink Horror models, the Sullen Malevolence and Exploding Horrors abilities from the Blue Horrors datasheet do not apply to this unit."
     }
    ],
    "Infos": [

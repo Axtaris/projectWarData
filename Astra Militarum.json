@@ -35,6 +35,10 @@
     {
      "Title": "Supreme Commander",
      "Text": "If this model is in your army, it must be your Warlord."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue up to 3 Orders to:\n▪ Regiment units\n▪ Squadron units\n▪ Titanic units"
     }
    ],
    "LeaderInfo": {
@@ -166,6 +170,10 @@
     {
      "Title": "Tactical Genius",
      "Text": "Once per battle round, one friendly Regiment unit within 12\" of this model can be targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue up to 3 Orders to Regiment units."
     }
    ],
    "LeaderInfo": {
@@ -303,6 +311,10 @@
     {
      "Title": "Get Back in the Fight",
      "Text": "While this model is leading a unit, that unit is eligible to shoot in a turn in which it Fell Back."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue 2 Orders to Regiment units."
     }
    ],
    "LeaderInfo": {
@@ -629,6 +641,10 @@
     {
      "Title": "Regimental Standard",
      "Text": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This unit’s Officer can issue 1 Order to a Regiment unit."
     }
    ],
    "LeaderInfo": {
@@ -1075,6 +1091,10 @@
     {
      "Title": "Covert Stealth Team",
      "Text": "At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do:\n▪ Place this unit in strategic reserves.\n▪ This unit has Deep Strike until the start of your next Shooting phase.\n▪ This unit must make an ingress move in your next Movement phase (including in your first turn)."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This unit’s Officer can issue up to 2 Orders to Regiment or Gaunt’s Ghosts units."
     }
    ],
    "Infos": [
@@ -2367,6 +2387,10 @@
     {
      "Title": "Like Fighting a Shadow",
      "Text": "In your Shooting phase, after this model has shot, if it is not within Engagement Range of one or more enemy units, it can make a Normal move. If it does, until the end of the turn, this model is not eligible to declare a charge."
+    },
+    {
+     "Title": "LONER",
+     "Text": "This model cannot be selected as your Warlord."
     }
    ],
    "Infos": [
@@ -2819,6 +2843,10 @@
     {
      "Title": "Political Overwatch",
      "Text": "While another Officer model is in the same unit as this model, you can re-roll Battle-shock tests taken for that unit."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue 1 Order to a Regiment unit. This Officer can only issue the Duty and Honour! and Fix Bayonets! Orders."
     }
    ],
    "LeaderInfo": {
@@ -3496,6 +3524,10 @@
     {
      "Title": "Daring Recon",
      "Text": "At the start of your Shooting phase, select one enemy unit within 18\" of and visible to this unit. Until the end of the phase, each time a friendly Astra Militarum model makes an attack that targets that unit, re-roll a Hit roll of 1."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -3705,6 +3737,10 @@
     {
      "Title": "Mobile Hunter-killers",
      "Text": "Each time a model in this unit makes an attack that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -3914,6 +3950,10 @@
     {
      "Title": "Flush Them Out",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the start of your next Shooting phase, that unit is scattered. While a unit is scattered, it cannot have the Benefit of Cover."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4491,6 +4531,10 @@
     {
      "Title": "Armoured Spearhead",
      "Text": "Each time this model makes an attack that targets an enemy unit, re-roll a Hit roll of 1 and, if that unit is within range of an objective marker you do not control, you can re-roll the Hit roll instead."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4727,6 +4771,10 @@
     {
      "Title": "Line-breaker",
      "Text": "When making ranged attacks with its demolisher battle cannon, this model can target enemy units within Engagement Range of it (provided no other friendly units are also within Engagement Range of that enemy unit). In addition, when making ranged attacks, this model does not suffer the penalty to its Hit rolls for being within Engagement Range of one or more enemy units."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4963,6 +5011,10 @@
     {
      "Title": "Tank-killer",
      "Text": "Each time this model makes a ranged attack with its vanquisher battle cannon that targets a Monster or Vehicle unit, you can re-roll the Wound roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5199,6 +5251,10 @@
     {
      "Title": "Mow Down the Enemy",
      "Text": "Each time this model makes an attack with its punisher gatling cannon that targets an enemy unit (excluding Monsters and Vehicles), that attack has the [DEVASTATING WOUNDS] ability."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5434,6 +5490,10 @@
     {
      "Title": "Gung-ho Executioners",
      "Text": "Each time this model makes an attack with its executioner plasma cannon that targets a unit that is Below Half-strength, add 1 to the Hit roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5680,6 +5740,10 @@
     {
      "Title": "Withering Hail",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks made with its exterminator autocannon. Until the end of the phase, each time a friendly Astra Militarum unit makes an attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per phase."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5916,6 +5980,10 @@
     {
      "Title": "Urban Warfare",
      "Text": "Each time a ranged attack targets this model, if this model has the Benefit of Cover against that attack, subtract 1 from the Damage characteristic of that attack."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6124,6 +6192,10 @@
     {
      "Title": "Earthshaker Rounds",
      "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with its earthshaker cannon scored a hit against an enemy Infantry unit, until the start of your next Shooting phase, that unit is shaken. While a unit is shaken, subtract 2\" from its Move characteristic and subtract 2 from Charge rolls made for it."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6274,6 +6346,10 @@
     {
      "Title": "Flak Battery",
      "Text": "Each time this model makes an attack that targets a unit that can Fly, you can re-roll the Hit roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6417,6 +6493,10 @@
     {
      "Title": "Furious Barrage",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) that was hit by one or more of those attacks made with this model's storm eagle rockets. Until the start of your next Shooting phase, that enemy unit is staggered. While a unit is staggered, subtract 1 from the Objective Control characteristic of models in that unit (to a minimum of 1)."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6567,6 +6647,10 @@
     {
      "Title": "Suppression Bombardment",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit (excluding Monsters and Vehicles) that was hit by one or more of those attacks made with this model’s Wyvern quad stormshard mortar. Until the start of your next Shooting phase, that enemy unit is suppressed. While a unit is suppressed, each time a model in that unit makes an attack, subtract 1 from the Hit roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6723,7 +6807,15 @@
    "UnitAbilities": [
     {
      "Title": "Deathstrike Missile",
-     "Text": "In your Shooting phase, each time this model is selected to shoot, if it has not shot with its Deathstrike missile this battle, you can do one of the following in addition to resolving this model’s ranged attacks:\n\t▪ Designate Target: If this model does not have a Deathstrike Target marker on the battlefield, place a Deathstrike Target marker for this model anywhere on the battlefield. \n\t▪ Adjust Target: If this model has a Deathstrike Target marker on the battlefield, move that marker to anywhere else on the battlefield."
+     "Text": "In your Shooting phase, each time this model is selected to shoot, if it has not shot with its Deathstrike missile this battle, you can do one of the following in addition to resolving this model’s ranged attacks:\n▪ Designate Target: If this model does not have a Deathstrike Target marker on the battlefield, place a unique Deathstrike Target marker for this model anywhere on the battlefield.\n▪ Adjust Target: If this model has a Deathstrike Target marker on the battlefield, move that marker to anywhere else on the battlefield."
+    },
+    {
+     "Title": "Plasma Warhead",
+     "Text": "The bearer can only shoot with this weapon in your Shooting phase, and only if it Remained Stationary this turn and you did not use its Deathstrike Missile ability to Designate Target or Adjust Target this phase. When the bearer shoots with this weapon, do not select a target. Instead, resolve this weapon’s attacks, rolling for each unit within 6\" of the centre of its Deathstrike Target marker individually."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -6890,6 +6982,10 @@
     {
      "Title": "Mobile Command Vehicle",
      "Text": "In your Command phase, one Officer model embarked within this Transport can issue Orders even though it is not on the battlefield. When doing so, measure distances to and from this Transport."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -7061,7 +7157,7 @@
    "UnitAbilities": [
     {
      "Title": "Rapid Deployment",
-     "Text": "Units can disembark from this Transport after it has Advanced. Units that do so count as having made a Normal move that phase, and cannot declare a charge in the same turn, but can otherwise act normally."
+     "Text": "Units can disembark from this Transport after it has Advanced. Units that do so make a shock disembark move (Core Rules, 18.07) for that disembarkation."
     }
    ],
    "Infos": [
@@ -8929,6 +9025,10 @@
     {
      "Title": "Master Vox",
      "Text": "Each time the Officer in the bearer’s unit issues an Order, it can issue it to an eligible unit up to 24\" away."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This unit’s Officer can issue 1 Order to a Regiment unit."
     }
    ],
    "LeaderInfo": {
@@ -9568,7 +9668,7 @@
    "UnitAbilities": [
     {
      "Title": "Transport Support",
-     "Text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a friendly model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Hit roll."
+     "Text": "In your Shooting phase, after this model has shot, select one enemy unit that was hit by one or more of those attacks. Until the end of the phase, each time a model that disembarked from this Transport this turn makes an attack that targets that enemy unit, you can re-roll the Hit roll."
     }
    ],
    "Infos": [
@@ -10740,7 +10840,7 @@
    "UnitAbilities": [
     {
      "Title": "Grenadiers",
-     "Text": "Once per turn, you can target this unit with the Grenade Stratagem for 0CP."
+     "Text": "Once per turn, you can target this unit with the Explosives Stratagem for 0CP."
     },
     {
      "Title": "Remote Mine",
@@ -11304,7 +11404,7 @@
    "UnitAbilities": [
     {
      "Title": "Bring it Down!",
-     "Text": "Each time a model in this unit makes a ranged attack that targets a Monster or Vehicle unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
+     "Text": "Each time a model in this unit makes a ranged attack that targets a Monster of Vehicle unit, re-roll a Hit roll of 1 and re-roll a Wound roll of 1."
     },
     {
      "Title": "Embarking",
@@ -11472,6 +11572,10 @@
     {
      "Title": "Leading the Charge",
      "Text": "Each time this model's unit makes a Charge move, until the end of the turn, melee weapons equipped by models in that unit have the [DEVASTATING WOUNDS] ability."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue up to 3 Orders to Regiment units."
     }
    ],
    "LeaderInfo": {
@@ -11632,6 +11736,10 @@
     {
      "Title": "Called Shots",
      "Text": "Each time this model is selected to shoot, you can re-roll one Hit roll, you can re-roll one Wound roll and you can re-roll one Damage roll when resolving its attacks."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue up to 2 Orders to Squadron units."
     }
    ],
    "Infos": [
@@ -11917,6 +12025,10 @@
     {
      "Title": "Regimental Standard",
      "Text": "Add 1 to the Objective Control characteristic of models in the bearer’s unit."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This unit’s Officer can issue 1 Order to a Regiment unit."
     }
    ],
    "LeaderInfo": {
@@ -12350,6 +12462,10 @@
     {
      "Title": "Servo-scribes",
      "Text": "Once per battle, when issuing an Order, the Lord Commissar can issue one additional Order.\n\nDesigner's Note: Place a Servo‐scribes token next to the unit, removing it when this ability has been used."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This unit’s Officer can issue 1 Order to a Regiment unit."
     }
    ],
    "LeaderInfo": {
@@ -12692,6 +12808,14 @@
     {
      "Title": "Death Befitting An Officer",
      "Text": "In your opponent’s Shooting phase, when this unit is destroyed, before this unit’s deadly demise roll, roll one D6:\n▪ On a 2+, do not remove this unit from the battlefield. After the attacking unit has shot, this unit can shoot using normal shooting, but while doing so this unit can only target that enemy unit. When this unit has shot, or at the end of the phase (whichever comes first), resolve this unit’s deadly demise roll, then this unit is removed from the battlefield."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue up to 2 Orders to Squadron units."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -13246,6 +13370,22 @@
     {
      "Title": "Hero of Hades Hive",
      "Text": "In your Command phase, you can select one of the abilities in the Hero of Hades Hive section (see below). Until the start of your next Command phase, this model has that ability."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue up to 2 Orders to Regiment, Squadron or Titanic units."
+    },
+    {
+     "Title": "Counterstrategist",
+     "Text": "At the end of your opponent’s Movement phase, you can select one enemy unit that was set up or ended a move within 8\" of this model, and one friendly Regiment unit within 6\" of and visible to this model that has not made a Normal move or been targeted with the Fire Overwatch Stratagem this phase. That Regiment unit can then either:\n▪ Make a Normal move of up to D6\".\n▪ Shoot at that enemy unit, but only if it is an eligible target. Until the end of the phase, each time a model in that unit makes a ranged attack, an unmodified Hit roll of 6 is required to score a hit, irrespective of the attacking weapon’s Ballistic Skill or any modifiers.\n▪ Declare a charge. That Regiment unit must end that charge move engaged with the enemy unit you selected (note that even if this charge is successful, the charging unit does not receive any Charge bonus this turn)."
+    },
+    {
+     "Title": "Decisive Command",
+     "Text": "The next Order issued by this model can be issued to one eligible friendly unit within 12\" of this model; if this is the first Order issued by a unit from your army this Command phase, that Order affects not only that eligible unit, but every other eligible friendly unit within 6\" of that eligible unit."
+    },
+    {
+     "Title": "Inspiring Hero (Aura)",
+     "Text": "While a friendly Astra Militarum unit is within 6\" of this model, you can re-roll Battle-shock and Leadership tests taken for that unit."
     }
    ],
    "LeaderInfo": {
@@ -13423,6 +13563,10 @@
     {
      "Title": "Brutal Disciplinarian",
      "Text": "Once per turn, at the start of any phase, you can select one friendly Astra Militarum Infantry unit (excluding units that only contain one model) that is Battle-shocked and within 24\" of and visible to this model. If you do, one model in that unit is destroyed, and that unit is no longer Battle-shocked."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue 1 Order to Regiment or Squadron units. This Officer can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
     }
    ],
    "Infos": [
@@ -13565,6 +13709,10 @@
     {
      "Title": "Using Commissar Graves",
      "Text": "Your army can only include one Commissar Graves or Commissar Graves on Foot unit."
+    },
+    {
+     "Title": "ORDERS",
+     "Text": "This Officer can issue 1 Order to Regiment units. This Officer can only issue the Move! Move! Move!, Duty and Honour! and Fix Bayonets! Orders."
     }
    ],
    "LeaderInfo": {

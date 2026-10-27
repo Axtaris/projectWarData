@@ -492,6 +492,10 @@
     {
      "Title": "Industrialised Destruction",
      "Text": "Each time a model in this unit makes an attack, re-roll a Wound roll of 1. If the target of that attack is an enemy unit within range of an objective marker, you can re-roll the Wound roll."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -2180,7 +2184,7 @@
     },
     {
      "Title": "Psychic Familiar",
-     "Text": "Once per battle, at the start of any of your opponent’s Shooting phases, this model can use its psychic familiar. If it does, until the end of the phase, add 6\" to the range of its Mind Control ability."
+     "Text": "Once per battle, at the start of your opponent’s Shooting phase, this model can use its psychic familiar. If it does, until the end of the phase, add 6 ” to the range of its Mind Control ability.\nDesigner’s Note: Place a Psychic Familiar token next to the model, removing it once this ability has been used."
     }
    ],
    "LeaderInfo": {
@@ -2346,7 +2350,7 @@
     },
     {
      "Title": "A Plan Generations in the Making",
-     "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
     }
    ],
    "Infos": [],
@@ -2996,11 +3000,15 @@
    "UnitAbilities": [
     {
      "Title": "Primed and Ready",
-     "Text": "In your Shooting phase, you can select one model from your army with this ability as the target of the Grenade Stratagem for 0CP, provided that model has not already been the target of that Stratagem this phase."
+     "Text": "In your Shooting phase, you can select one model from your army with this ability as the target of the Explosives Stratagem for 0CP, provided that model has not already been the target of that Stratagem this phase."
     },
     {
      "Title": "Planted Explosives",
-     "Text": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round."
+     "Text": "Once per battle, when an enemy unit ends a Normal, Advance or Fall Back move within 8\" of this model, this model can use its Reductus mine. If it does, roll one D6: on a 2+, that enemy unit suffers D3+3 mortal wounds. Only one model from your army with this ability can use it in the same battle round.\nDesigner’s Note: Place a Reductus Mine token next to the model, removing it once this ability has been used."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [],
@@ -3841,7 +3849,7 @@
    "UnitAbilities": [
     {
      "Title": "Terror from the Deep",
-     "Text": "Each time this unit is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
+     "Text": "Each time this model is set up on the battlefield using the Deep Strike ability, roll one D6 for each enemy unit within 12\" of this model: on a 2-4, that unit suffers D3 mortal wounds; on a 5+, that unit suffers 3 mortal wounds and must take a Battle-shock test."
     }
    ],
    "LeaderInfo": null,
@@ -4333,7 +4341,7 @@
     },
     {
      "Title": "Psychological Saboteur (Aura)",
-     "Text": "While an enemy unit is with 12\" of this model, if that unit is Battle-shocked: - Each time a model in that unit makes an attack, subtract 1 from the Hit roll - Each time a friendly TYRANIDS model makes an attack that targets that unit, add 1 to the Wound roll."
+     "Text": "While an enemy unit is within 12\" of this model, if that unit is Battle-shocked:\n▪ Each time a model in that unit makes an attack, subtract 1 from the Hit roll.\n▪ Each time a friendly Tyranids model makes an attack that targets that unit, add 1 to the Wound roll."
     }
    ],
    "LeaderInfo": null,
@@ -4436,7 +4444,7 @@
     },
     {
      "Title": "Will of the Hive Mind",
-     "Text": "Once per battle round, one model from your army with this ability can use it when a friendly TYRANIDS unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that use of that Stratagem by 1CP."
+     "Text": "Once per battle round, one model from your army with this ability can use it when a friendly Tyranids unit within 12\" of that model is targeted with a Stratagem. If it does, reduce the CP cost of that usage of that Stratagem by 1CP."
     }
    ],
    "LeaderInfo": null,
@@ -4591,6 +4599,10 @@
     {
      "Title": "Hypersensory Array",
      "Text": "Once per battle round, you can target this unit with the Rapid Ingress/Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do: - That use is -1 CP. - That use does not prevent any uses of that stratagem on other units this phase."
+    },
+    {
+     "Title": "Shadow In The Warp (Ravener Prime only)",
+     "Text": ""
     }
    ],
    "LeaderInfo": {

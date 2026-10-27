@@ -47,7 +47,7 @@
    "UnitAbilities": [
     {
      "Title": "Infernal Aegis (Aura)",
-     "Text": "While a friendly War Dog model is within 6\" of this model, that War Dog model has the Benefit of Cover."
+     "Text": "While a friendly War Dog unit is within 6\" of this model, each time an attack targets that War Dog unit, models in it have the Benefit of Cover against that attack."
     },
     {
      "Title": "Bastion of Corruption",
@@ -643,7 +643,7 @@
     },
     {
      "Title": "Close-range Killers (Aura)",
-     "Text": "While a friendly War Dog model is within 9\" of this model, each time that War Dog model makes an attack that targets the closest enemy unit, improve the Armour Penetration characteristic of that attack by 1."
+     "Text": "While a friendly War Dog model is within 9\" of this model, each time that War Dog model makes an attack that targets the closest eligible target, improve the Armour Penetration characteristic of that attack by 1."
     }
    ],
    "Infos": [],
@@ -1837,6 +1837,10 @@
     {
      "Title": "Sunderer of Fortresses",
      "Text": "Each time this model makes an attack that targets a Vehicle, improve the Strength and Damage characteristics of that attack by 1 (if that attack targets a Fortification, improve the Strength and Damage characteristics of that attack by 2 instead)."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack is made with this weapon, if the target is more than 24\" from the bearer, an unmodified successful Hit roll of 4+ scores a Critical Hit."
     }
    ],
    "Infos": [
@@ -2129,7 +2133,7 @@
    "UnitAbilities": [
     {
      "Title": "Shock Charge",
-     "Text": "You can target this model with the Tank Shock Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
+     "Text": "You can target this model with the Crushing Impact Stratagem for 0CP, and can do so even if you have already targeted a different unit with that Stratagem this phase."
     },
     {
      "Title": "Dark Fervour (Aura)",
@@ -3023,6 +3027,10 @@
     {
      "Title": "Protection Protocols",
      "Text": "You can target this unit with the Heroic Intervention stratagem, regardless of any other uses of that stratagem this phase. If you do:\n▪ That use is -1 CP.\n▪ That use does not prevent any uses of that stratagem on other units this phase."
+    },
+    {
+     "Title": "Conversion",
+     "Text": "Each time an attack made with this weapon targets an enemy unit that is not within 12\", an unmodified Hit roll of 4+ scores a Critical Hit."
     }
    ],
    "Infos": [],

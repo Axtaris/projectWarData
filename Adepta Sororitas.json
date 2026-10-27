@@ -31,6 +31,10 @@
     {
      "Title": "Righteous Repugnance",
      "Text": "Each time this model’s unit is selected to shoot or fight, you can discard 1 Miracle dice. If you do, until the end of the phase, add 3 to the Attacks characteristic of Fidelis and the Lance of Illumination. Each time an enemy unit is destroyed by this model, you gain 1 Miracle dice."
+    },
+    {
+     "Title": "SUPREME COMMANDER",
+     "Text": "If this model is in your army, it must be your Warlord."
     }
    ],
    "LeaderInfo": {
@@ -242,6 +246,10 @@
     {
      "Title": "The Emperor’s Grace",
      "Text": "Once per battle, at the start of any phase, this model can use this ability. If it does, until the end of the phase, this model has a 2+ invulnerable save."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "LeaderInfo": {
@@ -852,11 +860,35 @@
    "UnitAbilities": [
     {
      "Title": "Relics of the Matriarchs",
-     "Text": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section. Until the start of the next battle round, this model has those abilities."
+     "Text": "At the start of the battle round, select up to two of the abilities in the Relics of the Matriarchs section (see left). Until the start of the next battle round, this model has those abilities."
     },
     {
      "Title": "Solemn Procession",
      "Text": "Each time you gain 1 Miracle dice at the start of your turn, if this model is on the battlefield, do not roll one D6 to determine the value of that Miracle dice; it has a value of 6."
+    },
+    {
+     "Title": "The Fiery Heart (Aura)",
+     "Text": "While a friendly Adepta Sororitas unit is within 6\" of this model, add 2\" to that unit's Move characteristic and add 1 to Advance and Charge rolls made for that unit."
+    },
+    {
+     "Title": "Censer of the Sacred Rose (Aura)",
+     "Text": "While a friendly Adepta Sororitas unit is within 6\" of this model, you can re-roll Battle-shock tests taken for that unit."
+    },
+    {
+     "Title": "Simulacrum of the Ebon Chalice (Aura)",
+     "Text": "While a friendly Adepta Sororitas unit is within 6\" of this model, that unit can perform up to two Acts of Faith per phase, instead of only one."
+    },
+    {
+     "Title": "Simulacrum of the Argent Shroud (Aura)",
+     "Text": "While a friendly Adepta Sororitas unit is within 6\" of this model, each time a model in that unit makes a ranged attack, re-roll a Wound roll of 1."
+    },
+    {
+     "Title": "Icon of the Valorous Heart (Aura)",
+     "Text": "While a friendly Adepta Sororitas unit is within 6\" of this model, models in that unit have the Feel No Pain 6+ ability."
+    },
+    {
+     "Title": "Petals of the Bloody Rose (Aura)",
+     "Text": "While a friendly Adepta Sororitas unit is within 6\" of this model, improve the Armour Penetration characteristic of melee weapons equipped by models in that unit by 1."
     }
    ],
    "LeaderInfo": {
@@ -1208,11 +1240,11 @@
     },
     {
      "Title": "Cherub",
-     "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+     "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place a Cherub token next to the unit, removing it once this ability has been used."
     },
     {
      "Title": "Defenders of the Faith",
-     "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control, even if you have no models within range of it, until your opponent controls it at the start or end of any turn."
+     "Text": "At the end of your Command phase, if this unit is within range of an objective marker you control, that objective marker remains under your control until your opponent’s Level of Control over that objective marker is greater than yours at the end of a phase."
     }
    ],
    "Infos": [],
@@ -2042,7 +2074,7 @@
     },
     {
      "Title": "Stirring Rhetoric",
-     "Text": "While this model is leading a unit, each time that unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 6."
+     "Text": "While this model is leading a unit, each time this model’s unit performs an Act of Faith, the value of one of the Miracle dice used in that Act of Faith is first changed to a 6."
     }
    ],
    "LeaderInfo": {
@@ -3224,7 +3256,7 @@
     },
     {
      "Title": "Cherub",
-     "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+     "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place a Cherub token next to the unit, removing it once this ability has been used."
     },
     {
      "Title": "Righteous Awareness",
@@ -3881,7 +3913,7 @@
    "UnitAbilities": [
     {
      "Title": "Cherubs",
-     "Text": "Twice per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+     "Text": "Twice per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place two Cherub tokens next to the unit, removing one each time this ability has been used."
     },
     {
      "Title": "Storm of Retribution",
@@ -4455,6 +4487,10 @@
     {
      "Title": "Devastating Refrain",
      "Text": "In your Shooting phase, after this model has shot, if one or more of those attacks made with an Indirect Fire weapon scored a hit against an enemy unit, that unit must take a Battle-shock test. Each time such an attack destroys an enemy model that has the Deadly Demise ability, that model’s Deadly Demise ability inflicts mortal wounds on a D6 roll of 5+ instead of on a 6."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4612,6 +4648,10 @@
     {
      "Title": "Rites of Castigation",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the turn, each time a friendly Adepta Sororitas unit makes a ranged attack that targets that enemy unit, improve the Armour Penetration characteristic of that attack by 1. The same enemy unit can only be affected by this ability once per turn."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4765,6 +4805,10 @@
     {
      "Title": "Self Repair",
      "Text": "At the start of your Command phase, this model regains 1 lost wound."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -4906,6 +4950,10 @@
     {
      "Title": "Purge and Cleanse",
      "Text": "In your Shooting phase, after this model has shot, select one enemy unit hit by one or more of those attacks. Until the end of the phase, that enemy unit cannot have the Benefit of Cover."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "Infos": [
@@ -5378,7 +5426,7 @@
     },
     {
      "Title": "Cherub",
-     "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice."
+     "Text": "Once per battle, after this unit has performed an Act of Faith, you gain 1 Miracle dice.\nDesigner’s Note: Place a Cherub token next to the unit, removing it once this ability has been used."
     },
     {
      "Title": "Salvationist Medikit",
@@ -5391,6 +5439,10 @@
     {
      "Title": "Attached Unit",
      "Text": "If a Ministorum Priest from your army with the Leader ability can be attached to a Battle Sisters Squad, it can be attached to this unit instead. If a Ministorum Priest from your army is attached to this unit during the Declare Battle Formations step, that model gains the Scouts 6\" ability."
+    },
+    {
+     "Title": "One Shot",
+     "Text": "The bearer can only shoot with this weapon once per battle."
     }
    ],
    "AttachedUnitInfo": {
