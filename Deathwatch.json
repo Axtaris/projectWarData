@@ -1078,8 +1078,8 @@
      },
      {
       "Limit": {
-       "Min": 2,
-       "Max": 9
+       "Min": 5,
+       "Max": 5
       },
       "ModelName": "Kill Team Intercessors with Jump Packs",
       "StatlineRef": "KILL TEAM SERGEANT WITH JUMP PACK AND KILL TEAM INTERCESSORS WITH JUMP PACKS",
@@ -1105,7 +1105,8 @@
      },
      {
       "Limit": {
-       "Max": 5
+       "Min": 4,
+       "Max": 4
       },
       "ModelName": "Kill Team Heavy Intercessors with Jump Packs",
       "StatlineRef": "KILL TEAM HEAVY INTERCESSORS WITH JUMP PACKS",
@@ -9049,11 +9050,7 @@
          }
         ]
        }
-      ],
-      "Limit": {
-       "Min": 1,
-       "Max": 5
-      }
+      ]
      },
      {
       "Limit": {
@@ -10444,16 +10441,12 @@
         ],
         "Options": []
        }
-      ],
-      "Limit": {
-       "Min": 2,
-       "Max": 5
-      }
+      ]
      },
      {
       "Limit": {
        "Min": 2,
-       "Max": 2
+       "Max": 5
       },
       "ModelName": "Eradicators",
       "Wargear": [
@@ -15435,7 +15428,7 @@
      },
      {
       "Limit": {
-       "Min": 5,
+       "Min": 2,
        "Max": 5
       },
       "ModelName": "Eradicator",

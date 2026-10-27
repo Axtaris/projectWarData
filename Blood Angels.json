@@ -9089,11 +9089,7 @@
          }
         ]
        }
-      ],
-      "Limit": {
-       "Min": 1,
-       "Max": 5
-      }
+      ]
      },
      {
       "Limit": {
@@ -10484,16 +10480,12 @@
         ],
         "Options": []
        }
-      ],
-      "Limit": {
-       "Min": 2,
-       "Max": 5
-      }
+      ]
      },
      {
       "Limit": {
        "Min": 2,
-       "Max": 2
+       "Max": 5
       },
       "ModelName": "Eradicators",
       "Wargear": [
@@ -15626,7 +15618,7 @@
      },
      {
       "Limit": {
-       "Min": 5,
+       "Min": 2,
        "Max": 5
       },
       "ModelName": "Eradicator",
