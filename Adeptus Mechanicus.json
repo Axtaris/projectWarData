@@ -2841,6 +2841,16 @@
           "Options": [
            "Transuranic arquebus"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "galvanic rifle"
+          ],
+          "Options": [
+           "galvanic rifle and enhanced data-tether",
+           "galvanic rifle and omnispex"
+          ]
          }
         ]
        }
@@ -3092,6 +3102,16 @@
           ],
           "Options": [
            "Transuranic arquebus"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "radium carbine"
+          ],
+          "Options": [
+           "radium carbine and enhanced data-tether",
+           "radium carbine and omnispex"
           ]
          }
         ]

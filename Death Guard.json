@@ -1919,6 +1919,15 @@
           "Options": [
            "icon of despair. This model's boltgun cannot be replaced"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
+          "Options": [
+           "boltgun and icon of despair"
+          ]
          }
         ]
        }

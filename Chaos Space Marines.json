@@ -705,6 +705,16 @@
           "Options": [
            "Hand flamer"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -975,6 +985,16 @@
           "Options": [
            "plasma pistol"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -1183,7 +1203,17 @@
          "infernal cannon",
          "hellforged weapons"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -1431,7 +1461,17 @@
          "infernal cannon",
          "hellforged weapons"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -1992,7 +2032,18 @@
          "Rite of Possession",
          "staff of possession"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -2205,6 +2256,16 @@
           "Options": [
            "Power fist"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -2448,6 +2509,16 @@
           "Options": [
            "Paired accursed weapons"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -2657,7 +2728,18 @@
          "Infernal Gaze",
          "force weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -2864,6 +2946,16 @@
           "Options": [
            "Chaos familiar"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -3104,6 +3196,16 @@
           "Options": [
            "Magma cutter"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -3317,7 +3419,18 @@
          "plasma pistol",
          "forge weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -3520,7 +3633,18 @@
          "bolt pistol",
          "accursed crozius"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -3742,7 +3866,18 @@
          "autopistol",
          "commune stave"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -4062,6 +4197,16 @@
           "Options": [
            "Chaos icon"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -4489,6 +4634,16 @@
           "Options": [
            "Bolt pistol"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -4677,7 +4832,18 @@
         "InitalWargear": [
          "hideous mutations"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -4909,6 +5075,16 @@
           "Options": [
            "Chainfist"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -5224,7 +5400,18 @@
          "bolt pistol",
          "axe of dismemberment"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -5396,7 +5583,18 @@
         "InitalWargear": [
          "hideous mutations"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -5590,7 +5788,18 @@
          "bolt pistol",
          "accursed weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -5909,7 +6118,18 @@
          "excruciator cannon",
          "soulflayer tendrils & claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -6083,6 +6303,16 @@
            "Astartes chainsword",
            "Power fist"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -6437,6 +6667,16 @@
            "Accursed weapon",
            "Heavy melee weapon"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -6759,7 +6999,18 @@
         "InitalWargear": [
          "warp claws"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -6974,6 +7225,16 @@
            "Accursed weapon",
            "Power fist"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -7319,7 +7580,18 @@
          "fleshmetal guns",
          "crushing fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -7513,6 +7785,16 @@
           "Options": [
            "Havoc launcher"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -7740,6 +8022,16 @@
           "Options": [
            "Havoc launcher"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -7972,6 +8264,16 @@
           "Options": [
            "Havoc launcher"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -8198,6 +8500,16 @@
           "Options": [
            "Havoc launcher"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -8410,6 +8722,16 @@
           "Options": [
            "ectoplasma cannon and armoured limbs"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -8639,6 +8961,16 @@
            "Combi-bolter",
            "Heavy flamer"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -8911,6 +9243,16 @@
           "Options": [
            "Baleflamer"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -9094,6 +9436,16 @@
           "Options": [
            "2 magma cutters"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -9279,6 +9631,16 @@
           "Options": [
            "havoc launcher or can replace 1 combi-bolter with 1 havoc launcher"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -9471,7 +9833,18 @@
         "InitalWargear": [
          "hideous mutations"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -9784,7 +10157,18 @@
         "InitalWargear": [
          "lashing warp energies"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -10069,6 +10453,16 @@
           "Options": [
            "Boltgun"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -10367,6 +10761,16 @@
           "Options": [
            "plasma pistol"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -10618,7 +11022,18 @@
          "bolt pistol",
          "power fist"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      },
@@ -10822,7 +11237,18 @@
         "InitalWargear": [
          "balefire pike, close combat weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -11023,6 +11449,16 @@
           "Options": [
            "Twin lightning claws"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -11251,6 +11687,16 @@
            "Accursed weapon",
            "Power fist"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }
@@ -11325,6 +11771,15 @@
           ],
           "Options": [
            "Paired accursed weapons"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
+          "Options": [
+           "voice eater and astartes chainsword"
           ]
          }
         ]
@@ -11812,7 +12267,18 @@
         "InitalWargear": [
          "fleshmetal weapons"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
+         }
+        ]
        }
       ]
      }
@@ -12021,6 +12487,16 @@
            "heavy reaper autocannon",
            "electroscourge (a model cannot be equipped with more than one electroscourge)"
           ]
+         },
+         {
+          "Options": [
+           "chaos undivided",
+           "khorne",
+           "tzeentch",
+           "nurgle",
+           "slaanesh"
+          ],
+          "RequiredDettachment": "PACTBOUND ZEALOTS"
          }
         ]
        }

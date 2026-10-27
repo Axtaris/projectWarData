@@ -1074,6 +1074,12 @@
           "Options": [
            "Daemonbreath meltagun"
           ]
+         },
+         {
+          "Options": [
+           "Houndpack Lance Character"
+          ],
+          "RequiredDettachment": "HOUNDPACK LANCE"
          }
         ]
        }
@@ -1223,6 +1229,12 @@
           "Options": [
            "Daemonbreath meltagun"
           ]
+         },
+         {
+          "Options": [
+           "Houndpack Lance Character"
+          ],
+          "RequiredDettachment": "HOUNDPACK LANCE"
          }
         ]
        }
@@ -1363,6 +1375,12 @@
           "Options": [
            "Havoc multi-launcher"
           ]
+         },
+         {
+          "Options": [
+           "Houndpack Lance Character"
+          ],
+          "RequiredDettachment": "HOUNDPACK LANCE"
          }
         ]
        }
@@ -1528,6 +1546,12 @@
           "Options": [
            "reaper chaintalon"
           ]
+         },
+         {
+          "Options": [
+           "Houndpack Lance Character"
+          ],
+          "RequiredDettachment": "HOUNDPACK LANCE"
          }
         ]
        }
@@ -1696,6 +1720,12 @@
           "Options": [
            "Havoc multi-launcher"
           ]
+         },
+         {
+          "Options": [
+           "Houndpack Lance Character"
+          ],
+          "RequiredDettachment": "HOUNDPACK LANCE"
          }
         ]
        }
@@ -3007,6 +3037,12 @@
            "Lightning lock",
            "Conversion beam cannon"
           ]
+         },
+         {
+          "Options": [
+           "Houndpack Lance Character"
+          ],
+          "RequiredDettachment": "HOUNDPACK LANCE"
          }
         ]
        }

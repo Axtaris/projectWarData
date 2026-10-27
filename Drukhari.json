@@ -1020,6 +1020,14 @@
           "Options": [
            "stimm-needler. This model's splinter rifle cannot be replaced"
           ]
+         },
+         {
+          "Replaces": [
+           "splinter rifle"
+          ],
+          "Options": [
+           "splinter rifle and stimm-needler"
+          ]
          }
         ]
        }

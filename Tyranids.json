@@ -3185,7 +3185,14 @@
          "bio-electric pulse",
          "trygon scything talons"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "Subterranean Assault Character"
+          ],
+          "RequiredDettachment": "SUBTERRANEAN ASSAULT"
+         }
+        ]
        }
       ]
      }

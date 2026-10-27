@@ -31,6 +31,11 @@
           "Options": [
            "Grabbin’ Klaw"
           ]
+         },
+         {
+          "Options": [
+           "’ard case"
+          ]
          }
         ]
        }
@@ -623,6 +628,11 @@
            "Kombi-weapon",
            "Kustom Mega-blasta"
           ]
+         },
+         {
+          "Options": [
+           "grot oiler"
+          ]
          }
         ]
        }
@@ -983,7 +993,13 @@
          "shokk attack gun",
          "big mek’s toolz"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "grot assistant"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2623,7 +2639,13 @@
          "snazzgun",
          "choppa"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "Ammo runt"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -3644,6 +3666,11 @@
           "Options": [
            "Big Choppa",
            "Power Klaw"
+          ]
+         },
+         {
+          "Options": [
+           "Distraction grot"
           ]
          }
         ]
@@ -4835,7 +4862,15 @@
          "kustom krumpa",
          "kustom shoota"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "PerXModels": 5,
+          "Options": [
+           "Ammo runt"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -5032,7 +5067,13 @@
         "InitalWargear": [
          "beast snagga klaw"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "grot orderly"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -5148,7 +5189,13 @@
          "’urty syringe",
          "dok’s toolz"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "grot orderly"
+          ]
+         }
+        ]
        }
       ]
      }

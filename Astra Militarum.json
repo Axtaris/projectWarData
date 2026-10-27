@@ -1913,6 +1913,16 @@
            "Meltagun",
            "plasma gun"
           ]
+         },
+         {
+          "Max": 1,
+          "PerXModels": 10,
+          "Replaces": [
+           "lasgun"
+          ],
+          "Options": [
+           "lasgun and vox-caster"
+          ]
          }
         ]
        }
@@ -2549,6 +2559,15 @@
           ],
           "Options": [
            "hot-shot laspistol and melta mine"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "hot-shot lasgun"
+          ],
+          "Options": [
+           "hot-shot lasgun and vox-caster"
           ]
          }
         ]
@@ -7514,6 +7533,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -7707,6 +7732,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -7877,6 +7908,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -8041,6 +8078,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -8214,6 +8257,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -8407,6 +8456,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -8572,6 +8627,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -8752,6 +8813,12 @@
            "2 lascannons and 2 twin heavy bolters",
            "2 lascannons and 2 twin heavy flamers"
           ]
+         },
+         {
+          "Options": [
+           "Steel Hammer Character"
+          ],
+          "RequiredDettachment": "STEEL HAMMER"
          }
         ]
        }
@@ -8945,6 +9012,25 @@
           ],
           "Options": [
            "hot-shot laspistol and master vox"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "hot-shot lasgun"
+          ],
+          "Options": [
+           "hot-shot lasgun and regimental standard"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "hot-shot lasgun"
+          ],
+          "Options": [
+           "hot-shot laspistol and medi-pack",
+           "hot-shot lasgun and hot-shot laspistol and medi-pack"
           ]
          }
         ]
@@ -11966,6 +12052,33 @@
            "plasma gun",
            "Sniper rifle"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "lasgun"
+          ],
+          "Options": [
+           "lasgun and master vox"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "lasgun"
+          ],
+          "Options": [
+           "lasgun and medi-pack"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "lasgun"
+          ],
+          "Options": [
+           "lasgun and regimental standard"
+          ]
          }
         ]
        }
@@ -14119,6 +14232,15 @@
           "Options": [
            "plasma gun",
            "Meltagun"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "lasgun"
+          ],
+          "Options": [
+           "lasgun, vox-caster and vox-relay beacon"
           ]
          }
         ]

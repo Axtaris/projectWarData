@@ -1537,6 +1537,27 @@
            "Psilencer",
            "Psycannon"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "Apothecary’s narthecium"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "incinerator and Ancient’s banner",
+           "psilencer and Ancient’s banner",
+           "psycannon and Ancient’s banner",
+           "storm bolter and Ancient’s banner"
+          ]
          }
         ]
        }
@@ -2176,6 +2197,27 @@
            "Incinerator",
            "Psilencer",
            "Psycannon"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "Apothecary’s narthecium"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "incinerator and Ancient’s banner",
+           "psilencer and Ancient’s banner",
+           "psycannon and Ancient’s banner",
+           "storm bolter and Ancient’s banner"
           ]
          }
         ]

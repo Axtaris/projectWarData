@@ -6244,6 +6244,12 @@
           "Options": [
            "helix gauntlet"
           ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "Infiltrator comms array"
+          ]
          }
         ]
        }
@@ -6401,7 +6407,14 @@
          "occulus bolt carbine",
          "paired combat blades"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "haywire mine"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -7673,7 +7686,13 @@
          "bolt carbine",
          "monomolecular combat knife"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "Reiver grav-chute"
+          ]
+         }
+        ]
        }
       ]
      },

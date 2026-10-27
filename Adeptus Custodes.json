@@ -3001,6 +3001,14 @@
           "Options": [
            "Twin Neutronium Cascade Projectors"
           ]
+         },
+         {
+          "Replaces": [
+           "twin iliastus accelerator cannon"
+          ],
+          "Options": [
+           "twin arachnus heavy blaze cannon"
+          ]
          }
         ]
        }

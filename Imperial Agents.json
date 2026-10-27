@@ -1420,6 +1420,24 @@
            "Heavy stubber",
            "Webber"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "arbites combat shotgun"
+          ],
+          "Options": [
+           "Arbites combat shotgun and Arbites medi-kit"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "arbites combat shotgun"
+          ],
+          "Options": [
+           "Arbites combat shotgun and soulguilt scanner"
+          ]
          }
         ]
        }
@@ -3051,7 +3069,19 @@
         "InitalWargear": [
          "boltgun and power weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 2,
+          "PerXModels": 5,
+          "Replaces": [
+           "boltgun and power weapon"
+          ],
+          "Options": [
+           "boltgun and astartes shield",
+           "power weapon and astartes shield"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -4055,6 +4085,15 @@
           "Options": [
            "simulacrum imperialis"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "boltgun"
+          ],
+          "Options": [
+           "simulacrum imperialis and boltgun"
+          ]
          }
         ]
        }
@@ -4512,6 +4551,24 @@
            "Incinerator",
            "Psilencer",
            "Psycannon"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "storm bolter and Ancient’s banner"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
+          "Options": [
+           "narthecium"
           ]
          }
         ]
@@ -5167,7 +5224,18 @@
          "bolt pistol",
          "heavy thunder hammer"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "PerXModels": 5,
+          "Replaces": [
+           "heavy thunder hammer"
+          ],
+          "Options": [
+           "power weapon and Astartes shield"
+          ]
+         }
+        ]
        }
       ]
      },

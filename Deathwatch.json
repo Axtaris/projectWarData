@@ -272,7 +272,19 @@
         "InitalWargear": [
          "boltgun and power weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 2,
+          "PerXModels": 5,
+          "Replaces": [
+           "boltgun and power weapon"
+          ],
+          "Options": [
+           "boltgun, astartes shield and close combat weapon",
+           "power weapon and astartes shield"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -2449,7 +2461,18 @@
          "bolt pistol",
          "heavy thunder hammer"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "PerXModels": 5,
+          "Replaces": [
+           "heavy thunder hammer"
+          ],
+          "Options": [
+           "power weapon and astartes shield"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -6061,6 +6084,12 @@
           "Options": [
            "helix gauntlet"
           ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "Infiltrator comms array"
+          ]
          }
         ]
        }
@@ -6218,7 +6247,14 @@
          "occulus bolt carbine",
          "paired combat blades"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 1,
+          "Options": [
+           "haywire mine"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -7494,7 +7530,13 @@
          "bolt carbine",
          "monomolecular combat knife"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "Reiver grav-chute"
+          ]
+         }
+        ]
        }
       ]
      },

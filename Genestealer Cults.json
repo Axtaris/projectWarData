@@ -2313,6 +2313,15 @@
            "Grenade launcher",
            "Webber"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "Hybrid firearm"
+          ],
+          "Options": [
+           "Hybrid firearm and Cult icon"
+          ]
          }
         ]
        }
