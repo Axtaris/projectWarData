@@ -27,7 +27,23 @@ Any other program can read the files directly; they are plain UTF-8 JSON.
 | `<Faction>.json` | One file per faction: units, detachments and army rules. |
 | `<Faction> Legends.json` | Legends datasheets for that faction. **Not updated to 11th edition.** |
 
-Space Marine chapters (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves, Imperial Fists, Iron Hands, Raven Guard, Salamanders, Ultramarines, White Scars) each have their own file that includes the shared Space Marines roster plus the chapter's own units.
+### Space Marine chapters
+
+*Space Marines* is one rules family, and the chapters are customisations of it, not separate armies. Every datasheet has the keyword `Adeptus Astartes`; a chapter adds a handful of its own characters and units plus a few detachments. So the data is laid out as:
+
+- `Space Marines.json`: the shared roster (81 datasheets) and the 22 Space Marines detachments. Chapter-only units are not in it.
+- One file per chapter (Black Templars, Blood Angels, Dark Angels, Deathwatch, Space Wolves, Imperial Fists, Iron Hands, Raven Guard, Salamanders, Ultramarines, White Scars): **the whole shared roster plus the chapter's own datasheets**. Picking a chapter never takes anything away from the base roster, except units another chapter owns (for example Deathwatch kill teams) and the few units the chapter's Munitorum entry leaves out.
+- Detachments per chapter: Black Templars, Blood Angels, Dark Angels, Deathwatch and Space Wolves use the list in their own Munitorum Field Manual file. The six chapters without one get every Space Marines detachment except those locked to another chapter, plus their own.
+
+| Chapter-locked detachment | Chapter |
+|---|---|
+| Blade of Ultramar | Ultramarines |
+| Ceramite Sentinels | Imperial Fists |
+| Forgefather’s Seekers | Salamanders |
+| Shadowmark Talon | Raven Guard |
+| Spearpoint Task Force | White Scars |
+
+Chaos works differently in the sources: Death Guard, Thousand Sons, World Eaters and Emperor's Children are standalone factions with their own full set of datasheets, and Chaos Space Marines has no legion sub-factions (no legion keywords or legion detachments). They are therefore kept as separate files.
 
 ## Faction file format
 
