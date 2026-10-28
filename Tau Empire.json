@@ -8183,7 +8183,21 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "PRECISION",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      },
+      {
+       "Value": "DEVASTATING WOUNDS",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "All"
+      }
+     ]
     }
    ],
    "Effects": [

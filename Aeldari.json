@@ -12913,7 +12913,35 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ANTI-MONSTER 5+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      },
+      {
+       "Value": "ANTI-MONSTER 5+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "Scope": "AttachedUnit"
+      },
+      {
+       "Value": "ANTI-VEHICLE 5+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      },
+      {
+       "Value": "ANTI-VEHICLE 5+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "Scope": "AttachedUnit"
+      }
+     ]
     },
     {
      "Name": "Pirate Prince",
@@ -14275,7 +14303,27 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "ANTI-MONSTER 2+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "IncludedKeywords": [
+        "PSYCHIC"
+       ]
+      },
+      {
+       "Value": "ANTI-VEHICLE 2+",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "IncludedKeywords": [
+        "PSYCHIC"
+       ]
+      }
+     ]
     }
    ],
    "Effects": [

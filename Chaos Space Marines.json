@@ -15669,7 +15669,22 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "WeaponStatAdjustments": [
+      {
+       "Value": "IGNORES COVER",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged"
+      },
+      {
+       "Value": "IGNORES COVER",
+       "Type": "Add",
+       "Target": "Keywords",
+       "WeaponScope": "Ranged",
+       "Scope": "AttachedUnit"
+      }
+     ]
     },
     {
      "Name": "Fratricidal Trophies",
