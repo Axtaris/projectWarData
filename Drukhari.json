@@ -7349,7 +7349,21 @@
      ]
     }
    ],
-   "Effects": []
+   "Effects": [],
+   "Allies": [
+    {
+     "Faction": "Aeldari",
+     "Keyword": [
+      "Harlequins"
+     ],
+     "MaxPointsBySize": {
+      "1000": 500,
+      "2000": 1000,
+      "3000": 1500
+     },
+     "NoWarlord": true
+    }
+   ]
   },
   {
    "Name": "SKYSPLINTER ASSAULT",

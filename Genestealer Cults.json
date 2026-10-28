@@ -5101,6 +5101,31 @@
       "VOICE OF COMMAND"
      ]
     }
+   ],
+   "Allies": [
+    {
+     "Faction": "Astra Militarum",
+     "Keyword": [
+      "Astra Militarum"
+     ],
+     "ExcludeKeyword": [
+      "Aircraft",
+      "Commissar",
+      "Epic Hero",
+      "Militarum Tempestus",
+      "Ogryn",
+      "Ratling",
+      "Ratlings",
+      "Tech-Priest Enginseer",
+      "Ministorum Priest"
+     ],
+     "MaxPointsBySize": {
+      "1000": 500,
+      "2000": 1000,
+      "3000": 1500
+     },
+     "NoWarlord": true
+    }
    ]
   },
   {

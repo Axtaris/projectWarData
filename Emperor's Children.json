@@ -3733,6 +3733,20 @@
    "Effects": [],
    "AdditionalFactionKeywords": [
     "Legions of Excess"
+   ],
+   "Allies": [
+    {
+     "Faction": "Chaos Daemons",
+     "Keyword": [
+      "Slaanesh"
+     ],
+     "MaxPointsBySize": {
+      "1000": 500,
+      "2000": 1000,
+      "3000": 1500
+     },
+     "NoWarlord": true
+    }
    ]
   },
   {

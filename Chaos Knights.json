@@ -3698,7 +3698,16 @@
     }
    ],
    "Effects": [],
-   "Cost": 1
+   "Cost": 1,
+   "Allies": [
+    {
+     "Faction": "Chaos Space Marines",
+     "Keyword": [
+      "Damned"
+     ],
+     "MaxPoints": 500
+    }
+   ]
   },
   {
    "Name": "INFERNAL LANCE",

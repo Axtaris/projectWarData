@@ -16150,7 +16150,9 @@
    "Allies": [
     {
      "Faction": "Deathwatch",
-     "Keyword": "Deathwatch",
+     "Keyword": [
+      "Deathwatch"
+     ],
      "MaxPoints": 500,
      "NoWarlord": true
     }

@@ -4406,7 +4406,20 @@
      ]
     }
    ],
-   "Cost": 1
+   "Cost": 1,
+   "Allies": [
+    {
+     "Faction": "Adeptus Mechanicus",
+     "UnitNames": [
+      "TECH-PRIEST DOMINUS",
+      "TECH-PRIEST MANIPULUS",
+      "SKITARII MARSHAL",
+      "SKITARII RANGERS",
+      "SKITARII VANGUARD"
+     ],
+     "MaxPoints": 500
+    }
+   ]
   },
   {
    "Name": "QUESTORIS COMPANIONS",

@@ -1798,6 +1798,13 @@
      "ModelCount": 6,
      "Cost": 180
     }
+   ],
+   "PointsModel": "Wolf Guard Headtakers",
+   "ModelCosts": [
+    {
+     "ModelName": "Hunting Wolves",
+     "Cost": 10
+    }
    ]
   },
   {
@@ -16922,7 +16929,9 @@
    "Allies": [
     {
      "Faction": "Deathwatch",
-     "Keyword": "Deathwatch",
+     "Keyword": [
+      "Deathwatch"
+     ],
      "MaxPoints": 500,
      "NoWarlord": true
     }
