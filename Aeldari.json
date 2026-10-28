@@ -12711,6 +12711,20 @@
    "Effects": [],
    "AdditionalFactionKeywords": [
     "Ynnari"
+   ],
+   "Allies": [
+    {
+     "Faction": "Aeldari",
+     "Keyword": [
+      "Ynnari"
+     ],
+     "FactionOnly": true,
+     "Gated": true,
+     "WarlordFrom": [
+      "YVRAINE",
+      "THE YNCARNE"
+     ]
+    }
    ]
   },
   {
