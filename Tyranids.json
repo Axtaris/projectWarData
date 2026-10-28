@@ -16,6 +16,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "monstrous bonesword & lash whip"
+          ],
           "Options": [
            "Heavy venom cannon",
            "Stranglethorn cannon",

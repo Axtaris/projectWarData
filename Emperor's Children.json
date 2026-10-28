@@ -1302,8 +1302,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "sonic blaster"
+          ],
           "Options": [
-           "screamer pistol and power sword"
+           "Screamer pistol and Power sword"
           ]
          }
         ]
@@ -1322,7 +1325,17 @@
          "sonic blaster",
          "close combat weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Max": 2,
+          "Replaces": [
+           "sonic blaster"
+          ],
+          "Options": [
+           "blastmaster"
+          ]
+         }
+        ]
        }
       ]
      }

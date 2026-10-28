@@ -424,6 +424,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "cult claws & knife"
+          ],
           "Options": [
            "Leader's bio-weapons"
           ]
@@ -446,22 +449,22 @@
         ],
         "Options": [
          {
-          "Max": 2,
-          "PerXModels": 5,
-          "Replaces": [
-           "hand flamer"
-          ],
-          "Options": [
-           "Demolition charges"
-          ]
-         },
-         {
           "Max": 1,
           "Replaces": [
            "hand flamer"
           ],
           "Options": [
            "Cult icon"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 2,
+          "Replaces": [
+           "hand flamer"
+          ],
+          "Options": [
+           "Demolition charges"
           ]
          }
         ]
@@ -604,6 +607,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "cult claws & knife"
+          ],
           "Options": [
            "Leader's bio-weapons"
           ]
@@ -626,22 +632,23 @@
         ],
         "Options": [
          {
-          "Max": 3,
-          "PerXModels": 5,
-          "Replaces": [
-           "autopistol"
-          ],
-          "Options": [
-           "Heavy mining tool"
-          ]
-         },
-         {
           "Max": 1,
           "Replaces": [
            "autopistol"
           ],
           "Options": [
            "cult icon"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 3,
+          "Replaces": [
+           "autopistol",
+           "cult claws & knife"
+          ],
+          "Options": [
+           "Heavy mining tool"
           ]
          }
         ]

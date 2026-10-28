@@ -1675,8 +1675,8 @@
            "shardcarbine"
           ],
           "Options": [
-           "blast pistol and power weapon",
-           "splinter pistol and power weapon"
+           "Blast pistol and Power weapon",
+           "Splinter pistol and Power weapon"
           ]
          }
         ]
@@ -1701,11 +1701,11 @@
            "splinter cannon"
           ],
           "Options": [
-           "blaster",
+           "Blaster",
            "dark lance",
            "haywire blaster",
-           "heat lance",
-           "shredder"
+           "Heat lance",
+           "Shredder"
           ]
          }
         ]

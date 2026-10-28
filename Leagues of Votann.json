@@ -245,6 +245,23 @@
           "Options": [
            "Concussion maul"
           ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "heavy plasma axe"
+          ],
+          "Options": [
+           "Twin concussion gauntlet"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Options": [
+           "Mole grenade launcher"
+          ]
          }
         ]
        }
@@ -1352,7 +1369,7 @@
            "2 twin bolt cannons"
           ],
           "Options": [
-           "twin bolt cannon and twin ion beamer",
+           "Twin bolt cannon and Twin ion beamer",
            "2 twin ion beamers"
           ]
          },
@@ -1367,7 +1384,7 @@
          },
          {
           "Replaces": [
-           "panspectral scanner"
+           "pan spectral scanner"
           ],
           "Options": [
            "Hekaton warhead"

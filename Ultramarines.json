@@ -10871,16 +10871,6 @@
          },
          {
           "Options": [
-           "Hunter-killer missile"
-          ]
-         },
-         {
-          "Options": [
-           "Storm bolter"
-          ]
-         },
-         {
-          "Options": [
            "Tank Ace Character"
           ],
           "RequiredDettachment": "HEADHUNTER TASK FORCE"
