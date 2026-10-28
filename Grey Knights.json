@@ -2191,12 +2191,15 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "storm bolter"
+          ],
           "Options": [
            "Incinerator",
            "Psilencer",
-           "Psycannon"
+           "psycannon"
           ]
          },
          {

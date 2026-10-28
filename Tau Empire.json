@@ -3334,8 +3334,7 @@
         "InitalWargear": [
          "longshot pulse rifles",
          "pulse pistol",
-         "close combat weapons",
-         "the firesight marksman model and sniper drone models are treated as a single model for all rules purposes. all distances are measured to and from the firesight marksman model. the sniper drone models do not count as models for any rules purposes"
+         "close combat weapons"
         ],
         "Options": []
        }

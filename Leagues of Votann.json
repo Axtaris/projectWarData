@@ -13,8 +13,7 @@
        {
         "InitalWargear": [
          "graviton rifle",
-         "graviton hammer",
-         "* if this unit’s brôkhyr iron-master model is ever destroyed, all of this unit’s remaining e-cog models are also destroyed. while embarking within a transport and while embarked within a transport, each e-cog model takes up the space of 0 models"
+         "graviton hammer"
         ],
         "Options": []
        }
@@ -873,8 +872,7 @@
        {
         "InitalWargear": [
          "ancestral wrath",
-         "ancestral ward stave",
-         "* if this unit’s grimnyr model is ever destroyed, all of this unit’s remaining corv models are also destroyed. while embarking within a transport and while embarked within a transport, each corv model takes up the space of 0 models"
+         "ancestral ward stave"
         ],
         "Options": []
        }

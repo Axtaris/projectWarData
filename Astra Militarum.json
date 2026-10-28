@@ -1871,8 +1871,7 @@
        {
         "InitalWargear": [
          "laspistol",
-         "chainsword",
-         "this unit can have up to two leader units attached to it, provided no more than one of those units is a command squad unit. if it does, and this bodyguard unit is destroyed, the leader units attached to it become separate units, with their original starting strengths"
+         "chainsword"
         ],
         "Options": [
          {
@@ -2213,8 +2212,7 @@
        {
         "InitalWargear": [
          "laspistol",
-         "close combat weapon",
-         "this unit can have up to two leader units attached to it, provided no more than one of those units is a command squad unit. if it does, and this bodyguard unit is destroyed, the leader units attached to it become separate units, with their original starting strengths"
+         "close combat weapon"
         ],
         "Options": []
        }
@@ -2514,11 +2512,17 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "chainsword"
+          ],
           "Options": [
            "Power weapon"
           ]
          },
          {
+          "Replaces": [
+           "hot-shot laspistol"
+          ],
           "Options": [
            "Bolt pistol",
            "plasma pistol"
@@ -2574,11 +2578,8 @@
          },
          {
           "Max": 1,
-          "Replaces": [
-           "hot-shot lasgun"
-          ],
           "Options": [
-           "hot-shot lasgun and vox-caster"
+           "vox-caster"
           ]
          }
         ]
@@ -9396,17 +9397,22 @@
        {
         "InitalWargear": [
          "hot-shot laspistol",
-         "chainsword",
-         "this unit can have up to two leader units attached to it, provided no more than one of those units is a command squad unit. if it does, and this bodyguard unit is destroyed, the leader units attached to it become separate units, with their original starting strengths"
+         "chainsword"
         ],
         "Options": [
          {
+          "Replaces": [
+           "chainsword"
+          ],
           "Options": [
            "Power fist",
            "Power weapon"
           ]
          },
          {
+          "Replaces": [
+           "hot-shot laspistol"
+          ],
           "Options": [
            "Bolt pistol",
            "plasma pistol"
@@ -9430,8 +9436,8 @@
         ],
         "Options": [
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "hot-shot lasgun"
           ],

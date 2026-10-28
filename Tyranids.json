@@ -2560,8 +2560,7 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "chitinous claws & teeth",
-         "*this unit can only contain 2 neurogaunt nodebeasts if it contains 20 neurogaunts"
+         "chitinous claws & teeth"
         ],
         "Options": []
        }

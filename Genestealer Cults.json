@@ -886,8 +886,7 @@
        {
         "InitalWargear": [
          "atalan small arms",
-         "close combat weapon",
-         "* this unit can only contain 2 atalan wolfquads if it also contains 8 atalan jackals"
+         "close combat weapon"
         ],
         "Options": [
          {

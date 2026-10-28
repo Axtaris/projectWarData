@@ -2580,8 +2580,7 @@
        {
         "InitalWargear": [
          "agent firearm",
-         "agent melee weapon",
-         "*this unit can only contain 2 gun servitors if it also contains 10 inquisitorial agents"
+         "agent melee weapon"
         ],
         "Options": [
          {
