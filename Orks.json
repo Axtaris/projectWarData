@@ -9010,7 +9010,15 @@
     {
      "Name": "Brutal But Kunnin’",
      "Cost": 30,
-     "Description": "Warboss model only. This model’s melee attacks have +1 D."
+     "Description": "Warboss model only. This model’s melee attacks have +1 D.",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Target": "Damage",
+       "WeaponScope": "Melee"
+      }
+     ]
     },
     {
      "Name": "Da Gobshot Thunderbuss",
@@ -9332,7 +9340,14 @@
      "Name": "'Ardboyz (Upgrade)",
      "Cost": 25,
      "Description": "Boyz unit only. This unit has 4+ Sv.",
-     "Features": "Upgrade"
+     "Features": "Upgrade",
+     "StatAdjustments": [
+      {
+       "Target": "Save",
+       "Value": "4+",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Ferocious Show Off",

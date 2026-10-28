@@ -14231,7 +14231,28 @@
     {
      "Name": "Standard of the Emperor Ascendant",
      "Cost": 25,
-     "Description": "Ancient model only. This model has:\n+1 OC and Ld. Feel No Pain 5+. The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A until the end of the phase."
+     "Description": "Ancient model only. This model has:\n+1 OC and Ld. Feel No Pain 5+. The following ability:\nAncient Exhortation (Once per battle, per army): When this unit is selected to fight, you can use this ability. If you do, this unit’s melee attacks have +1 A until the end of the phase.",
+     "StatAdjustments": [
+      {
+       "Target": "OC",
+       "Type": "Add",
+       "Value": "1"
+      },
+      {
+       "Target": "Leadership",
+       "Type": "Add",
+       "Value": "1"
+      }
+     ],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 5+"
+       ]
+      }
+     ]
     }
    ],
    "Effects": []
@@ -14472,7 +14493,14 @@
      "Name": "Redoubtable Machine Spirit (Upgrade)",
      "Cost": 25,
      "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\nHas 5+ InSv. At the end of your Command phase, heals 1 wound.",
-     "Features": "Upgrade"
+     "Features": "Upgrade",
+     "StatAdjustments": [
+      {
+       "Target": "InvulSave",
+       "Value": "5+",
+       "Scope": "Unit"
+      }
+     ]
     }
    ],
    "Effects": []
@@ -14562,7 +14590,23 @@
     {
      "Name": "The Flesh is Weak",
      "Cost": 15,
-     "Description": "Adeptus Astartes model only. This model:\nHas +1 T. Has Feel No Pain 5+."
+     "Description": "Adeptus Astartes model only. This model:\nHas +1 T. Has Feel No Pain 5+.",
+     "StatAdjustments": [
+      {
+       "Target": "Toughness",
+       "Type": "Add",
+       "Value": "1"
+      }
+     ],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Feel No Pain 5+"
+       ]
+      }
+     ]
     }
    ]
   },

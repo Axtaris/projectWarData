@@ -15427,7 +15427,14 @@
      "Name": "Redoubtable Machine Spirit (Upgrade)",
      "Cost": 25,
      "Description": "Adeptus Astartes Vehicle unit only (excluding Dedicated Transport/Fly/Walker units). This unit:\nHas 5+ InSv. At the end of your Command phase, heals 1 wound.",
-     "Features": "Upgrade"
+     "Features": "Upgrade",
+     "StatAdjustments": [
+      {
+       "Target": "InvulSave",
+       "Value": "5+",
+       "Scope": "Unit"
+      }
+     ]
     }
    ],
    "Effects": []
@@ -15988,12 +15995,28 @@
     {
      "Name": "Consecrating Aura",
      "Cost": 20,
-     "Description": "Adeptus Astartes model only. This unit has 5+ InSv."
+     "Description": "Adeptus Astartes model only. This unit has 5+ InSv.",
+     "StatAdjustments": [
+      {
+       "Target": "InvulSave",
+       "Value": "5+",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Incendiary Animus",
      "Cost": 25,
-     "Description": "Chaplain/Judiciar model only. This unit’s melee attacks have +1 S."
+     "Description": "Chaplain/Judiciar model only. This unit’s melee attacks have +1 S.",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Target": "Strength",
+       "WeaponScope": "Melee",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Zealous Vanguard",

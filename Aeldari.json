@@ -13161,7 +13161,25 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Infiltrators"
+       ]
+      },
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "AttachedUnit",
+       "Values": [
+        "Infiltrators"
+       ]
+      }
+     ]
     },
     {
      "Name": "Murder's Jest",

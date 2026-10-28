@@ -4595,7 +4595,16 @@
     {
      "Name": "Not a Shell Wasted",
      "Cost": 10,
-     "Description": "Adeptus Custodes Infantry model only. This unit’s ranged attacks have +1 A."
+     "Description": "Adeptus Custodes Infantry model only. This unit’s ranged attacks have +1 A.",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Target": "Attacks",
+       "WeaponScope": "Ranged",
+       "Scope": "Unit"
+      }
+     ]
     },
     {
      "Name": "Pareldor’s Caducatrix",
@@ -4658,7 +4667,23 @@
     {
      "Name": "Shroud of the Hidden Blade",
      "Cost": 20,
-     "Description": "Adeptus Custodes model only. This model has:\nStealth Lone Operative."
+     "Description": "Adeptus Custodes model only. This model has:\nStealth Lone Operative.",
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Stealth"
+       ]
+      },
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Values": [
+        "Lone Operative"
+       ]
+      }
+     ]
     },
     {
      "Name": "Superior Creation",
@@ -5188,7 +5213,27 @@
     {
      "Name": "Memento Moritoi (one per army) (Upgrade)",
      "Cost": 30,
-     "Description": "Adeptus Custodes Dreadnought model only. This model’s melee attacks have +1 A, S and D."
+     "Description": "Adeptus Custodes Dreadnought model only. This model’s melee attacks have +1 A, S and D.",
+     "WeaponStatAdjustments": [
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Target": "Attacks",
+       "WeaponScope": "Melee"
+      },
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Target": "Strength",
+       "WeaponScope": "Melee"
+      },
+      {
+       "Value": "1",
+       "Type": "Add",
+       "Target": "Damage",
+       "WeaponScope": "Melee"
+      }
+     ]
     }
    ],
    "Effects": [

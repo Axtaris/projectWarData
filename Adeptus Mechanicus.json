@@ -6423,7 +6423,25 @@
      ],
      "RequiredOneOfKeywords": [],
      "ExcludedKeywords": [],
-     "RequiredAbilities": []
+     "RequiredAbilities": [],
+     "DatasheetAdjustments": [
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "Unit",
+       "Values": [
+        "Stealth"
+       ]
+      },
+      {
+       "Target": "CoreAbilities",
+       "Type": "Add",
+       "Scope": "AttachedUnit",
+       "Values": [
+        "Stealth"
+       ]
+      }
+     ]
     },
     {
      "Name": "Peerless Eradicator",
