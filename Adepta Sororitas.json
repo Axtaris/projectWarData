@@ -2355,6 +2355,14 @@
         "Options": [
          {
           "Replaces": [
+           "hallowed mace"
+          ],
+          "Options": [
+           "Anointed halberd"
+          ]
+         },
+         {
+          "Replaces": [
            "bolt pistol"
           ],
           "Options": [
@@ -2815,7 +2823,33 @@
          "paragon storm bolters",
          "paragon war blade"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "paragon storm bolters"
+          ],
+          "Options": [
+           "Paragon grenade launchers"
+          ]
+         },
+         {
+          "Replaces": [
+           "paragon war blade"
+          ],
+          "Options": [
+           "Paragon war mace"
+          ]
+         },
+         {
+          "Replaces": [
+           "heavy bolter"
+          ],
+          "Options": [
+           "Ministorum heavy flamer",
+           "multi-melta"
+          ]
+         }
+        ]
        }
       ]
      },

@@ -580,7 +580,20 @@
          "power fist",
          "storm bolter"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "power fist",
+           "storm bolter"
+          ],
+          "Options": [
+           "Storm bolter and Power weapon",
+           "Storm bolter and Chainfist",
+           "Twin lightning claws",
+           "thunder hammer and storm shield"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -7716,7 +7729,16 @@
          "flamestorm gauntlets",
          "twin power fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "flamestorm gauntlets"
+          ],
+          "Options": [
+           "Auto Boltstorm Gauntlets and Fragstorm grenade launcher"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -7867,7 +7889,24 @@
          "siege drills",
          "Centurion bolters"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "Centurion bolters"
+          ],
+          "Options": [
+           "Centurion assault launcher"
+          ]
+         },
+         {
+          "Replaces": [
+           "twin flamer"
+          ],
+          "Options": [
+           "Twin meltagun"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -8028,7 +8067,25 @@
          "Centurion bolters",
          "Centurion fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "Centurion bolters"
+          ],
+          "Options": [
+           "Centurion missile launcher"
+          ]
+         },
+         {
+          "Replaces": [
+           "grav-cannon"
+          ],
+          "Options": [
+           "Twin heavy bolter",
+           "twin lascannon"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -9438,7 +9495,16 @@
          "assault bolters",
          "ceramite fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "assault bolters"
+          ],
+          "Options": [
+           "Plasma Exterminators"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -16668,8 +16734,19 @@
  ],
  "ArmyRules": [
   {
-   "Title": "OATH OF MOMENT",
-   "Text": "If your Army Faction is Adeptus Astartes, at the start of your Command phase, select one unit from your opponent’s army. Until the start of your next Command phase, that enemy unit is your Oath of Moment target. Each time a model with this ability makes an attack that targets your Oath of Moment target:\n\t▪ You can re-roll the Hit roll.\n\t▪ If you are using a Codex: Space Marines Detachment and your army does not include one or more units with the Black Templars, Blood Angels, Dark Angels, Deathwatch or Space Wolves keywords, add 1 to the Wound roll as well."
+   "Restrictions": "",
+   "Title": "COMBAT DOCTRINES",
+   "Text": "At the start of your Command phase, you can select one combat doctrine listed below. If you do, that combat doctrine is active for friendly ADEPTUS ASTARTES units with this ability until the start of your next Command phase.\n▪ ASSAULT DOCTRINE: When this unit is selected to make an advance move, that advance move does not prevent this unit from being eligible to declare a charge.\n▪ DEVASTATOR DOCTRINE: This unit’s ranged attacks have [ASSAULT].\n▪ TACTICAL DOCTRINE: When this unit is selected to make a fall-back move, that fall-back move does not prevent this unit from being eligible to shoot and eligible to declare a charge.\nUnless otherwise stated:\n▪ You can only select each combat doctrine once per battle.\n▪ Only one combat doctrine can be active for each unit. If a rule makes a combat doctrine active for a unit, any combat doctrine previously active for that unit is no longer active for that unit."
+  },
+  {
+   "Restrictions": "",
+   "Title": "TRANSHUMAN STRATEGIST",
+   "Text": "At the start of the battle round, if a model with this ability is your WARLORD, gain 1CP."
+  },
+  {
+   "Restrictions": "",
+   "Title": "LIBRARIUS",
+   "Text": "ADEPTUS ASTARTES PSYKER units with this ability have a psyker level of 1 or higher, specified in that unit’s abilities. Each psychic ability has a psychic level of 1 or higher, specified in that ability’s name.\nIn a battle round, a friendly ADEPTUS ASTARTES PSYKER unit can use a number of psychic abilities whose total psychic level does not exceed that PSYKER unit’s psyker level.\nExample: In a battle round, a psyker level 3 PSYKER unit could use three psychic level 1 abilities, or one psychic level 1 ability and one psychic level 2 ability, or one psychic level 3 ability."
   },
   {
    "Title": "SPACE MARINE CHAPTERS",

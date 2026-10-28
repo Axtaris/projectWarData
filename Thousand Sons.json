@@ -3612,7 +3612,16 @@
         "InitalWargear": [
          "divining spear"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "divining spear"
+          ],
+          "Options": [
+           "Autopistol and Chainsword"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -3859,7 +3868,16 @@
         "InitalWargear": [
          "tzaangor blades"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "tzaangor blades"
+          ],
+          "Options": [
+           "Autopistol and Chainsword"
+          ]
+         }
+        ]
        }
       ]
      },

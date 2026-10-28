@@ -2367,7 +2367,17 @@
          "stubcarbine",
          "power weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "stubcarbine",
+           "power weapon"
+          ],
+          "Options": [
+           "Flechette blaster and Taser goad"
+          ]
+         }
+        ]
        }
       ]
      },

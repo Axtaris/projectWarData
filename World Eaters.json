@@ -1381,7 +1381,16 @@
          "combi-bolter",
          "accursed weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "combi-bolter"
+          ],
+          "Options": [
+           "Combi-weapon"
+          ]
+         }
+        ]
        }
       ]
      },

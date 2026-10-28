@@ -859,7 +859,17 @@
          "devourer",
          "tyranid warrior claws and talons"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "devourer"
+          ],
+          "Options": [
+           "Deathspitter",
+           "Spinefists"
+          ]
+         }
+        ]
        }
       ]
      },

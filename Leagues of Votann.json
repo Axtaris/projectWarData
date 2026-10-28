@@ -653,6 +653,22 @@
         "Options": [
          {
           "Replaces": [
+           "etacarn plasma gun"
+          ],
+          "Options": [
+           "Volkanite disintegrator"
+          ]
+         },
+         {
+          "Replaces": [
+           "concussion gauntlet"
+          ],
+          "Options": [
+           "Plasma blade gauntlet"
+          ]
+         },
+         {
+          "Replaces": [
            "concussion gauntlet"
           ],
           "Options": [
@@ -1729,7 +1745,16 @@
          "bolt shotgun",
          "close combat weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "bolt shotgun"
+          ],
+          "Options": [
+           "Bolt revolver and Plasma knife"
+          ]
+         }
+        ]
        }
       ]
      },

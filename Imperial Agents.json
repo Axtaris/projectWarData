@@ -3690,12 +3690,11 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "Replaces": [
            "heavy bolter"
           ],
           "Options": [
-           "heavy flamer"
+           "Heavy flamer"
           ]
          },
          {
@@ -3703,19 +3702,19 @@
            "multi-laser"
           ],
           "Options": [
-           "heavy bolter",
-           "heavy flamer"
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]

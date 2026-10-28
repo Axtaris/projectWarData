@@ -3126,7 +3126,24 @@
          "close combat weapon",
          "slabshield"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "grenadier gauntlet"
+          ],
+          "Options": [
+           "Bullgryn maul"
+          ]
+         },
+         {
+          "Replaces": [
+           "slabshield"
+          ],
+          "Options": [
+           "brute shield"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -6970,7 +6987,7 @@
            "heavy bolter"
           ],
           "Options": [
-           "heavy flamer"
+           "Heavy flamer"
           ]
          },
          {
@@ -6978,19 +6995,19 @@
            "multi-laser"
           ],
           "Options": [
-           "heavy bolter ",
-           "heavy flamer "
+           "Heavy bolter",
+           "Heavy flamer"
           ]
          },
          {
           "Options": [
-           "heavy stubber",
-           "storm bolter"
+           "Heavy stubber",
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          }
         ]

@@ -7872,7 +7872,16 @@
          "flamestorm gauntlets",
          "twin power fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "flamestorm gauntlets"
+          ],
+          "Options": [
+           "Auto Boltstorm Gauntlets and Fragstorm grenade launcher"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -8023,7 +8032,24 @@
          "siege drills",
          "Centurion bolters"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "Centurion bolters"
+          ],
+          "Options": [
+           "Centurion assault launcher"
+          ]
+         },
+         {
+          "Replaces": [
+           "twin flamer"
+          ],
+          "Options": [
+           "Twin meltagun"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -8184,7 +8210,25 @@
          "Centurion bolters",
          "Centurion fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "Centurion bolters"
+          ],
+          "Options": [
+           "Centurion missile launcher"
+          ]
+         },
+         {
+          "Replaces": [
+           "grav-cannon"
+          ],
+          "Options": [
+           "Twin heavy bolter",
+           "twin lascannon"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -9594,7 +9638,16 @@
          "assault bolters",
          "ceramite fists"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "assault bolters"
+          ],
+          "Options": [
+           "Plasma Exterminators"
+          ]
+         }
+        ]
        }
       ]
      },

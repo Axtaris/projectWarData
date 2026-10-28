@@ -1659,7 +1659,16 @@
          "autopistol",
          "leader’s cult weapons"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "autopistol"
+          ],
+          "Options": [
+           "Hand flamer"
+          ]
+         }
+        ]
        }
       ]
      },
