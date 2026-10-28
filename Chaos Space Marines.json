@@ -295,8 +295,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "exalted weapon",
-         "tyrant’s claw"
+         "Tyrant’s Claw heavy flamer",
+         "exalted weapon"
         ],
         "Options": []
        }
@@ -588,7 +588,7 @@
        "Range": "12\"",
        "Attacks": "1",
        "ToHit": "3+",
-       "Strength": "4",
+       "Strength": "5",
        "AP": "-1",
        "Damage": "1"
       },
@@ -5855,7 +5855,7 @@
            "accursed weapon"
           ],
           "Options": [
-           "power fist. That model's boltgun cannot be replaced"
+           "Power fist"
           ]
          },
          {
@@ -6696,24 +6696,54 @@
         ],
         "Options": [
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
-           "bolt pistol",
-           "astartes chainsword"
+           "bolt pistol"
           ],
           "Options": [
-           "plasma pistol and Astartes chainsword"
+           "plasma pistol"
           ]
          },
          {
-          "Max": 2,
           "PerXModels": 5,
+          "Max": 2,
           "Replaces": [
            "astartes chainsword"
           ],
           "Options": [
            "Heavy melee weapon"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "astartes chainsword"
+          ],
+          "Options": [
+           "Mutations"
+          ]
+         },
+         {
+          "Max": 2,
+          "Replaces": [
+           "astartes chainsword"
+          ],
+          "Options": [
+           "Flamer and Close combat weapon",
+           "Meltagun and Close combat weapon",
+           "plasma gun and Close combat weapon"
+          ]
+         },
+         {
+          "Replaces": [
+           "astartes chainsword"
+          ],
+          "Options": [
+           "Flamer and Close combat weapon",
+           "Meltagun and Close combat weapon",
+           "plasma gun and Close combat weapon"
           ]
          }
         ]
@@ -7199,14 +7229,13 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "flamer",
-         "astartes chainsword",
-         "havoc lascannon"
+         "Flamer",
+         "Astartes chainsword"
         ],
         "Options": [
          {
           "Replaces": [
-           "astartes chainsword"
+           "Astartes chainsword"
           ],
           "Options": [
            "Accursed weapon",
@@ -7215,7 +7244,7 @@
          },
          {
           "Replaces": [
-           "flamer"
+           "Flamer"
           ],
           "Options": [
            "Boltgun",
@@ -9629,7 +9658,7 @@
          },
          {
           "Options": [
-           "havoc launcher or can replace 1 combi-bolter with 1 havoc launcher"
+           "havoc launcher"
           ]
          },
          {
@@ -12475,7 +12504,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          },
          {
@@ -12485,7 +12514,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          },
          {
@@ -12774,17 +12803,26 @@
       "ModelName": "Disharmonist",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Sonic blaster",
+         "Close combat weapon"
+        ],
         "Options": [
          {
+          "Replaces": [
+           "Sonic blaster"
+          ],
           "Options": [
-           "Close combat weapon"
+           "Screamer pistol and Power sword"
           ]
          },
          {
-          "Options": [
-           "Screamer pistol and power sword",
+          "Max": 2,
+          "Replaces": [
            "Sonic blaster"
+          ],
+          "Options": [
+           "blastmaster"
           ]
          }
         ]
@@ -12797,7 +12835,15 @@
        "Max": 5
       },
       "ModelName": "Noise Marine w/ sonic blaster",
-      "Wargear": []
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "Sonic blaster",
+         "Close combat weapon"
+        ],
+        "Options": []
+       }
+      ]
      },
      {
       "Limit": {
@@ -12808,7 +12854,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "blastmaster"
+         "Sonic blaster",
+         "Close combat weapon"
         ],
         "Options": []
        }
@@ -12957,7 +13004,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "chainblade"
+         "Bolt pistol",
+         "Chainblade"
         ],
         "Options": [
          {
@@ -12979,7 +13027,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "chainblade"
+         "Bolt pistol",
+         "Chainblade"
         ],
         "Options": []
        }
@@ -12994,7 +13043,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "chainblade"
+         "Bolt pistol",
+         "Chainblade"
         ],
         "Options": []
        }
@@ -13009,7 +13059,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "khornate eviscerator"
+         "Bolt pistol",
+         "Chainblade"
         ],
         "Options": []
        }
@@ -13024,7 +13075,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "khornate eviscerator"
+         "Bolt pistol",
+         "Chainblade"
         ],
         "Options": []
        }
@@ -13103,7 +13155,7 @@
        "Keywords": "PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "7",
        "AP": "-2",
        "Damage": "1"
@@ -13113,7 +13165,7 @@
        "Keywords": "HAZARDOUS, PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "8",
        "AP": "-3",
        "Damage": "2"
@@ -13123,7 +13175,7 @@
        "Keywords": "PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "5",
        "AP": "-1",
        "Damage": "1"
@@ -13433,7 +13485,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": [
          {
@@ -13464,7 +13517,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13479,7 +13533,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13494,8 +13549,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "blight launcher",
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13510,7 +13565,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13525,8 +13581,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague spewer",
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13537,7 +13593,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13552,7 +13609,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13567,8 +13625,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague belcher",
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13583,7 +13641,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plague knives"
+         "Boltgun",
+         "Plague knives"
         ],
         "Options": []
        }
@@ -13642,7 +13701,7 @@
      "Weapons": [
       {
        "Name": "Bolt pistol",
-       "Keywords": "LETHAL HITS",
+       "Keywords": "LETHAL HITS, PISTOL",
        "Range": "12\"",
        "Attacks": "1",
        "ToHit": "3+",

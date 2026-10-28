@@ -1917,16 +1917,7 @@
          {
           "Max": 1,
           "Options": [
-           "icon of despair. This model's boltgun cannot be replaced"
-          ]
-         },
-         {
-          "Max": 1,
-          "Replaces": [
-           "boltgun"
-          ],
-          "Options": [
-           "boltgun and icon of despair"
+           "icon of despair"
           ]
          }
         ]
@@ -2464,7 +2455,7 @@
         "Options": [
          {
           "Options": [
-           "additional plaguespurt gauntlet"
+           "Plaguespurt gauntlet"
           ]
          },
          {
@@ -5057,7 +5048,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          },
          {
@@ -5067,7 +5058,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          }
         ]

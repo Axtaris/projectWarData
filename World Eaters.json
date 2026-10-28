@@ -1210,7 +1210,16 @@
         "InitalWargear": [
          "paired manglers"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "paired manglers"
+          ],
+          "Options": [
+           "skullsmasher and mangler"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -1228,15 +1237,18 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 10,
+          "Max": 1,
+          "Replaces": [
+           "chainblades"
+          ],
           "Options": [
            "Mauler chainblade"
           ]
          },
          {
-          "Max": 1,
           "PerXModels": 10,
+          "Max": 1,
           "Options": [
            "icon of Khorne"
           ]
@@ -3991,7 +4003,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "hellblade"
+         "Hellblade",
+         "juggernaut’s bladed horn"
         ],
         "Options": [
          {
@@ -4308,7 +4321,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          },
          {
@@ -4318,7 +4331,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          }
         ]

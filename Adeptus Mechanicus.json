@@ -2540,7 +2540,16 @@
         "InitalWargear": [
          "transonic razor & chordclaw"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "transonic razor & chordclaw"
+          ],
+          "Options": [
+           "Transonic blades and chordclaw"
+          ]
+         }
+        ]
        }
       ]
      },
@@ -2557,6 +2566,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "transonic razor & chordclaw"
+          ],
           "Options": [
            "Transonic blades"
           ]
@@ -2854,12 +2866,9 @@
          },
          {
           "Max": 1,
-          "Replaces": [
-           "galvanic rifle"
-          ],
           "Options": [
-           "galvanic rifle and enhanced data-tether",
-           "galvanic rifle and omnispex"
+           "enhanced data-tether",
+           "omnispex"
           ]
          }
         ]
@@ -3116,12 +3125,9 @@
          },
          {
           "Max": 1,
-          "Replaces": [
-           "radium carbine"
-          ],
           "Options": [
-           "radium carbine and enhanced data-tether",
-           "radium carbine and omnispex"
+           "enhanced data-tether",
+           "omnispex"
           ]
          }
         ]

@@ -283,15 +283,15 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "meltagun",
-         "questoris heavy stubber",
-         "reaper chainsword",
-         "rapid-fire battle cannon"
+         "Meltagun",
+         "Questoris heavy stubber",
+         "rapid-fire battlecannon",
+         "Reaper chainsword"
         ],
         "Options": [
          {
           "Replaces": [
-           "meltagun"
+           "Meltagun"
           ],
           "Options": [
            "Questoris heavy stubber"
@@ -299,7 +299,7 @@
          },
          {
           "Replaces": [
-           "reaper chainsword"
+           "Reaper chainsword"
           ],
           "Options": [
            "thunderstrike gauntlet"
@@ -3755,11 +3755,20 @@
         "Options": [
          {
           "Replaces": [
-           "chastiser gatling cannon",
+           "chastiser gatling cannon"
+          ],
+          "Options": [
+           "bellatus reaper chainsword",
+           "thundershock spear"
+          ]
+         },
+         {
+          "Replaces": [
            "frag bombard"
           ],
           "Options": [
-           "bellatus reaper chainsword and thundershock spear"
+           "bellatus reaper chainsword",
+           "thundershock spear"
           ]
          }
         ]
@@ -3920,7 +3929,7 @@
        "Range": "Melee",
        "Attacks": "4",
        "ToHit": "4+",
-       "Strength": "7",
+       "Strength": "8",
        "AP": "-1",
        "Damage": "2"
       }

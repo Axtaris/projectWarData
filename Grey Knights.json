@@ -3364,7 +3364,7 @@
       },
       {
        "Name": "Las-talon",
-       "Range": "36\"",
+       "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
        "Strength": "10",

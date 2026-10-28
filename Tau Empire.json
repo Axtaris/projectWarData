@@ -947,12 +947,7 @@
         "Options": [
          {
           "Options": [
-           "marker drone",
-           "shield drone"
-          ]
-         },
-         {
-          "Options": [
+           "gun drone",
            "marker drone",
            "shield drone"
           ]
@@ -1200,13 +1195,11 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "dart-bow & tri-blade"
+          ],
           "Options": [
-           "bladestave"
-          ]
-         },
-         {
-          "Options": [
-           "prey hook"
+           "bladestave and prey-hook"
           ]
          }
         ]
@@ -1602,12 +1595,7 @@
          },
          {
           "Options": [
-           "marker drone",
-           "shield drone"
-          ]
-         },
-         {
-          "Options": [
+           "gun drone",
            "marker drone",
            "shield drone"
           ]
@@ -1863,12 +1851,8 @@
         "Options": [
          {
           "Options": [
-           "marker drone",
-           "shield drone"
-          ]
-         },
-         {
-          "Options": [
+           "guardian drone",
+           "gun drone",
            "marker drone",
            "shield drone"
           ]
@@ -2055,12 +2039,8 @@
         "Options": [
          {
           "Options": [
-           "marker drone",
-           "shield drone"
-          ]
-         },
-         {
-          "Options": [
+           "guardian drone",
+           "gun drone",
            "marker drone",
            "shield drone"
           ]
@@ -7030,7 +7010,7 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "kroot pistol & hunting javelins",
+         "Kroot pistol & hunting javelins",
          "hunting blades",
          "rampager fists"
         ],
@@ -7094,7 +7074,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "Hunting blades",
+       "Name": "Close combat weapon",
        "Keywords": "LANCE",
        "Range": "Melee",
        "Attacks": "3",
@@ -7104,7 +7084,7 @@
        "Damage": "1"
       },
       {
-       "Name": "Rampager fists",
+       "Name": "Krootox fists",
        "Keywords": "EXTRA ATTACKS, SUSTAINED HITS 1",
        "Range": "Melee",
        "Attacks": "4",
@@ -7354,9 +7334,10 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "ion scattercannon",
-         "xv pulse pistol",
-         "shardstorm burst system"
+         "Ion scattercannon",
+         "XV pulse pistol",
+         "Shardstorm burst system",
+         "mv15 gun drone"
         ],
         "Options": []
        }

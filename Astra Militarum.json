@@ -449,7 +449,7 @@
        "Name": "Close combat weapon",
        "Range": "Melee",
        "Attacks": "3",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "3",
        "AP": "0",
        "Damage": "1"
@@ -1606,7 +1606,7 @@
            "chainsword"
           ],
           "Options": [
-           "Sergeant's autogun and close combat weapon"
+           "Sergeant's autogun and Close combat weapon"
           ]
          }
         ]
@@ -1627,8 +1627,8 @@
         ],
         "Options": [
          {
-          "Max": 2,
           "PerXModels": 10,
+          "Max": 2,
           "Replaces": [
            "lasgun"
           ],
@@ -1637,6 +1637,13 @@
            "grenade launcher",
            "Meltagun",
            "plasma gun"
+          ]
+         },
+         {
+          "PerXModels": 10,
+          "Max": 1,
+          "Options": [
+           "vox-caster"
           ]
          },
          {
@@ -2664,7 +2671,7 @@
        "Keywords": "PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "4",
        "AP": "0",
        "Damage": "1"
@@ -2674,7 +2681,7 @@
        "Keywords": "PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "7",
        "AP": "-2",
        "Damage": "1"
@@ -2684,7 +2691,7 @@
        "Keywords": "HAZARDOUS, PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "8",
        "AP": "-3",
        "Damage": "2"
@@ -4151,18 +4158,18 @@
         "Options": [
          {
           "Replaces": [
-           "castigator gatling cannon"
+           "twin battle cannon"
           ],
           "Options": [
-           "Pulveriser cannon"
+           "Oppressor cannon and Coaxial autocannon"
           ]
          },
          {
           "Replaces": [
-           "twin battle cannon"
+           "castigator gatling cannon"
           ],
           "Options": [
-           "Oppressor cannon and coaxial autocannon"
+           "Pulveriser cannon"
           ]
          },
          {
@@ -4175,11 +4182,6 @@
           "Options": [
            "2 heavy bolters",
            "2 multi-meltas"
-          ]
-         },
-         {
-          "Options": [
-           "2 Additional Heavy Stubbers"
           ]
          }
         ]
@@ -8999,6 +9001,9 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "bolt pistol"
+          ],
           "Options": [
            "plasma pistol",
            "command rod"
@@ -9036,6 +9041,12 @@
          },
          {
           "Max": 1,
+          "Options": [
+           "regimental standard"
+          ]
+         },
+         {
+          "Max": 1,
           "Replaces": [
            "hot-shot lasgun"
           ],
@@ -9049,17 +9060,8 @@
            "hot-shot lasgun"
           ],
           "Options": [
-           "hot-shot lasgun and regimental standard"
-          ]
-         },
-         {
-          "Max": 1,
-          "Replaces": [
-           "hot-shot lasgun"
-          ],
-          "Options": [
            "hot-shot laspistol and medi-pack",
-           "hot-shot lasgun and hot-shot laspistol and medi-pack"
+           "hot-shot lasgun, 1 hot-shot laspistol and medi-pack"
           ]
          }
         ]
@@ -9557,7 +9559,7 @@
        "Keywords": "PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "4",
        "AP": "0",
        "Damage": "1"
@@ -10410,7 +10412,7 @@
        "Keywords": "PISTOL",
        "Range": "12\"",
        "Attacks": "1",
-       "ToHit": "3+",
+       "ToHit": "4+",
        "Strength": "4",
        "AP": "0",
        "Damage": "1"
@@ -10903,13 +10905,15 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "autopistol and trench club"
+         "Autopistol",
+         "Trench club"
         ],
         "Options": [
          {
           "Max": 1,
           "Replaces": [
-           "autopistol and trench club"
+           "Autopistol",
+           "Trench club"
           ],
           "Options": [
            "Flamer and Close combat weapon"
@@ -10918,7 +10922,8 @@
          {
           "Max": 1,
           "Replaces": [
-           "autopistol and trench club"
+           "Autopistol",
+           "Trench club"
           ],
           "Options": [
            "Autopistol",
@@ -10927,7 +10932,8 @@
          },
          {
           "Replaces": [
-           "autopistol and trench club"
+           "Autopistol",
+           "Trench club"
           ],
           "Options": [
            "Combat shotgun and Close combat weapon"
@@ -11150,9 +11156,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "laspistol",
-         "close combat weapon",
-         "lascannon"
+         "Laspistol",
+         "Close combat weapon"
         ],
         "Options": []
        }
@@ -11812,18 +11817,18 @@
         "Options": [
          {
           "Replaces": [
-           "castigator gatling cannon"
+           "twin battle cannon"
           ],
           "Options": [
-           "Pulveriser cannon"
+           "Oppressor cannon and Coaxial autocannon"
           ]
          },
          {
           "Replaces": [
-           "twin battle cannon"
+           "castigator gatling cannon"
           ],
           "Options": [
-           "Oppressor cannon and coaxial autocannon"
+           "Pulveriser cannon"
           ]
          },
          {
@@ -11836,11 +11841,6 @@
           "Options": [
            "2 heavy bolters",
            "2 multi-meltas"
-          ]
-         },
-         {
-          "Options": [
-           "2 Additional Heavy Stubbers"
           ]
          }
         ]

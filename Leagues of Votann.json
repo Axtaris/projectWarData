@@ -389,10 +389,10 @@
         "Options": [
          {
           "Replaces": [
-           "breacher ordnance"
+           "autoch-pattern bolt pistols, breacher ordnance"
           ],
           "Options": [
-           "Tremor shells"
+           "tremor shells"
           ]
          }
         ]
@@ -529,7 +529,7 @@
            "mass hammer"
           ],
           "Options": [
-           "darkstar axe"
+           "Darkstar axe"
           ]
          },
          {
@@ -662,10 +662,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "etacarn plasma gun",
-         "exoarmour grenade launcher",
-         "concussion gauntlet",
-         "weavefield crest"
+         "EtaCarn plasma gun",
+         "Exoarmour grenade launcher",
+         "Concussion gauntlet"
         ],
         "Options": [
          {

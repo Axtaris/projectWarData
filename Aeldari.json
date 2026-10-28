@@ -6192,7 +6192,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "shuriken pistol"
+         "Shuriken pistol",
+         "harlequin’s blade, flip belt"
         ],
         "Options": [
          {
@@ -10535,7 +10536,7 @@
            "klaive"
           ],
           "Options": [
-           "demiklaives"
+           "demilklaives"
           ]
          }
         ]
@@ -12082,9 +12083,19 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "war walker feet"
+         "2 shuriken cannons",
+         "War Walker feet"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Options": [
+           "missile launcher",
+           "Bright lance",
+           "Scatter laser",
+           "Starcannon"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -12141,6 +12152,68 @@
        "Strength": "5",
        "AP": "0",
        "Damage": "1"
+      }
+     ]
+    },
+    {
+     "Name": "RANGED WEAPONS",
+     "Weapons": [
+      {
+       "Name": "Bright lance",
+       "Range": "36\"",
+       "Attacks": "1",
+       "ToHit": "3+",
+       "Strength": "12",
+       "AP": "-3",
+       "Damage": "D6+2"
+      },
+      {
+       "Name": "Missile launcher – starshot",
+       "Range": "48\"",
+       "Attacks": "1",
+       "ToHit": "3+",
+       "Strength": "10",
+       "AP": "-2",
+       "Damage": "D6"
+      },
+      {
+       "Name": "Missile launcher – sunburst",
+       "Range": "48\"",
+       "Attacks": "D6",
+       "ToHit": "3+",
+       "Strength": "4",
+       "AP": "-1",
+       "Damage": "1",
+       "Keywords": "BLAST"
+      },
+      {
+       "Name": "Scatter laser",
+       "Range": "36\"",
+       "Attacks": "6",
+       "ToHit": "3+",
+       "Strength": "5",
+       "AP": "0",
+       "Damage": "1",
+       "Keywords": "SUSTAINED HITS 1"
+      },
+      {
+       "Name": "Shuriken cannon",
+       "Range": "24\"",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "6",
+       "AP": "-1",
+       "Damage": "2",
+       "Keywords": "LETHAL HITS"
+      },
+      {
+       "Name": "Starcannon",
+       "Range": "36\"",
+       "Attacks": "2",
+       "ToHit": "3+",
+       "Strength": "8",
+       "AP": "-3",
+       "Damage": "2"
       }
      ]
     }

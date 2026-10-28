@@ -1151,7 +1151,7 @@
        "ToHit": "2+",
        "Strength": "6",
        "AP": "-1",
-       "Damage": " 1"
+       "Damage": "1"
       }
      ]
     }
@@ -1844,7 +1844,7 @@
          },
          {
           "Options": [
-           "havoc launcher or can replace 1 combi-bolter with 1 havoc launcher"
+           "havoc launcher"
           ]
          }
         ]
@@ -3383,7 +3383,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          },
          {
@@ -3393,7 +3393,7 @@
           "Options": [
            "Hades lascannon",
            "heavy reaper autocannon",
-           "electroscourge (a model cannot be equipped with more than one electroscourge)"
+           "electroscourge"
           ]
          }
         ]

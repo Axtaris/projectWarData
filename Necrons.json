@@ -1014,9 +1014,12 @@
           ],
           "Options": [
            "Staff of light",
-           "Voidscythe",
-           "staff of light and resurrection orb",
-           "voidscythe and resurrection orb"
+           "Voidscythe"
+          ]
+         },
+         {
+          "Options": [
+           "resurrection orb"
           ]
          }
         ]

@@ -165,7 +165,7 @@
        "Name": "Chainsword",
        "Keywords": "SUSTAINED HITS 1",
        "Range": "Melee",
-       "Attacks": "6",
+       "Attacks": "7",
        "ToHit": "2+",
        "Strength": "5",
        "AP": "-1",
@@ -193,9 +193,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plasma pistol",
-         "artificer crozius",
-         "servitor combat weapon"
+         "artificier crozius",
+         "Plasma Pistol"
         ],
         "Options": []
        }
@@ -210,7 +209,9 @@
       "StatlineRef": "CENOBYTE SERVITOR",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "servitor combat weapon"
+        ],
         "Options": []
        }
       ]
@@ -508,14 +509,13 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol",
-         "master-crafted power weapon",
-         "neophyte chainsword"
+         "Heavy Bolt Pistol",
+         "Master-crafted power weapon"
         ],
         "Options": [
          {
           "Replaces": [
-           "heavy bolt pistol"
+           "Heavy Bolt Pistol"
           ],
           "Options": [
            "Hand flamer"
@@ -573,12 +573,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol"
+         "Bolt pistol",
+         "Neophyte Chainsword"
         ],
         "Options": [
          {
           "Replaces": [
-           "bolt pistol"
+           "Bolt pistol",
+           "Neophyte Chainsword"
           ],
           "Options": [
            "Shotgun and Combat knife"
@@ -2171,7 +2173,7 @@
      "Weapons": [
       {
        "Name": "Plasma pistol – standard",
-       "Keywords": "PISTOL",
+       "Keywords": "CLOSE-QUARTERS",
        "Range": "12\"",
        "Attacks": "1",
        "ToHit": "2+",
@@ -2181,7 +2183,7 @@
       },
       {
        "Name": "Plasma pistol – supercharge",
-       "Keywords": "HAZARDOUS, PISTOL",
+       "Keywords": "HAZARDOUS, CLOSE-QUARTERS",
        "Range": "12\"",
        "Attacks": "1",
        "ToHit": "2+",
@@ -2660,15 +2662,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "artificer firearm",
-         "bolt pistol",
-         "ceramite fists",
+         "Artificer Firearm",
+         "Bolt pistol",
          "chainsword"
         ],
         "Options": [
          {
           "Options": [
-           "Astartes chainsword",
+           "Chainsword",
            "Power weapon",
            "Power fist"
           ]
@@ -2690,7 +2691,11 @@
       "ModelName": "Sternguard Veteran",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Artificer Firearm",
+         "Bolt pistol",
+         "Ceramite Fists"
+        ],
         "Options": [
          {
           "Max": 1,
@@ -2840,11 +2845,11 @@
        "Damage": "2"
       },
       {
-       "Name": "Astartes chainsword",
+       "Name": "Chainsword",
        "Range": "Melee",
        "Attacks": "6",
        "ToHit": "3+",
-       "Strength": "4",
+       "Strength": "5",
        "AP": "-1",
        "Damage": "1"
       },
@@ -3198,7 +3203,7 @@
           "Options": [
            "Assault Cannon",
            "Heavy Flamer",
-           "Cyclone Missile Launcher and Storm Bolter (that model's Storm Bolter cannot be replaced)"
+           "Cyclone Missile Launcher and Storm bolter"
           ]
          }
         ]
@@ -3349,6 +3354,15 @@
        "Strength": "8",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Chainfist – Hunter",
+       "Range": "Melee",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "12",
+       "AP": "-2",
+       "Damage": "3"
       }
      ]
     }
@@ -3390,7 +3404,19 @@
          "master-crafted heavy bolt rifle",
          "master-crafted power weapon"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "master-crafted heavy bolt rifle",
+           "master-crafted power weapon"
+          ],
+          "Options": [
+           "Boltstorm Gauntlet and Relic Blade",
+           "Boltstorm Gauntlet and Relic Chainsword",
+           "Boltstorm Gauntlet and Relic Power Fist"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -3509,7 +3535,7 @@
        "Damage": "2"
       },
       {
-       "Name": "Relic fist",
+       "Name": "Relic Power Fist",
        "Keywords": "EXTRA ATTACKS",
        "Range": "Melee",
        "Attacks": "1",
@@ -3976,7 +4002,7 @@
       },
       {
        "Name": "Neo-volkite pistol",
-       "Keywords": "DEVASTATING WOUNDS, PISTOL",
+       "Keywords": "CLOSE-QUARTERS, DEVASTATING WOUNDS",
        "Range": "12\"",
        "Attacks": "1",
        "ToHit": "2+",
@@ -4270,7 +4296,7 @@
        "Name": "Chainsword",
        "Keywords": "SUSTAINED HITS 1",
        "Range": "Melee",
-       "Attacks": "6",
+       "Attacks": "8",
        "ToHit": "2+",
        "Strength": "5",
        "AP": "-1",
@@ -4625,7 +4651,7 @@
       },
       {
        "Name": "Neo-volkite pistol",
-       "Keywords": "DEVASTATING WOUNDS, PISTOL",
+       "Keywords": "CLOSE-QUARTERS, DEVASTATING WOUNDS",
        "Range": "12\"",
        "Attacks": "1",
        "ToHit": "2+",
@@ -4664,7 +4690,7 @@
        "Range": "Melee",
        "Attacks": "5",
        "ToHit": "2+",
-       "Strength": "5",
+       "Strength": "6",
        "AP": "-2",
        "Damage": "2"
       },
@@ -5370,8 +5396,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "bolt rifle"
+         "Bolt pistol",
+         "Bolt Rifle",
+         "Knives and Fists"
         ],
         "Options": [
          {
@@ -5615,8 +5642,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "pyreblaster"
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Pyreblaster"
         ],
         "Options": []
        }
@@ -5781,7 +5809,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol"
+         "Chainsword",
+         "Heavy Bolt Pistol"
         ],
         "Options": []
        }
@@ -6086,15 +6115,16 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "heavy bolt rifle"
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Heavy Bolt Rifle"
         ],
         "Options": [
          {
           "PerXModels": 5,
           "Max": 1,
           "Replaces": [
-           "heavy bolt rifle"
+           "Heavy Bolt Rifle"
           ],
           "Options": [
            "Heavy Bolter"
@@ -6230,8 +6260,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "marksman bolt carbine"
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Marksman Bolt Carbine"
         ],
         "Options": [
          {
@@ -6585,13 +6616,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "boltgun"
+         "Boltgun",
+         "Bolt pistol",
+         "Combat knife"
         ],
         "Options": [
          {
           "Replaces": [
-           "boltgun"
+           "Boltgun"
           ],
           "Options": [
            "Shotgun"
@@ -6601,7 +6633,7 @@
           "PerXModels": 5,
           "Max": 1,
           "Replaces": [
-           "boltgun"
+           "Boltgun"
           ],
           "Options": [
            "Sniper Rifle"
@@ -6611,7 +6643,7 @@
           "PerXModels": 5,
           "Max": 1,
           "Replaces": [
-           "boltgun"
+           "Boltgun"
           ],
           "Options": [
            "Heavy Bolter",
@@ -7159,12 +7191,13 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol"
+         "Heavy Bolt Pistol",
+         "master-crafted power sword"
         ],
         "Options": [
          {
           "Replaces": [
-           "heavy bolt pistol"
+           "Heavy Bolt Pistol"
           ],
           "Options": [
            "Neo-volkite Pistol",
@@ -7184,7 +7217,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol"
+         "Heavy Bolt Pistol",
+         "master-crafted power sword"
         ],
         "Options": []
        }
@@ -7294,7 +7328,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "Master-crafted power weapon",
+       "Name": "Master-crafted Power Sword",
        "Range": "Melee",
        "Attacks": "4",
        "ToHit": "3+",
@@ -7339,28 +7373,33 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol",
-         "master-crafted power weapon",
-         "relic blade"
+         "Heavy Bolt Pistol",
+         "Relic Blade"
         ],
         "Options": [
          {
-          "Options": [
-           "plasma pistol"
-          ]
-         },
-         {
-          "Options": [
-           "Combat Shield"
-          ]
-         },
-         {
           "Replaces": [
-           "relic blade"
+           "Relic Blade"
           ],
           "Options": [
            "Power fist",
            "Thunder Hammer"
+          ]
+         },
+         {
+          "Replaces": [
+           "Heavy Bolt Pistol"
+          ],
+          "Options": [
+           "Plasma Pistol"
+          ]
+         },
+         {
+          "Replaces": [
+           "Heavy Bolt Pistol"
+          ],
+          "Options": [
+           "combat shield"
           ]
          }
         ]
@@ -7375,11 +7414,27 @@
       "ModelName": "Vanguard Veterans with Jump Packs",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Heavy Bolt Pistol",
+         "Master-crafted power weapon"
+        ],
         "Options": [
          {
+          "Replaces": [
+           "Heavy Bolt Pistol"
+          ],
           "Options": [
-           "plasma pistol"
+           "combat shield"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 2,
+          "Replaces": [
+           "Heavy Bolt Pistol"
+          ],
+          "Options": [
+           "Plasma Pistol"
           ]
          }
         ]
@@ -7700,7 +7755,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "special-issue bolt pistol"
+         "Bolt Carbine",
+         "Monomolecular Combat Knife",
+         "Special-issue Bolt Pistol"
         ],
         "Options": [
          {
@@ -7958,13 +8015,13 @@
        "Damage": "1"
       },
       {
-       "Name": "Flamestorm gauntlets",
-       "Keywords": "IGNORES COVER, TORRENT, TWIN-LINKED",
+       "Name": "Flamestorm Gauntlets – Ranged",
+       "Keywords": "TWIN-LINKED, TORRENT, BLAST 2",
        "Range": "12\"",
-       "Attacks": "D6+1",
+       "Attacks": "3",
        "ToHit": "N/A",
        "Strength": "4",
-       "AP": "0",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -8141,15 +8198,15 @@
        "Range": "24\"",
        "Attacks": "3",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
        "Name": "Twin flamer",
-       "Keywords": "IGNORES COVER, TORRENT, TWIN-LINKED",
+       "Keywords": "BLAST 1, TWIN-LINKED, TORRENT",
        "Range": "12\"",
-       "Attacks": "D6",
+       "Attacks": "3",
        "ToHit": "N/A",
        "Strength": "4",
        "AP": "0",
@@ -8162,8 +8219,8 @@
        "Attacks": "1",
        "ToHit": "3+",
        "Strength": "9",
-       "AP": "-4",
-       "Damage": "D6"
+       "AP": "-3",
+       "Damage": "D3+2"
       }
      ]
     },
@@ -8315,19 +8372,19 @@
        "Range": "24\"",
        "Attacks": "3",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
        "Name": "Centurion missile launcher",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 1",
        "Range": "36\"",
-       "Attacks": "D3",
+       "Attacks": "2",
        "ToHit": "3+",
        "Strength": "9",
        "AP": "-2",
-       "Damage": "D3"
+       "Damage": "3"
       },
       {
        "Name": "Grav-cannon",
@@ -8341,7 +8398,7 @@
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, SUSTAINED HITS 1, RAPID FIRE 2",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -8357,7 +8414,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       }
      ]
     },
@@ -8556,29 +8613,36 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "assault cannon",
-         "storm bolter",
-         "Dreadnought combat weapon"
+         "Assault cannon",
+         "dreadnought fist",
+         "Storm bolter"
         ],
         "Options": [
          {
           "Replaces": [
-           "assault cannon"
+           "Assault cannon"
           ],
           "Options": [
-           "heavy plasma cannon",
-           "multi-melta",
-           "twin lascannon"
+           "Heavy Plasma Cannon",
+           "Multi-melta",
+           "Twin lascannon"
           ]
          },
          {
           "Replaces": [
-           "Dreadnought combat weapon",
-           "storm bolter"
+           "dreadnought fist",
+           "Storm bolter"
           ],
           "Options": [
-           "missile launcher and close combat weapon",
-           "heavy flamer and Dreadnought combat weapon"
+           "Missile Launcher and Crushing Feet"
+          ]
+         },
+         {
+          "Replaces": [
+           "Storm bolter"
+          ],
+          "Options": [
+           "Heavy flamer"
           ]
          }
         ]
@@ -8627,19 +8691,19 @@
      "Weapons": [
       {
        "Name": "Assault cannon",
-       "Keywords": "DEVASTATING WOUNDS",
+       "Keywords": "SUSTAINED HITS 1",
        "Range": "24\"",
        "Attacks": "6",
        "ToHit": "3+",
        "Strength": "6",
-       "AP": "0",
+       "AP": "-2",
        "Damage": "1"
       },
       {
        "Name": "Heavy flamer",
-       "Keywords": "IGNORES COVER, TORRENT",
+       "Keywords": "BLAST 2, TORRENT",
        "Range": "12\"",
-       "Attacks": "D6",
+       "Attacks": "3",
        "ToHit": "N/A",
        "Strength": "5",
        "AP": "-1",
@@ -8647,32 +8711,32 @@
       },
       {
        "Name": "Heavy plasma cannon – standard",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 1, HEAVY",
        "Range": "36\"",
-       "Attacks": "D3",
+       "Attacks": "3",
        "ToHit": "3+",
-       "Strength": "7",
+       "Strength": "9",
        "AP": "-2",
        "Damage": "2"
       },
       {
        "Name": "Heavy plasma cannon – supercharge",
-       "Keywords": "BLAST, HAZARDOUS",
+       "Keywords": "HAZARDOUS, BLAST 1, HEAVY",
        "Range": "36\"",
-       "Attacks": "D3",
+       "Attacks": "3",
        "ToHit": "3+",
-       "Strength": "8",
+       "Strength": "10",
        "AP": "-3",
        "Damage": "3"
       },
       {
        "Name": "Missile launcher – frag",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 1",
        "Range": "48\"",
-       "Attacks": "D6",
+       "Attacks": "4",
        "ToHit": "3+",
        "Strength": "4",
-       "AP": "0",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -8680,19 +8744,19 @@
        "Range": "48\"",
        "Attacks": "1",
        "ToHit": "3+",
-       "Strength": "9",
+       "Strength": "10",
        "AP": "-2",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Multi-melta",
-       "Keywords": "MELTA 2",
+       "Keywords": "MELTA 3",
        "Range": "18\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "9",
-       "AP": "-4",
-       "Damage": "D6"
+       "Strength": "10",
+       "AP": "-3",
+       "Damage": "D3+2"
       },
       {
        "Name": "Storm bolter",
@@ -8700,8 +8764,8 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -8712,7 +8776,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       }
      ]
     },
@@ -8721,7 +8785,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "Close combat weapon",
+       "Name": "Crushing Feet",
        "Range": "Melee",
        "Attacks": "5",
        "ToHit": "3+",
@@ -8730,7 +8794,7 @@
        "Damage": "1"
       },
       {
-       "Name": "Dreadnought combat weapon",
+       "Name": "Dreadnought Fist",
        "Range": "Melee",
        "Attacks": "5",
        "ToHit": "3+",
@@ -9298,15 +9362,16 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol",
-         "twin bolt rifle"
+         "Chainsword",
+         "Heavy Bolt Pistol",
+         "Twin bolt rifle"
         ],
         "Options": [
          {
           "PerXModels": 3,
           "Max": 1,
           "Replaces": [
-           "heavy bolt pistol"
+           "Heavy Bolt Pistol"
           ],
           "Options": [
            "Plasma Pistol"
@@ -9326,7 +9391,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "twin bolt rifle"
+         "Chainsword",
+         "Heavy Bolt Pistol",
+         "Twin bolt rifle"
         ],
         "Options": []
        }
@@ -9660,7 +9727,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "assault bolters"
+         "Assault Bolters",
+         "Ceramite Fists"
         ],
         "Options": [
          {
@@ -10346,8 +10414,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "plasma incinerator"
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Plasma Incinerator"
         ],
         "Options": []
        }
@@ -10533,13 +10602,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "bolt sniper rifle"
+         "Bolt pistol",
+         "Bolt Sniper Rifle",
+         "Ceramite Fists"
         ],
         "Options": [
          {
           "Replaces": [
-           "bolt sniper rifle"
+           "Bolt Sniper Rifle"
           ],
           "Options": [
            "Las fusil"
@@ -10701,8 +10771,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "heavy bolter"
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Heavy Bolter"
         ],
         "Options": []
        }
@@ -10850,9 +10921,10 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "bolt pistol",
-         "castellan launcher",
-         "superfrag rocket launcher"
+         "Bolt pistol",
+         "Castellan Launcher",
+         "Ceramite Fists",
+         "Superfrag Rocket Launcher"
         ],
         "Options": [
          {
@@ -11230,7 +11302,7 @@
        "ToHit": "2+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Storm bolter",
@@ -11238,15 +11310,15 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
        "Name": "Whirlwind vengeance launcher",
-       "Keywords": "BLAST, INDIRECT FIRE",
+       "Keywords": "INDIRECT FIRE, BLAST 2",
        "Range": "72\"",
-       "Attacks": "D6+3",
+       "Attacks": "6",
        "ToHit": "3+",
        "Strength": "8",
        "AP": "-2",
@@ -11294,24 +11366,27 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "Predator autocannon",
-         "armoured tracks"
+         "Armoured tracks",
+         "2 Lascannon",
+         "Predator autocannon"
         ],
         "Options": [
          {
           "Options": [
-           "2 heavy bolters",
-           "2 lascannons"
+           "Storm bolter"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          },
          {
+          "Replaces": [
+           "2 Lascannon"
+          ],
           "Options": [
-           "storm bolter"
+           "2 Heavy Bolters"
           ]
          },
          {
@@ -11384,7 +11459,7 @@
      "Weapons": [
       {
        "Name": "Heavy bolter",
-       "Keywords": "SUSTAINED HITS 1",
+       "Keywords": "SUSTAINED HITS 1, RAPID FIRE 2",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -11400,7 +11475,7 @@
        "ToHit": "2+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Lascannon",
@@ -11409,7 +11484,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Predator autocannon",
@@ -11427,8 +11502,8 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       }
      ]
@@ -11473,24 +11548,27 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "Predator twin lascannon",
-         "armoured tracks"
+         "Armoured tracks",
+         "2 Lascannon",
+         "Predator twin lascannon"
         ],
         "Options": [
          {
+          "Replaces": [
+           "2 Lascannon"
+          ],
           "Options": [
-           "2 heavy bolters",
-           "2 lascannons"
+           "2 Heavy Bolters"
           ]
          },
          {
           "Options": [
-           "hunter-killer missile"
+           "Hunter-killer missile"
           ]
          },
          {
           "Options": [
-           "storm bolter"
+           "Storm bolter"
           ]
          },
          {
@@ -11569,11 +11647,11 @@
        "ToHit": "3+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Heavy bolter",
-       "Keywords": "SUSTAINED HITS 1",
+       "Keywords": "RAPID FIRE 2, SUSTAINED HITS 1",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -11589,7 +11667,7 @@
        "ToHit": "2+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Lascannon",
@@ -11598,7 +11676,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Storm bolter",
@@ -11606,8 +11684,8 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       }
      ]
@@ -11736,13 +11814,13 @@
      "Weapons": [
       {
        "Name": "Demolisher cannon",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 1",
        "Range": "24\"",
-       "Attacks": "D6+3",
+       "Attacks": "D3+3",
        "ToHit": "3+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "4"
       },
       {
        "Name": "Hunter-killer missile",
@@ -11752,7 +11830,7 @@
        "ToHit": "2+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Storm bolter",
@@ -11760,8 +11838,8 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       }
      ]
@@ -12409,7 +12487,7 @@
        "ToHit": "2+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Storm bolter",
@@ -12417,13 +12495,13 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, RAPID FIRE 2, SUSTAINED HITS 1",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -12439,7 +12517,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       }
      ]
     },
@@ -12641,7 +12719,7 @@
        "ToHit": "3+",
        "Strength": "10",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Skyhammer missile launcher",
@@ -12651,21 +12729,21 @@
        "ToHit": "3+",
        "Strength": "8",
        "AP": "-1",
-       "Damage": "D3"
+       "Damage": "2"
       },
       {
        "Name": "Twin assault cannon",
-       "Keywords": "DEVASTATING WOUNDS, TWIN-LINKED",
+       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
        "Range": "24\"",
        "Attacks": "6",
        "ToHit": "3+",
        "Strength": "6",
-       "AP": "0",
+       "AP": "-2",
        "Damage": "1"
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, RAPID FIRE 2, SUSTAINED HITS 1",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -12675,12 +12753,12 @@
       },
       {
        "Name": "Typhoon missile launcher – frag",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 2",
        "Range": "48\"",
-       "Attacks": "2D6",
+       "Attacks": "6",
        "ToHit": "3+",
        "Strength": "4",
-       "AP": "0",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -12688,9 +12766,9 @@
        "Range": "48\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "9",
+       "Strength": "10",
        "AP": "-2",
-       "Damage": "D6"
+       "Damage": "D3+3"
       }
      ]
     },
@@ -12797,21 +12875,21 @@
        "ToHit": "3+",
        "Strength": "8",
        "AP": "-1",
-       "Damage": "D3"
+       "Damage": "2"
       },
       {
        "Name": "Twin assault cannon",
-       "Keywords": "DEVASTATING WOUNDS, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
        "Range": "24\"",
        "Attacks": "6",
        "ToHit": "3+",
        "Strength": "6",
-       "AP": "0",
+       "AP": "-2",
        "Damage": "1"
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "RAPID FIRE 2, TWIN-LINKED, SUSTAINED HITS 1",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -12827,16 +12905,16 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Typhoon missile launcher – frag",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 2",
        "Range": "48\"",
-       "Attacks": "2D6",
+       "Attacks": "6",
        "ToHit": "3+",
        "Strength": "4",
-       "AP": "0",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -12844,9 +12922,9 @@
        "Range": "48\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "9",
+       "Strength": "10",
        "AP": "-2",
-       "Damage": "D6"
+       "Damage": "D3+3"
       }
      ]
     },
@@ -12975,8 +13053,8 @@
        "Range": "24\"",
        "Attacks": "6",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -12990,17 +13068,17 @@
       },
       {
        "Name": "Twin assault cannon",
-       "Keywords": "DEVASTATING WOUNDS, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, SUSTAINED HITS 1",
        "Range": "24\"",
        "Attacks": "6",
        "ToHit": "3+",
        "Strength": "6",
-       "AP": "0",
+       "AP": "-2",
        "Damage": "1"
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, SUSTAINED HITS 1, RAPID FIRE 2",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -13010,21 +13088,21 @@
       },
       {
        "Name": "Twin heavy plasma cannon – standard",
-       "Keywords": "BLAST, TWIN-LINKED",
+       "Keywords": "HEAVY, BLAST 1, TWIN-LINKED",
        "Range": "36\"",
-       "Attacks": "D3",
+       "Attacks": "3",
        "ToHit": "3+",
-       "Strength": "7",
+       "Strength": "9",
        "AP": "-2",
        "Damage": "2"
       },
       {
        "Name": "Twin heavy plasma cannon – supercharge",
-       "Keywords": "BLAST, HAZARDOUS, TWIN-LINKED",
+       "Keywords": "HEAVY, TWIN-LINKED, BLAST 1, HAZARDOUS",
        "Range": "36\"",
-       "Attacks": "D3",
+       "Attacks": "3",
        "ToHit": "3+",
-       "Strength": "8",
+       "Strength": "10",
        "AP": "-3",
        "Damage": "3"
       },
@@ -13036,26 +13114,26 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Twin multi-melta",
-       "Keywords": "MELTA 2, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, MELTA 3",
        "Range": "18\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "9",
-       "AP": "-4",
-       "Damage": "D6"
+       "Strength": "10",
+       "AP": "-3",
+       "Damage": "D3+2"
       },
       {
        "Name": "Typhoon missile launcher – frag",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 2",
        "Range": "48\"",
-       "Attacks": "2D6",
+       "Attacks": "6",
        "ToHit": "3+",
        "Strength": "4",
-       "AP": "0",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -13063,9 +13141,9 @@
        "Range": "48\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "9",
+       "Strength": "10",
        "AP": "-2",
-       "Damage": "D6"
+       "Damage": "D3+3"
       }
      ]
     },
@@ -13179,7 +13257,7 @@
      "Weapons": [
       {
        "Name": "Hammerfall heavy bolter array",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "SUSTAINED HITS 1, RAPID FIRE 2, TWIN-LINKED",
        "Range": "36\"",
        "Attacks": "6",
        "ToHit": "4+",
@@ -13189,9 +13267,9 @@
       },
       {
        "Name": "Hammerfall heavy flamer array",
-       "Keywords": "IGNORES COVER, TORRENT, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, TORRENT, BLAST 2",
        "Range": "12\"",
-       "Attacks": "2D6",
+       "Attacks": "6",
        "ToHit": "N/A",
        "Strength": "5",
        "AP": "-1",
@@ -13199,12 +13277,12 @@
       },
       {
        "Name": "Hammerfall missile launcher – superfrag",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 1",
        "Range": "48\"",
-       "Attacks": "2D6+2",
+       "Attacks": "7",
        "ToHit": "4+",
        "Strength": "5",
-       "AP": "0",
+       "AP": "-1",
        "Damage": "1"
       },
       {
@@ -13214,7 +13292,7 @@
        "ToHit": "4+",
        "Strength": "10",
        "AP": "-2",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       }
      ]
     }
@@ -13237,32 +13315,33 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "ironhail heavy stubber",
-         "storm bolter",
-         "twin heavy bolter",
-         "twin macro-accelerator cannon",
-         "armoured hull"
+         "Armoured hull",
+         "2 astareus las-ripper",
+         "Ironhail Heavy Stubber",
+         "Storm bolter",
+         "Twin heavy bolter",
+         "Twin macro-accelerator cannon"
         ],
         "Options": [
          {
           "Replaces": [
-           "astraeus las-ripper"
+           "2 astareus las-ripper"
           ],
           "Options": [
-           "2 plasma eradicators"
-          ]
-         },
-         {
-          "Replaces": [
-           "twin heavy bolter"
-          ],
-          "Options": [
-           "Twin lascannon"
+           "2 Plasma Eradicator"
           ]
          },
          {
           "Options": [
            "Ironhail Heavy Stubber"
+          ]
+         },
+         {
+          "Replaces": [
+           "Twin heavy bolter"
+          ],
+          "Options": [
+           "Twin lascannon"
           ]
          }
         ]
@@ -13338,7 +13417,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Ironhail Heavy Stubber",
@@ -13352,9 +13431,9 @@
       },
       {
        "Name": "Plasma eradicator – standard",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 2",
        "Range": "36\"",
-       "Attacks": "D6",
+       "Attacks": "3",
        "ToHit": "3+",
        "Strength": "7",
        "AP": "-2",
@@ -13362,9 +13441,9 @@
       },
       {
        "Name": "Plasma eradicator – supercharge",
-       "Keywords": "BLAST, HAZARDOUS",
+       "Keywords": "BLAST 2, HAZARDOUS",
        "Range": "36\"",
-       "Attacks": "D6",
+       "Attacks": "3",
        "ToHit": "3+",
        "Strength": "8",
        "AP": "-3",
@@ -13376,13 +13455,13 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "3+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "TWIN-LINKED, SUSTAINED HITS 1, RAPID FIRE 2",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "3+",
@@ -13398,7 +13477,7 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Twin macro-accelerator cannon",
@@ -13406,7 +13485,7 @@
        "Range": "72\"",
        "Attacks": "12",
        "ToHit": "3+",
-       "Strength": "9",
+       "Strength": "10",
        "AP": "-1",
        "Damage": "3"
       }
@@ -13564,13 +13643,13 @@
        "ToHit": "3+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Thunderhawk heavy cannon",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 2",
        "Range": "48\"",
-       "Attacks": "D6+6",
+       "Attacks": "10",
        "ToHit": "3+",
        "Strength": "10",
        "AP": "-2",
@@ -13578,9 +13657,9 @@
       },
       {
        "Name": "Turbo-laser destructor",
-       "Keywords": "BLAST",
+       "Keywords": "BLAST 2",
        "Range": "96\"",
-       "Attacks": "D3+1",
+       "Attacks": "3",
        "ToHit": "3+",
        "Strength": "20",
        "AP": "-4",
@@ -13711,16 +13790,6 @@
      "Name": "RANGED WEAPONS",
      "Weapons": [
       {
-       "Name": "Reductor Pistol",
-       "Keywords": "PISTOL",
-       "Range": "3\"",
-       "Attacks": "1",
-       "ToHit": "3+",
-       "Strength": "4",
-       "AP": "-4",
-       "Damage": "2"
-      },
-      {
        "Name": "Absolvor bolt pistol",
        "Keywords": "CLOSE-QUARTERS",
        "Range": "18\"",
@@ -13744,6 +13813,16 @@
        "Strength": "5",
        "AP": "0",
        "Damage": "1"
+      },
+      {
+       "Name": "Reductor Pistol",
+       "Keywords": "EXTRA ATTACKS",
+       "Range": "Melee",
+       "Attacks": "1",
+       "ToHit": "3+",
+       "Strength": "5",
+       "AP": "-4",
+       "Damage": "2"
       }
      ]
     }
@@ -13961,7 +14040,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "heavy bolt pistol"
+         "Chainsword",
+         "Heavy Bolt Pistol"
         ],
         "Options": [
          {
@@ -14150,8 +14230,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "combat knife",
-         "master-crafted bolt pistol"
+         "Combat Knife",
+         "Master-crafted Bolt Pistol",
+         "Master-crafted Bolt Rifle"
         ],
         "Options": []
        }
@@ -14162,7 +14243,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "master-crafted power weapon"
+         "Master-crafted Bolt Pistol",
+         "Master-crafted Power Weapon"
         ],
         "Options": []
        }
@@ -14340,7 +14422,9 @@
       "ModelName": "Assault Terminators",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Twin lightning claws"
+        ],
         "Options": []
        }
       ]
@@ -14471,23 +14555,26 @@
       "ModelName": "Captain on Bike",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Heavy Bolt Pistol",
+         "Master-crafted power weapon",
+         "Twin bolt rifle"
+        ],
         "Options": [
          {
-          "Options": [
-           "Twin bolt rifle"
-          ]
-         },
-         {
-          "Options": [
-           "Plasma pistol",
+          "Replaces": [
            "Heavy Bolt Pistol"
+          ],
+          "Options": [
+           "Plasma Pistol"
           ]
          },
          {
-          "Options": [
-           "Thunder Hammer",
+          "Replaces": [
            "Master-crafted power weapon"
+          ],
+          "Options": [
+           "Thunder Hammer"
           ]
          }
         ]
@@ -14627,7 +14714,16 @@
     "ModelCompositions": [
      {
       "ModelName": "Eradicator Sergeant",
-      "Wargear": []
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Melta Rifle"
+        ],
+        "Options": []
+       }
+      ]
      },
      {
       "Limit": {
@@ -14635,14 +14731,36 @@
        "Max": 5
       },
       "ModelName": "Eradicator",
-      "Wargear": []
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Melta Rifle"
+        ],
+        "Options": [
+         {
+          "PerXModels": 3,
+          "Max": 1,
+          "Replaces": [
+           "Melta Rifle"
+          ],
+          "Options": [
+           "Multi-melta"
+          ]
+         }
+        ]
+       }
+      ]
      },
      {
       "ModelName": "Eradicator with Multi-melta",
       "Wargear": [
        {
         "InitalWargear": [
-         "multi-melta"
+         "Bolt pistol",
+         "Ceramite Fists",
+         "Melta Rifle"
         ],
         "Options": []
        }
@@ -14705,7 +14823,7 @@
        "Damage": "1"
       },
       {
-       "Name": "Melta Rifle HUNTER:Monster/Vehicle",
+       "Name": "Melta Rifle – Hunter",
        "Keywords": "MELTA 2",
        "Range": "18\"",
        "Attacks": "1",
@@ -14735,7 +14853,7 @@
        "Damage": "D3+2"
       },
       {
-       "Name": "Multi-melta HUNTER:Monster/Vehicle",
+       "Name": "Multi-melta – Hunter",
        "Keywords": "MELTA 3",
        "Range": "18\"",
        "Attacks": "2",

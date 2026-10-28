@@ -1628,7 +1628,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "Goliath wheels",
+       "Name": "Armoured hull",
        "Range": "Melee",
        "Attacks": "3",
        "ToHit": "4+",
@@ -3479,7 +3479,9 @@
       "ModelName": "Lictor",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Lictor claws and talons"
+        ],
         "Options": [
          {
           "Options": [
@@ -3761,7 +3763,14 @@
     "ModelCompositions": [
      {
       "ModelName": "Deathleaper",
-      "Wargear": []
+      "Wargear": [
+       {
+        "InitalWargear": [
+         "Lictor claws and talons"
+        ],
+        "Options": []
+       }
+      ]
      }
     ],
     "WargearDefinitions": []
@@ -3852,8 +3861,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "distendible jaw",
-         "mawloc scything talons"
+         "distensible jaw",
+         "Mawloc scything talons"
         ],
         "Options": []
        }
@@ -3906,7 +3915,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "Distendible jaw",
+       "Name": "Distensible jaw",
        "Keywords": "ANTI-INFANTRY 4+, DEVASTATING WOUNDS, EXTRA ATTACKS",
        "Range": "Melee",
        "Attacks": "1",
@@ -4144,7 +4153,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "trygon scything talons"
+         "Bio-electric pulse",
+         "Trygon scything talons"
         ],
         "Options": [
          {
@@ -4435,15 +4445,18 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "tyrant talons"
+         "Monstrous bonesword and lash whip",
+         "Tyrant talons"
         ],
         "Options": [
          {
-          "Options": [
-           "Monstrous scything talons",
-           "Stranglethorn cannon",
-           "Heavy venom cannon",
+          "Replaces": [
            "Monstrous bonesword and lash whip"
+          ],
+          "Options": [
+           "Heavy venom cannon",
+           "Stranglethorn cannon",
+           "Monstrous scything talons"
           ]
          }
         ]
@@ -4736,8 +4749,7 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "gaping maw",
-         "scything talons"
+         "scything talons, gaping maw"
         ],
         "Options": []
        }

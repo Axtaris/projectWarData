@@ -666,7 +666,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "boltgun"
+         "Boltgun",
+         "Gun Stock"
         ],
         "Options": []
        }
@@ -882,7 +883,10 @@
       "ModelName": "Witchseekers",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Flamer",
+         "Gun Stock"
+        ],
         "Options": []
        }
       ]
@@ -2183,11 +2187,11 @@
      "Weapons": [
       {
        "Name": "Gnosis",
-       "Keywords": "ASSAULT",
+       "Keywords": "ASSAULT, RAPID FIRE 2",
        "Range": "24\"",
        "Attacks": "3",
        "ToHit": "2+",
-       "Strength": "4",
+       "Strength": "6",
        "AP": "-1",
        "Damage": "2"
       }
@@ -2204,7 +2208,7 @@
        "ToHit": "2+",
        "Strength": "8",
        "AP": "-3",
-       "Damage": "2"
+       "Damage": "3"
       }
      ]
     }
@@ -2227,14 +2231,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "combi-bolter",
-         "multi-melta",
-         "Contemptor combat weapon"
+         "Combi-bolter",
+         "contemptor fist",
+         "Multi-melta"
         ],
         "Options": [
          {
           "Replaces": [
-           "multi-melta"
+           "Multi-melta"
           ],
           "Options": [
            "Kheres-pattern assault cannon"
@@ -2311,29 +2315,29 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "2+",
-       "Strength": "4",
-       "AP": "0",
-       "Damage": "1"
-      },
-      {
-       "Name": "Kheres-pattern assault cannon",
-       "Keywords": "DEVASTATING WOUNDS",
-       "Range": "24\"",
-       "Attacks": "6",
-       "ToHit": "2+",
-       "Strength": "7",
+       "Strength": "5",
        "AP": "-1",
        "Damage": "1"
       },
       {
+       "Name": "Kheres-pattern assault cannon",
+       "Keywords": "SUSTAINED HITS 1",
+       "Range": "24\"",
+       "Attacks": "6",
+       "ToHit": "2+",
+       "Strength": "7",
+       "AP": "-2",
+       "Damage": "2"
+      },
+      {
        "Name": "Multi-melta",
-       "Keywords": "MELTA 2",
+       "Keywords": "MELTA 3",
        "Range": "18\"",
        "Attacks": "2",
        "ToHit": "2+",
-       "Strength": "9",
-       "AP": "-4",
-       "Damage": "D6"
+       "Strength": "10",
+       "AP": "-3",
+       "Damage": "D3+2"
       }
      ]
     },
@@ -2349,6 +2353,15 @@
        "Strength": "12",
        "AP": "-2",
        "Damage": "3"
+      },
+      {
+       "Name": "Contemptor Fist",
+       "Range": "Melee",
+       "Attacks": "5",
+       "ToHit": "2+",
+       "Strength": "12",
+       "AP": "-3",
+       "Damage": "D3+3"
       }
      ]
     }
@@ -2453,7 +2466,7 @@
        "ToHit": "2+",
        "Strength": "12",
        "AP": "-3",
-       "Damage": "D6+1"
+       "Damage": "D3+3"
       },
       {
        "Name": "Hunter-killer missile",
@@ -2463,7 +2476,7 @@
        "ToHit": "2+",
        "Strength": "14",
        "AP": "-3",
-       "Damage": "D6"
+       "Damage": "D3+3"
       },
       {
        "Name": "Storm bolter",
@@ -2471,13 +2484,13 @@
        "Range": "24\"",
        "Attacks": "2",
        "ToHit": "2+",
-       "Strength": "4",
-       "AP": "0",
+       "Strength": "5",
+       "AP": "-1",
        "Damage": "1"
       },
       {
        "Name": "Twin heavy bolter",
-       "Keywords": "SUSTAINED HITS 1, TWIN-LINKED",
+       "Keywords": "RAPID FIRE 2, SUSTAINED HITS 1, TWIN-LINKED",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "2+",
@@ -2990,8 +3003,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "twin lastrum bolt cannon",
-         "armoured hull"
+         "Armoured hull",
+         "iliastus accelerator cannon",
+         "Twin Lastrum Bolt Cannon"
         ],
         "Options": [
          {
@@ -3004,7 +3018,7 @@
          },
          {
           "Replaces": [
-           "twin iliastus accelerator cannon"
+           "iliastus accelerator cannon"
           ],
           "Options": [
            "twin arachnus heavy blaze cannon"
@@ -3070,8 +3084,8 @@
      "Name": "RANGED WEAPONS",
      "Weapons": [
       {
-       "Name": "Twin iliastus accelerator cannon",
-       "Keywords": "RAPID FIRE 4, TWIN-LINKED",
+       "Name": "Iliastus Accelerator Cannon",
+       "Keywords": "RAPID FIRE 4, SUSTAINED HITS 1: non-MONSTER/VEHICLE",
        "Range": "48\"",
        "Attacks": "4",
        "ToHit": "2+",
@@ -3494,7 +3508,7 @@
        "Attacks": "3",
        "ToHit": "2+",
        "Strength": "18",
-       "AP": "-4",
+       "AP": "-3",
        "Damage": "D6+6"
       }
      ]
@@ -3806,8 +3820,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "kinetic destroyer",
-         "tarsis buckler"
+         "Kinetic destroyer",
+         "tarsus buckler"
         ],
         "Options": []
        }
@@ -3884,7 +3898,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "Tarsis buckler",
+       "Name": "Tarsus Buckler",
        "Keywords": "SUSTAINED HITS 1",
        "Range": "Melee",
        "Attacks": "5",
@@ -3924,7 +3938,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "sentinel blade"
+         "praesidium shield",
+         "Sentinel Blade"
         ],
         "Options": [
          {
@@ -4405,13 +4420,16 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "arachnus blaze carronade",
-         "armoured hull"
+         "Arachnus Blaze Carronade",
+         "Armoured hull",
+         "Twin Lastrum Bolt Cannon"
         ],
         "Options": [
          {
+          "Replaces": [
+           "Twin Lastrum Bolt Cannon"
+          ],
           "Options": [
-           "Twin Lastrum Bolt Cannon",
            "Twin Neutronium Cascade Projectors"
           ]
          }

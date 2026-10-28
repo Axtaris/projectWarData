@@ -885,7 +885,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "devourer"
+         "Devourer",
+         "Tyranid Warrior claws and talons"
         ],
         "Options": [
          {
@@ -1060,7 +1061,9 @@
       "ModelName": "Tyranid Warriors",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Tyranid Warrior claws and talons"
+        ],
         "Options": []
        }
       ]
@@ -1624,8 +1627,12 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "scything talons & rending claws"
+          ],
           "Options": [
-           "Crushing claws & rending claws"
+           "bone cleaver, lash whip and Rending claw",
+           "crushing claws and Rending claw"
           ]
          }
         ]
@@ -1714,6 +1721,15 @@
        "Strength": "5",
        "AP": "-1",
        "Damage": "2"
+      },
+      {
+       "Name": "Rending claw",
+       "Range": "Melee",
+       "Attacks": "4",
+       "ToHit": "2+",
+       "Strength": "8",
+       "AP": "-2",
+       "Damage": "3"
       }
      ]
     }

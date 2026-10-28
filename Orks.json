@@ -314,6 +314,15 @@
        "Strength": "5",
        "AP": "-1",
        "Damage": "1"
+      },
+      {
+       "Name": "Choppa – Hunter",
+       "Range": "Melee",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "6",
+       "AP": "-2",
+       "Damage": "1"
       }
      ]
     }
@@ -585,6 +594,15 @@
        "Strength": "6",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Beastchoppa – Hunter",
+       "Range": "Melee",
+       "Attacks": "6",
+       "ToHit": "2+",
+       "Strength": "12",
+       "AP": "-2",
+       "Damage": "D6"
       }
      ]
     }
@@ -1471,10 +1489,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "slugga",
-         "kombi-skorcha",
-         "kustom choppa",
-         "shoota"
+         "Kustom Choppa",
+         "Kombi-skorcha"
         ],
         "Options": [
          {
@@ -1501,8 +1517,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "slugga",
-         "choppa"
+         "Choppa",
+         "Shoota",
+         "Slugga"
         ],
         "Options": []
        }
@@ -1759,17 +1776,17 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "close combat weapon",
-         "big shoota"
+         "Big shoota",
+         "gun stock and fists"
         ],
         "Options": [
          {
           "Replaces": [
-           "big shoota"
+           "Big shoota"
           ],
           "Options": [
            "Kustom mega-blasta",
-           "Rokkit launcha"
+           "Rokkit Launcha"
           ]
          }
         ]
@@ -1829,7 +1846,7 @@
      "Weapons": [
       {
        "Name": "Big shoota",
-       "Keywords": "RAPID FIRE 2",
+       "Keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "5+",
@@ -1839,9 +1856,9 @@
       },
       {
        "Name": "Burna",
-       "Keywords": "IGNORES COVER, TORRENT",
+       "Keywords": "BLAST 1, TORRENT",
        "Range": "12\"",
-       "Attacks": "D6",
+       "Attacks": "3",
        "ToHit": "N/A",
        "Strength": "4",
        "AP": "0",
@@ -1855,15 +1872,24 @@
        "ToHit": "5+",
        "Strength": "9",
        "AP": "-2",
-       "Damage": "D6"
+       "Damage": "3"
       },
       {
-       "Name": "Rokkit launcha",
-       "Keywords": "BLAST",
+       "Name": "Rokkit Launcha – Blasta",
+       "Keywords": "BLAST 2",
        "Range": "24\"",
-       "Attacks": "D3",
+       "Attacks": "2",
        "ToHit": "5+",
-       "Strength": "9",
+       "Strength": "4",
+       "AP": "0",
+       "Damage": "1"
+      },
+      {
+       "Name": "Rokkit Launcha – Busta",
+       "Range": "24\"",
+       "Attacks": "2",
+       "ToHit": "5+",
+       "Strength": "10",
        "AP": "-2",
        "Damage": "3"
       }
@@ -1889,6 +1915,15 @@
        "ToHit": "4+",
        "Strength": "4",
        "AP": "-2",
+       "Damage": "1"
+      },
+      {
+       "Name": "Gun Stock and Fists",
+       "Range": "Melee",
+       "Attacks": "2",
+       "ToHit": "3+",
+       "Strength": "5",
+       "AP": "0",
        "Damage": "1"
       }
      ]
@@ -2937,11 +2972,11 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "deffstorm mega-shoota",
-         "2 rokkit launchas",
-         "skorcha",
-         "klaw of gork",
-         "dual big shoota"
+         "Deffstorm Mega-shoota",
+         "2 Dual Big Shoota",
+         "Klaw of Gork",
+         "2 Rokkit Launcha - Blasta",
+         "Skorcha"
         ],
         "Options": []
        }
@@ -3924,17 +3959,17 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "big shoota",
-         "close combat weapon"
+         "Big shoota",
+         "gun stock and fists"
         ],
         "Options": [
          {
           "Replaces": [
-           "big shoota"
+           "Big shoota"
           ],
           "Options": [
            "Kustom mega-blasta",
-           "Rokkit launcha"
+           "Rokkit Launcha"
           ]
          }
         ]
@@ -3950,8 +3985,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "deffgun",
-         "close combat weapon"
+         "Deffgun",
+         "gun stock and fists"
         ],
         "Options": []
        }
@@ -3994,7 +4029,7 @@
      "Weapons": [
       {
        "Name": "Big shoota",
-       "Keywords": "RAPID FIRE 2",
+       "Keywords": "LETHAL HITS: non-MONSTER/VEHICLE, RAPID FIRE 2",
        "Range": "36\"",
        "Attacks": "3",
        "ToHit": "5+",
@@ -4020,15 +4055,24 @@
        "ToHit": "5+",
        "Strength": "9",
        "AP": "-2",
-       "Damage": "D6"
+       "Damage": "3"
       },
       {
-       "Name": "Rokkit launcha",
-       "Keywords": "BLAST",
+       "Name": "Rokkit Launcha – Blasta",
+       "Keywords": "BLAST 2",
        "Range": "24\"",
-       "Attacks": "D3",
+       "Attacks": "2",
        "ToHit": "5+",
-       "Strength": "9",
+       "Strength": "4",
+       "AP": "0",
+       "Damage": "1"
+      },
+      {
+       "Name": "Rokkit Launcha – Busta",
+       "Range": "24\"",
+       "Attacks": "2",
+       "ToHit": "5+",
+       "Strength": "10",
        "AP": "-2",
        "Damage": "3"
       }
@@ -4044,6 +4088,15 @@
        "Attacks": "2",
        "ToHit": "3+",
        "Strength": "4",
+       "AP": "0",
+       "Damage": "1"
+      },
+      {
+       "Name": "Gun Stock and Fists",
+       "Range": "Melee",
+       "Attacks": "2",
+       "ToHit": "3+",
+       "Strength": "5",
        "AP": "0",
        "Damage": "1"
       }
@@ -4845,6 +4898,16 @@
        "Strength": "9",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Gutrippa – Hunter",
+       "Range": "Melee",
+       "Attacks": "6",
+       "ToHit": "2+",
+       "Strength": "12",
+       "AP": "-2",
+       "Damage": "D6+1",
+       "Keywords": "LETHAL HITS"
       }
      ]
     }
@@ -4890,8 +4953,63 @@
       "ModelName": "Nobz",
       "Wargear": [
        {
-        "InitalWargear": [],
-        "Options": []
+        "InitalWargear": [
+         "Kustom Krumpa",
+         "Kustom Shoota"
+        ],
+        "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Kustom Krumpa",
+           "Kustom Shoota"
+          ],
+          "Options": [
+           "Big Skorcha and Kustom Choppa"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Kustom Krumpa",
+           "Kustom Shoota"
+          ],
+          "Options": [
+           "Kustom Big Shoota and Kustom Choppa"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Kustom Krumpa",
+           "Kustom Shoota"
+          ],
+          "Options": [
+           "Big Choppa"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Kustom Shoota"
+          ],
+          "Options": [
+           "paired krumpas"
+          ]
+         },
+         {
+          "Replaces": [
+           "Kustom Shoota"
+          ],
+          "Options": [
+           "Kombi-rokkit"
+          ]
+         }
+        ]
        }
       ]
      }
@@ -5435,10 +5553,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "slugga",
-         "big choppa",
-         "saddlegit’s shiv",
-         "squig jaws"
+         "Big Choppa",
+         "Slugga",
+         "Squig jaws"
         ],
         "Options": []
        }
@@ -5454,7 +5571,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "stikka"
+         "Saddlegit’s Shiv",
+         "Squig jaws",
+         "Stikka"
         ],
         "Options": []
        }
@@ -5800,15 +5919,13 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "slugga",
-         "choppa",
-         "kustom choppa"
+         "Kustom Choppa",
+         "Slugga"
         ],
         "Options": [
          {
           "Replaces": [
-           "choppa",
-           "kustom choppa"
+           "Kustom Choppa"
           ],
           "Options": [
            "Power Klaw"
@@ -6139,7 +6256,10 @@
       "StatlineRef": "WARBIKER",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Choppa",
+         "Dual Dakkagun"
+        ],
         "Options": []
        }
       ]
@@ -6990,6 +7110,14 @@
         ],
         "Options": [
          {
+          "Replaces": [
+           "kannon – shell"
+          ],
+          "Options": [
+           "Supa-kannon"
+          ]
+         },
+         {
           "Options": [
            "kannon",
            "Supa-kannon"
@@ -7135,6 +7263,24 @@
           "Options": [
            "Rokkit pistol"
           ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "smash hammer"
+          ],
+          "Options": [
+           "Knucklebustas"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "smash hammer"
+          ],
+          "Options": [
+           "Tankhammer"
+          ]
          }
         ]
        }
@@ -7278,6 +7424,15 @@
        "Strength": "7",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Smash Hammer – Hunter",
+       "Range": "Melee",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "12",
+       "AP": "-2",
+       "Damage": "3"
       }
      ]
     }
@@ -7306,15 +7461,13 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "rokkit pistol",
-         "choppa",
-         "busta rokkit launcha",
-         "gitstikka"
+         "Choppa",
+         "2 Rokkit pistol"
         ],
         "Options": [
          {
           "Replaces": [
-           "rokkit pistol"
+           "2 Rokkit pistol"
           ],
           "Options": [
            "Smash Hammer"
@@ -7332,7 +7485,10 @@
       "ModelName": "Tankbustas",
       "Wargear": [
        {
-        "InitalWargear": [],
+        "InitalWargear": [
+         "Busta Rokkit Launcha",
+         "Gitstikka"
+        ],
         "Options": [
          {
           "Max": 1,
@@ -7444,6 +7600,15 @@
        "Strength": "10",
        "AP": "-2",
        "Damage": "3"
+      },
+      {
+       "Name": "Busta Rokkit Launcha – Hunter",
+       "Range": "24\"",
+       "Attacks": "3",
+       "ToHit": "4+",
+       "Strength": "12",
+       "AP": "-2",
+       "Damage": "3"
       }
      ]
     },
@@ -7477,6 +7642,15 @@
        "Strength": "7",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Smash Hammer – Hunter",
+       "Range": "Melee",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "12",
+       "AP": "-2",
+       "Damage": "3"
       }
      ]
     }
@@ -8150,11 +8324,20 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "rivet kannon",
-         "extra dakka",
-         "spiked ram"
+         "Extra Dakka",
+         "Mek Speshul",
+         "Spiked Ram"
         ],
-        "Options": []
+        "Options": [
+         {
+          "Replaces": [
+           "Mek Speshul"
+          ],
+          "Options": [
+           "Rivet Kannon"
+          ]
+         }
+        ]
        }
       ]
      },

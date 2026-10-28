@@ -1423,20 +1423,20 @@
          },
          {
           "Max": 1,
-          "Replaces": [
-           "arbites combat shotgun"
-          ],
           "Options": [
-           "Arbites combat shotgun and Arbites medi-kit"
+           "Excruciator maul"
           ]
          },
          {
           "Max": 1,
-          "Replaces": [
-           "arbites combat shotgun"
-          ],
           "Options": [
-           "Arbites combat shotgun and soulguilt scanner"
+           "arbites medi-kit"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "soulguilt scanner"
           ]
          }
         ]
@@ -2192,9 +2192,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "castigation",
-         "condemnor stake",
-         "master-crafted power sword"
+         "Castigation",
+         "Condemnor stake",
+         "master-crafter power sword"
         ],
         "Options": []
        }
@@ -3043,14 +3043,24 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "boltgun and power weapon"
+         "Boltgun",
+         "Power weapon"
         ],
         "Options": [
          {
+          "Replaces": [
+           "Boltgun"
+          ],
           "Options": [
-           "boltgun and xenophase blade",
-           "combi-weapon and power weapon",
-           "combi-weapon and xenophase blade"
+           "Combi-weapon"
+          ]
+         },
+         {
+          "Replaces": [
+           "Power weapon"
+          ],
+          "Options": [
+           "Xenophase blade"
           ]
          }
         ]
@@ -3066,9 +3076,87 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "boltgun and power weapon"
+         "Boltgun",
+         "Power weapon"
         ],
         "Options": [
+         {
+          "PerXModels": 5,
+          "Max": 2,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Heavy thunder hammer"
+          ]
+         },
+         {
+          "Max": 1,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Black Shield blades"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Stalker-pattern boltgun and Knives and Fists"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 2,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Deathwatch shotgun and Knives and Fists"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 2,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Boltgun and storm shield",
+           "Power weapon and storm shield"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Infernus Heavy Bolter and Knives and Fists"
+          ]
+         },
+         {
+          "PerXModels": 5,
+          "Max": 1,
+          "Replaces": [
+           "Boltgun",
+           "Power weapon"
+          ],
+          "Options": [
+           "Frag cannon and Knives and Fists"
+          ]
+         },
          {
           "Max": 2,
           "PerXModels": 5,
@@ -4543,21 +4631,21 @@
         ],
         "Options": [
          {
-          "Max": 1,
           "PerXModels": 5,
-          "Options": [
-           "Incinerator",
-           "Psilencer",
-           "Psycannon"
-          ]
-         },
-         {
           "Max": 1,
           "Replaces": [
            "storm bolter"
           ],
           "Options": [
-           "storm bolter and Ancient’s banner"
+           "Incinerator",
+           "Psilencer",
+           "psycannon"
+          ]
+         },
+         {
+          "Max": 1,
+          "Options": [
+           "ancient’s banner"
           ]
          },
          {
@@ -4679,7 +4767,7 @@
       },
       {
        "Name": "Psilencer",
-       "Keywords": "PSYCHIC, SUSTAINED HITS 1",
+       "Keywords": "PRECISION, PSYCHIC, SUSTAINED HITS 1",
        "Range": "24\"",
        "Attacks": "6",
        "ToHit": "3+",
@@ -5167,9 +5255,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "plasma pistol",
-         "power weapon",
-         "knives and fists"
+         "Plasma pistol",
+         "Power Weapon"
         ],
         "Options": []
        }
@@ -5185,8 +5272,9 @@
       "Wargear": [
        {
         "InitalWargear": [
+         "Bolt Pistol",
          "infernus heavy bolter",
-         "bolt pistol"
+         "knives and fists"
         ],
         "Options": []
        }
@@ -5202,8 +5290,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "stalker bolt rifle",
-         "bolt pistol"
+         "Bolt Pistol",
+         "knives and fists",
+         "Stalker bolt rifle"
         ],
         "Options": []
        }
@@ -5486,6 +5575,26 @@
        "Strength": "5",
        "AP": "-2",
        "Damage": "2"
+      },
+      {
+       "Name": "Infernus Heavy Bolter – bolt",
+       "Range": "36\"",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "2",
+       "Keywords": "HEAVY, RAPID FIRE 2, SUSTAINED HITS 1"
+      },
+      {
+       "Name": "Infernus Heavy Bolter – infernus",
+       "Range": "12\"",
+       "Attacks": "3",
+       "ToHit": "N/A",
+       "Strength": "5",
+       "AP": "-1",
+       "Damage": "1",
+       "Keywords": "BLAST 1, TORRENT"
       }
      ]
     },
@@ -5521,6 +5630,15 @@
        "ToHit": "3+",
        "Strength": "5",
        "AP": "-2",
+       "Damage": "1"
+      },
+      {
+       "Name": "Knives and Fists",
+       "Range": "Melee",
+       "Attacks": "3",
+       "ToHit": "3+",
+       "Strength": "5",
+       "AP": "0",
        "Damage": "1"
       }
      ]

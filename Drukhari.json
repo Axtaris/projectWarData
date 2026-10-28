@@ -1018,15 +1018,7 @@
          {
           "Max": 1,
           "Options": [
-           "stimm-needler. This model's splinter rifle cannot be replaced"
-          ]
-         },
-         {
-          "Replaces": [
-           "splinter rifle"
-          ],
-          "Options": [
-           "splinter rifle and stimm-needler"
+           "stimm-needler"
           ]
          }
         ]
@@ -4069,7 +4061,7 @@
        "Attacks": "D6",
        "ToHit": "3+",
        "Strength": "7",
-       "AP": "-2",
+       "AP": "-1",
        "Damage": "1"
       }
      ]
@@ -4108,7 +4100,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "close combat weapon"
+         "Shuriken Pistol",
+         "Power sword",
+         "Close Combat Weapon"
         ],
         "Options": [
          {
@@ -4130,8 +4124,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "shuriken rifle",
-         "close combat weapon"
+         "Shuriken Pistol",
+         "Power sword",
+         "Close Combat Weapon"
         ],
         "Options": []
        }
@@ -4163,9 +4158,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "blaster",
-         "close combat weapon",
-         "shuriken pistol"
+         "Shuriken Pistol",
+         "Power sword",
+         "Close Combat Weapon"
         ],
         "Options": []
        }
@@ -4180,9 +4175,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "shredder",
-         "close combat weapon",
-         "shuriken pistol"
+         "Shuriken Pistol",
+         "Power sword",
+         "Close Combat Weapon"
         ],
         "Options": []
        }
@@ -4316,7 +4311,7 @@
        "Damage": "D6+1"
       },
       {
-       "Name": "Corsair shredder",
+       "Name": "Shredder",
        "Keywords": "ASSAULT, TORRENT",
        "Range": "18\"",
        "Attacks": "D6",
@@ -4710,7 +4705,7 @@
        "Damage": "2"
       },
       {
-       "Name": "Corsair shredder",
+       "Name": "Shredder",
        "Keywords": "ASSAULT, TORRENT",
        "Range": "18\"",
        "Attacks": "D6",
@@ -4720,7 +4715,7 @@
        "Damage": "1"
       },
       {
-       "Name": "Corsair blaster",
+       "Name": "Blaster",
        "Keywords": "ASSAULT",
        "Range": "18\"",
        "Attacks": "1",
@@ -4818,8 +4813,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "jester’s blade",
-         "shrieker cannon"
+         "Shrieker Cannon",
+         "Jester’s Blade",
+         "flip belt"
         ],
         "Options": []
        }
@@ -4927,7 +4923,7 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "solitaire weapons"
+         "solitaire weapons, flip belt"
         ],
         "Options": []
        }
@@ -5026,13 +5022,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "miststave",
-         "shuriken pistol"
+         "Shuriken Pistol",
+         "Miststave",
+         "flip belt"
         ],
         "Options": [
          {
           "Replaces": [
-           "shuriken pistol"
+           "Shuriken Pistol"
           ],
           "Options": [
            "Neuro Disruptor"
@@ -5172,19 +5169,22 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "star bolas",
-         "close combat weapon"
+         "Shuriken Cannon",
+         "Star Bolas",
+         "Close Combat Weapon"
         ],
         "Options": [
          {
-          "Options": [
-           "Skyweaver Haywire Cannon",
+          "Replaces": [
            "Shuriken Cannon"
+          ],
+          "Options": [
+           "Skyweaver Haywire Cannon"
           ]
          },
          {
           "Replaces": [
-           "star bolas"
+           "Star Bolas"
           ],
           "Options": [
            "Zephyrglaive"
@@ -5318,7 +5318,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "close combat weapon"
+         "2 Shuriken Cannon",
+         "Close Combat Weapon"
         ],
         "Options": [
          {
@@ -5433,13 +5434,14 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "voidweaver haywire cannon",
-         "close combat weapon"
+         "2 Shuriken Cannon",
+         "Voidweaver Haywire Cannon",
+         "Close Combat Weapon"
         ],
         "Options": [
          {
           "Replaces": [
-           "voidweaver haywire cannon"
+           "Voidweaver Haywire Cannon"
           ],
           "Options": [
            "prismatic cannon"
@@ -5575,7 +5577,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "shuriken pistol"
+         "Shuriken Pistol",
+         "harlequin’s blade, flip belt"
         ],
         "Options": []
        }
@@ -5590,8 +5593,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "shuriken pistol",
-         "harlequin’s special weapon"
+         "Shuriken Pistol",
+         "harlequin’s blade, flip belt"
         ],
         "Options": []
        }
@@ -5602,7 +5605,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "harlequin’s blade"
+         "Shuriken Pistol",
+         "harlequin’s blade, flip belt"
         ],
         "Options": [
          {
@@ -5622,7 +5626,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "harlequin’s blade"
+         "Shuriken Pistol",
+         "harlequin’s blade, flip belt"
         ],
         "Options": [
          {
@@ -5642,8 +5647,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "harlequin’s blade",
-         "shuriken pistol"
+         "Shuriken Pistol",
+         "harlequin’s blade, flip belt"
         ],
         "Options": [
          {
@@ -5802,25 +5807,26 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "harlequin’s special weapon",
-         "shuriken pistol"
+         "Shuriken Pistol",
+         "Troupe Master’s Blade",
+         "flip belt"
         ],
         "Options": [
          {
           "Replaces": [
-           "harlequin’s special weapon"
-          ],
-          "Options": [
-           "Troupe Master’s Blade"
-          ]
-         },
-         {
-          "Replaces": [
-           "shuriken pistol"
+           "Shuriken Pistol"
           ],
           "Options": [
            "Fusion Pistol",
            "Neuro Disruptor"
+          ]
+         },
+         {
+          "Replaces": [
+           "Troupe Master’s Blade"
+          ],
+          "Options": [
+           "Harlequin’s Special Weapon"
           ]
          }
         ]
@@ -6009,8 +6015,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "corsair blaster",
-         "close combat weapon"
+         "Shuriken pistol",
+         "Corsair Blade"
         ],
         "Options": []
        }
@@ -6021,8 +6027,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "flamer",
-         "close combat weapon"
+         "Shuriken pistol",
+         "Corsair Blade"
         ],
         "Options": []
        }
@@ -6033,8 +6039,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "fusion gun",
-         "close combat weapon"
+         "Shuriken pistol",
+         "Corsair Blade"
         ],
         "Options": []
        }
@@ -6045,8 +6051,8 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "shredder",
-         "close combat weapon"
+         "Shuriken pistol",
+         "Corsair Blade"
         ],
         "Options": []
        }
@@ -6137,7 +6143,7 @@
        "Damage": "1"
       },
       {
-       "Name": "Corsair blaster",
+       "Name": "Blaster",
        "Keywords": "ASSAULT",
        "Range": "18\"",
        "Attacks": "1",
@@ -6225,9 +6231,9 @@
       "Wargear": [
        {
         "InitalWargear": [
-         "the eye of wrath",
-         "the spear of twilight",
-         "shuriken pistol"
+         "eye of wrath",
+         "Shuriken Pistol",
+         "spear of twilight"
         ],
         "Options": []
        }
@@ -6291,7 +6297,7 @@
      "Name": "RANGED WEAPONS",
      "Weapons": [
       {
-       "Name": "The Eye of Wrath",
+       "Name": "Eye of Wrath",
        "Keywords": "ASSAULT, PISTOL",
        "Range": "6\"",
        "Attacks": "3",
@@ -6317,7 +6323,7 @@
      "Name": "MELEE WEAPONS",
      "Weapons": [
       {
-       "Name": "The Spear of Twilight",
+       "Name": "Spear of Twilight",
        "Keywords": "LANCE",
        "Range": "Melee",
        "Attacks": "5",
