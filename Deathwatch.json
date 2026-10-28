@@ -852,12 +852,24 @@
    "Upgrades": [],
    "Points": [
     {
+     "UnitCount": 2,
      "ModelCount": 5,
-     "Cost": 180
+     "Cost": 190
     },
     {
+     "UnitCount": 2,
      "ModelCount": 10,
-     "Cost": 330
+     "Cost": 380
+    },
+    {
+     "UnitCount": 3,
+     "ModelCount": 5,
+     "Cost": 230
+    },
+    {
+     "UnitCount": 3,
+     "ModelCount": 10,
+     "Cost": 420
     }
    ]
   },
@@ -1790,12 +1802,12 @@
     {
      "UnitCount": 2,
      "ModelCount": 10,
-     "Cost": 195
+     "Cost": 210
     },
     {
      "UnitCount": 3,
      "ModelCount": 10,
-     "Cost": 210
+     "Cost": 225
     }
    ]
   },
@@ -2062,12 +2074,12 @@
     {
      "UnitCount": 2,
      "ModelCount": 10,
-     "Cost": 275
+     "Cost": 280
     },
     {
      "UnitCount": 3,
      "ModelCount": 10,
-     "Cost": 290
+     "Cost": 300
     }
    ]
   },
@@ -2399,12 +2411,12 @@
     {
      "UnitCount": 2,
      "ModelCount": 10,
-     "Cost": 170
+     "Cost": 185
     },
     {
      "UnitCount": 3,
      "ModelCount": 10,
-     "Cost": 180
+     "Cost": 195
     }
    ]
   },

@@ -15165,6 +15165,14 @@
      "Cost": 25,
      "Description": "Adeptus Astartes model only. If this unit is a Kill Team unit, this unit has:\nDeep Strike. When you target this unit with the Rapid Ingress Stratagem, that use is -1CP."
     }
+   ],
+   "Allies": [
+    {
+     "Faction": "Deathwatch",
+     "Keyword": "Deathwatch",
+     "MaxPoints": 500,
+     "NoWarlord": true
+    }
    ]
   },
   {

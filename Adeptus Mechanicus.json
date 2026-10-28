@@ -976,22 +976,22 @@
    "Upgrades": [],
    "Points": [
     {
-     "UnitCount": 1,
+     "UnitCount": 2,
      "ModelCount": 2,
      "Cost": 150
     },
     {
-     "UnitCount": 1,
+     "UnitCount": 2,
      "ModelCount": 4,
      "Cost": 300
     },
     {
-     "UnitCount": 2,
+     "UnitCount": 3,
      "ModelCount": 2,
      "Cost": 180
     },
     {
-     "UnitCount": 2,
+     "UnitCount": 3,
      "ModelCount": 4,
      "Cost": 330
     }

@@ -122,7 +122,7 @@
    "Points": [
     {
      "ModelCount": 1,
-     "Cost": 110
+     "Cost": 125
     }
    ]
   },
@@ -360,7 +360,7 @@
    "Points": [
     {
      "ModelCount": 1,
-     "Cost": 100
+     "Cost": 110
     }
    ]
   },
@@ -704,7 +704,7 @@
    "Points": [
     {
      "ModelCount": 4,
-     "Cost": 75
+     "Cost": 105
     }
    ]
   },
@@ -886,7 +886,7 @@
    "Points": [
     {
      "ModelCount": 6,
-     "Cost": 50
+     "Cost": 70
     }
    ]
   },
@@ -1367,7 +1367,7 @@
    "Points": [
     {
      "ModelCount": 11,
-     "Cost": 85
+     "Cost": 100
     }
    ]
   },
@@ -1652,7 +1652,7 @@
    "Points": [
     {
      "ModelCount": 11,
-     "Cost": 90
+     "Cost": 85
     }
    ]
   },
@@ -2015,7 +2015,7 @@
    "Points": [
     {
      "ModelCount": 1,
-     "Cost": 75
+     "Cost": 110
     }
    ]
   },
@@ -2178,7 +2178,7 @@
    "Points": [
     {
      "ModelCount": 1,
-     "Cost": 75
+     "Cost": 95
     }
    ]
   },
@@ -2561,7 +2561,7 @@
    "Points": [
     {
      "ModelCount": 1,
-     "Cost": 55
+     "Cost": 65
     }
    ]
   },
@@ -2786,11 +2786,11 @@
    "Points": [
     {
      "ModelCount": 6,
-     "Cost": 50
+     "Cost": 60
     },
     {
      "ModelCount": 12,
-     "Cost": 100
+     "Cost": 120
     }
    ]
   },
@@ -4333,7 +4333,7 @@
    "Points": [
     {
      "ModelCount": 10,
-     "Cost": 100
+     "Cost": 110
     }
    ]
   },
@@ -4503,12 +4503,12 @@
     {
      "UnitCount": 3,
      "ModelCount": 1,
-     "Cost": 90
+     "Cost": 105
     },
     {
      "UnitCount": 4,
      "ModelCount": 1,
-     "Cost": 100
+     "Cost": 115
     }
    ]
   },
@@ -4730,7 +4730,7 @@
    "Points": [
     {
      "ModelCount": 5,
-     "Cost": 175
+     "Cost": 190
     }
    ]
   },
@@ -4838,7 +4838,7 @@
    "Points": [
     {
      "ModelCount": 1,
-     "Cost": 60
+     "Cost": 75
     }
    ]
   },

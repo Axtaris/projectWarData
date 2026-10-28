@@ -3459,12 +3459,12 @@
    "Upgrades": [],
    "Points": [
     {
-     "UnitCount": 1,
+     "UnitCount": 2,
      "ModelCount": 1,
      "Cost": 170
     },
     {
-     "UnitCount": 2,
+     "UnitCount": 3,
      "ModelCount": 1,
      "Cost": 200
     }
