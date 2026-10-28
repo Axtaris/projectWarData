@@ -188,12 +188,16 @@
         ],
         "Options": []
        }
-      ]
+      ],
+      "Limit": {
+       "Min": 1,
+       "Max": 2
+      }
      },
      {
       "Limit": {
        "Min": 9,
-       "Max": 19
+       "Max": 18
       },
       "ModelName": "Beast Snagga Boyz",
       "StatlineRef": "BEAST SNAGGA BOY",
@@ -1481,12 +1485,16 @@
          }
         ]
        }
-      ]
+      ],
+      "Limit": {
+       "Min": 1,
+       "Max": 2
+      }
      },
      {
       "Limit": {
        "Min": 9,
-       "Max": 19
+       "Max": 18
       },
       "ModelName": "Boyz",
       "StatlineRef": "BOY",
