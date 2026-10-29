@@ -4329,16 +4329,6 @@
        "Strength": "4",
        "AP": "-2",
        "Damage": "1"
-      },
-      {
-       "Name": "Shuriken pistol",
-       "Keywords": "ASSAULT, PISTOL",
-       "Range": "12\"",
-       "Attacks": "1",
-       "ToHit": "3+",
-       "Strength": "4",
-       "AP": "-1",
-       "Damage": "1"
       }
      ]
     },
@@ -4732,16 +4722,6 @@
        "ToHit": "3+",
        "Strength": "4",
        "AP": "-2",
-       "Damage": "1"
-      },
-      {
-       "Name": "Shuriken pistol",
-       "Keywords": "ASSAULT, PISTOL",
-       "Range": "12\"",
-       "Attacks": "1",
-       "ToHit": "3+",
-       "Strength": "4",
-       "AP": "-1",
        "Damage": "1"
       }
      ]
@@ -6131,16 +6111,6 @@
        "Strength": "8",
        "AP": "-3",
        "Damage": "D3"
-      },
-      {
-       "Name": "Shuriken Pistol",
-       "Keywords": "ASSAULT, PISTOL",
-       "Range": "12\"",
-       "Attacks": "1",
-       "ToHit": "3+",
-       "Strength": "4",
-       "AP": "-1",
-       "Damage": "1"
       },
       {
        "Name": "Blaster",
