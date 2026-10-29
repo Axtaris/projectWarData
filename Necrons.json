@@ -221,6 +221,16 @@
      "ModelCount": 1,
      "Cost": 90
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’"
+    },
+    {
+     "Title": "Core Abilities Section",
+     "Text": "Remove ‘Leader’, add ‘Support’."
+    }
    ]
   },
   {
@@ -827,6 +837,12 @@
      "ModelCount": 1,
      "Cost": 80
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Resurrection Orb Ability",
+     "Text": "Change to: ‘(Once per battle, per unit) At the end of any phase, you can use this ability. If you do, this unit resurrects: ▪ When a unit resurrects, that unit’s Reanimation Protocols activate, but that unit heals D6 wounds (instead of D3 wounds). You cannot resurrect more than one unit per turn.’"
+    }
    ]
   },
   {
@@ -990,6 +1006,22 @@
     {
      "ModelCount": 1,
      "Cost": 120
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    },
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Keywords Section: Add ‘NOBLE’. ▪ Ressurection Orb Ability: Change to: ‘(Once per battle, per unit) At the end of any phase, you can use this ability. If you do, select up to one friendly NECRONS INFANTRY/NECRONS MOUNTED unit within 6\" of this unit. That unit resurrects: ▫ When a unit resurrects, that unit’s Reanimation Protocols activate, but that unit heals D6 wounds (instead of D3 wounds). You cannot resurrect more than one unit per turn.’"
+    }
+   ],
+   "FAQ": [
+    {
+     "Q": "Can a unit be affected by a Resurrection Orb (e.g. from a Catacomb Command Barge and an Overlord) more than once per turn?",
+     "A": "No."
     }
    ]
   },
@@ -1168,6 +1200,18 @@
      "ModelCount": 1,
      "Cost": 90
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Resurrection Orb Ability",
+     "Text": "Change to: ‘(Once per battle, per unit) At the end of any phase, you can use this ability. If you do, this unit resurrects: ▪ When a unit resurrects, that unit’s Reanimation Protocols activate, but that unit heals D6 wounds (instead of D3 wounds). You cannot resurrect more than one unit per turn.’"
+    }
+   ],
+   "FAQ": [
+    {
+     "Q": "Can a unit be affected by a Resurrection Orb (e.g. from a Catacomb Command Barge and an Overlord) more than once per turn?",
+     "A": "No."
+    }
    ]
   },
   {
@@ -1276,6 +1320,12 @@
     {
      "ModelCount": 1,
      "Cost": 90
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Resurrection Orb Ability",
+     "Text": "Change to: ‘(Once per battle, per unit) At the end of any phase, you can use this ability. If you do, this unit resurrects: ▪ When a unit resurrects, that unit’s Reanimation Protocols activate, but that unit heals D6 wounds (instead of D3 wounds). You cannot resurrect more than one unit per turn.’"
     }
    ]
   },
@@ -1391,6 +1441,16 @@
      "ModelCount": 1,
      "Cost": 90
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’"
+    },
+    {
+     "Title": "Core Abilities Section",
+     "Text": "Remove ‘Leader’, add ‘Support’."
+    }
    ]
   },
   {
@@ -1491,6 +1551,16 @@
     {
      "ModelCount": 1,
      "Cost": 65
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’"
+    },
+    {
+     "Title": "Core Abilities Section",
+     "Text": "Remove ‘Leader’, add ‘Support’."
     }
    ]
   },
@@ -1608,6 +1678,20 @@
      "ModelCount": 1,
      "Cost": 80
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’"
+    },
+    {
+     "Title": "Core Abilities Section",
+     "Text": "Remove ‘Leader’, add ‘Support’."
+    },
+    {
+     "Title": "Timesplinter Mantle Ability",
+     "Text": "Change to: ▪ This unit has Stealth. ▪ Melee attacks that target this unit have -1 to hit rolls."
+    }
    ]
   },
   {
@@ -1713,6 +1797,20 @@
     {
      "ModelCount": 1,
      "Cost": 60
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’"
+    },
+    {
+     "Title": "Core Abilities Section",
+     "Text": "Remove ‘Leader’, add ‘Support’."
+    },
+    {
+     "Title": "Living Lightning Ability",
+     "Text": "Change to: ‘In your Shooting phase, select one enemy unit within 18\" of and visible to this model (excluding units with the Lone Operative ability that are not part of an Attached unit and are not within 12\" of this model) and roll four D6: for each 4+, that enemy unit suffers 1 mortal wound. The Silent King ▪ Bringer of Unity Ability: Change to ‘Relentless March (Aura): While a friendly NECRONS unit is within 6\" of this unit’s Szarekh model, add 2\" to the Move characteristic of models in that unit.’ ▪ Keywords: Change to: ‘ – ALL MODELS: VEHICLE, EPIC HERO, TRIARCH – SZAREKH MODEL: CHARACTER, THE SILENT KING’"
     }
    ]
   },
@@ -1829,6 +1927,12 @@
     {
      "ModelCount": 20,
      "Cost": 190
+    }
+   ],
+   "FAQ": [
+    {
+     "Q": "When using the Protocol of the Undying Legions Stratagem, are any other rules that are applicable to Reanimation Protocols applied (e.g. Necron Warriors’ Their Number is Legion ability)?",
+     "A": "Yes."
     }
    ]
   },
@@ -2045,6 +2149,12 @@
     {
      "ModelCount": 1,
      "Cost": 75
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Nanoscarab Reanimation Beam Ability",
+     "Text": "Change to: ‘While a friendly NECRONS unit is within 3\" of this model, each time that unit’s Reanimation Protocols activate, that unit heals an additional D3 wounds.’"
     }
    ]
   },
@@ -2844,6 +2954,12 @@
      "ModelCount": 1,
      "Cost": 120
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    }
    ]
   },
   {
@@ -3347,6 +3463,12 @@
      "ModelCount": 1,
      "Cost": 360
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Transdimensional Displacement Ability",
+     "Text": "Change to: ‘In your Movement phase, when this unit is selected to make an advance move, you can use this ability. If you do: ▪ That advance move has no maximum distance. ▪ This unit can move through all types of model (including enemy models and MONSTER/VEHICLE models). ▪ After moving, this unit must be more than 8\" horizontally from all enemy units.’"
+    }
    ]
   },
   {
@@ -3670,6 +3792,12 @@
      "UnitCount": 3,
      "ModelCount": 6,
      "Cost": 160
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Tunnelling Horrors Ability",
+     "Text": "Change to: ‘At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: ▪ Place this unit in strategic reserves. ▪ This unit must make an ingress move in your next Movement phase (including in your first turn).’"
     }
    ]
   },
@@ -4135,6 +4263,12 @@
      "ModelCount": 6,
      "Cost": 240
     }
+   ],
+   "FAQ": [
+    {
+     "Q": "If I target a Canoptek Wraiths unit with the Canoptek Court Reactive Subroutines Stratagem, can this trigger that unit’s Wraith Form ability?",
+     "A": "Yes."
+    }
    ]
   },
   {
@@ -4261,6 +4395,12 @@
      "ModelCount": 1,
      "Cost": 100
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    }
    ]
   },
   {
@@ -4378,6 +4518,12 @@
      "UnitCount": 3,
      "ModelCount": 1,
      "Cost": 230
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
     }
    ]
   },
@@ -4509,6 +4655,12 @@
      "UnitCount": 3,
      "ModelCount": 6,
      "Cost": 220
+    }
+   ],
+   "FAQ": [
+    {
+     "Q": "When using the Protocol of the Conquering Tyrant Stratagem or Lokhust Destroyers’ Hard-wired for Destruction ability, to be eligible to re-roll the Hit roll, does the unit also need to be eligible to re-roll a Hit roll of 1?",
+     "A": "Yes (see Rules with Multiple Conditions and Effects, Rules Appendix 02.03.01)."
     }
    ]
   },
@@ -4863,6 +5015,12 @@
      "ModelCount": 1,
      "Cost": 100
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    }
    ]
   },
   {
@@ -4972,6 +5130,12 @@
      "ModelCount": 1,
      "Cost": 200
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Profile",
+     "Text": "Change M and OC to '-'."
+    }
    ]
   },
   {
@@ -5080,6 +5244,16 @@
      "ModelCount": 1,
      "Cost": 125
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Profile: Change M to 14\". ▪ Core Abilities: Add 'Hover'. ▪ Keywords: Remove 'AIRCRAFT'."
+    },
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Add ‘Deep Strike’."
+    }
    ]
   },
   {
@@ -5186,6 +5360,12 @@
      "UnitCount": 2,
      "ModelCount": 1,
      "Cost": 310
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
     }
    ]
   },
@@ -5331,6 +5511,18 @@
      "ModelCount": 1,
      "Cost": 505
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    }
+   ],
+   "FAQ": [
+    {
+     "Q": "When being set up using the Cosmic Precision Stratagem, does a model that is large (e.g. a Tesseract Vault) have to follow the rules for large models in Setting Up Large Models (Rules Appendix, 03.02.02)?",
+     "A": "Yes."
+    }
    ]
   },
   {
@@ -5466,6 +5658,26 @@
      "UnitCount": 2,
      "ModelCount": 1,
      "Cost": 440
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    },
+    {
+     "Title": "Eternity Gate Ability",
+     "Text": "Change to: 'In your Movement phase (excluding the first battle round), you can select one friendly NECRONS INFANTRY unit that is either in strategic reserves or on the battlefield (if you select a unit on the battlefield, remove that unit from the battlefield and place it into strategic reserves). That unit can make an ingress move, and while making that ingress move, that unit must be set up wholly within 6\" of this unit and unengaged (instead of more than 8\" horizontally from all enemy units), even if that is within your opponent’s deployment zone. That unit cannot make a charge move this turn.'"
+    }
+   ],
+   "FAQ": [
+    {
+     "Q": "When I set up a unit using the Monolith’s Eternity Gate ability, do I have to set that unit up wholly within 6\" of one battlefield edge?",
+     "A": "No."
+    },
+    {
+     "Q": "When I set up a unit using the Monolith’s Eternity Gate ability, and that unit is not wholly within 6\" of one battlefield edge, is that unit eligible to shoot in my Shooting phase?",
+     "A": "Yes."
     }
    ]
   },
@@ -5784,6 +5996,12 @@
      "ModelCount": 3,
      "Cost": 180
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
+    }
    ]
   },
   {
@@ -5928,6 +6146,12 @@
      "UnitCount": 2,
      "ModelCount": 1,
      "Cost": 570
+    }
+   ],
+   "Errata": [
+    {
+     "Title": "Keywords Section",
+     "Text": "Add 'FRAME'."
     }
    ]
   },
@@ -6352,6 +6576,16 @@
      "ModelCount": 1,
      "Cost": 75
     }
+   ],
+   "Errata": [
+    {
+     "Title": "Datasheet",
+     "Text": "▪ Core Abilities: Remove ‘Leader’, add ‘Support’. ▪ Leader Section: Remove ‘You can attach this model to one of the above units even if one ROYAL WARDEN or NOBLE unit has already been attached to it. If you do, and that Bodyguard unit is destroyed, the Leader units attached to it become separate units, with their orginial Starting Strengths.’"
+    },
+    {
+     "Title": "Core Abilities Section",
+     "Text": "Remove ‘Leader’, add ‘Support’."
+    }
    ]
   },
   {
@@ -6594,7 +6828,17 @@
      "RequiredAbilities": []
     }
    ],
-   "Effects": []
+   "Effects": [],
+   "Errata": [
+    {
+     "Title": "Annihilation Protocol Detachment Rule",
+     "Text": "Add the following paragraph: ‘Each time a DESTROYER CULT unit from your army makes a ranged attack that targets the closest eligible target, add 1 to the Armour Penetration characteristic of that attack.’"
+    },
+    {
+     "Title": "Insanity’s Ire Stratagem",
+     "Text": "Change to: ‘WHEN: Your opponent’s Shooting phase, when an enemy unit that targeted a friendly unengaged DESTROYER CULT/FLAYED ONES unit this phase has shot. TARGET: That DESTROYER CULT/FLAYED ONES unit. EFFECT: Your unit can make a surge move of up to D6\".’"
+    }
+   ]
   },
   {
    "Name": "AWAKENED DYNASTY",
@@ -6746,7 +6990,17 @@
      "RequiredAbilities": []
     }
    ],
-   "Effects": []
+   "Effects": [],
+   "Errata": [
+    {
+     "Title": "Veil of Darkness Enhancement",
+     "Text": "Change to: ‘(Once per battle, per army) At the end of your opponent’s turn, if this unit is unengaged, you can use this ability. If you do: ▪ Place this unit in strategic reserves. ▪ This unit has Deep Strike until the start of your next Shooting phase. ▪ This unit must make an ingress move in your next Movement phase (including in your first turn).’"
+    },
+    {
+     "Title": "Protocol of the Eternal Revenant Stratagem, Effect Section",
+     "Text": "Change to: ‘At the end of the phase, set up the destroyed model on the battlefield, unengaged and as close as possible to where it was destroyed. That model is not part of an attached unit and its unit has a starting strength of 1. That model has half of its starting number of wounds remaining.’"
+    }
+   ]
   },
   {
    "Name": "CANOPTEK COURT",
@@ -6876,7 +7130,17 @@
      "RequiredAbilities": []
     }
    ],
-   "Effects": []
+   "Effects": [],
+   "Errata": [
+    {
+     "Title": "Reactive Subroutines Stratagem, Target Section",
+     "Text": "Change 9\" to 8\"."
+    },
+    {
+     "Title": "Cynosure of Eradication Stratagem, Effect Section",
+     "Text": "Change to: ‘Until the end of the phase, weapons equipped by CRYPTEK or CANOPTEK models in your unit have the [DEVASTATING WOUNDS] ability.’"
+    }
+   ]
   },
   {
    "Name": "CRYPTEK CONCLAVE",
@@ -7459,7 +7723,17 @@
      ]
     }
    ],
-   "Effects": []
+   "Effects": [],
+   "Errata": [
+    {
+     "Title": "Cosmic Precision Stratagem, Target Section",
+     "Text": "Change to: ‘One NECRONS unit from your army (excluding MONSTER units) that is arriving using an ingress move this phase.’"
+    },
+    {
+     "Title": "Hyperphasing Detachment Rule, Battle Size Table",
+     "Text": "Change to: ‘Incursion: Up to 1 unit Strike Force: Up to 2 units Onslaught: Up to 3 units’"
+    }
+   ]
   },
   {
    "Name": "OBEISANCE PHALANX",
@@ -7592,7 +7866,17 @@
      "RequiredAbilities": []
     }
    ],
-   "Effects": []
+   "Effects": [],
+   "Errata": [
+    {
+     "Title": "Territorial Obsession Stratagem, Target Section",
+     "Text": "Change to: ‘One LYCHGUARD or TRIARCH unit from your army.’"
+    },
+    {
+     "Title": "Worthy Foes Detachment Rule",
+     "Text": "Change to: ‘In your Command phase, select one enemy unit. Until the start of your next Command phase, each time a NOBLE, LYCHGUARD or TRIARCH unit from your army makes an attack that targets that unit, add 1 to the Wound roll."
+    }
+   ]
   },
   {
    "Name": "PANTHEON OF WOE",
@@ -8147,5 +8431,40 @@
    "Title": "REANIMATION PROTOCOLS",
    "Text": "If your Army Faction is Necrons, at the end of your Command phase, each friendly unit with this ability that is on the battlefield activates its Reanimation Protocols:\n▪ When a unit’s Reanimation Protocols activate, that unit heals D3 wounds."
   }
- ]
+ ],
+ "Errata": [
+  {
+   "Title": "Reanimation Protocols Army Rule",
+   "Text": "Change to: ‘If your Army Faction is NECRONS, at the end of your Command phase, each friendly unit with this ability that is on the battlefield activates its Reanimation Protocols: ▪ When a unit’s Reanimation Protocols activate, that unit heals D3 wounds.’",
+   "Scope": "army"
+  }
+ ],
+ "FAQ": [
+  {
+   "Q": "Can a Cryptothrall that has used its Systematic Vigour ability to ‘fight on death’ later fight again if returned to its unit before that unit is selected to fight?",
+   "A": "Yes."
+  },
+  {
+   "Q": "If I am using the Canoptek Court Detachment, if there are no objective markers within No Man’s Land or within my opponent’s deployment zone, can those areas be within my army’s Power Matrix?",
+   "A": "No."
+  },
+  {
+   "Q": "Can I use the Cosmic Precision Stratagem to set up a unit anywhere on the battlefield instead of only wholly within 6\" of a battlefield edge, even if it doesn't have the Deep Strike ability?",
+   "A": "Yes."
+  },
+  {
+   "Q": "Does the Canoptek Court Autodivinator Enhancement trigger when army rule effects such as Code Chivalric (Imperial Knights) award a player CP, or when an opponent discards a Secondary Mission card for 1CP?",
+   "A": "No in both cases. It only triggers when your opponent gains CP as the result of an ability (not any other kind of rule)."
+  },
+  {
+   "Q": "If a unit is removed from the battlefield using the Hypercrypt Legion Hyperphasing Detachment rule and it has the Deep Strike ability, can that unit arrive from Reserves in the first battle round?",
+   "A": "No."
+  }
+ ],
+ "ErrataSource": {
+  "Pack": "Faction Pack",
+  "Version": "1.2",
+  "Pages": "29-31",
+  "Date": "26/08/2026"
+ }
 }
