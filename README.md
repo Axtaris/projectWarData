@@ -91,4 +91,4 @@ Please check the licence and terms of each source before reusing the data. *Warh
 
 ## License
 
-The compilation, structure and corrections made by this project are dedicated to the public domain under CC0 1.0 (see `LICENSE`). The underlying game content is **not** covered by that dedication; see "Where the data comes from".
+The compilation, structure and corrections made by this project are free for personal and other non-commercial use under the [PolyForm Noncommercial License 1.0.0](https://polyformproject.org/licenses/noncommercial/1.0.0), with no sale and no donations for copies or derivatives; only the creator may receive donations (see `LICENSE`). The underlying game content is **not** covered by that dedication; see "Where the data comes from".
