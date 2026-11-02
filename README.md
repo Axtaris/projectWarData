@@ -1,4 +1,5 @@
 # projectWarData
+> **Donations:** if you find this useful you can support the creator at [paypal.me/projectwarco](https://www.paypal.com/paypalme/projectwarco). Donations are voluntary and unlock nothing. Only the creator may receive donations for this project (see `LICENSE`).
 
 Game data for [projectWar](https://github.com/Axtaris/projectWar), a Warhammer 40,000 army list builder. This repository contains **only data**: one JSON file per faction plus two small index files.
 
